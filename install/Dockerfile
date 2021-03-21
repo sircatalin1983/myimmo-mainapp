@@ -1,9 +1,5 @@
-FROM node:12-alpine
-
-# install chrome for protractor tests
-RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
-RUN sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-RUN apt-get update && apt-get install -yq google-chrome-stable
+# base image
+FROM node:12.2.0
 
 # set working directory
 WORKDIR /app
@@ -13,7 +9,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 # install and cache app dependencies
 COPY package.json /app/package.json
-RUN npm install --save --only=production
+RUN npm install
 RUN npm install -g @angular/cli@7.3.9
 
 # add app
@@ -22,3 +18,8 @@ COPY . /app
 EXPOSE 4200
 
 CMD ["npm", "run", "start:test"]
+
+# start app
+# CMD ng serve --port=4500 --proxy-config proxy.conf-test.js --host 0.0.0.0 --disableHostCheck true
+#CMD cross-env NODE_OPTIONS=--max_old_space_size=8192 ng serve --configuration=test -- --host=0.0.0.0 --disable-host-check --port=4500 --proxy-config proxy.conf-test.js --base-href /
+# CMD ng serve --host 0.0.0.0
