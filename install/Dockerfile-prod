@@ -1,12 +1,25 @@
-FROM node:12-alpine
+# base image
+FROM node:12.2.0
 
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+# set working directory
+WORKDIR /app
 
-COPY . .
-RUN npm install --save --only=production
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
 
-COPY . .
-EXPOSE 80
+# install and cache app dependencies
+COPY package.json /app/package.json
+RUN npm install
+RUN npm install -g @angular/cli@7.3.9
+
+# add app
+COPY . /app
+
+EXPOSE 4200
 
 CMD ["npm", "run", "start:production"]
+
+# start app
+# CMD ng serve --port=4500 --proxy-config proxy.conf-test.js --host 0.0.0.0 --disableHostCheck true
+#CMD cross-env NODE_OPTIONS=--max_old_space_size=8192 ng serve --configuration=test -- --host=0.0.0.0 --disable-host-check --port=4500 --proxy-config proxy.conf-test.js --base-href /
+# CMD ng serve --host 0.0.0.0

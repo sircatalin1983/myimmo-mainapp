@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { ContactUs } from './../../shared/services/contact-us/contact-us';
 import { ContactUsService } from './../../shared/services/contact-us/contact-us.service';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-main',
@@ -10,10 +11,13 @@ import { ContactUsService } from './../../shared/services/contact-us/contact-us.
 })
 export class MainComponent implements OnInit {
   public contactItem: ContactUs = new ContactUs();
-  
+  public href: string = "";
+
   constructor(
     public snackBar: MatSnackBar,
-    public contactUsService: ContactUsService
+    public contactUsService: ContactUsService,
+    private route: ActivatedRoute,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
@@ -21,6 +25,8 @@ export class MainComponent implements OnInit {
     this.contactItem.content = '';
     this.contactItem.email = '';
     this.contactItem.telephone = '';
+
+    this.href = this.router.url;
   }
 
   send(): void {

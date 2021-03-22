@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-layout',
@@ -15,7 +16,7 @@ export class LayoutComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit(): void {
-    this.href = this.router.url;
+    this.href = environment.local;
   }
 
   ngOnDestroy(): void { }

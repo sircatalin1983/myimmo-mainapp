@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { LayoutComponent } from './layout/layout.component';
 import { MainModule } from './pages/main/main.module';
+import { Solution1Module } from './pages/solution1/solution1.module';
 
 const routes: Routes = [
   {
@@ -13,6 +14,11 @@ const routes: Routes = [
     path: 'main',
     component: LayoutComponent,
     loadChildren: () => MainModule
+  },
+  {
+    path: 'solution1',
+    component: LayoutComponent,
+    loadChildren: () => Solution1Module
   },
 ];
 

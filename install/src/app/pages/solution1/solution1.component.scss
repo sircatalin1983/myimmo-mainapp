@@ -1,0 +1,25 @@
+.contact-info-content {
+    align-self: center;
+}
+
+.slider-content {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.slider-image {
+    padding-top: 100px;
+    width: 75%;    
+}
+
+.circle {
+    font-size: 15px;
+    line-height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    display: block;
+}

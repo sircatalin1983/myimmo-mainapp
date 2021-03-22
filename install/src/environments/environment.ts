@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   backend: 'http://localhost:9000', // Put your backend here
+  local: 'http://localhost:4200/main',
 };
 
 /*
