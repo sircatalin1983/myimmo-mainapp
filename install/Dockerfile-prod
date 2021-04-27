@@ -21,5 +21,5 @@ CMD ["npm", "run", "start:production"]
 
 # start app
 # CMD ng serve --port=4500 --proxy-config proxy.conf-test.js --host 0.0.0.0 --disableHostCheck true
-#CMD cross-env NODE_OPTIONS=--max_old_space_size=8192 ng serve --configuration=test -- --host=0.0.0.0 --disable-host-check --port=4500 --proxy-config proxy.conf-test.js --base-href /
+# CMD cross-env NODE_OPTIONS=--max_old_space_size=8192 ng serve --configuration=test -- --host=0.0.0.0 --disable-host-check --port=4500 --proxy-config proxy.conf-test.js --base-href /
 # CMD ng serve --host 0.0.0.0

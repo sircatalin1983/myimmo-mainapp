@@ -8,12 +8,10 @@
 }
 
 .slider-image {    
-    width: 80%;
+    width: 100%;
     position: relative;
-    text-align: center;
-    padding-right: 100px;
     img {        
-        top: 180px;    
+        top: 100px;
         position: absolute;
     };
 }
@@ -105,5 +103,17 @@
     text-align: right;
     img {        
         max-width: 100%;
+    };
+}
+
+.icon {
+    background-color: #ffffff;
+    color: #ffffff;
+    border-color: #0067f4;
+    border-width: 6px;
+    border-radius: 50%;
+    img {        
+        width: 150px;
+        height: 150px;
     };
 }

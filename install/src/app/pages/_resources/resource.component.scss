@@ -1,0 +1,135 @@
+.contact-info-content {
+    align-self: center;
+}
+
+.single-features {
+    padding: 0 0 0 0;
+    height: 100%;
+}
+
+.features-title-icon {
+    padding: 25px 10px 15px 10px;
+    position: relative;
+}
+
+.features-content {
+    padding: 25px 10px 0px 10px;
+}
+
+.features-btn {
+    left: 30px;
+    bottom: -30px;
+    position: absolute;
+}
+
+.pricing-style {
+    padding: 0 0 0 0;
+    height: 100%;
+}
+
+
+.month {
+    margin: 0 0 -10px 0;
+}
+
+.price {
+    margin: 0 0 0 0;  
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.faq-content {
+    width: 100%;
+}
+
+.pricing-area {
+    background-color: #f4f6f7;
+}
+
+.compare-area {
+    background-color: #fff;
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
+.about-area {
+    background-color: #f4f6f7;
+}
+
+.compare-area-table {
+    border-radius: 10px;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: rgba(231,231,231,1);
+    padding: 50px 50px 0px 50px;
+    background-color: #fafbfd;
+    font-size: 18px;
+}
+
+.compare-table-header {
+    padding: 15px 0px 15px 0px;
+    margin: 0px -15px 0px -15px;
+    background-color: rgba(255,255,255,1);
+    font-weight: bold;
+}
+
+.compare-table-row-name {
+    margin: 0px -15px 0px -15px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: rgba(231,231,231,1);
+    padding: 15px 15px 15px 15px;
+    background-color:  #fafbfd;
+    font-weight: bold;
+}
+
+.compare-table-row-item {
+    text-align: center;
+    margin: 0px -15px 0px -15px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: rgba(231,231,231,1);
+    padding: 15px 0px 15px 0px;
+    background-color:  #fafbfd;
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pricing-style {
+    height: 100%;
+    .pricing-list {
+        padding: 0px 10px 50px 10px;
+        text-align: center;
+        .item-list {
+            display: inline-block; 
+            text-align: left;            
+            .item {
+                padding: 0px 5px 0px 5px;
+                font-weight: bold;
+            }
+        }
+    }
+    .pricing-btn {
+        width: 100%;
+        bottom: 10px;
+        position: absolute;
+        text-align: center;
+    }
+}
