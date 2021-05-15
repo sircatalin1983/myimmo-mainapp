@@ -9,10 +9,16 @@ import { environment } from 'src/environments/environment';
 })
 export class LayoutComponent implements OnInit, OnDestroy {
   public href: string = "";
+  
+  readonly defaultLang = 'ro';
+  languageList = [
+    { code: 'ro', label: 'Română' },
+    { code: 'en', label: 'English' }
+  ];
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router
+    private router: Router,
   ) { }
 
   ngOnInit(): void {

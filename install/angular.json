@@ -5,6 +5,12 @@
   "projects": {
     "myimmo-mainapp": {
       "projectType": "application",
+      "i18n": {     
+        "sourceLocale": "ro-RO",  
+        "locales": {
+          "en": "src/locale/messages.en.xlf"
+        }
+      },
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
@@ -33,7 +39,7 @@
             ],
             "scripts": []
           },
-          "configurations": {
+          "configurations": {           
             "production": {
               "fileReplacements": [
                 {
@@ -87,6 +93,9 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "en": {
+              "localize": ["en"]
             }
           }
         },
@@ -101,7 +110,10 @@
             },
             "test": {
               "browserTarget": "myimmo-mainapp:build:test"
-            }
+            },
+            "en": {
+              "browserTarget": "myimmo-mainapp:build:en"
+            }            
           }
         },
         "extract-i18n": {

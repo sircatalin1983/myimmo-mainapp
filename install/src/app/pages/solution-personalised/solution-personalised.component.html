@@ -7,16 +7,17 @@
                     <div class="row">
                         <div class="col-lg-5">
                             <div class="slider-content">
-                                <h1 class="title">Solutie personalizata </h1>
-                                <p class="text white">Solutie personalizata in functie de nevoile fiecaruia.</p>
-                                <p class="text white">
-                                    myImmoAssistant vine in patru distributii: cloud public, whitelabel, cloud
+                                <h1 i18n="@@sectionPersSolutionTitle" class="title">Soluție personalizată</h1>
+                                <p i18n="@@sectionPersSolutionSubtitle" class="text white">Soluție personalizată în
+                                    funcție de nevoile fiecăruia.</p>
+                                <p i18n="@@sectionPersSolutionText" class="text white">
+                                    myImmoAssistant vine în patru distribuții: cloud public, whitelabel, cloud
                                     privat/hibrid
                                     sau
-                                    direct instalat pe server propriu (in datacenter propriu).
+                                    direct instalat pe server propriu (în datacenter propriu).
                                 </p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one"
+                                    <li><a i18n="@@sectionPersSolutionContactButtonText" class="main-btn rounded-one"
                                             href="/solution-personalised/#contact">Contact</a></li>
                                 </ul>
                             </div>
@@ -43,10 +44,11 @@
                             <div class="icon center">
                                 <img src="assets/images/marketing/cloud.svg" alt="Shape">
                             </div>
-                            <h4 class="features-title center ">Cloud public</h4>
+                            <h4 i18n="@@featurePublicCloudTitle" class="features-title center ">Cloud public</h4>
                         </div>
                         <div class="features-content">
-                            <p class="text grey">Solutia distribuita intr-un cloud public AWS/Azure/GCP.</p>
+                            <p i18n="@@featurePublicCloudText" class="text grey">Soluția distribuită într-un cloud
+                                public AWS/Azure/GCP.</p>
                         </div>
                     </div>
                 </div>
@@ -57,10 +59,11 @@
                             <div class="icon center">
                                 <img src="assets/images/marketing/paper-label-svgrepo-com.svg" alt="Shape">
                             </div>
-                            <h4 class="features-title center ">Whitelabel</h4>
+                            <h4 i18n="@@featureWhitelabelTitle" class="features-title center ">Whitelabel</h4>
                         </div>
                         <div class="features-content">
-                            <p class="text grey">Solutia personalizata pe baza cerintelor/nevoilor
+                            <p i18n="@@featureWhitelabelText" class="text grey">Soluția personalizată pe baza
+                                cerințelor/nevoilor
                                 clientului.</p>
                         </div>
                     </div>
@@ -71,10 +74,11 @@
                             <div class="icon center">
                                 <img src="assets/images/marketing/database-cloud.svg" alt="Shape">
                             </div>
-                            <h4 class="features-title center">Cloud privat/hibrid</h4>
+                            <h4 i18n="@@featurePrivateCloudTitle" class="features-title center">Cloud privat/hibrid</h4>
                         </div>
                         <div class="features-content">
-                            <p class="text grey">Solutia actuala sau cea personalizata poate fi distribuita in cloud-ul
+                            <p i18n="@@featurePrivateCloudText" class="text grey">Soluția actuală sau cea personalizată
+                                poate fi distribuită în cloud-ul
                                 privat/hibrid al clientului.</p>
                         </div>
                     </div>
@@ -85,10 +89,11 @@
                             <div class="icon center">
                                 <img src="assets/images/marketing/database-line.svg" alt="Shape">
                             </div>
-                            <h4 class="features-title center">Datacenter</h4>
+                            <h4 i18n="@@featureDatacenterTitle" class="features-title center">Datacenter</h4>
                         </div>
                         <div class="features-content">
-                            <p class="text grey">Solutia actuala sau cea personalizata poate fi distribuita in
+                            <p i18n="@@featureDatacenterText" class="text grey">Soluția actuală sau cea personalizată
+                                poate fi distribuită în
                                 datacenter-ul clientului.</p>
                         </div>
                     </div>
@@ -97,7 +102,8 @@
         </div>
         <div class="section-footer">
             <ul class="slider-btn rounded-buttons">
-                <li><a class="main-btn rounded-one" href="/solution-personalised/#contact">Vreau detalii</a></li>
+                <li><a i18n="@@featureButtonDetailsText" class="main-btn rounded-one"
+                        href="/solution-personalised/#contact">Vreau detalii</a></li>
             </ul>
         </div>
     </div>
@@ -108,8 +114,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-10 col-md-10">
                 <div class="section-title text-center">
-                    <h3 class="title">Contact</h3>
-                    <p class="text">Contactati-ne pentru a cere o oferta personalizata.</p>
+                    <h3 i18n="@@sectionContactTitle" class="title">Contact</h3>
+                    <p i18n="@@sectionContactText" class="text">Contactați-ne pentru a cere o ofertă personalizată.</p>
                 </div>
             </div>
         </div>
@@ -118,12 +124,12 @@
             <div class="col-lg-12">
                 <div class="contact-wrapper form-style-two pt-115">
                     <h4 class="contact-title pb-10">
-                        <i class="lni lni-envelope"></i> Lasati-ne <span>un mesaj.</span>
+                        <i class="lni lni-envelope"></i><span i18n="@@sectionContactText">Lăsați-ne un mesaj.</span>
                     </h4>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-input mt-25">
-                                <label>Nume</label>
+                                <label i18n="@@sectionContactInputName">Nume</label>
                                 <div class="input-items default">
                                     <input matInput required name="name" type="text" placeholder="Nume"
                                         [(ngModel)]="contactItem.subject" ngDefaultControl>
@@ -133,7 +139,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-input mt-25">
-                                <label>Email</label>
+                                <label i18n="@@sectionContactInputEmail">Email</label>
                                 <div class="input-items default">
                                     <input matInput type="email" name="email" placeholder="Email"
                                         [(ngModel)]="contactItem.email" ngDefaultControl>
@@ -143,7 +149,7 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-input mt-25">
-                                <label>Mesaj</label>
+                                <label i18n="@@sectionContactInputMessage">Mesaj</label>
                                 <div class="input-items default">
                                     <textarea matInput required name="massage" placeholder="Mesaj"
                                         [(ngModel)]="contactItem.content" ngDefaultControl></textarea>
@@ -154,7 +160,8 @@
                         <p class="form-message"></p>
                         <div class="col-md-12">
                             <div class="form-input light-rounded-buttons mt-30">
-                                <button class="main-btn light-rounded-two" (click)="send()">Cere oferta</button>
+                                <button i18n="@@featureButtonRequestOfferText" class="main-btn light-rounded-two"
+                                    (click)="send()">Cere ofertă</button>
                             </div>
                         </div>
                     </div>

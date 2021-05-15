@@ -9,6 +9,15 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 //import { LayoutModule } from './layout/layout.module';
 
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSelectModule } from '@angular/material/select';
+import { MatCardModule } from '@angular/material/card';
+import { MatInputModule } from '@angular/material/input';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -17,7 +26,16 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     // Custom modules
     FormsModule, 
     ReactiveFormsModule,
-   
+    
+    MatCardModule,
+    MatButtonModule,
+    MatToolbarModule,
+    MatSelectModule,
+    MatInputModule,
+    MatRadioModule,
+    MatMenuModule,
+    MatIconModule,
+
     AppRoutingModule,
     LayoutModule,
   ],

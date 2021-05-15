@@ -1,0 +1,1980 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="ro-RO" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="navHome" datatype="html">
+        <source>Acasă</source>
+        <target>Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navSolutions" datatype="html">
+        <source>Soluții</source>
+        <target>Solutions</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navPricing" datatype="html">
+        <source>Plan tarifar</source>
+        <target>Cost</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navResources" datatype="html">
+        <source>Resurse</source>
+        <target>Resources</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navAbout" datatype="html">
+        <source>Despre</source>
+        <target>About</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navContact" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionCalculatorsTitle" datatype="html">
+        <source>Calculatoare gratuite</source>
+        <target>Calculators</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/calculators/calculators.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionCalculatorsText" datatype="html">
+        <source>Calculatoare gratuite pentru proprietari și viitorii proprietari.</source>
+        <target>Helpful calculators for landlors or future landlors.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/calculators/calculators.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feature1Title" datatype="html">
+        <source>Calculator profitabilitate</source>
+        <target>Profitability calculator.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/calculators/calculators.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/documents/documents.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">56,57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feature1Text" datatype="html">
+        <source> Calculați fluxul de intrări-ieșiri și profitabilitatea investiției pe o anumită perioadă prin introducerea prețului, rentei lunare, cheltuielilor anuale și rata de ocupare. </source>
+        <target>Compute the input output flow and the investment profitability for a given time period by inputing the price, monthly rent, yearly expenses and vaccancy rate.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/calculators/calculators.component.html</context>
+          <context context-type="linenumber">33,35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/documents/documents.component.html</context>
+          <context context-type="linenumber">31,33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">53,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feature1Link" datatype="html">
+        <source>Calculează (În curând)</source>
+        <target>Compute (Soon).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/calculators/calculators.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/documents/documents.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feature2Title" datatype="html">
+        <source>Calculator rată bancară</source>
+        <target>Bank monthly rate calculator.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/calculators/calculators.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/documents/documents.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feature2Text" datatype="html">
+        <source> În cazul în care sunteți în căutarea unei investiții în imobiliare dar nu sunteți sigur care proprietate este cea mai bună, calculatorul nostru de rate se poate dovedi cea mai bună unealtă în acest scop. </source>
+        <target>If you are searching for an investment but you are not sure which property is the best, our calculator could prove the best tool in this search.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/calculators/calculators.component.html</context>
+          <context context-type="linenumber">51,54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/documents/documents.component.html</context>
+          <context context-type="linenumber">48,50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">75,77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">69,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feature2Link" datatype="html">
+        <source>Calculează (În curând)</source>
+        <target>Compute (soon).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/calculators/calculators.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/documents/documents.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feature3Title" datatype="html">
+        <source>Calcul chirie anticipată</source>
+         <target>Compute early payments.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/calculators/calculators.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/calculators/calculators.component.html</context>
+          <context context-type="linenumber">69,71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/documents/documents.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">87,88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feature3Link" datatype="html">
+        <source>Calculează (În curând)</source>
+        <target>Compute (soon).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/calculators/calculators.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/documents/documents.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionDocumentsTitle" datatype="html">
+        <source>Descarcă documente și șabloane</source>
+        <target>Download documents and templates.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/documents/documents.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionDocumentsText" datatype="html">
+        <source>Diferite șabloane documente folosite pentru închiriere.</source>
+        <target>Different template documents used to rent a property.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/documents/documents.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feature3Text" datatype="html">
+        <source>Soluție completă care acoperă toate aspectele legate de managementul unei proprietăți și a contractelor de închiriere.</source>
+        <target>Complete solution that covers all aspects tied to the property and contract management.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/documents/documents.component.html</context>
+          <context context-type="linenumber">65,67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">92,93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">86,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainTitle1" datatype="html">
+        <source>Ajutorul digital myImmoAssist</source>
+        <target>Digital help - myImmoAssist.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainSubtitle1" datatype="html">
+        <source>Asistent digital folosit pentru automatizarea managementului facturilor, chiriașilor, inventarul apartamentelor, plătilor, contractelor de închiriere și multe altele. Fără fisiere excel complicate și alte liste greu de menținut.</source>
+        <target>Digital assistant used to automate the management of the invoices, renters, property inventory, payments, contracts and so on.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainSubtitleAdditionalText" datatype="html">
+        <source>*Testezi imediat asistentul. Nu sunt necesare datele unui card bancar. </source>
+        <target>*You can test the assistant right away. No need to input the banking card data.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">26,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">64,66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">98,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainPersonalizedOffer" datatype="html">
+        <source>Ofertă personalizată</source>
+        <target>Personalized offer.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">70,71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">103,104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainTitle2" datatype="html">
+        <source>Automatizare operațiuni</source>
+        <target>Automate operations.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainSubtitle2" datatype="html">
+        <source>Timpul petrecut cu generarea de notificări și calcule pe hârtie poate fi petrecut altfel, asistentul se ocupă cu mare plăcere de execuția de acțiuni repetitive (notificări, calcule și așa mai departe).</source>
+        <target>The time spent to generate notification and perform different computation manually can be used in other way. Our assistant will handle those kind of repetitive actions with great pleasure.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">53,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainTitle3" datatype="html">
+        <source>Transparentă în cheltuieli</source>
+        <target>Transparency in property expenses.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainSubtitle3" datatype="html">
+        <source>Transparentă totală între chiriaș și proprietar, toate costurile asociate (facturi, impozite locale, impozite ANAF și altele) sunt transparente, vizibile și calculate automat.</source>
+        <target>Full transparency between renter and owner/lender. All contract associated expenses (invoices, local taxes and others) are transparent, visible and automatically calculated.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">90,94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionSolutionsTitle" datatype="html">
+        <source>Soluții oferite</source>
+        <target>Full solutions.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">133,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureAutomateOperationsTitle" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>Automatizare operațiuni<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>Operations automation<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">146,147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureAutomateOperationsText" datatype="html">
+        <source>Diferite automatizări tehnice utile pentru execuția completa a activităților specifice managementului proprietăților/contractelor închiriere. </source>
+        <target>Different technical automations used to execute all operations related to the management of contracts and properties.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">154,157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureWantDetails" datatype="html">
+        <source>Vreau detalii ...</source>
+        <target>I want details ...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureCollectPaymentsOnlineTitle" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>Colectare plăți online<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>Online payments<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">165,166</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureCollectPaymentsOnlineText" datatype="html">
+        <source>Colectări online de plăți fără niciun efort (În curând).</source>
+        <target>Download documents and templates.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">173,174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureProfessionalReportTitle" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>Rapoarte profesionale<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>Professional reports<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">182,183</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureProfessionalReportText" datatype="html">
+        <source>Rapoarte personalizate și parametrizate printre care inventar, contracte, prognoză financiară și multe altele.</source>
+        <target>Personalized and parametrized reports (inventory, contracts, financial forecast and many others).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">190,193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionPaymentTitle" datatype="html">
+        <source>Plan tarifar</source>
+        <target>Cost</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionPaymentText" datatype="html">
+        <source>Încearcă asistentul pentru trei luni complet gratuit, nu este necesară introducerea datelor cardului!</source>
+        <target>Try myImmoAssist for three months completely free, there's no need to input card data.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">208,210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startPlanText" datatype="html">
+        <source>Start</source>
+        <target>Start</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">221</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fromText" datatype="html">
+        <source> De la</source>
+        <target>From</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">223</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">253</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">285</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="monthText" datatype="html">
+        <source>lună</source>
+        <target>month</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">225</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">255</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">287</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startItem1Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startItem2Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">231</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startItem3Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">232</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startItem4Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startItem5Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startItem6Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">236</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startText" datatype="html">
+        <source>Start</source>
+        <target>Start</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">240</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">272</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">307</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="smartPlanText" datatype="html">
+        <source>Smart</source>
+        <target>Smart</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">251</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="smartItem1Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">260</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="smartItem2Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">261</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="smartItem3Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">262</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="smartItem4Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">263</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="smartItem5Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">265</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="smartItem6Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">267</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="smartItem7Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">268</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scalePlanText" datatype="html">
+        <source>Scale</source>
+        <target>Scale</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">283</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scaleItem1Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">292</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scaleItem2Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">293</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scaleItem3Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">294</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scaleItem4Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">296</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scaleItem5Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">298</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scaleItem6Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">300</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scaleItem7Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">301</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scaleItem8Text" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">302</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionResourcesTitle" datatype="html">
+        <source>Resurse</source>
+        <target>Resources</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">320</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionResourcesText" datatype="html">
+        <source>Diverse resurse gratuite utile unui proprietar (documente foloste pentru închiriere, diverse calculatoare, sfaturi utile și multe altele).</source>
+        <target>Free sources useful to a lender (documents for renting, calculators, advices and many others).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">321,323</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureHelpTitle" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>Centru ajutor<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>Help center<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">335</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureHelpText" datatype="html">
+        <source>Aveți nevoie de ajutor în navigarea și folosirea myImmoAssist? Avem resursele disponibile.</source>
+        <target>Do you need help to navigate and use myImmoAssist? We have available resources.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">336,338</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hereText" datatype="html">
+        <source>aici</source>
+        <target>here</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">340</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">413</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">433</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureDocumentsTitle" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>Documente<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>Documentes<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">409</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureDocumentsText" datatype="html">
+        <source>Documente utile în procesul de închiriere. </source>
+        <target>Useful documents for property renting</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">410,411</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureCalculatorTitle" datatype="html">
+        <source>Calculatoare</source>
+        <target>Calculators</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">428</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">429,431</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionFaqTitle" datatype="html">
+        <source>Detalii adiționale despre myImmoAssist</source>
+        <target>Additional details on myImmoAssit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">450</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionFaqSubtitle" datatype="html">
+        <source>Întrebări frecvente <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt; "/> despre aplicație </source>
+        <target>Frequent questions about <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt; "/> the application </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">451</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureQuestion1Title" datatype="html">
+        <source>Am o proprietate, cum o configurez în sistem?</source>
+         <target>I have a property, how do I configure it?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">458,459</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureQuestion1Text" datatype="html">
+        <source>Acțiunea de a configura o nouă proprietate în sistem se poate face, fie prin folosirea widgetului &quot;Proprietate nouă&quot; din pagina principală, fie prin meniul &quot;Proprietăți&quot;. Ulterior la fiecare proprietate se pot configura diferite contractele de utilități, inventarul proprietate și lista de contracte de închiriere.</source>
+        <target>To configure a new property, the &quot;New Property&quot; widget from the main page can be used or, through the &quot;Properties&quot; menu. Afterwards, on each property the user can configure the utilities, inventory and renting contracts.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">465,471</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureQuestion2Title" datatype="html">
+        <source>Cum pot să văd detalii despre contracte?</source>
+        <target>How can I see contract details?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">478,480</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureQuestion2Text" datatype="html">
+        <source>Toate contractele de închiriere în derulare se pot accesa fie prin widgetul &quot;Contract&quot; din pagina principală, fie prin meniul &quot;Proprietăți&quot; -&gt; &quot;Contracte&quot;. Fiecare contract are doua secțiuni ce pot să fie accesate, contractul propriu-zis și lista de plăți.</source>
+        <target>All running contracts can be accessed through the  &quot;Contracts&quot; widget from the main page or through the  &quot;Properties&quot;-&gt; &quot;Contracts&quot;. Each contract has two sections whcih can be accessed. The actual contract and the payment list.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">485,489</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureQuestion3Title" datatype="html">
+        <source>Cum adaug piese de inventar și ce este inventarul unei proprietăți?</source>
+        <target>How can I add inventory items and what is actually the property inventory?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">497,498</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureQuestion3Text" datatype="html">
+        <source>Inventarul proprietății se foloseste la generarea procesului verbal de predare-primire atașat contractului de închiriere. Piesele de inventar se adaugă din meniul proprietății, secțiunea &quot;Inventar&quot;.</source>
+        <target>The inventory is the actual list of items that the property comes with. It will be used to generate the annex with items. All items are added through the property menu on &quot;Inventory&quot; section. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">503,506</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureQuestion4Title" datatype="html">
+        <source>Cum adaug contracte de utilități?</source>
+        <target>How can I add utilities?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">514,515</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureQuestion4Text" datatype="html">
+        <source>Pentru a putea adăuga facturi atașate unei proprietăți, inițial proprietatea are nevoie să-i fie atașate anumite contracte de utilități. Acestea se pot adauga din pagina proprietatii din meniul &quot;Utilitati&quot;. În cazul în care organizația are configurată utilizarea roboților de agregare facturi, atunci, la momentul în care se adaugă o nouă utilitate, se pot specifica și datele de conectare la pagina web a furnizorului de utilități. </source>
+        <target>To add invoices to a property, initially the property must have utilities. Those can be added from the  &quot;Utilities&quot; menu. In the case when the robotic processor is configured at the organisation level, in this step the details to connect to the utilities web site should be input in here as well.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">520,527</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureQuestion5Title" datatype="html">
+        <source>Cum adaug o factură de utilități?</source>
+        <target>How can I add a new invoice?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">535,536</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureQuestion5Text" datatype="html">
+        <source>Manual, acțiunea de a adăuga o factură de utilități se poate face fie din meniul principal din widgetul &quot;Factură Nouă&quot; sau din meniul proprietății folosind secțiunea de &quot;Facturi&quot;. Automat, acțiunea de a adăuga facturi se poate face doar în cazul în care robotul de agregare facturi este configurat pentru utilitatea respectivă.</source>
+        <target>Manual through the &quot;New Invoice&quot; menu or through the property menu on the  &quot;Invoices&quot; widget, Automatically it is added in the case the organisation have the robots configured.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">541,546</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionContactUsTitle" datatype="html">
+        <source>Contact</source>
+        <target>Contact.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">568</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionContactUsText" datatype="html">
+        <source>Digitalizare și optimizare operațiuni închiriere și management contracte închiriere. Vă rugăm să ne contactați pentru orice întrebare, nelămurire, clarificare sau sugestie de îmbunătățire funcționalitate.</source>
+        <target>Digitize and optimise renting operation and contract management. Please contact us for any question, clarification or improvement suggestion or only to say hi.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">569,572</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="formContactUsName" datatype="html">
+        <source>Nume</source>
+        <target>Name.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">630</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="formContactUsEmail" datatype="html">
+        <source>Email</source>
+        <target>Email.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">640</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="formContactUsMessage" datatype="html">
+        <source>Mesaj</source>
+        <target>Message.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">650</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="formContactUsSend" datatype="html">
+        <source>Trimite</source>
+        <target>Send.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
+          <context context-type="linenumber">662</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionPricingTitle" datatype="html">
+        <source>Detaliere plan tarifar</source>
+        <target>Cost details.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionPricingText" datatype="html">
+        <source>Detalierea planului tarifar pe opțiuni și pe plan-urile posibile.</source>
+        <target>Cost details on possible plans.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureFunctionalityTitle" datatype="html">
+        <source>Funcționalități</source>
+        <target>Functionalities.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureStartPlanTitle" datatype="html">
+        <source>Start Plan</source>
+        <target>Start plan.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureSmartPlanTitle" datatype="html">
+        <source>Smart Plan</source>
+        <target>Smart plan.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureScalePlanTitle" datatype="html">
+        <source>Scale Plan</source>
+        <target>Scale plan.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item1Title" datatype="html">
+        <source>Unități incluse</source>
+        <target>Included properties.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item1StartText" datatype="html">
+        <source>1 property</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item1SmartText" datatype="html">
+        <source>1 property</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item1ScaleText" datatype="html">
+        <source>1 property</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item2Title" datatype="html">
+        <source>Unitate extra</source>
+        <target>Extra property.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item2StartText" datatype="html">
+        <source>EUR 1 per unitate/lună</source>
+        <target>EUR 1 per property/month.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item2SmartText" datatype="html">
+        <source>EUR 1 per unitate/lună</source>
+         <target>EUR 1 per property/month.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item2ScaleText" datatype="html">
+        <source>EUR 1 per unitate/lună</source>
+        <target>EUR 1 per property/month.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item3Title" datatype="html">
+        <source>Suport tehnic</source>
+        <target>Technical support.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item3StartText" datatype="html">
+        <source>Basic</source>
+        <target>Basic</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item3SmartText" datatype="html">
+        <source>Priority</source>
+        <target>Priority</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item3ScaleText" datatype="html">
+        <source>Top</source>
+        <target>Top</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item4Title" datatype="html">
+        <source>Access multi-user</source>
+        <target>Multi-user access</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item4StartText" datatype="html">
+        <source>-</source>
+        <target>-</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item4SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item4ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item5Title" datatype="html">
+        <source>Proprietar multiplu</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item5StartText" datatype="html">
+        <source>-</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item5SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item5ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item6Title" datatype="html">
+        <source>Declarații ANAF</source>
+        <target>Tax declarations</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item6StartText" datatype="html">
+        <source>-</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item6SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item6ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item7Title" datatype="html">
+        <source>Desktop/iOS/Android</source>
+        <target>Desktop/iOS/Android</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item7StartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item7SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item7ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item8Title" datatype="html">
+        <source>Venituri</source>
+        <target>Incomes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item8StartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item8SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item8ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item9Title" datatype="html">
+        <source>Cheltuieli</source>
+        <target>Expenses</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item9StartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item9SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item9ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item10Title" datatype="html">
+        <source>Notificări email</source>
+        <target>Email notifications</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item10StartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item10SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item10ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item11Title" datatype="html">
+        <source>Notificări SMS</source>
+        <target>SMS notifications</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item11StartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item11SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">188</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item11ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">191</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item12Title" datatype="html">
+        <source>Documente cloud</source>
+        <target>Cloud documents</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item12StartText" datatype="html">
+        <source>10 documente</source>
+        <target>10 documents</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item12SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">202</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item12ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">205</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item13Title" datatype="html">
+        <source>Notificări customizabile</source>
+        <target>Customized notifications</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item13StartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">213</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item13SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">216</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item13ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">219</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item14Title" datatype="html">
+        <source>Dashboard</source>
+        <target>Dashboard</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">224</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item14StartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item14SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item14ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item15Title" datatype="html">
+        <source>Portal chiriaș</source>
+        <target>Renter portal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">238</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item15StartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">241</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item15SmartText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">244</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item15ScaleText" datatype="html">
+        <source>✓</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">247</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item16Title" datatype="html">
+        <source> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">252</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item16StartText" datatype="html">
+        <source> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">255</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item16SmartText" datatype="html">
+        <source> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">258</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="item16ScaleText" datatype="html">
+        <source> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">261</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionAdditionalDetailsTitle" datatype="html">
+        <source>Detalii adiționale</source>
+        <target>Additional details</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">274</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionAdditionalDetailsText" datatype="html">
+        <source>Intrebări frecvente <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt; "/> despre plan tarifar </source>
+        <target>Frequent questions <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt; "/> about costs </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">275,276</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="question1Text" datatype="html">
+        <source>Mă costă în plus încasarea facturilor și/sau a chiriei lunare? </source>
+        <target>Does it cost me extra to pay/collect payments through the application? </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">283,286</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="question1Answer" datatype="html">
+        <source>Nu, plata acestora se face direct în contul proprietarului specificat în mesajul de notificare.</source>
+        <target>No. All payments are made directly on the lender/owner configured account.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">291,293</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">164,165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="question2Text" datatype="html">
+        <source>Ce înseamnă proprietar multiplu? </source>
+        <target>What does it mean multiple owner? </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">300,302</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="question2Answer" datatype="html">
+        <source>Proprietar multiplu se referă la faptul că pot să fie doi utilizatori care pot accesa în &quot;mod proprietar&quot; o anumită listă de proprietăți. De exemplu un administrator și proprietarul actual.</source>
+        <target>Multiple owner reffers to the fact that you can have multiple user that could access the propertis in owner mode.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/pricing/pricing.component.html</context>
+          <context context-type="linenumber">307,310</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">180,181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionPersSolutionTitle" datatype="html">
+        <source>Soluție personalizată</source>
+        <target>Personalized solution? </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionPersSolutionSubtitle" datatype="html">
+        <source>Soluție personalizată în funcție de nevoile fiecăruia.</source>
+        <target>Customised solution on user needs.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionPersSolutionText" datatype="html">
+        <source> myImmoAssistant vine în patru distribuții: cloud public, whitelabel, cloud privat/hibrid sau direct instalat pe server propriu (în datacenter propriu). </source>
+        <target> myImmoAssistant comes in four distributions: public cloud, whitelabel, private/hibrid cloud or installed directly on personal server (on your own datacenter). </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">14,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionPersSolutionContactButtonText" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featurePublicCloudTitle" datatype="html">
+        <source>Cloud public</source>
+        <target>Public cloud</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featurePublicCloudText" datatype="html">
+        <source>Soluția distribuită într-un cloud public AWS/Azure/GCP.</source>
+        <target>The solution is distributed into a public cloud AWS/Azure/GCP.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureWhitelabelTitle" datatype="html">
+        <source>Whitelabel</source>
+        <target>Whitelabel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureWhitelabelText" datatype="html">
+        <source>Soluția personalizată pe baza cerințelor/nevoilor clientului.</source>
+        <target>Personalized solution on cliend needs/requirements.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">65,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featurePrivateCloudTitle" datatype="html">
+        <source>Cloud privat/hibrid</source>
+        <target>Hybrid/private cloud.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featurePrivateCloudText" datatype="html">
+        <source>Soluția actuală sau cea personalizată poate fi distribuită în cloud-ul privat/hibrid al clientului.</source>
+        <target>The actual solution or the personalized one can be distributed in client private/hybrid cloud.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">80,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureDatacenterTitle" datatype="html">
+        <source>Datacenter</source>
+        <target>Datacenter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureDatacenterText" datatype="html">
+        <source>Soluția actuală sau cea personalizată poate fi distribuită în datacenter-ul clientului.</source>
+        <target>The actual solution or the personalized one can be distributed in client datacenter.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">95,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureButtonDetailsText" datatype="html">
+        <source>Vreau detalii</source>
+        <target>I want details</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionContactTitle" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionContactText" datatype="html">
+        <source>Contactați-ne pentru a cere o ofertă personalizată.</source>
+        <target>Contact us to request a personalized offer.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionContactInputName" datatype="html">
+        <source>Nume</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionContactInputEmail" datatype="html">
+        <source>Email</source>
+        <target>Email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionContactInputMessage" datatype="html">
+        <source>Mesaj</source>
+        <target>Message</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureButtonRequestOfferText" datatype="html">
+        <source>Cere ofertă</source>
+        <target>Request offer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution-personalised/solution-personalised.component.html</context>
+          <context context-type="linenumber">164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionSolution1Title" datatype="html">
+        <source>Automatizare operațiuni</source>
+        <target>Automate operations</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionSolution1Text" datatype="html">
+        <source>Rămâi organizat prin folosirea utilitarelor de automatizare. Timpul petrecut cu notificări și calcule pe hârtie poate fi petrecut altfel, asistentul se ocupă cu plăcere de acțiuni repetitive (notificări, calcule și așa mai departe).</source>
+        <target>Stai organised through the use of the automation tools. The time spent on generating notifications and performing different calculation can be used in other way. myImmoAssistant will gladly perform repetitive tasks.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">11,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionSolution1ButtonText" datatype="html">
+        <source>Începe aici</source>
+         <target>Start here</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureNotificationTitle" datatype="html">
+        <source>Notificări automate </source>
+        <target>Automatic notification</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureNotificationText" datatype="html">
+        <source>Automatizare comunicare, creare de notificări la apariția unei noi facturi, schimbarea statusului acesteia. Adițional, crearea de notificări și calcularea automată a sumei de plată, mesaje de informare între proprietar și chiriaș.</source>
+        <target>Automatic communication, create notifications while new invoices are input on the system, automatic change of payment status. Automatic messages btween owner and renter.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">49,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureComputationTitle" datatype="html">
+        <source>Procesare calcule financiare</source>
+        <target>Process financial calculations.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">62,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureComputationText" datatype="html">
+        <source>Diferite calculatoare care calculează automat profitabilitate per proprietate, sumele ce trebuie plătite lunar și multe altele.</source>
+        <target>Different calculators for automatic rentability check, monthly forecast of payments and many others.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">66,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureRPATitle" datatype="html">
+        <source>Procesator robotic</source>
+        <target>Robotic processing</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureRPAText" datatype="html">
+        <source>Procesator robotic (RPA) de facturi. Descărcare automată de pe site-ul myElectrica, GDF-Suez, Digi, etc de facturi și încarcarea automată în myImmoAssist. Sincronizare status plată.</source>
+        <target>Robotic process automation on the invoices. Automatic download from different utility provider sites.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">81,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="buttonCreateAccountText" datatype="html">
+        <source>Creare cont</source>
+        <target>Create account</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">93,94</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">120,121</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">149,150</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">177,178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureAutomaticAccountancyTitle" datatype="html">
+        <source>Contabilitate automată </source>
+        <target>Automatic accountability</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">105,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureAutomaticAccountancyText" datatype="html">
+        <source> Eliminarea procesului manual din calculul contabil folosind myImmoAssist. Se pot seta cheltuieli recurente, accese, vizualizări sau reconciliere automată a transactilor. Diferite procesări automate de facturi scanate.</source>
+        <target> Eliminate manual process on the accountancy using myImmoAssistant. You can use the reccuring expenses, accesses, visualising and automatic reconciliation of financial transactions. Different type of automatic invoice scanning. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">108,110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureAutomaticLatePaymentsTitle" datatype="html">
+        <source>Optimizează-ți timpul și elimină penalități la plata întârziată</source>
+        <target>Optimise your time and cut all your late payment fees.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">135,136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureAutomaticLatePaymentsText" datatype="html">
+        <source> Facturi și procesare facturi semi automat sau complet automat. Transparență totală în procesul de facturare. Colectarea online a plătii (Curând). </source>
+        <target> Invoices and semi-automatic/automatic invoice processing. Full transparency in the invoice process. Online rent collection (Soon). </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">138,142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureAutomaticZIPTitle" datatype="html">
+        <source>Descarcă datele atașate contului la orice oră</source>
+        <target>Download all data attached to the account.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">161,162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureAutomaticZIPText" datatype="html">
+        <source> Vreți să vă descărcați toate datele automat în format Excel, PDF sau Word? Desigur, se pot genera rapoarte profesionale instant pe orice dispozitiv iar ulterior acestea pot să fie redirecționate către alte persoane. </source>
+        <target> Do you want to download all data in Excel, PDF or Word? Sure, you can generate professional report instantly on each device.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution1/solution1.component.html</context>
+          <context context-type="linenumber">164,167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionSolution2Title" datatype="html">
+        <source>Colectare plăți</source>
+        <target> Payment collection</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionSolution2Text" datatype="html">
+        <source> Colectări online de plăți fără niciun efort (În curând). Colectarea chiriei în persoană este un proces încet și nerealist când este vorba de un portofoliu mare. Folosind myImmoAssist procesul de colectare poate să fie automatizat. Este un mod rapid, usor și face colectarea chirieri în persoană istorie. </source>
+        <target> Online payment collection (soon). In-person rent collection is a unrealistic process when you own a large portofolio. Using myImmoAssist the whole process can be fully automated.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">12,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionSolution2ButtonText" datatype="html">
+        <source>Începe aici</source>
+        <target>Begin here</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureCollectRentTitle" datatype="html">
+        <source> Colectarea chiriei online fără niciun efort </source>
+        <target> Online rent collection effortlessly.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureCollectRentText" datatype="html">
+        <source> Tot procesul de colectare/validare devine mai ușor folosind funcția auto-pay și automatizările legate de cheltuieli per proprietate. </source>
+        <target> The whole collecting/validation process is becoming quite easier using the auto-pay and all automations related to property expenses.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureButtonText" datatype="html">
+        <source>Creare cont</source>
+        <target>Create account</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">102,103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">136,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feature4Title" datatype="html">
+        <source>Automatizarea colectei cheltuielilor lunare </source>
+        <target>Collect automatic all montly expenses</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">114,115</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">117,119</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">126,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faqTitle" datatype="html">
+        <source>Detalii adiționale legate de plăți online</source>
+        <target>Additional details realted to online payments.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faqSubtitleText" datatype="html">
+        <source>Intrebări adiționale <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt; "/> despre plata online</source>
+        <target>Additional questions <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt; "/> about online payments</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="question1Title" datatype="html">
+        <source>Cât de sigur este transferul? </source>
+        <target>Additional questions about online payments</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">156,157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="question2Title" datatype="html">
+        <source>Mă costă ceva în plus? </source>
+        <target>Does it cost me extra?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">172,174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="question3Title" datatype="html">
+        <source>Cât timp durează ca fondurile să-mi ajungă în contul meu? </source>
+        <target>How much time would it take for the money to reach my account?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">188,192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="question3Answer" datatype="html">
+        <source> Media de timp a transferului este undeva între 1 și 5 zile lucrătoare. Suntem în continuă analiză de căutări de soluții de plăți în mod instant. </source>
+        <target> The average transfer time is somewhere between 1 and 5 working days. We are continuously search for ways to improve payment solutions.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">198,200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="question4Title" datatype="html">
+        <source>Cum plătesc chiriașii? </source>
+        <target>How the renters are paying?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">223,225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="question4Answer" datatype="html">
+        <source>Chiriașul primește un email/sms sau mesaj what&apos;s up cu un link de plată sau direct din aplicația myImmoAssist folosind secțiunea de centralizatoare. </source>
+        <target>The renter receives an email/sms or a what&apos;s up message containing a payment link or directly from the myImmoAssist application. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution2/solution2.component.html</context>
+          <context context-type="linenumber">231,233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionSolution3Title" datatype="html">
+        <source>Rapoarte profesionale </source>
+        <target>Professional reports</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionSolution3Subtitle" datatype="html">
+        <source>Rapoarte profesionale in doar cateva click-uri.</source>
+        <target>Professional reports in few clicks.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionSolution3Text" datatype="html">
+        <source>Obtineti informatii detaliate despre performanta portofoliului si intelegeti mai mai bine ce actiuni trebuie intreprinse pentru a imbunatati rentabiliatea. Calcularea impozitelor anuale (locale, ANAF) mult mai usor, centralizat pe tot portofoliul de imobile. </source>
+        <target>The renter receives an email/sms or a what&apos;s up message containing a payment link or directly from the myImmoAssist application. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">14,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectionSolution3ButtonText" datatype="html">
+        <source>Incepe aici</source>
+        <target>Begin here</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureCreateAccountButtonText" datatype="html">
+        <source>Creare cont</source>
+        <target>Create account</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">97,98</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">136,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureReportTitle" datatype="html">
+        <source>Raportare</source>
+        <target>Reporting</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureReportText" datatype="html">
+        <source>Eliminare erori generate de interactiunea umana si crestere a rapiditatii in procesul de contabilitate folosind myImmoAssist. </source>
+        <target>Remove errors generate from the human interaction and increase the speed of the accountancy process using myImmoAssist.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">111,113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureItem1Title" datatype="html">
+        <source>Profitabilitate vs pierderi </source>
+        <target>Profitability vs expenses</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureItem2Title" datatype="html">
+        <source>Raport intarzieri la plata chiriei </source>
+        <target>Report late payments</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureItem3Title" datatype="html">
+        <source>Raport notificari </source>
+        <target>Report notifications</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureItem4Title" datatype="html">
+        <source>Raport intarzieri la plata cheltuielilor utilitati </source>
+        <target>Report delays on the utilities payment</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureItem5Title" datatype="html">
+        <source>Raport plati efectuate </source>
+        <target>Report payments</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureItem6Title" datatype="html">
+        <source>Raport plati lunare efectuate/neefectuate </source>
+        <target>Report monthly payments (payments made/to be made)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureItem7Title" datatype="html">
+        <source>si multe altele ... </source>
+        <target>and many others ... </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="featureCreateAccountText" datatype="html">
+        <source> Adaugam si imbunatatim in mod constant functionalitatea repoartelor. Daca aveti intrebari sau orice parere pe baza careia functionalitatea poate sa fie imbunatatita, va rugam, nu ezitati sa ne contactati. </source>
+        <target> We add and improve continuously the reports functionality. If you have questsions or an opinion on which the functionality could be improved, please, don't hesitate to contact us.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/solution3/solution3.component.html</context>
+          <context context-type="linenumber">129,131</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

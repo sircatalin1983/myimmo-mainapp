@@ -3,6 +3,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { ContactUs } from './../../shared/services/contact-us/contact-us';
 import { ContactUsService } from './../../shared/services/contact-us/contact-us.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-main',
@@ -12,6 +13,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class MainComponent implements OnInit {
   public contactItem: ContactUs = new ContactUs();
   public href: string = "";
+  public assistantHref: string = "";
 
   constructor(
     public snackBar: MatSnackBar,
@@ -27,6 +29,7 @@ export class MainComponent implements OnInit {
     this.contactItem.telephone = '';
 
     this.href = this.router.url;
+    this.assistantHref = environment.assistantApp;
   }
 
   send(): void {
