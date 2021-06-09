@@ -49,3 +49,50 @@
     bottom: -30px;
     position: absolute;
 }
+
+.contact-box {
+    padding-top: 70px;
+    padding-bottom: 120px;
+    background-color: #f4f6f7;
+}
+
+.single-contact-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px 35px 24px;
+    height: 255px;
+    border: 2px solid;
+    border-color: #a4a4a4;
+    width: 25%;
+}
+
+.single-contact-box .box-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.single-contact-box .box-icon i {
+    font-size: 36px;
+    position: relative;
+    z-index: 5;
+    color: #0067f4;
+}
+
+.single-contact-box .box-content {
+    margin-top: 24px;
+}
+
+.single-contact-box .box-content .box-title {
+    font-size: 48px;
+    line-height: 35px;
+    color: #121212;
+}
+
+.result {
+    height: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    place-content: flex-start center;
+    align-items: flex-start;
+}

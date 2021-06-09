@@ -6,13 +6,106 @@
     </div>
 </section>
 
-<section class="white-area">
+<section class="contact-area white-area">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10">
                 <div class="section-title text-center pb-10">
-                    <h3 class="title">În curând</h3>
-                    <p class="text">Ajutor.</p>
+                    <h3 i18n="@@sectionCalculatorsTitle" class="title">Calculator rată bancară</h3>
+                    <p i18n="@@sectionCalculatorsText" class="text">Calculator pentru calcularea ratelor bancare pentru
+                        o proprietate</p>
+                </div>
+            </div>
+        </div>
+
+        <form [formGroup]="formGroup" (ngSubmit)="calculate()">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="contact-wrapper form-style-two">
+                        <div class="col-md-12">
+                            <mat-form-field style="width: 100%">
+                                <mat-label i18n="@@formLoanAmount">Suma împrumutată (€):</mat-label>
+                                <input type="text" formControlName="loanAmount" matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-12">
+                            <mat-form-field style="width: 100%">
+                                <mat-label i18n="@@formLoanPeriod">Perioada creditului (ani):</mat-label>
+                                <input type="text" formControlName="loanPeriod" matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-12">
+                            <mat-form-field style="width: 100%">
+                                <mat-label i18n="@@formInterestRate">Dobândă anuală (%):</mat-label>
+                                <input type="text" formControlName="interestRate" matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-12">
+                            <mat-form-field style="width: 100%">
+                                <mat-label i18n="@@formAnnualTaxes">Taxe anuale (€):</mat-label>
+                                <input type="text" formControlName="annualTaxes" matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-12">
+                            <mat-form-field style="width: 100%">
+                                <mat-label i18n="@@formAnnualInsurance">Asigurări anuale (€):</mat-label>
+                                <input type="text" formControlName="annualInsurance" matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-input light-rounded-buttons mt-5 text-center">
+                                <button [disabled]="!formGroup.valid" class="main-btn light-rounded-two"
+                                    i18n="@@calculatorButton">Calculează</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="result">
+            <div class="single-contact-box mt-50 text-center">
+                <div class="box-icon">
+                    <i class="lni lni-calculator"></i>
+                    <img src="assets/images/contact/shape.svg" alt="" class="shape">
+                </div>
+                <div class="box-content">
+                    <h4 class="box-title">{{ totalPayment | number : '1.2-2' }} €</h4>
+                    <p class="text" style="font-size: 12px;">Total plată</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">(lunar)</span></p>
+                </div>
+            </div>
+            <div class="single-contact-box mt-50 text-center">
+                <div class="box-icon">
+                    <i class="lni lni-grow"></i>
+                    <img src="assets/images/contact/shape.svg" alt="" class="shape">
+                </div>
+                <div class="box-content">
+                    <h4 class="box-title">{{ amountPaid | number : '1.2-2' }} €</h4>
+                    <p class="text" style="font-size: 12px;">Suma plătită</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">(lunar)</span></p>
+                </div>
+            </div>
+            <div class="single-contact-box mt-50 text-center">
+                <div class="box-icon">
+                    <i class="lni lni-euro"></i>
+                    <img src="assets/images/contact/shape.svg" alt="" class="shape">
+                </div>
+                <div class="box-content">
+                    <h4 class="box-title">{{ taxes | number : '1.2-2'}} €</h4>
+                    <p class="text" style="font-size: 12px;">Taxe</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">(lunar)</span></p>
+                </div>
+            </div>
+            <div class="single-contact-box mt-50 text-center">
+                <div class="box-icon">
+                    <i class="lni lni-alarm-clock"></i>
+                    <img src="assets/images/contact/shape.svg" alt="" class="shape">
+                </div>
+                <div class="box-content">
+                    <h4 class="box-title">{{ insurance | number : '1.2-2'}} €</h4>
+                    <p class="text" style="font-size: 12px;">Asigurare</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">(lunar)</span></p>
                 </div>
             </div>
         </div>
