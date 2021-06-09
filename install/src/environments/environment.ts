@@ -7,6 +7,7 @@ export const environment = {
   backend: 'http://localhost:9000', // Put your backend here
   assistantApp: 'http://localhost:4500',
   local: 'http://localhost:4200/main',
+  backendImmoReport: 'http://localhost:3100', // Put your backend here
 };
 
 /*

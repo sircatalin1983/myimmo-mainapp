@@ -5,12 +5,14 @@ import { DocumentsModule } from './pages/documents/documents.module';
 import { CalculatorsModule } from './pages/calculators/calculators.module';
 import { MainModule } from './pages/main/main.module';
 import { PricingModule } from './pages/pricing/pricing.module';
-import { ResourceModule } from './pages/_resources/resource.module';
 import { SolutionPersonalisedModule } from './pages/solution-personalised/solution-personalised.module';
 import { Solution1Module } from './pages/solution1/solution1.module';
 import { Solution2Module } from './pages/solution2/solution2.module';
 import { Solution3Module } from './pages/solution3/solution3.module';
 import { MyImmoHelpModule } from './pages/myimmo-help/myimmo-help.module';
+import { Calculator1Module } from './pages/calculator1/calculator1.module';
+import { Calculator2Module } from './pages/calculator2/calculator2.module';
+import { Calculator3Module } from './pages/calculator3/calculator3.module';
 
 const routes: Routes = [
   {
@@ -57,6 +59,21 @@ const routes: Routes = [
     path: 'calculators',
     component: LayoutComponent,
     loadChildren: () => CalculatorsModule
+  },
+  {
+    path: 'calculator1',
+    component: LayoutComponent,
+    loadChildren: () => Calculator1Module
+  },
+  {
+    path: 'calculator2',
+    component: LayoutComponent,
+    loadChildren: () => Calculator2Module
+  },
+  {
+    path: 'calculator3',
+    component: LayoutComponent,
+    loadChildren: () => Calculator3Module
   },
   {
     path: 'documents',
