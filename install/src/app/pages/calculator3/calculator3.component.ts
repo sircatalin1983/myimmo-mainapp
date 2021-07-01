@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { FormBuilder, FormGroup, FormArray, FormControl } from '@angular/forms';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-pricing',
@@ -20,6 +21,7 @@ export class Calculator3Component implements OnInit {
   constructor(
     public snackBar: MatSnackBar,
     private fb: FormBuilder,
+    public translate: TranslateService
   ) {
     this.monthlyRate = 0;
     this.moveInDate = new Date(Date.now());

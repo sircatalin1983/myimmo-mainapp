@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { LayoutComponent } from './layout.component';
-
+import { TranslateModule } from '@ngx-translate/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSelectModule } from '@angular/material/select';
@@ -24,6 +24,7 @@ import { MatIconModule } from '@angular/material/icon';
     MatMenuModule,
     MatIconModule,
     RouterModule,
+    TranslateModule
   ],
   declarations: [LayoutComponent]
 })

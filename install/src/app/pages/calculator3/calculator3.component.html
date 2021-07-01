@@ -11,9 +11,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10">
                 <div class="section-title text-center pb-10">
-                    <h3 i18n="@@sectionCalculatorsTitle" class="title">Calculator chirie partială</h3>
-                    <p i18n="@@sectionCalculatorsText" class="text">Calculator pentru calcularea diferenței între ziua
-                        mutării și data de 1 a următoarei luni</p>
+                    <h3 class="title">{{'CALCULATOR3.TITLE' | translate }}</h3>
+                    <p class="text">{{'CALCULATOR3.TEXT' | translate }}</p>
                 </div>
             </div>
         </div>
@@ -24,13 +23,13 @@
                     <div class="contact-wrapper form-style-two">
                         <div class="col-md-12">
                             <mat-form-field style="width: 100%">
-                                <mat-label i18n="@@formMonthlyRate">Rata lunară (€):</mat-label>
+                                <mat-label>{{'CALCULATOR3.MONTHLY_RENT' | translate }}</mat-label>
                                 <input type="text" formControlName="monthlyRate" matInput>
                             </mat-form-field>
                         </div>
                         <div class="col-md-12">
                             <mat-form-field style="width: 100%">
-                                <mat-label i18n="@@formLoanPeriod">Data mutării:</mat-label>
+                                <mat-label>{{'CALCULATOR3.MOVE_IN_DATE' | translate }}</mat-label>
                                 <input matInput formControlName="moveInDate" [matDatepicker]="picker_moveInDate">
                                 <mat-datepicker-toggle matSuffix [for]="picker_moveInDate"></mat-datepicker-toggle>
                                 <mat-datepicker #picker_moveInDate></mat-datepicker>
@@ -38,8 +37,8 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-input light-rounded-buttons mt-5 text-center">
-                                <button [disabled]="!formGroup.valid" class="main-btn light-rounded-two"
-                                    i18n="@@calculatorButton">Calculează</button>
+                                <button [disabled]="!formGroup.valid"
+                                    class="main-btn light-rounded-two">{{'CALCULATOR3.COMPUTE' | translate }}</button>
                             </div>
                         </div>
                     </div>
@@ -55,8 +54,10 @@
                 </div>
                 <div class="box-content">
                     <h4 class="box-title">{{ rentPerDay | number : '1.2-2' }} €</h4>
-                    <p class="text" style="font-size: 12px;">Chirie zilnică</p>
-                    <p style="text-align: center;"><span style="font-size: 13px;">(zilnic)</span></p>
+                    <p class="text" style="font-size: 12px;">{{'CALCULATOR3.DAILY_RENT' | translate
+                        }}</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">{{'CALCULATOR3.DAILY' |
+                            translate }}</span></p>
                 </div>
             </div>
             <div class="single-contact-box mt-50 text-center">
@@ -66,8 +67,9 @@
                 </div>
                 <div class="box-content">
                     <h4 class="box-title">{{ prorateDays | number : '1.0-0' }} </h4>
-                    <p class="text" style="font-size: 12px;">Zile</p>
-                    <p style="text-align: center;"><span style="font-size: 13px;">(Zile rămase în lună)</span></p>
+                    <p class="text" style="font-size: 12px;">{{'CALCULATOR3.DAYS' | translate }}Zile</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;"
+                            i18n="@@dailyMessage">{{'CALCULATOR3.DAILY_MESSAGE' | translate }}</span></p>
                 </div>
             </div>
             <div class="single-contact-box mt-50 text-center">
@@ -77,8 +79,11 @@
                 </div>
                 <div class="box-content">
                     <h4 class="box-title">{{ prorateRent | number : '1.2-2'}} €</h4>
-                    <p class="text" style="font-size: 12px;">Chirie partială</p>
-                    <p style="text-align: center;"><span style="font-size: 13px;">(Total)</span></p>
+                    <p class="text" style="font-size: 12px;">{{'CALCULATOR3.PARTIAL_RENT' |
+                        translate }}</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">{{'CALCULATOR3.TOTAL' | translate
+                            }}</span>
+                    </p>
                 </div>
             </div>
         </div>

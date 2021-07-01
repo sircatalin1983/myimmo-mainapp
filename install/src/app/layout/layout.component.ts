@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { environment } from 'src/environments/environment';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-layout',
@@ -9,21 +10,43 @@ import { environment } from 'src/environments/environment';
 })
 export class LayoutComponent implements OnInit, OnDestroy {
   public href: string = "";
-  
-  readonly defaultLang = 'ro';
-  languageList = [
-    { code: 'ro', label: 'Română' },
-    { code: 'en', label: 'English' }
-  ];
 
   constructor(
-    private route: ActivatedRoute,
-    private router: Router,
-  ) { }
+    public translate: TranslateService
+  ) {
+    var language = localStorage.getItem("language");
+    translate.use(language && language.match(/en|ro/) ? language : 'en');
+    localStorage.setItem("language", language.match(/en|ro/) ? language : 'en');
+  }
 
   ngOnInit(): void {
     this.href = environment.local;
   }
 
-  ngOnDestroy(): void { }
+  ngOnDestroy(): void {
+
+  }
+
+  onChangeLanguage(language) {
+    localStorage.setItem("language", language);
+    this.translate.use(language);
+  }
+
+  getLanguage(parameterInput) {
+    let returnLanguage = "Română";
+
+    switch (parameterInput) {
+      case "ro":
+        returnLanguage = "Română";
+        break;
+      case "en":
+        returnLanguage = "English";
+        break;
+      default:
+        returnLanguage = "Română";
+        break;
+    }
+
+    return returnLanguage;
+  }
 }

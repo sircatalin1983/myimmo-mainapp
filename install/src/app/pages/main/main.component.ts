@@ -4,6 +4,7 @@ import { ContactUs } from './../../shared/services/contact-us/contact-us';
 import { ContactUsService } from './../../shared/services/contact-us/contact-us.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { environment } from 'src/environments/environment';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-main',
@@ -18,9 +19,11 @@ export class MainComponent implements OnInit {
   constructor(
     public snackBar: MatSnackBar,
     public contactUsService: ContactUsService,
-    private route: ActivatedRoute,
-    private router: Router
-  ) { }
+    private router: Router,
+    public translate: TranslateService
+  ) {
+
+  }
 
   ngOnInit(): void {
     this.contactItem.subject = '';

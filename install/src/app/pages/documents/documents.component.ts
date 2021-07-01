@@ -3,6 +3,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { ReportService } from 'src/app/shared/services/report/report.service';
 import { Reports, ReportTypeEnum } from 'src/app/shared/util/reports';
 import { Utilities } from 'src/app/shared/util/utilities';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-pricing',
@@ -13,6 +14,7 @@ export class DocumentsComponent implements OnInit {
   constructor(
     public snackBar: MatSnackBar,
     private reportService: ReportService,
+    public translate: TranslateService
   ) { }
 
   ngOnInit(): void {

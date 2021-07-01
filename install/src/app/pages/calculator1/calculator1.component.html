@@ -11,9 +11,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10">
                 <div class="section-title text-center pb-10">
-                    <h3 i18n="@@sectionCalculatorsTitle" class="title">Calculator profitabilitate</h3>
-                    <p i18n="@@sectionCalculatorsText" class="text">Calculator pentru calcularea profitabilității unei
-                        proprietăți</p>
+                    <h3 class="title">{{'CALCULATOR1.TITLE' | translate }}</h3>
+                    <p class="text">{{'CALCULATOR1.TEXT' | translate }}</p>
                 </div>
             </div>
         </div>
@@ -24,32 +23,35 @@
                     <div class="contact-wrapper form-style-two">
                         <div class="col-md-12">
                             <mat-form-field style="width: 100%">
-                                <mat-label i18n="@@formPropertyPrice">Prețul proprietății (€):</mat-label>
+                                <mat-label>{{'CALCULATOR1.PROPERTY_PRICE' | translate
+                                    }}</mat-label>
                                 <input type="text" formControlName="propertyPrice" matInput>
                             </mat-form-field>
                         </div>
                         <div class="col-md-12">
                             <mat-form-field style="width: 100%">
-                                <mat-label i18n="@@formMonthlyRent">Chirie lunară (€):</mat-label>
+                                <mat-label>{{'CALCULATOR1.MONTHLY_RENT' | translate }}</mat-label>
                                 <input type="text" formControlName="montlyRent" matInput>
                             </mat-form-field>
                         </div>
                         <div class="col-md-12">
                             <mat-form-field style="width: 100%">
-                                <mat-label i18n="@@formYearlyExpenses">Cheltuieli anuale (€):</mat-label>
+                                <mat-label>{{'CALCULATOR1.YEARLY_EXPENSES' | translate
+                                    }}</mat-label>
                                 <input type="text" formControlName="anualExpenses" matInput>
                             </mat-form-field>
                         </div>
                         <div class="col-md-12">
                             <mat-form-field style="width: 100%">
-                                <mat-label i18n="@@formOccupationRate">Grad ocupare (%):</mat-label>
+                                <mat-label>{{'CALCULATOR1.OCCUPATION_RATE' | translate
+                                    }}</mat-label>
                                 <input type="text" formControlName="occupationRate" matInput>
                             </mat-form-field>
                         </div>
                         <div class="col-md-12">
                             <div class="form-input light-rounded-buttons mt-5 text-center">
                                 <button [disabled]="!formGroup.valid" class="main-btn light-rounded-two"
-                                    i18n="@@calculatorButton">Calculează</button>
+                                    i18n="@@calculatorButton">{{'CALCULATOR1.COMPUTE' | translate }}</button>
                             </div>
                         </div>
                     </div>
@@ -65,8 +67,10 @@
                 </div>
                 <div class="box-content">
                     <h4 class="box-title">{{ grossRentalYield | number : '1.2-2' }}%</h4>
-                    <p class="text" style="font-size: 16px;">Randament brut</p>
-                    <p style="text-align: center;"><span style="font-size: 13px;">(pe an)</span></p>
+                    <p class="text" style="font-size: 16px;">{{'CALCULATOR1.YIELD_GROSS' | translate }}
+                    </p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">{{'CALCULATOR1.YEARLY' | translate
+                            }}</span></p>
                 </div>
             </div>
             <div class="single-contact-box mt-50 text-center">
@@ -76,8 +80,9 @@
                 </div>
                 <div class="box-content">
                     <h4 class="box-title">{{ netRentalYield | number : '1.2-2' }}%</h4>
-                    <p class="text" style="font-size: 16px;">Randament net</p>
-                    <p style="text-align: center;"><span style="font-size: 13px;">(pe an)</span></p>
+                    <p class="text" style="font-size: 16px;">{{'CALCULATOR1.YIELD_NET' | translate }}</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">{{'CALCULATOR1.YEARLY' | translate
+                            }}</span></p>
                 </div>
             </div>
             <div class="single-contact-box mt-50 text-center">
@@ -87,8 +92,9 @@
                 </div>
                 <div class="box-content">
                     <h4 class="box-title">{{ cashflow | number : '1.2-2'}} €</h4>
-                    <p class="text" style="font-size: 12px;">Flux incasari</p>
-                    <p style="text-align: center;"><span style="font-size: 13px;">(pe an)</span></p>
+                    <p class="text" style="font-size: 12px;">{{'CALCULATOR1.FLOW_INCOME' | translate }}</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">{{'CALCULATOR1.YEARLY' | translate
+                            }}</span></p>
                 </div>
             </div>
             <div class="single-contact-box mt-50 text-center">
@@ -98,8 +104,9 @@
                 </div>
                 <div class="box-content">
                     <h4 class="box-title">{{ paybackPeriod | number : '1.2-2'}} ani</h4>
-                    <p class="text" style="font-size: 16px;">Perioada rambursare</p>
-                    <p style="text-align: center;"><span style="font-size: 13px;">(din investitie)</span></p>
+                    <p class="text" style="font-size: 16px;">{{'CALCULATOR1.PAYBACK_PERIOD' | translate }}</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">{{'CALCULATOR1.INVESTMENT' | translate
+                            }}</span></p>
                 </div>
             </div>
         </div>

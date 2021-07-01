@@ -11,9 +11,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10">
                 <div class="section-title text-center pb-10">
-                    <h3 i18n="@@sectionCalculatorsTitle" class="title">Calculator rată bancară</h3>
-                    <p i18n="@@sectionCalculatorsText" class="text">Calculator pentru calcularea ratelor bancare pentru
-                        o proprietate</p>
+                    <h3 class="title">{{'CALCULATOR2.TITLE' | translate }}</h3>
+                    <p class="text">{{'CALCULATOR2.TEXT' | translate }}</p>
                 </div>
             </div>
         </div>
@@ -24,38 +23,38 @@
                     <div class="contact-wrapper form-style-two">
                         <div class="col-md-12">
                             <mat-form-field style="width: 100%">
-                                <mat-label i18n="@@formLoanAmount">Suma împrumutată (€):</mat-label>
+                                <mat-label>{{'CALCULATOR2.LOAN_AMOUNT' | translate }}</mat-label>
                                 <input type="text" formControlName="loanAmount" matInput>
                             </mat-form-field>
                         </div>
                         <div class="col-md-12">
                             <mat-form-field style="width: 100%">
-                                <mat-label i18n="@@formLoanPeriod">Perioada creditului (ani):</mat-label>
+                                <mat-label>{{'CALCULATOR2.LOAN_PERIOD' | translate }}</mat-label>
                                 <input type="text" formControlName="loanPeriod" matInput>
                             </mat-form-field>
                         </div>
                         <div class="col-md-12">
                             <mat-form-field style="width: 100%">
-                                <mat-label i18n="@@formInterestRate">Dobândă anuală (%):</mat-label>
+                                <mat-label>{{'CALCULATOR2.INTEREST_RATE' | translate }}</mat-label>
                                 <input type="text" formControlName="interestRate" matInput>
                             </mat-form-field>
                         </div>
                         <div class="col-md-12">
                             <mat-form-field style="width: 100%">
-                                <mat-label i18n="@@formAnnualTaxes">Taxe anuale (€):</mat-label>
+                                <mat-label>{{'CALCULATOR2.ANNUAL_TAXES' | translate }}</mat-label>
                                 <input type="text" formControlName="annualTaxes" matInput>
                             </mat-form-field>
                         </div>
                         <div class="col-md-12">
                             <mat-form-field style="width: 100%">
-                                <mat-label i18n="@@formAnnualInsurance">Asigurări anuale (€):</mat-label>
+                                <mat-label>{{'CALCULATOR2.ANNUAL_INSURANCE' | translate }}</mat-label>
                                 <input type="text" formControlName="annualInsurance" matInput>
                             </mat-form-field>
                         </div>
                         <div class="col-md-12">
                             <div class="form-input light-rounded-buttons mt-5 text-center">
-                                <button [disabled]="!formGroup.valid" class="main-btn light-rounded-two"
-                                    i18n="@@calculatorButton">Calculează</button>
+                                <button [disabled]="!formGroup.valid"
+                                    class="main-btn light-rounded-two">{{'CALCULATOR2.COMPUTE' | translate }}</button>
                             </div>
                         </div>
                     </div>
@@ -71,8 +70,9 @@
                 </div>
                 <div class="box-content">
                     <h4 class="box-title">{{ totalPayment | number : '1.2-2' }} €</h4>
-                    <p class="text" style="font-size: 12px;">Total plată</p>
-                    <p style="text-align: center;"><span style="font-size: 13px;">(lunar)</span></p>
+                    <p class="text" style="font-size: 12px;">{{'CALCULATOR2.TOTAL_PAYMENT' | translate }}</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">{{'CALCULATOR2.MONTHLY' | translate
+                            }}</span></p>
                 </div>
             </div>
             <div class="single-contact-box mt-50 text-center">
@@ -82,8 +82,9 @@
                 </div>
                 <div class="box-content">
                     <h4 class="box-title">{{ amountPaid | number : '1.2-2' }} €</h4>
-                    <p class="text" style="font-size: 12px;">Suma plătită</p>
-                    <p style="text-align: center;"><span style="font-size: 13px;">(lunar)</span></p>
+                    <p class="text" style="font-size: 12px;">{{'CALCULATOR2.AMOUNT_PAID' | translate }}</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">{{'CALCULATOR2.MONTHLY' | translate
+                            }}</span></p>
                 </div>
             </div>
             <div class="single-contact-box mt-50 text-center">
@@ -93,8 +94,9 @@
                 </div>
                 <div class="box-content">
                     <h4 class="box-title">{{ taxes | number : '1.2-2'}} €</h4>
-                    <p class="text" style="font-size: 12px;">Taxe</p>
-                    <p style="text-align: center;"><span style="font-size: 13px;">(lunar)</span></p>
+                    <p class="text" style="font-size: 12px;">{{'CALCULATOR2.TAXES' | translate }}</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">{{'CALCULATOR2.MONTHLY' | translate
+                            }}</span></p>
                 </div>
             </div>
             <div class="single-contact-box mt-50 text-center">
@@ -104,8 +106,9 @@
                 </div>
                 <div class="box-content">
                     <h4 class="box-title">{{ insurance | number : '1.2-2'}} €</h4>
-                    <p class="text" style="font-size: 12px;">Asigurare</p>
-                    <p style="text-align: center;"><span style="font-size: 13px;">(lunar)</span></p>
+                    <p class="text" style="font-size: 12px;">{{'CALCULATOR2.INSURANCE' | translate }}</p>
+                    <p style="text-align: center;"><span style="font-size: 13px;">{{'CALCULATOR2.MONTHLY' | translate
+                            }}</span></p>
                 </div>
             </div>
         </div>

@@ -5,10 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from './layout/layout.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-//import { LayoutModule } from './layout/layout.module';
-
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSelectModule } from '@angular/material/select';
@@ -17,16 +14,22 @@ import { MatInputModule } from '@angular/material/input';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
+import { HttpClient } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    // Custom modules
-    FormsModule, 
+    FormsModule,
     ReactiveFormsModule,
-    
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
@@ -35,15 +38,21 @@ import { MatIconModule } from '@angular/material/icon';
     MatRadioModule,
     MatMenuModule,
     MatIconModule,
-
     AppRoutingModule,
     LayoutModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      },
+    })
   ],
   declarations: [
     AppComponent,
     //LayoutModule,
   ],
-  
+
   providers: [],
   bootstrap: [AppComponent]
 })
