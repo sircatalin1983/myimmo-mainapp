@@ -12,8 +12,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/images/logo.svg" alt="Logo">
+                    <a class="navbar-brand" href="./">
+                        <img src="assets/images/Logo-0.svg" alt="Logo">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo"
@@ -25,19 +25,24 @@
 
                     <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                         <ul class="navbar-nav m-auto">
-                            <li class="nav-item active"><a class="page-scroll" href="{{href}}#home"> {{
-                                    'LAYOUT.MENU_HOME' | translate }} </a></li>
-                            <li class="nav-item"><a class="page-scroll" href="{{href}}#services"> {{
+                            <li class="nav-item active">
+                                <a class="page-scroll" [routerLink]="['../main']" fragment="home"> {{
+                                    'LAYOUT.MENU_HOME' | translate }} </a>
+                            </li>
+                            <li class="nav-item"><a class="page-scroll" [routerLink]="['../main']" fragment="services">
+                                    {{
                                     'LAYOUT.MENU_SOLUTIONS' | translate }} </a></li>
                             <!-- <li class="nav-item"><a class="page-scroll" href="#portfolio">Portfolio</a></li> -->
-                            <li class="nav-item"><a class="page-scroll" href="{{href}}#pricing"> {{
+                            <li class="nav-item"><a class="page-scroll" [routerLink]="['../main']" fragment="pricing">
+                                    {{
                                     'LAYOUT.MENU_FINANCIAL_PLAN' | translate }} </a></li>
-                            <li class="nav-item"><a class="page-scroll" href="{{href}}#resources">{{
+                            <li class="nav-item"><a class="page-scroll" [routerLink]="['../main']"
+                                    fragment="resources">{{
                                     'LAYOUT.MENU_RESOURCES' | translate }}</a></li>
-                            <li class="nav-item"><a class="page-scroll" href="{{href}}#about">{{
+                            <li class="nav-item"><a class="page-scroll" [routerLink]="['../main']" fragment="about">{{
                                     'LAYOUT.MENU_ABOUT' | translate }}</a></li>
                             <!-- <li class="nav-item"><a class="page-scroll" href="#team">Team</a></li> -->
-                            <li class="nav-item"><a class="page-scroll" href="{{href}}#contact">{{
+                            <li class="nav-item"><a class="page-scroll" [routerLink]="['../main']" fragment="contact">{{
                                     'LAYOUT.MENU_CONTACT' | translate }}</a></li>
                         </ul>
                     </div>
@@ -80,7 +85,7 @@
 
 <!--====== BACK TOP TOP PART START ======-->
 
-<a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+<a routerLink="./" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
 
 <!--====== BACK TOP TOP PART ENDS ======-->
 
@@ -95,17 +100,17 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="footer-logo text-center">
-                    <a class="mt-30" href="index.html"><img src="assets/images/logo.svg" alt="Logo"></a>
+                    <a class="mt-30" href="./"><img src="assets/images/Logo-0.svg" alt="Logo"></a>
                 </div> <!-- footer logo -->
                 <ul class="social text-center mt-60">
                     <!-- <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>
                     <li><a href="https://twitter.com/uideckHQ"><i class="lni lni-twitter-original"></i></a></li>
                     <li><a href="https://instagram.com/uideckHQ"><i class="lni lni-instagram-original"></i></a></li>
                     <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li> -->
-                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                    <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                    <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
-                    <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
+                    <li><a routerLink="./"><i class="lni lni-facebook-filled"></i></a></li>
+                    <li><a routerLink="./"><i class="lni lni-twitter-original"></i></a></li>
+                    <li><a routerLink="./"><i class="lni lni-instagram-original"></i></a></li>
+                    <li><a routerLink="./"><i class="lni lni-linkedin-original"></i></a></li>
                 </ul> <!-- social -->
                 <div class="footer-support text-center">
                     <span class="number">+4 0743 366 266</span>

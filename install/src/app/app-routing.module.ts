@@ -92,10 +92,12 @@ const routes: Routes = [
     initialNavigation: 'enabled',
     preloadingStrategy: PreloadAllModules,
     scrollPositionRestoration: 'enabled',
-    anchorScrolling: 'enabled'
+    anchorScrolling: 'enabled',
+    //useHash: true
   })],
   exports: [RouterModule],
 })
 export class AppRoutingModule {
 
 }
+

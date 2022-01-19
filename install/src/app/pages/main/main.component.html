@@ -19,7 +19,7 @@
                                 <ul class="slider-btn rounded-buttons">
                                     <li>
                                         <a class="main-btn rounded-one"
-                                            href="http://mylb-868721875.eu-central-1.elb.amazonaws.com:2001"
+                                            routerLink="http://mylb-868721875.eu-central-1.elb.amazonaws.com:2001"
                                             target="_blank">MyImmo
                                             Assistant</a>
                                         <br />
@@ -29,7 +29,7 @@
                                         <br />
                                     </li>
                                     <li>
-                                        <a class="main-btn rounded-one" href="/solution-personalised">{{
+                                        <a class="main-btn rounded-one" routerLink="/solution-personalised">{{
                                             'HOME.MAIN_PERSONALIZED_OFFER' | translate }} </a>
                                     </li>
                                 </ul>
@@ -63,7 +63,7 @@
                                     </li>
                                     <li>
                                         <a i18n="@@mainPersonalizedOffer" class="slave-btn rounded-one"
-                                            href="/solution-personalised">{{
+                                            routerLink="/solution-personalised">{{
                                             'HOME.MAIN_PERSONALIZED_OFFER' | translate
                                             }}</a>
                                     </li>
@@ -94,7 +94,7 @@
                                         <br />
                                     </li>
                                     <li>
-                                        <a class="slave-btn rounded-one" href="/solution-personalised">{{
+                                        <a class="slave-btn rounded-one" routerLink="/solution-personalised">{{
                                             'HOME.MAIN_PERSONALIZED_OFFER' | translate
                                             }}</a>
                                     </li>
@@ -125,7 +125,7 @@
                                         <br />
                                     </li>
                                     <li>
-                                        <a class="slave-btn rounded-one" href="/solution-personalised">{{
+                                        <a class="slave-btn rounded-one" routerLink="/solution-personalised">{{
                                             'HOME.MAIN_PERSONALIZED_OFFER' | translate
                                             }}</a>
                                     </li>
@@ -165,19 +165,19 @@
             <div class="col-lg-4 col-md-7 col-sm-9 mt-40">
                 <div class="single-features">
                     <div class="features-title-icon d-flex justify-content-between">
-                        <h4 i18n="@@featureAutomateOperationsTitle" class="features-title"><a href="#">
+                        <h4 class="features-title"><a routerLink="/solution1">
                                 {{ 'HOME.FEATURE_AUTOMATE_OPERATIONS_TITLE' | translate }}
                             </a></h4>
                         <div class="features-icon">
                             <i class="lni lni-island"></i>
-                            <img class="shape" src="assets/images/f-shape-1.svg" alt="Shape">
+                            <img class="shape" src="assets/images/Shape-1.svg" alt="Shape">
                         </div>
                     </div>
                     <div class="features-content">
-                        <p i18n="@@featureAutomateOperationsText" class="text">
+                        <p class="text">
                             {{ 'HOME.FEATURE_AUTOMATE_OPERATIONS_TEXT' | translate }}
                         </p>
-                        <a i18n="@@featureWantDetails" class="features-btn" href="/solution1">{{
+                        <a class="features-btn" routerLink="/solution1">{{
                             'HOME.FEATURE_WANT_DETAILS' | translate }}</a>
                     </div>
                 </div>
@@ -185,18 +185,18 @@
             <div class="col-lg-4 col-md-7 col-sm-9 mt-40">
                 <div class="single-features">
                     <div class="features-title-icon d-flex justify-content-between">
-                        <h4 i18n="@@featureCollectPaymentsOnlineTitle" class="features-title"><a href="#">
+                        <h4 i18n="@@featureCollectPaymentsOnlineTitle" class="features-title"><a routerLink="/solution2">
                                 {{ 'HOME.FEATURE_COLLECT_PAYMENTS_ONLINE_TITLE' | translate }}
                             </a></h4>
                         <div class="features-icon">
                             <i class="lni lni-layout"></i>
-                            <img class="shape" src="assets/images/f-shape-1.svg" alt="Shape">
+                            <img class="shape" src="assets/images/Shape-1.svg" alt="Shape">
                         </div>
                     </div>
                     <div class="features-content">
                         <p i18n="@@featureCollectPaymentsOnlineText" class="text"> {{
                             'HOME.FEATURE_COLLECT_PAYMENTS_ONLINE_TEXT' | translate }}</p>
-                        <a i18n="@@featureWantDetails" class="features-btn" href="/solution2"> {{
+                        <a class="features-btn" routerLink="/solution2"> {{
                             'HOME.FEATURE_WANT_DETAILS' | translate }}</a>
                     </div>
                 </div>
@@ -204,17 +204,19 @@
             <div class="col-lg-4 col-md-7 col-sm-9 mt-40">
                 <div class="single-features">
                     <div class="features-title-icon d-flex justify-content-between">
-                        <h4 i18n="@@featureProfessionalReportTitle" class="features-title"><a href="#"> {{
-                                'HOME.FEATURE_PROFESSIONAL_REPORT_TITLE' | translate }}</a></h4>
+                        <h4 i18n="@@featureProfessionalReportTitle" class="features-title">
+                            <a routerLink="/solution3"> {{
+                                'HOME.FEATURE_PROFESSIONAL_REPORT_TITLE' | translate }}</a>
+                        </h4>
                         <div class="features-icon">
                             <i class="lni lni-write"></i>
-                            <img class="shape" src="assets/images/f-shape-1.svg" alt="Shape">
+                            <img class="shape" src="assets/images/Shape-1.svg" alt="Shape">
                         </div>
                     </div>
                     <div class="features-content">
                         <p i18n="@@featureProfessionalReportText" class="text"> {{
                             'HOME.FEATURE_PROFESSIONAL_REPORT_TEXT' | translate }}</p>
-                        <a i18n="@@featureWantDetails" class="features-btn" href="/solution3"> {{
+                        <a i18n="@@featureWantDetails" class="features-btn" routerLink="/solution3"> {{
                             'HOME.FEATURE_WANT_DETAILS' | translate }}</a>
                     </div>
                 </div>
@@ -238,7 +240,7 @@
             <div class="col-lg-4 col-md-7 col-sm-9 mt-30">
                 <div class="pricing-style">
                     <div class="pricing-icon text-center">
-                        <img src="assets/images/basic.svg" alt="">
+                        <img src="assets/images/Icon-Basic.svg" alt="">
                     </div>
                     <div class="pricing-header text-center">
                         <h5 i18n="@@startPlanText" class="sub-title"> {{ 'HOME.START' |
@@ -267,7 +269,7 @@
                     </div>
                     <div class="mb-5">&nbsp;</div>
                     <div class="pricing-btn rounded-buttons text-center">
-                        <a i18n="@@startText" class="main-btn rounded-one" href="/pricing"> {{
+                        <a i18n="@@startText" class="main-btn rounded-one" routerLink="/pricing"> {{
                             'HOME.START' | translate }}</a>
                     </div>
                 </div> <!-- pricing style one -->
@@ -276,7 +278,7 @@
             <div class="col-lg-4 col-md-7 col-sm-9 mt-30">
                 <div class="pricing-style">
                     <div class="pricing-icon text-center">
-                        <img src="assets/images/pro.svg" alt="">
+                        <img src="assets/images/Icon-Pro.svg" alt="">
                     </div>
                     <div class="pricing-header text-center">
                         <h5 i18n="@@smartPlanText" class="sub-title"> {{ 'HOME.SMART' |
@@ -307,7 +309,7 @@
                     </div>
                     <div class="mb-5">&nbsp;</div>
                     <div class="pricing-btn rounded-buttons text-center">
-                        <a i18n="@@startText" class="main-btn rounded-one" href="/pricing"> {{
+                        <a i18n="@@startText" class="main-btn rounded-one" routerLink="/pricing"> {{
                             'HOME.SMART' | translate }}</a>
                     </div>
                 </div>
@@ -316,7 +318,7 @@
             <div class="col-lg-4 col-md-7 col-sm-9 mt-30">
                 <div class="pricing-style">
                     <div class="pricing-icon text-center">
-                        <img src="assets/images/enterprise.svg" alt="">
+                        <img src="assets/images/Icon-Enterprise.svg" alt="">
                     </div>
                     <div class="pricing-header text-center">
                         <h5 i18n="@@scalePlanText" class="sub-title"> {{ 'HOME.SCALE' |
@@ -350,7 +352,8 @@
                     </div>
                     <div class="mb-5">&nbsp;</div>
                     <div class="pricing-btn rounded-buttons text-center">
-                        <a i18n="@@startText" class="main-btn rounded-one" href="/pricing"> {{ 'HOME.SCALE' | translate
+                        <a i18n="@@startText" class="main-btn rounded-one" routerLink="/pricing"> {{ 'HOME.SCALE' |
+                            translate
                             }}</a>
                     </div>
                 </div>
@@ -378,11 +381,13 @@
                         <img src="assets/images/card/card-1.jpg" alt="Image">
                     </div>
                     <div class="card-content">
-                        <h4 i18n="@@featureHelpTitle" class="card-title"><a href="#"> {{ 'HOME.FEATURE_HELP_TITLE' |
+                        <h4 i18n="@@featureHelpTitle" class="card-title"><a routerLink="#"> {{ 'HOME.FEATURE_HELP_TITLE'
+                                |
                                 translate }}</a></h4>
                         <p i18n="@@featureHelpText" class="text"> {{ 'HOME.FEATURE_HELP_TEXT' | translate }}</p>
                         <div class="card-btn rounded-buttons">
-                            <a i18n="@@hereText" class="main-btn rounded-three" href="/help"> {{ 'HOME.HERE' | translate
+                            <a i18n="@@hereText" class="main-btn rounded-three" routerLink="/help"> {{ 'HOME.HERE' |
+                                translate
                                 }}</a>
                         </div>
                     </div>
@@ -452,13 +457,13 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="card-content">
-                                <h4 i18n="@@featureDocumentsTitle" class="card-title"><a href="#"> {{
+                                <h4 i18n="@@featureDocumentsTitle" class="card-title"><a routerLink="#"> {{
                                         'HOME.FEATURE_DOCUMENTS_TITLE' | translate }}</a></h4>
                                 <p i18n="@@featureDocumentsText" class="text"> {{
                                     'HOME.FEATURE_DOCUMENTS_TEXT' | translate }}
                                 </p>
                                 <div class="card-btn rounded-buttons">
-                                    <a i18n="@@hereText" class="main-btn rounded-three" href="/documents"> {{
+                                    <a i18n="@@hereText" class="main-btn rounded-three" routerLink="/documents"> {{
                                         'HOME.HERE' | translate }}</a>
                                 </div>
                             </div>
@@ -474,11 +479,12 @@
                         </div>
                         <div class="col-sm-6 order-md-first">
                             <div class="card-content">
-                                <h4 class="card-title"><a href="#"> {{ 'HOME.FEATURE_CALCULATORS_TITLE' | translate
+                                <h4 class="card-title"><a routerLink="#"> {{ 'HOME.FEATURE_CALCULATORS_TITLE' |
+                                        translate
                                         }}</a></h4>
                                 <p class="text"> {{ 'HOME.FEATURE_CALCULATORS_TEXT' | translate }}</p>
                                 <div class="card-btn rounded-buttons">
-                                    <a i18n="@@hereText" class="main-btn rounded-one" href="/calculators"> {{
+                                    <a i18n="@@hereText" class="main-btn rounded-one" routerLink="/calculators"> {{
                                         'HOME.HERE' | translate }}</a>
                                 </div>
                             </div>
@@ -504,7 +510,7 @@
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">
-                                <a i18n="@@featureQuestion1Title" href="#" data-toggle="collapse"
+                                <a i18n="@@featureQuestion1Title" routerLink="#" data-toggle="collapse"
                                     data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> {{
                                     'HOME.FEATURE_QUESTION1_TITLE' | translate }}</a>
                             </div>
@@ -518,8 +524,9 @@
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo">
-                                <a i18n="@@featureQuestion2Title" href="#" class="collapsed" data-toggle="collapse"
-                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> {{
+                                <a i18n="@@featureQuestion2Title" routerLink="#" class="collapsed"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo"> {{
                                     'HOME.FEATURE_QUESTION2_TITLE' | translate }}</a>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
@@ -532,8 +539,9 @@
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingThree">
-                                <a i18n="@@featureQuestion3Title" href="#" class="collapsed" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> {{
+                                <a i18n="@@featureQuestion3Title" routerLink="#" class="collapsed"
+                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree"> {{
                                     'HOME.FEATURE_QUESTION3_TITLE' | translate }}</a>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
@@ -546,8 +554,9 @@
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFore">
-                                <a i18n="@@featureQuestion4Title" href="#" class="collapsed" data-toggle="collapse"
-                                    data-target="#collapseFore" aria-expanded="false" aria-controls="collapseFore"> {{
+                                <a i18n="@@featureQuestion4Title" routerLink="#" class="collapsed"
+                                    data-toggle="collapse" data-target="#collapseFore" aria-expanded="false"
+                                    aria-controls="collapseFore"> {{
                                     'HOME.FEATURE_QUESTION4_TITLE' | translate }}</a>
                             </div>
                             <div id="collapseFore" class="collapse" aria-labelledby="headingFore"
@@ -561,8 +570,9 @@
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFive">
-                                <a i18n="@@featureQuestion5Title" href="#" class="collapsed" data-toggle="collapse"
-                                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> {{
+                                <a i18n="@@featureQuestion5Title" routerLink="#" class="collapsed"
+                                    data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                    aria-controls="collapseFive"> {{
                                     'HOME.FEATURE_QUESTION5_TITLE' | translate }}</a>
                             </div>
                             <div id="collapseFive" class="collapse" aria-labelledby="headingFive"

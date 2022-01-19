@@ -41,6 +41,7 @@
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
     "@babel/node": "^7.13.10",
+    "@jefiozie/ngx-aws-deploy": "^4.0.0",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",

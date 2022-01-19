@@ -239,7 +239,7 @@ export class Reports {
         return subrentingData;
     }
 
-    static getDataEndRentingContract(contract, property, roleOnContractItems) {
+    static getDataEndRentingContract(contract, property) {
         let subrentingData; subrentingData = new Object();
         return subrentingData;
     }

@@ -35,6 +35,10 @@
     height: 100%;
 }
 
+.features-title {
+    cursor: pointer;
+}
+
 .features-title-icon {
     padding: 25px 10px 15px 10px;
     position: relative;
@@ -48,4 +52,5 @@
     left: 30px;
     bottom: -30px;
     position: absolute;
+    cursor: pointer;
 }

@@ -39,7 +39,7 @@
             ],
             "scripts": []
           },
-          "configurations": {           
+          "configurations": {
             "production": {
               "fileReplacements": [
                 {
@@ -164,6 +164,9 @@
               "devServerTarget": "myimmo-mainapp:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@jefiozie/ngx-aws-deploy:deploy"
         }
       }
     }

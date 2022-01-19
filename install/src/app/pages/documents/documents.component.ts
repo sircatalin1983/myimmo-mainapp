@@ -32,6 +32,10 @@ export class DocumentsComponent implements OnInit {
     this.generateReport(ReportTypeEnum.ReportType_SubRentingContract, Reports.getDataSubrentingContract(null, null, null));
   }
 
+  generateRequestEndContractBeforeEndOfTerm() {
+    this.generateReport(ReportTypeEnum.ReportType_End_RentingContract, Reports.getDataEndRentingContract(null, null));
+  }
+
   private generateReport(reportType: ReportTypeEnum, dataType) {
     this.reportService.getPDFFile(reportType, dataType).subscribe(
       param => {

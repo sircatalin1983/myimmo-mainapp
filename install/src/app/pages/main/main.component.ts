@@ -13,7 +13,6 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class MainComponent implements OnInit {
   public contactItem: ContactUs = new ContactUs();
-  public href: string = "";
   public assistantHref: string = "";
 
   constructor(
@@ -31,7 +30,6 @@ export class MainComponent implements OnInit {
     this.contactItem.email = '';
     this.contactItem.telephone = '';
 
-    this.href = this.router.url;
     this.assistantHref = environment.assistantApp;
   }
 

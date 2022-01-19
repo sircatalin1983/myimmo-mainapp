@@ -9,8 +9,6 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./layout.component.scss']
 })
 export class LayoutComponent implements OnInit, OnDestroy {
-  public href: string = "";
-
   constructor(
     public translate: TranslateService
   ) {
@@ -20,7 +18,6 @@ export class LayoutComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.href = environment.local;
   }
 
   ngOnDestroy(): void {
