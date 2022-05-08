@@ -49,6 +49,17 @@ export class Calculator2Component implements OnInit {
     });
   }
 
+   pmt(ir:number,np:number, pv:number, fv:number = 0){ 
+    // ir: interest rate
+    // np: number of payment
+    // pv: present value or loan amount
+    // fv: future value. default is 0
+   
+    var presentValueInterstFector = Math.pow((1 + ir), np);
+    var pmt = ir * pv  * (presentValueInterstFector + fv)/(presentValueInterstFector-1); 
+    return pmt;
+   }
+
   calculate() {
     this.loanAmount = this.formGroup.value['loanAmount'];
     this.loanPeriod = this.formGroup.value['loanPeriod'];
@@ -56,9 +67,10 @@ export class Calculator2Component implements OnInit {
     this.annualTaxes = this.formGroup.value['annualTaxes'];
     this.annualInsurance = this.formGroup.value['annualInsurance'];
 
-    this.totalPayment = (this.loanAmount * 2) / (this.loanPeriod * 12);
-    this.amountPaid = (this.loanAmount * 2) / (this.loanPeriod * 12);
     this.taxes = this.annualTaxes / 12;
     this.insurance = this.annualInsurance / 12;
+
+    this.amountPaid = this.pmt(this.interestRate/100/12, this.loanPeriod*12, this.loanAmount, 0);
+    this.totalPayment = (this.amountPaid + this.taxes + this.insurance) * this.loanPeriod * 12;
   }
 }
