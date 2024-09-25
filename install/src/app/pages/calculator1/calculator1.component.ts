@@ -38,10 +38,10 @@ export class Calculator1Component implements OnInit {
 
   ngOnInit(): void {
     this.formGroup = this.fb.group({
-      propertyPrice: [55000,],
-      montlyRent: [350,],
+      propertyPrice: [120000,],
+      montlyRent: [500,],
       anualExpenses: [1000,],
-      occupationRate: [90,],
+      occupationRate: [100,],
     });
   }
 
@@ -53,9 +53,11 @@ export class Calculator1Component implements OnInit {
 
     let yearlyVacancyRateLossPercent = ((100 - this.occupationRate) / 100);
 
-    this.grossRentalYield = ((this.propertyPrice) / (this.montlyRent * 12));
-    this.netRentalYield = this.grossRentalYield - this.anualExpenses;
-    this.cashflow = (this.netRentalYield / 100) * (this.montlyRent * 12);
-    this.paybackPeriod = (this.propertyPrice) / (this.montlyRent * 12);
+    this.grossRentalYield = ((this.montlyRent * 12) / this.propertyPrice) * 100;
+    this.netRentalYield = (((this.montlyRent * 12) - this.anualExpenses) / this.propertyPrice) * 100;
+    let adjustedAnnualRent = this.montlyRent * 12 * (this.occupationRate / 100);
+    this.cashflow = adjustedAnnualRent - this.anualExpenses;
+    this.paybackPeriod = this.propertyPrice / this.cashflow;
+
   }
 }

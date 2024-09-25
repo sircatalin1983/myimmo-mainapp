@@ -3,6 +3,8 @@ export enum ReportTypeEnum {
     ReportType_RentingContract = "RentingContract",
     ReportType_SubRentingContract = "SubRentingContract",
     ReportType_End_RentingContract = "EndRentingContract",
+    ReportType_BeneficiarRealContract = "BeneficiarRealContract",
+    ReportType_AcordGDPR = "AcordGDPR",
 }
 
 export class Reports {
@@ -240,6 +242,16 @@ export class Reports {
     }
 
     static getDataEndRentingContract(contract, property) {
+        let subrentingData; subrentingData = new Object();
+        return subrentingData;
+    }
+
+    static getDataBeneficiarRealContract(contract, property, owners, renters, organisation, recordItem) {
+        let subrentingData; subrentingData = new Object();
+        return subrentingData;
+    }
+
+    static getDataAcordGDPR(contract, property, owners, renters, organisation, recordItem) {
         let subrentingData; subrentingData = new Object();
         return subrentingData;
     }

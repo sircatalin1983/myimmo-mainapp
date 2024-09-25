@@ -36,6 +36,15 @@ export class DocumentsComponent implements OnInit {
     this.generateReport(ReportTypeEnum.ReportType_End_RentingContract, Reports.getDataEndRentingContract(null, null));
   }
 
+  generateDataBeneficiarRealContract() {
+    this.generateReport(ReportTypeEnum.ReportType_End_RentingContract, Reports.getDataBeneficiarRealContract(null, null, null, null, null, null));
+  }
+
+  generateAcordGDPR() {
+    this.generateReport(ReportTypeEnum.ReportType_End_RentingContract, Reports.getDataAcordGDPR(null, null, null, null, null, null));
+  }
+
+
   private generateReport(reportType: ReportTypeEnum, dataType) {
     this.reportService.getPDFFile(reportType, dataType).subscribe(
       param => {
