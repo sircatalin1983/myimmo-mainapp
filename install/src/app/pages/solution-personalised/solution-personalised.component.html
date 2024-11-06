@@ -1,54 +1,81 @@
 <!--====== SLIDER PART START ======-->
+<!-- https://ayroui.com/ -->
+
 <section id="home" class="slider_area">
     <div id="carouselThree" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
+
+
+        </ol>
         <div class="carousel-inner">
+
             <div class="carousel-item active">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
+                    <div class="row flex-container">
+                        <div class="col-lg-7">
                             <div class="slider-content">
                                 <h1 i18n="@@sectionPersSolutionTitle" class="title">{{'PERSONALIZED_SOLUTION.TITLE' |
                                     translate }}</h1>
-                                <p i18n="@@sectionPersSolutionSubtitle" class="text white">
-                                    {{'PERSONALIZED_SOLUTION.SUBTITLE' | translate }}</p>
                                 <p i18n="@@sectionPersSolutionText" class="text white">{{'PERSONALIZED_SOLUTION.TEXT' |
                                     translate }}
                                 </p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a i18n="@@sectionPersSolutionContactButtonText" class="main-btn rounded-one"
-                                            href="/solution-personalised/#contact">{{'PERSONALIZED_SOLUTION.CONTACT' |
-                                            translate }}</a></li>
+                                    <li><a class="main-btn rounded-one"
+                                            href="https://myimmo-frontend.itwiththebest.com/" target="_blank">MyImmo
+                                            Assistant</a>
+                                        <br />
+                                        <span i18n="@@mainSubtitleAdditionalText" class="small-text">{{
+                                            'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate }}
+                                        </span>
+                                        <br />
+                                    </li>
+                                    <li>
+                                        <a i18n="@@mainPersonalizedOffer" class="slave-btn rounded-one"
+                                            routerLink="/solution-personalised">{{
+                                            'HOME.MAIN_PERSONALIZED_OFFER' | translate
+                                            }}</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-5">
                             <div class="slider-image">
-                                <img src="assets/images/marketing/Enterprise-Features.svg" alt="Hero">
+                                <img src="assets/images/slider/2.png" alt="Hero">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
+
+        <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
+            <i class="lni lni-arrow-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#carouselThree" role="button" data-slide="next">
+            <i class="lni lni-arrow-right"></i>
+        </a>
     </div>
 </section>
 
-<section class="white-area">
+<section class="features-area white-area">
     <div class="container">
         <div class="row compare-area-table justify-content-center">
             <div class="row justify-content-center">
+
                 <div class="col-lg-5 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="justify-content-between">
                             <div class="icon center">
                                 <img src="assets/images/marketing/S-Personalized-Cloud.svg" alt="Shape">
                             </div>
-                            <h4 i18n="@@featurePublicCloudTitle" class="features-title center ">
-                                {{'PERSONALIZED_SOLUTION.SOLUTION1_TITLE' | translate }}</h4>
+                            <h4 i18n="@@featurePublicCloudTitle" class="features-title center mt-4">
+                               {{'PERSONALIZED_SOLUTION.SOLUTION1_TITLE' | translate }}</h4>
                         </div>
                         <div class="features-content">
-                            <p i18n="@@featurePublicCloudText" class="text grey">
-                                {{'PERSONALIZED_SOLUTION.SOLUTION1_SUBTITLE' | translate }}
+                            <p class="tooltip-text-content">
+                                <span> {{'PERSONALIZED_SOLUTION.SOLUTION1_SUBTITLE' | translate }}</span>
                             </p>
                         </div>
                     </div>
@@ -60,51 +87,54 @@
                             <div class="icon center">
                                 <img src="assets/images/marketing/S-Personalized-WhiteLabel-Logo.svg" alt="Shape">
                             </div>
-                            <h4 i18n="@@featureWhitelabelTitle" class="features-title center ">
+                            <h4 i18n="@@featureWhitelabelTitle" class="features-title center mt-4">
                                 {{'PERSONALIZED_SOLUTION.SOLUTION2_TITLE' | translate }}</h4>
                         </div>
                         <div class="features-content">
-                            <p i18n="@@featureWhitelabelText" class="text grey">
+                            <p class="tooltip-text-content">
                                 {{'PERSONALIZED_SOLUTION.SOLUTION2_SUBTITLE' | translate }}
                             </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-5 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="justify-content-between">
                             <div class="icon center">
                                 <img src="assets/images/marketing/S-Personalized-Db-Cloud.svg" alt="Shape">
                             </div>
-                            <h4 i18n="@@featurePrivateCloudTitle" class="features-title center">
+                            <h4 i18n="@@featurePrivateCloudTitle" class="features-title center mt-4">
                                 {{'PERSONALIZED_SOLUTION.SOLUTION3_TITLE' | translate }}</h4>
                         </div>
                         <div class="features-content">
-                            <p i18n="@@featurePrivateCloudText" class="text grey">
+                            <p class="tooltip-text-content">
                                 {{'PERSONALIZED_SOLUTION.SOLUTION3_SUBTITLE' | translate }}
                             </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-5 col-md-7 col-sm-9">
                     <div class="single-features mt-40">
                         <div class="justify-content-between">
                             <div class="icon center">
                                 <img src="assets/images/marketing/S-Personalized-Db.svg" alt="Shape">
                             </div>
-                            <h4 i18n="@@featureDatacenterTitle" class="features-title center">
+                            <h4 i18n="@@featureDatacenterTitle" class="features-title center mt-4">
                                 {{'PERSONALIZED_SOLUTION.SOLUTION4_TITLE' | translate }}</h4>
                         </div>
                         <div class="features-content">
-                            <p i18n="@@featureDatacenterText" class="text grey">
+                            <p class="tooltip-text-content">
                                 {{'PERSONALIZED_SOLUTION.SOLUTION4_SUBTITLE' | translate }}
                             </p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
-        <div class="section-footer">
+        <div class="section-footer center mt-40">
             <ul class="slider-btn rounded-buttons">
                 <li><a i18n="@@featureButtonDetailsText" class="main-btn rounded-one"
                         href="/solution-personalised/#contact"> {{'PERSONALIZED_SOLUTION.WANT_DETAILS' | translate
@@ -169,7 +199,7 @@
                             </div>
                         </div>
                         <p class="form-message"></p>
-                        <div class="col-md-12">
+                        <div class="col-md-12 right">
                             <div class="form-input light-rounded-buttons mt-30">
                                 <button i18n="@@featureButtonRequestOfferText" class="main-btn light-rounded-two"
                                     (click)="send()">{{'PERSONALIZED_SOLUTION.ASK_OFFER' | translate }}</button>

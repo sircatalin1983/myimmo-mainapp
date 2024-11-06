@@ -1,3 +1,5 @@
+
+
 export class ContactUs {
     id: number;
     date: Date;
@@ -6,6 +8,8 @@ export class ContactUs {
     email: string;
     telephone: string;
 }
+
+
 
 
 

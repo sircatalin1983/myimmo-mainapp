@@ -2,30 +2,75 @@
     align-self: center;
 }
 
-.slider-content {
-    padding-top: 150px;
-    padding-bottom: 50px;
+.single-features {
+    padding: 0 0 0 0;
+    height: 100%;
 }
 
-.slider-image {    
-    width: 100%;
+.features-title-icon {
+    padding: 25px 10px 15px 10px;
     position: relative;
-    img {        
-        top: 100px;
-        position: absolute;
-    };
 }
 
-.circle {
-    font-size: 15px;
-    line-height: 0;
+.features-content {
+    padding: 25px 10px 0px 10px;
+}
+
+.features-btn {
+    left: 30px;
+    bottom: -30px;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    display: block;
+}
+
+.pricing-style {
+    padding: 0 0 0 0;
+    height: 100%;
+}
+
+.pricing-list {
+    padding: 0px 10px 0px 10px;
+    text-align: left;
+}
+
+.small-text {
+    color: #fff;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.slave-btn {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: 0 32px;
+    font-size: 16px;
+    line-height: 46px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    z-index: 5;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+@media (max-width: 767px) {
+    .slave-btn {
+        font-size: 14px;
+        padding: 0 20px;
+        line-height: 40px;
+    }
 }
 
 .white-area {
@@ -40,15 +85,299 @@
     padding-bottom: 80px;
 }
 
-.features-title {
-    font-family: "Lato",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 40px;
+.pricing-style {
+    height: 100%;
+
+    .pricing-list {
+        padding: 0px 10px 50px 10px;
+        text-align: center;
+
+        .item-list {
+            display: inline-block;
+            text-align: left;
+
+            .item {
+                padding: 0px 5px 0px 5px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .pricing-btn {
+        width: 100%;
+        bottom: 10px;
+        position: absolute;
+        text-align: center;
+    }
+}
+
+.slider-content {
+    padding-top: 140px;
+}
+
+.slider-image {
+    padding-top: 0px;
+}
+
+i,
+span,
+a {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.single-card {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 16%);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.single-card .card-content {
+    padding: 16px;
+}
+
+.single-card .card-content .card-title {
+    margin-bottom: 0;
+}
+
+.single-card .card-content .card-title a {
+    font-size: 24px;
+    line-height: 30px;
+    color: #121212;
+    transition: all .3s ease-out 0s;
+}
+
+.single-card .card-content .text {
+    color: #121212;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.rounded-buttons .rounded-one {
+    border-color: #0067f4;
+}
+
+.rounded-buttons .rounded-three {
+    overflow: hidden;
+    background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+    background-size: 200% auto;
+    color: #fff;
+    border: 0;
+}
+
+.rounded-buttons .main-btn {
+    border-radius: 50px;
+}
+
+h4 {
+    line-height: 1.2;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 22px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    color: #121212;
+    margin: 0;
+}
+
+.card-style-three .card-content {
+    background-color: #0067f4;
+}
+
+.card-style-three .card-content .card-title a {
+    color: #fff;
+}
+
+.card-style-three .card-content .text {
+    color: #fff;
+}
+
+.card-style-six {
+    background: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+}
+
+.card-style-six .card-content .card-title a {
+    color: #fff;
+}
+
+.card-style-six .card-content .text {
+    color: #fff;
+}
+
+.card-style-five .card-content .card-icon {
+    position: absolute;
+    top: -20px;
+    right: 8px;
+}
+
+.card-style-five .card-content .card-icon:hover i {
+    background-color: #fff;
+    color: #0067f4;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 16%);
+}
+
+.card-style-five .card-content .card-icon i {
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #0067f4;
+    border-radius: 50%;
+    font-size: 24px;
+    transition: all .3s ease-out 0s;
+}
+
+.lni {
+    display: inline-block;
+    font: normal normal normal 1em/1 'LineIcons';
+    speak: none;
     text-transform: none;
-    letter-spacing: 0;
-    line-height: 50px;
-    color: rgba(33,43,54,1);   
+    -webkit-font-smoothing: antialiased;
+}
+
+.card-style-saven {
+    background: linear-gradient(90deg, #9166fe 0%, #c97aed 100%);
+}
+
+.card-style-saven .card-content .card-title a {
+    color: #fff;
+}
+
+.card-style-saven .card-content .text {
+    color: #fff;
+}
+
+.card-btn {
+    margin-top: 24px;
+}
+
+.card-style-saven .card-content .card-btn .main-btn {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.card-btn .main-btn {
+    line-height: 48px;
+}
+
+.rounded-buttons .main-btn {
+    border-radius: 50px;
+}
+
+.faq-content {
+    width: 100%;
+}
+
+.slider-content .title {
+    font-size: 58px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.white {
+    color: #fff;
+}
+
+.grey {
+    color: rgba(62, 78, 87, 1);
+}
+
+.vertical-align-content {
+    margin: auto;
+    width: 100%;
+    // border: 3px solid green;
+    //padding: 10px;
+}
+
+.features-image {
+    text-align: right;
+
+    img {
+        max-width: 100%;
+    }
+
+    ;
+}
+
+.icon {
+    background-color: #ffffff;
+    color: #ffffff;
+    border-color: #0067f4;
+    border-width: 6px;
+    border-radius: 50%;
+
+    img {
+        width: 150px;
+        height: 150px;
+    };
+}
+
+.slider-content .title {
+    font-size: 58px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.tooltip-text-content {
+    display: block;
+    /* Adjust as needed */
+    font-size: 1em;
+    line-height: 1.5em;
+    /* Line height to control the spacing */
+    max-height: 3em;
+    /* Limit to two lines (2 * line-height) */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Create ellipsis effect for multi-line */
+.tooltip-text-content::after {
+    content: '[...]';
+    /* Adds ellipsis */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    /* Matches background to hide overflow */
+    padding-left: 5px;
+}
+
+/* Expand the text on hover */
+.tooltip-text-content:hover {
+    max-height: none;
+    /* Allows full height on hover */
+    white-space: normal;
+    /* Enables wrapping */
+}
+
+.tooltip-text-content:hover::after {
+    content: '';
+    /* Removes ellipsis on hover */
+}
+
+.text.grey ul {
+    margin: 0;
+    /* Adjust margins if necessary */
+    padding-left: 20px;
+    /* Default padding for list indentation */
+}
+
+.text.grey ul li {
+    color: #999;
+    /* Ensure it matches the grey text color */
 }
 
 .center {
@@ -63,64 +392,44 @@
     text-align: right;
 }
 
-.features-content {
-    text-align: center;
-    position: absolute;
-    bottom: -40px;
+.bold {
+    font-weight: bold;
 }
 
-.section-footer {
-    text-align: center;
-    padding-top: 50px;
+.text-16 {
+    font: 400 16px / 20px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
 }
 
-.text {
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    text-transform: none;
-    letter-spacing: 0;
-    line-height: 30px;
+.features-title {
+    font-weight: 700;
+    /* Makes the text bold */
+    font-size: 24px;
+    line-height: 20px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
 }
 
-.white {
-    color: #fff;
+.flex-container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
 }
 
-.grey {
-    color: rgba(62,78,87,1);
+.col-5 {
+    display: flex;
+    justify-content: center; /* Centers image horizontally in the column */
+    align-items: center; /* Centers image vertically in the column */
+    max-width: 700px; /* Set a fixed width for the image container */
+    height: 100%; /* Take the full height of the row */
 }
 
-.vertical-align-content {
-    margin: auto;
-    width: 100%;
-    // border: 3px solid green;
-    //padding: 10px;
-}
-
-.features-image {
-    text-align: right;
-    img {        
-        max-width: 100%;
-    };
-}
-
-.icon {
-    background-color: #ffffff;
-    color: #ffffff;
-    border-color: #0067f4;
-    border-width: 6px;
-    border-radius: 50%;
-    img {        
-        width: 150px;
-        height: 150px;
-    };
-}
-
-.slider-content .title {
-    font-size: 58px;
-    line-height: 80px; 
-    color: #fff;
-    font-weight: 700; 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-5 {
+        display: none; /* Hide the image container on screens smaller than md */
+    }
 }

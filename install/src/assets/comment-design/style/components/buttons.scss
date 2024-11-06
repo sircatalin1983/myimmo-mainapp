@@ -1,0 +1,74 @@
+@use '../utilities/' as *;
+
+.btn__votes {
+    text-align: center;
+    padding: rem(11) rem(16);
+    border-radius: 10px;
+    display: inline-flex;
+    gap: rem(12);
+    @include breakpoint-up('medium') {
+        gap: rem(10);
+        display: flex;
+        flex-direction: column;
+        padding: rem(12) rem(11);
+    }
+    .upvote , .downvote {
+        cursor: pointer;
+        font-size: rem(15);
+        &:hover {
+            color: hsl(var(--clr-moderate-blue)) !important;
+        }
+    }
+}
+
+.btn {
+    font-weight: 500;
+    color: hsl(var(--clr-white));
+    padding: rem(12) rem(30);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+    &:hover {
+        background-color: hsl(var(--clr-light-grayish-blue));
+    }
+}
+
+
+
+.btn-delete {
+    &:hover {
+        color: hsl(var(--clr-pale-red));
+    }
+}
+.btn-delete-fill {
+    &:hover {
+        background-color: hsl(var(--clr-pale-red));
+    }
+}
+
+.btn-secondary-fill {
+    &:hover {
+        background-color: hsl(var(--clr-dark-blue));
+    }
+}
+
+
+.btn-edit, .btn-reply {
+    &:hover {
+        color: hsl(var(--clr-light-grayish-blue));
+    }
+}
+
+.btn-outline--primary {
+    background-color: hsl(var(--clr-white));
+    color: hsl(var(--clr-moderate-blue));
+    border: 1px solid hsl(var(--clr-moderate-blue));
+    margin-right: rem(16);
+    &:hover {
+        color: hsl(var(--clr-white));
+        background-color: hsl(var(--clr-moderate-blue));
+    }
+}
+

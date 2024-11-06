@@ -1,0 +1,63 @@
+@use '../utilities/' as *;
+
+.card {
+    border-radius: 8px;
+    padding: rem(24);
+    gap: rem(24);
+    position: relative;
+    flex-direction: column;
+    margin-bottom: rem(20);
+    @include breakpoint-up('medium') {
+        flex-direction: row;
+    }
+    .card__content {
+        order: 1;
+        @include breakpoint-up('medium') {
+            order: 2;
+        }
+        .card__header {
+            align-items: center;
+            gap: rem(16);
+            margin-bottom: rem(3);
+            .card__image {
+               max-width: rem(40);
+            }
+        }
+        .you {
+            padding: rem(1 ) rem(7);
+            font-size: rem(13);
+            border-radius: 2px;
+        }
+        .card__text {
+            margin-top: rem(1);
+            line-height: rem(24);
+        }
+    
+        .card__buttons {
+            position: absolute;
+            bottom: rem(34);
+            right: rem(34);
+            i {
+                margin-right: rem(8);
+            }
+            a + a {
+                margin-left: rem(24);
+            }
+            @include breakpoint-up('medium') {
+                top: rem(36);
+                right: rem(24);
+                bottom: inherit;
+            }
+        }
+        .update__btns {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    .card__vote {
+        order: 2;
+        @include breakpoint-up('medium') {
+            order: 1;
+        }
+    }
+}

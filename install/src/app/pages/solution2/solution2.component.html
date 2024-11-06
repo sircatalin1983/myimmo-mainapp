@@ -1,46 +1,72 @@
 <!--====== SLIDER PART START ======-->
+<!-- https://ayroui.com/ -->
+
 <section id="home" class="slider_area">
     <div id="carouselThree" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
+
+
+        </ol>
         <div class="carousel-inner">
+
             <div class="carousel-item active">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
+                    <div class="row flex-container">
+                        <div class="col-lg-7">
                             <div class="slider-content">
-                                <h1 i18n="@@sectionSolution2Title" class="title">
-                                    {{'SOLUTION2.TITLE' | translate }}
-                                </h1>
-                                <p i18n="@@sectionSolution2Text" class="text white">
-                                    {{'SOLUTION2.TEXT' | translate }}
-                                </p>
+                                <h1 class="title">{{ 'SOLUTION2.TITLE' | translate }}</h1>
+                                <p class="text">{{ 'SOLUTION2.TEXT' | translate }}</p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a i18n="@@sectionSolution2ButtonText" class="main-btn rounded-one"
-                                            href="https://myimmo-frontend.itwiththebest.com//register"
-                                            target="_blank">{{'SOLUTION2.BEGIN' | translate }}</a></li>
+                                    <li><a class="main-btn rounded-one"
+                                            href="https://myimmo-frontend.itwiththebest.com/" target="_blank">MyImmo
+                                            Assistant</a>
+                                        <br />
+                                        <span i18n="@@mainSubtitleAdditionalText" class="small-text">{{
+                                            'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate }}
+                                        </span>
+                                        <br />
+                                    </li>
+                                    <li>
+                                        <a i18n="@@mainPersonalizedOffer" class="slave-btn rounded-one"
+                                            routerLink="/solution-personalised">{{
+                                            'HOME.MAIN_PERSONALIZED_OFFER' | translate
+                                            }}</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-5">
                             <div class="slider-image">
-                                <img src="assets/images/marketing/Top.svg" alt="Hero">
+                                <img src="assets/images/slider/2.png" alt="Hero">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
+
+        <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
+            <i class="lni lni-arrow-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#carouselThree" role="button" data-slide="next">
+            <i class="lni lni-arrow-right"></i>
+        </a>
     </div>
 </section>
-<!--====== SLIDER PART ENDS ======-->
 
-<section class="white-area">
+<section class="features-area white-area">
     <div class="container">
-        <div i18n="@@featureCollectRentTitle" class="features-title center">
-            {{'SOLUTION2.SECTION_TITLE' | translate }}
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-10">
+                <div class="section-title text-center pb-10">
+                    <h3 class="title">{{'SOLUTION2.SECTION_TITLE' | translate }}</h3>
+                    <p class="text">{{'SOLUTION2.SECTION_TEXT' | translate }}</p>
+                </div>
+            </div>
         </div>
-        <div i18n="@@featureCollectRentText" class="text center">
-            {{'SOLUTION2.SECTION_TEXT' | translate }}
-        </div>
+
         <div class="row compare-area-table justify-content-center">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-7 col-sm-9">
@@ -54,8 +80,9 @@
                             </h4>
                         </div>
                         <div class="features-content">
-                            <p i18n="@@feature1Text" class="text grey">
-                                {{'SOLUTION2.FEATURE1_TEXT' | translate }}
+                            <p class="tooltip-text-content">
+                                <span> {{'SOLUTION2.FEATURE1_TEXT' | translate
+                                    }}</span>
                             </p>
                         </div>
                     </div>
@@ -71,7 +98,7 @@
                             </h4>
                         </div>
                         <div class="features-content">
-                            <p i18n="@@feature2Text" class="text grey">
+                            <p i18n="@@feature2Text" class="tooltip-text-content">
                                 {{'SOLUTION2.FEATURE2_TEXT' | translate }}
                             </p>
                         </div>
@@ -88,7 +115,7 @@
                             </h4>
                         </div>
                         <div class="features-content">
-                            <p i18n="@@feature3Text" class="text grey">
+                            <p i18n="@@feature3Text" class="tooltip-text-content">
                                 {{'SOLUTION2.FEATURE3_TEXT' | translate }}
                             </p>
                         </div>
@@ -96,42 +123,73 @@
                 </div>
             </div>
         </div>
-        <div class="section-footer">
+        <div class="section-footer center mt-40">
             <ul class="slider-btn rounded-buttons">
                 <li><a i18n="@@featureButtonText" class="main-btn rounded-one"
-                        href="https://myimmo-frontend.itwiththebest.com//register" target="_blank">
+                        href="https://myimmo-frontend.itwiththebest.com/register" target="_blank">
                         {{'SOLUTION1.CREATE_ACCOUNT' | translate }}</a></li>
             </ul>
         </div>
     </div>
 </section>
 
+
 <section class="gray-area">
     <div class="container">
         <div class="row">
+            <div class="col-12">
+                <div class="left">
+                    <h1 i18n="@@featureAutomaticAccountancyTitle" class="features-title left">
+                        {{'SOLUTION2.EXTRA_DETAILS_TITLE' | translate }}
+                    </h1>
+                </div>
+            </div>
             <div class="col-lg-7 vertical-align-content">
                 <div class="left">
-                    <h1 i18n="@@feature4Title" class="features-title left">{{'SOLUTION2.EXTRA_DETAILS_TITLE' |
-                        translate }}
+                    <p i18n="@@feature4Title" class="text grey text-16">{{'SOLUTION2.EXTRA_DETAILS_SUBTITLE' | translate
+                        }}
+                    </p>
 
-                    </h1>
-                    <p i18n="@@feature4Title" class="text grey">
-                        {{'SOLUTION2.EXTRA_DETAILS_SUBTITLE' | translate }}
+                    <p class="text grey text-16">
+                        <b>Automatizarea colectei cheltuielilor lunare:</b> Simplifică procesul de colectare a
+                        cheltuielilor recurente,
+                        folosind myImmo pentru a elimina necesitatea colectării manuale. Configurează cheltuielile
+                        lunare automat și
+                        lasă sistemul să gestioneze toate plățile cu minimă intervenție.
+                    </p>
+
+                    <p class="text grey text-16">
+                        <b>Notificări automate de plată:</b> myImmo trimite notificări automate către chiriași,
+                        reamintindu-le de
+                        termenele de plată și sumele datorate, evitând astfel întârzierile și lipsa încasărilor lunare.
+                    </p>
+
+                    <p class="text grey text-16">
+                        <b>Reconcilierea automată a cheltuielilor:</b> Asociază automat plățile efectuate la
+                        cheltuielile specifice,
+                        oferind o imagine clară și corectă asupra bugetului. Reconcilierea automată reduce riscul de
+                        erori și permite
+                        o vizualizare completă a tuturor cheltuielilor.
+                    </p>
+
+                    <p class="text grey text-16">
+                        <b>Funcționalitate de Auto-Pay:</b> myImmo permite activarea plății automate pentru cheltuieli
+                        recurente,
+                        eliminând necesitatea aprobărilor manuale. Odată setată, funcția Auto-Pay asigură efectuarea
+                        plăților la timp
+                        și fără intervenție, simplificând procesul de gestiune.
                     </p>
                 </div>
             </div>
-            <div class="col-lg-5 features-image">
+            <div class="col-5 features-image">
                 <img src="assets/images/marketing/Bottom.svg" alt="Hero">
             </div>
-            <div i18n="@@feature4Title" class="text center mt-40">
-                {{'SOLUTION2.EXTRA_DETAILS_TEXT' | translate }}
-            </div>
         </div>
-        <div class="section-footer">
-            <ul class="slider-btn rounded-buttons">
-                <li><a i18n="@@featureButtonText" class="main-btn rounded-one"
-                        href="https://myimmo-frontend.itwiththebest.com//register" target="_blank">
-                        {{'SOLUTION1.CREATE_ACCOUNT' | translate }}</a></li>
+        <div class="section-footer mt-40">
+            <ul class="slider-btn rounded-buttons center">
+                <li><a i18n="@@buttonCreateAccountText" class="main-btn rounded-one"
+                        href="https://myimmo-frontend.itwiththebest.com/register"
+                        target="_blank">{{'SOLUTION1.CREATE_ACCOUNT' | translate }}</a></li>
             </ul>
         </div>
     </div>

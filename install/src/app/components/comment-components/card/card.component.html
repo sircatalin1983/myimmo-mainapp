@@ -1,0 +1,56 @@
+<!-- <div class="card bg-white d-flex">
+    <div class="card__vote">
+        <app-vote-button [vote]="comment.vote" (voted)="onVote($event)" [currentUser]="currentUser"></app-vote-button>
+    </div>
+
+    <div class="card__content">
+        <div class="card__header d-flex">
+            <div class="card__image">
+                <img [src]="comment.user.image.png" alt="comment.user.username">
+            </div>
+            <p class="card__name text-dark-blue fw-500">
+                {{ comment.user.username }}
+            </p>
+
+            <p *ngIf="comment.user.username === currentUser.username" class="bg-blue text-white you">you</p>
+            <p>{{ comment.createdAt }}</p>
+        </div>
+
+        <div class="card__buttons">
+            <a class="btn-reply text-blue fw-500"
+                *ngIf="comment.user.username !== currentUser.username else editDeleteBtns" (click)="onReply()">
+                <i class="fa-solid fa-reply"></i>
+                <span>Reply</span>
+            </a>
+        </div>
+
+        <ng-template #editDeleteBtns>
+            <div class="btn-edit-delete">
+                <a (click)="onDelete(comment)" class="btn-delete text-soft-red fw-500"> <i
+                        class="fa-solid fa-trash"></i> Delete</a>
+                <a *ngIf="!onEditMode" (click)="onEdit()" class="btn-edit text-blue fw-500"> <i
+                        class="fa-solid fa-pen"></i> Edit</a>
+            </div>
+        </ng-template>
+
+        <p *ngIf="!onEditMode" class="card__text">
+            <span class="text-blue fw-500" *ngIf="comment.replyingTo">@{{ comment.replyingTo }}</span> {{
+            comment.content }}
+        </p>
+
+        <div *ngIf="onEditMode">
+            <div class="reply__form">
+                <textarea placeholder="Add a comment..." class="text-area text-grayish-blue ff-rubik text-area--comment"
+                    [(ngModel)]="commentToUpdate" name="reply" id="reply" cols="100" rows="10"></textarea>
+            </div>
+            <div class="update__btns">
+                <button class="btn btn-outline--primary" (click)="onCancel()">Cancel</button>
+                <button class="btn bg-blue" (click)="updateComment(comment)">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-container *ngIf="showForm">
+    <app-form [currentUser]="currentUser" [replyingTo]="comment" (onReplyMode)="onReply($event)"></app-form>
+</ng-container> -->

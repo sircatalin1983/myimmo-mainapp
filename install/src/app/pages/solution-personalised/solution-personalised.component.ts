@@ -4,6 +4,8 @@ import { ContactUs } from './../../shared/services/contact-us/contact-us';
 import { ContactUsService } from './../../shared/services/contact-us/contact-us.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
+import { ErrorComponent, Helpers, InformationComponent } from 'src/app/shared/util/helpers';
+import { catchError, finalize, switchMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-solution3',
@@ -34,29 +36,31 @@ export class SolutionPersonalisedComponent implements OnInit {
   send(): void {
     this.contactItem.date = new Date();
 
-    this.contactUsService.addItem(this.contactItem).subscribe(() => {
-      this.contactItem.subject = '';
-      this.contactItem.content = '';
+    Helpers.getObservable([])
+      .pipe(
+        switchMap(() => this.contactUsService.addItem(this.contactItem)),
+        catchError(
+          error => {
+            throw error;
+          }
+        ),
+        finalize(() => {
+        }),
+      )
+      .subscribe(
+        results => {
+          this.contactItem.subject = '';
+          this.contactItem.content = '';
 
-      this.snackBar.openFromComponent(InformationComponent, {
-        duration: 2000,
-      });
-    });
+          this.snackBar.openFromComponent(InformationComponent, {
+            duration: 2000,
+          });
+        },
+        error => {
+          this.snackBar.openFromComponent(ErrorComponent, {
+            duration: 2000,
+          });
+        }
+      );
   }
 }
-
-@Component({
-  selector: 'information-message',
-  //templateUrl: 'information-message.component.html',
-  template: `
-            <span class="success-message">
-              Mesajul salvat cu success!!!
-            </span>`,
-  styles: [`
-    .success-message {
-      color: #90EE90;
-      text-align: center;
-    }
-  `],
-})
-export class InformationComponent { }

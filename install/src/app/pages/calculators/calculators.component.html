@@ -1,26 +1,79 @@
+<!--====== SLIDER PART START ======-->
+<!-- https://ayroui.com/ -->
+
 <section id="home" class="slider_area">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="slider-content">&nbsp;</div>
+    <div id="carouselThree" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
+
+
+        </ol>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row flex-container">
+                        <div class="col-lg-7">
+                            <div class="slider-content">
+                                <h1 class="title">Calculatoare utile</h1>
+                                <p class="text">Descoperă selecția noastră de calculatoare gratuite, concepute special pentru nevoile proprietarilor și viitorilor proprietari. </p>
+                                <ul class="slider-btn rounded-buttons">
+                                    <li><a class="main-btn rounded-one"
+                                            href="https://myimmo-frontend.itwiththebest.com/" target="_blank">MyImmo
+                                            Assistant</a>
+                                        <br />
+                                        <span i18n="@@mainSubtitleAdditionalText" class="small-text">{{
+                                            'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate }}
+                                        </span>
+                                        <br />
+                                    </li>
+                                    <li>
+                                        <a i18n="@@mainPersonalizedOffer" class="slave-btn rounded-one"
+                                            routerLink="/solution-personalised">{{
+                                            'HOME.MAIN_PERSONALIZED_OFFER' | translate
+                                            }}</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="slider-image">
+                                <img src="assets/images/slider/4.png" alt="Hero">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+        <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
+            <i class="lni lni-arrow-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#carouselThree" role="button" data-slide="next">
+            <i class="lni lni-arrow-right"></i>
+        </a>
     </div>
 </section>
 
-<section class="white-area">
+<section class="features-area white-area">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-10">
+            <div class="col-lg-10 col-md-10">
                 <div class="section-title text-center pb-10">
-                    <h3 class="title">{{ 'CALCULATORS.TITLE' | translate }} </h3>
-                    <p class="text">{{ 'CALCULATORS.TEXT' | translate }} </p>
+                    <h3 class="title">{{'CALCULATORS.TITLE' | translate }}</h3>
+                    <p class="text">{{'CALCULATORS.TITLE_DESCRIPTION' | translate }}</p>
                 </div>
             </div>
         </div>
+
         <div class="row justify-content-center">
+
             <div class="col-lg-4 col-md-7 col-sm-9">
                 <div class="single-features mt-40">
                     <div class="features-title-icon d-flex justify-content-between">
-                        <h4 class="features-title"><a routerLink="/calculator1">{{
+                        <h4>
+                            <a routerLink="/calculator1" class="features-title">{{
                                 'CALCULATORS.FEATURE1_TITLE' | translate }}</a>
                         </h4>
                         <div class="features-icon">
@@ -29,16 +82,17 @@
                         </div>
                     </div>
                     <div class="features-content">
-                        <p class="text">{{ 'CALCULATORS.FEATURE1_TEXT' | translate }}</p>
+                        <p class="tooltip-text-content text">{{ 'CALCULATORS.FEATURE1_TEXT' | translate }}</p>
                         <a class="features-btn" routerLink="/calculator1">{{ 'CALCULATORS.COMPUTE' |
                             translate }}</a>
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-7 col-sm-9">
                 <div class="single-features mt-40">
                     <div class="features-title-icon d-flex justify-content-between">
-                        <h4 class="features-title"><a routerLink="/calculator2">{{
+                        <h4><a class="features-title" routerLink="/calculator2">{{
                                 'CALCULATORS.FEATURE2_TITLE' | translate }}</a></h4>
                         <div class="features-icon">
                             <i class="lni lni-files"></i>
@@ -46,16 +100,17 @@
                         </div>
                     </div>
                     <div class="features-content">
-                        <p class="text">{{ 'CALCULATORS.FEATURE2_TEXT' | translate }}</p>
+                        <p class="tooltip-text-content text">{{ 'CALCULATORS.FEATURE2_TEXT' | translate }}</p>
                         <a class="features-btn" routerLink="/calculator2">{{ 'CALCULATORS.COMPUTE' |
                             translate }}</a>
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-7 col-sm-9">
                 <div class="single-features mt-40">
                     <div class="features-title-icon d-flex justify-content-between">
-                        <h4 class="features-title"><a routerLink="/calculator3">{{ 'CALCULATORS.FEATURE3_TITLE' |
+                        <h4><a class="features-title" routerLink="/calculator3">{{ 'CALCULATORS.FEATURE3_TITLE' |
                                 translate
                                 }}</a></h4>
                         <div class="features-icon">
@@ -64,12 +119,14 @@
                         </div>
                     </div>
                     <div class="features-content">
-                        <p class="text">{{ 'CALCULATORS.FEATURE3_TEXT' | translate }}</p>
+                        <p class="text tooltip-text-content ">{{ 'CALCULATORS.FEATURE3_TEXT' | translate }}</p>
                         <a class="features-btn" routerLink="/calculator3">{{ 'CALCULATORS.COMPUTE' |
                             translate }}</a>
                     </div>
                 </div>
             </div>
+
         </div>
+
     </div>
 </section>

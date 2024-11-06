@@ -7,6 +7,15 @@ export const environment = {
   backend: 'http://localhost:9000', // Put your backend here
   assistantApp: 'http://localhost:4500',
   backendImmoReport: 'http://localhost:3100', // Put your backend here
+
+
+  dateFormat: 'dd-MM-yyyy',
+
+  fakeLogin: false,
+  debug: true,
+  info: true,
+  error: true,
+  log: true,
 };
 
 /*

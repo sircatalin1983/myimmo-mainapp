@@ -1,24 +1,42 @@
 <!--====== SLIDER PART START ======-->
+<!-- https://ayroui.com/ -->
+
 <section id="home" class="slider_area">
     <div id="carouselThree" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
+
+
+        </ol>
         <div class="carousel-inner">
+
             <div class="carousel-item active">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
+                    <div class="row flex-container">
+                        <div class="col-lg-7">
                             <div class="slider-content">
-                                <h1 i18n="@@sectionSolution1Title" class="title">{{'SOLUTION1.TITLE' | translate
-                                    }}</h1>
-                                <p i18n="@@sectionSolution1Text" class="text white">{{'SOLUTION1.TEXT' | translate
-                                    }}</p>
+                                <h1 class="title">{{ 'SOLUTION1.TITLE' | translate }}</h1>
+                                <p class="text">{{ 'SOLUTION1.TEXT' | translate }}</p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a i18n="@@sectionSolution1ButtonText" class="main-btn rounded-one"
-                                            href="https://myimmo-frontend.itwiththebest.com/register"
-                                            target="_blank">{{'SOLUTION1.BEGIN' | translate }}</a></li>
+                                    <li><a class="main-btn rounded-one"
+                                            href="https://myimmo-frontend.itwiththebest.com/" target="_blank">MyImmo
+                                            Assistant</a>
+                                        <br />
+                                        <span i18n="@@mainSubtitleAdditionalText" class="small-text">{{
+                                            'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate }}
+                                        </span>
+                                        <br />
+                                    </li>
+                                    <li>
+                                        <a i18n="@@mainPersonalizedOffer" class="slave-btn rounded-one"
+                                            routerLink="/solution-personalised">{{
+                                            'HOME.MAIN_PERSONALIZED_OFFER' | translate
+                                            }}</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-5">
                             <div class="slider-image">
                                 <img src="assets/images/slider/2.png" alt="Hero">
                             </div>
@@ -26,12 +44,29 @@
                     </div>
                 </div>
             </div>
+
         </div>
+
+        <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
+            <i class="lni lni-arrow-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#carouselThree" role="button" data-slide="next">
+            <i class="lni lni-arrow-right"></i>
+        </a>
     </div>
 </section>
 
-<section class="white-area">
+<section class="features-area white-area">
     <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-10">
+                <div class="section-title text-center pb-10">
+                    <h3 class="title">{{'SOLUTION1.TITLE' | translate }}</h3>
+                    <p class="text">{{'SOLUTION1.TITLE_DESCRIPTION' | translate }}</p>
+                </div>
+            </div>
+        </div>
+
         <div class="row compare-area-table justify-content-center">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-7 col-sm-9">
@@ -40,13 +75,14 @@
                             <div>
                                 <img src="assets/images/marketing/Image-11-3.svg" alt="Shape">
                             </div>
-                            <h4 i18n="@@featureNotificationTitle" class="features-title center ">
+                            <h4 class="features-title center">
                                 {{'SOLUTION1.ITEM1_TITLE' | translate }}
                             </h4>
                         </div>
                         <div class="features-content">
-                            <p i18n="@@featureNotificationText" class="text grey">{{'SOLUTION1.ITEM1_TEXT' | translate
-                                }}
+                            <p class="tooltip-text-content">
+                                <span> {{'SOLUTION1.ITEM1_TEXT' | translate
+                                    }}</span>
                             </p>
                         </div>
                     </div>
@@ -57,13 +93,14 @@
                             <div>
                                 <img src="assets/images/marketing/Image-11-1.svg" alt="Shape">
                             </div>
-                            <h4 i18n="@@featureComputationTitle" class="features-title center">{{'SOLUTION1.ITEM2_TITLE'
-                                | translate }}
+                            <h4 i18n="@@featureComputationTitle" class="features-title center">
+                                {{'SOLUTION1.ITEM2_TITLE' | translate }}
                             </h4>
                         </div>
                         <div class="features-content">
-                            <p i18n="@@featureComputationText" class="text grey">{{'SOLUTION1.ITEM2_TEXT' | translate
-                                }}
+                            <p class="tooltip-text-content">
+                                <span> {{'SOLUTION1.ITEM2_TEXT' | translate
+                                    }}</span>
                             </p>
                         </div>
                     </div>
@@ -78,15 +115,16 @@
                                 translate }}</h4>
                         </div>
                         <div class="features-content">
-                            <p i18n="@@featureRPAText" class="text grey">{{'SOLUTION1.ITEM3_TEXT' | translate
-                                }}
+                            <p class="tooltip-text-content ">
+                                <span> {{'SOLUTION1.ITEM3_TEXT' | translate
+                                    }}</span>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section-footer">
+        <div class="section-footer center mt-40">
             <ul class="slider-btn rounded-buttons">
                 <li><a i18n="@@buttonCreateAccountText" class="main-btn rounded-one"
                         href="https://myimmo-frontend.itwiththebest.com/register"
@@ -99,24 +137,55 @@
 <section class="gray-area">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 vertical-align-content">
+            <div class="col-12">
                 <div class="left">
                     <h1 i18n="@@featureAutomaticAccountancyTitle" class="features-title left">
                         {{'SOLUTION1.ITEM4_TITLE' | translate }}
                     </h1>
-                    <p i18n="@@featureAutomaticAccountancyText" class="text grey">{{'SOLUTION1.ITEM4_TEXT' |
-                        translate }}
+                </div>
+            </div>
+            <div class="col-7 vertical-align-content">
+                <div class="left">
+                    <p i18n="@@featureAutomaticAccountancyText" class="text grey text-16">{{'SOLUTION1.ITEM4_TEXT' |
+                        translate }} </p>
+
+                    <p class="text grey text-16">
+                        <b>Cheltuieli recurente setate automat:</b> Configurează
+                        cheltuieli care se repetă lunar, cum ar fi
+                        întreținerea sau facturile de utilități, fără să fie nevoie de introducere manuală pentru
+                        fiecare lună.
+                    </p>
+
+                    <p class="text grey text-16">
+                        <b>Acces și vizualizare:</b> Monitorizează în
+                        timp real toate intrările și ieșirile
+                        financiare, cu opțiunea de a vizualiza istoricul plăților și tranzacțiilor în câteva
+                        secunde.
+                    </p>
+
+                    <p class="text grey text-16">
+                        <b>Reconcilierea automată a tranzacțiilor:</b> Economisește
+                        timp cu funcția de reconciliere
+                        automată, care asociază plățile și încasările la facturile corespunzătoare, eliminând riscul
+                        de erori.
+                    </p>
+
+                    <p class="text grey text-16">
+                        <b>Procesare inteligentă a facturilor scanate:</b> myImmo
+                        identifică, sortează și procesează
+                        facturile scanate automat, integrându-le în contabilitate fără să fie nevoie de intervenție
+                        manuală.
                     </p>
                 </div>
             </div>
-            <div class="col-lg-5 features-image">
+            <div class="col-5 features-image right">
                 <img src="assets/images/marketing/Mobile-Management.svg" alt="Hero">
             </div>
         </div>
-        <div class="section-footer">
-            <ul class="slider-btn rounded-buttons">
+        <div class="section-footer mt-40">
+            <ul class="slider-btn rounded-buttons center">
                 <li><a i18n="@@buttonCreateAccountText" class="main-btn rounded-one"
-                        href="https://myimmo-frontend.itwiththebest.com//register"
+                        href="https://myimmo-frontend.itwiththebest.com/register"
                         target="_blank">{{'SOLUTION1.CREATE_ACCOUNT' | translate }}</a></li>
             </ul>
         </div>
@@ -126,24 +195,40 @@
 <section class="white-area">
     <div class="container">
         <div class="row">
+            <div class="col-12">
+                <div class="right">
+                    <h1 i18n="@@featureAutomaticAccountancyTitle" class="features-title left ">
+                        {{'SOLUTION1.ITEM5_TITLE' | translate }}
+                    </h1>
+                </div>
+            </div>
+
             <div class="col-lg-5 features-image left">
                 <img src="assets/images/marketing/Lease-Automation.svg" alt="Hero">
             </div>
+
             <div class="col-lg-7 vertical-align-content">
                 <div class="left">
-                    <h1 i18n="@@featureAutomaticLatePaymentsTitle" class="features-title">{{'SOLUTION1.ITEM5_TITLE' |
-                        translate }}
-                    </h1>
-                    <p i18n="@@featureAutomaticLatePaymentsText" class="text grey">{{'SOLUTION1.ITEM5_TEXT' | translate
-                        }}
+                    <p i18n="@@featureAutomaticLatePaymentsText" class="text grey text-16">
+                        Cu <b>myImmo</b>, gestionezi eficient termenele de plată, astfel încât să eviți penalitățile
+                        costisitoare pentru întârzieri.
+                    </p>
+                    <p i18n="@@featureAutomaticLatePaymentsText" class="text grey text-16">
+                        Platforma <b>myImmo</b> îți oferă notificări automate pentru termenele de plată, reamintindu-ți
+                        din timp despre facturile scadente.
+                    </p>
+                    <p i18n="@@featureAutomaticLatePaymentsText" class="text grey text-16">
+                        Astfel, poți programa plățile fără stres și fără riscul penalizărilor. <br />
+                        În plus, <b>myImmo</b> îți permite să centralizezi și să vizualizezi toate plățile, facturile și
+                        cheltuielile într-un singur loc, simplificând urmărirea termenelor și planificarea bugetului.
                     </p>
                 </div>
             </div>
         </div>
         <div class="section-footer">
-            <ul class="slider-btn rounded-buttons">
+            <ul class="slider-btn rounded-buttons center">
                 <li><a i18n="@@buttonCreateAccountText" class="main-btn rounded-one"
-                        href="https://myimmo-frontend.itwiththebest.com//register"
+                        href="https://myimmo-frontend.itwiththebest.com/register"
                         target="_blank">{{'SOLUTION1.CREATE_ACCOUNT' | translate }}</a></li>
             </ul>
         </div>
@@ -153,23 +238,47 @@
 <section class="gray-area">
     <div class="container">
         <div class="row">
+            <div class="col-12">
+                <div class="right">
+                    <h1 i18n="@@featureAutomaticAccountancyTitle" class="features-title left ">
+                        {{'SOLUTION1.ITEM6_TITLE' | translate }}
+                    </h1>
+                </div>
+            </div>
+
             <div class="col-lg-7 vertical-align-content">
                 <div class="left">
-                    <h1 i18n="@@featureAutomaticZIPTitle" class="features-title left">{{'SOLUTION1.ITEM6_TITLE' |
-                        translate }}
-                    </h1>
-                    <p i18n="@@featureAutomaticZIPText" class="text grey">{{'SOLUTION1.ITEM6_TEXT' | translate }}
+                    <p i18n="@@featureAutomaticZIPText" class="text grey text-16">{{'SOLUTION1.ITEM6_TEXT' | translate
+                        }}</p>
+
+                    <p class="text grey text-16">
+                        <b>Descărcați automat toate datele în format Excel, PDF sau Word:</b> Cu myImmoAssist, toate
+                        informațiile esențiale sunt la îndemână. Descărcați instant datele financiare, istoricul
+                        plăților și inventarul, economisind timp și evitând erorile.
+                    </p>
+
+                    <p class="text grey text-16">
+                        <b>Generați rapoarte profesionale, accesibile pe orice dispozitiv:</b> Rapoarte clare,
+                        optimizate pentru laptop, tabletă și mobil. Accesați informațiile dorite în câteva clicuri
+                        și analizați rapid profitabilitatea, detalii despre proprietăți și chiriași.
+                    </p>
+
+                    <p class="text grey text-16">
+                        <b>Partajare simplă și colaborare eficientă:</b> După generarea rapoartelor, trimiteți-le
+                        rapid echipei sau colaboratorilor, prin email sau descărcare directă, asigurând o comunicare
+                        ușoară și organizată.
                     </p>
                 </div>
             </div>
+
             <div class="col-lg-5 features-image">
                 <img src="assets/images/marketing/Image-12-0.svg" alt="Hero">
             </div>
         </div>
-        <div class="section-footer">
-            <ul class="slider-btn rounded-buttons">
+        <div class="section-footer mt-40">
+            <ul class="slider-btn rounded-buttons center">
                 <li><a i18n="@@buttonCreateAccountText" class="main-btn rounded-one"
-                        href="https://myimmo-frontend.itwiththebest.com//register"
+                        href="https://myimmo-frontend.itwiththebest.com/register"
                         target="_blank">{{'SOLUTION1.CREATE_ACCOUNT' | translate }}</a></li>
             </ul>
         </div>

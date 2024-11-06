@@ -1,0 +1,50 @@
+<div class="home-articles max-width-1 m-auto font2">
+    <h2>Articole</h2>
+
+    <!-- <div class="year-box adjust-year">
+        <div class="year-heading">
+            <h3>Year </h3>
+        </div>
+        <div>
+           <input type="radio" name="year" id="year-2020">
+           <label for="year-2020">2020</label>
+        </div>
+        <div>
+            <input type="radio" name="year" id="year-2021">
+            <label for="year-2021">2021</label>
+        </div>
+        <div>
+            <input type="radio" name="year" id="year-2022">
+            <label for="year-2022">2022</label>
+        </div>
+        <div>
+            <input type="radio" name="year" id="year-2023">
+            <label for="year-2023">2023</label>
+        </div>
+    </div> -->
+
+
+    <div *ngFor="let blogItem of blogItems">
+        <div class="home-article">
+            <div class="home-article-img">
+                <a href="javascript:void(0)">
+                    <img [src]="blogItem.imageURL || '../assets/img/blog-img/3.png'" alt="article" />
+                </a>
+            </div>
+
+            <div class="home-article-content font1">
+                <a href="/blog/blog-post/{{blogItem.id}}">
+                    <h3>{{ blogItem.title }}</h3>
+                </a>
+                <p>
+                    {{ blogItem.summary || 'Blog-ul nu are sumar.' }}
+                </p>
+                <div>{{ blogItem.User.firstName }} {{ blogItem.User.lastName }}</div>
+                <span><i class="lni lni-calendar"></i> {{ blogItem.publishedDate | date: 'MMM d, y'
+                    }} | <i class="lni lni-comments-alt"></i> {{ blogItem.commentsCount || 0 }} Comment{{
+                    blogItem.commentsCount === 1 ? '' : 's' }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>

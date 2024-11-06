@@ -13,6 +13,8 @@ import { MyImmoHelpModule } from './pages/myimmo-help/myimmo-help.module';
 import { Calculator1Module } from './pages/calculator1/calculator1.module';
 import { Calculator2Module } from './pages/calculator2/calculator2.module';
 import { Calculator3Module } from './pages/calculator3/calculator3.module';
+import { BlogModule } from './pages/blog/blog.module';
+import { BlogLayoutComponent } from './blog-layout/blog-layout.component';
 
 const routes: Routes = [
   {
@@ -49,6 +51,11 @@ const routes: Routes = [
     path: 'solution-personalised',
     component: LayoutComponent,
     loadChildren: () => SolutionPersonalisedModule
+  },
+  {
+    path: 'blog',
+    component: BlogLayoutComponent,
+    loadChildren: () => BlogModule
   },
   // {
   //   path: 'resource',

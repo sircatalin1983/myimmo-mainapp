@@ -1,0 +1,42 @@
+@use '../utilities/' as *;
+
+.reply {
+    border-radius: 8px;
+    padding: rem(24);
+    gap: rem(16);
+    grid-template-columns: 40px auto 105px ;
+    margin-bottom: rem(20);
+}
+.reply__form {
+    grid-area: 1 / 1 / 2 / 4 ;
+    // grid-column: 1 / 4;
+    // grid-row: 1 / 2;
+    @include breakpoint-up('medium') {
+        grid-column: 2 / 3;
+
+    }
+    .text-area {
+        width: 100%;
+        resize: none;
+        border: 1px solid #E9EBF0;
+        height: 96px;
+        border-radius: 8px;
+        padding: 12px 24px;
+        font-size: rem(16);
+            &:focus {
+            outline: none !important;
+            border-color: hsl(var(--clr-moderate-blue));
+        }
+    }
+    .text-area--comment {
+        margin-bottom: rem(16);
+    }
+}
+.reply__image {
+    max-width: rem(40);
+    grid-column: 1 / 2 ;
+}
+.reply__btn {
+    grid-column: 3 / 4 ;
+    font-size: rem(18);
+}
