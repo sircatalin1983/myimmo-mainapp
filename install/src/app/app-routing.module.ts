@@ -13,7 +13,6 @@ import { MyImmoHelpModule } from './pages/myimmo-help/myimmo-help.module';
 import { Calculator1Module } from './pages/calculator1/calculator1.module';
 import { Calculator2Module } from './pages/calculator2/calculator2.module';
 import { Calculator3Module } from './pages/calculator3/calculator3.module';
-import { BlogModule } from './pages/blog/blog.module';
 import { BlogLayoutComponent } from './blog-layout/blog-layout.component';
 
 const routes: Routes = [
@@ -53,10 +52,34 @@ const routes: Routes = [
     loadChildren: () => SolutionPersonalisedModule
   },
   {
-    path: 'blog',
+    path: 'blog-list',
     component: BlogLayoutComponent,
-    loadChildren: () => BlogModule
+    loadChildren: () => import('./../app/pages/blog-list/blog-list.module').then(m => m.BlogListModule)
   },
+  {
+    path: 'blog-post',
+    component: BlogLayoutComponent,
+    loadChildren: () => import('./../app/pages/blog-post/blog-post.module').then(m => m.BlogPostModule)
+  },  
+  {
+    path: 'blog-contact',
+    component: BlogLayoutComponent,
+    loadChildren: () => import('./../app/pages/blog-contact/blog-contact.module').then(m => m.BlogContactModule)
+  },
+  {
+    path: 'blog-search/:id',
+    component: BlogLayoutComponent,
+    loadChildren: () => import('./../app/pages/blog-search/blog-search.module').then(m => m.BlogSearchModule)
+  },
+  // {
+  //   path: 'blog-contact',
+  //   component: BlogContactComponent,
+  // },
+  // {
+  //   path: 'blog-search',
+  //   component: BlogSearchComponent,
+  // },
+  
   // {
   //   path: 'resource',
   //   component: LayoutComponent,

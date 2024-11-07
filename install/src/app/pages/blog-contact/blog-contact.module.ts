@@ -12,6 +12,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { TranslateModule } from '@ngx-translate/core';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -19,7 +20,6 @@ import { TranslateModule } from '@ngx-translate/core';
     MatInputModule,
     MatFormFieldModule,
     MatSnackBarModule,
-    BlogContactComponent,
     FormsModule,
     ReactiveFormsModule,
     MatCardModule,

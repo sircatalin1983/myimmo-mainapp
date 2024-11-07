@@ -27,13 +27,13 @@
     <div *ngFor="let blogItem of blogItems">
         <div class="home-article">
             <div class="home-article-img">
-                <a href="javascript:void(0)">
+                <a href="/blog-post?id={{blogItem.id}}">
                     <img [src]="blogItem.imageURL || '../assets/img/blog-img/3.png'" alt="article" />
                 </a>
             </div>
 
             <div class="home-article-content font1">
-                <a href="/blog/blog-post/{{blogItem.id}}">
+                <a href="/blog-post?id={{blogItem.id}}">
                     <h3>{{ blogItem.title }}</h3>
                 </a>
                 <p>

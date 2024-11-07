@@ -552,15 +552,16 @@
             <div class="col-lg-4 col-md-8 col-sm-10" *ngFor="let blogItem of latestBlogItems">
                 <div class="single-blog blog-style-one">
                     <div class="blog-image">
-                        <a href="/blog/blog-post/{{blogItem.id}}" target="_blank">
+                        <button href="/blog-post?id={{blogItem.id}}" target="_blank">
                             <img [src]="blogItem.imageURL || '../assets/images/blog/1.jpg'" alt="Blog" />
-                        </a>
-                        <a href="/blog/blog-post/{{blogItem.id}}" class="category" target="_blank">{{ blogItem.BlogCategory.name || 'Fără categorie'
+                        </button>
+                        <a href="/blog-post?id={{blogItem.id}}" class="category" target="_blank">{{ blogItem.BlogCategory.name ||
+                            'Fără categorie'
                             }}</a>
                     </div>
                     <div class="blog-content">
                         <h5 class="blog-title">
-                            <a href="/blog/blog-post/{{blogItem.id}}" target="_blank">
+                            <a href="/blog-post?id={{blogItem.id}}" target="_blank">
                                 <h3>{{ blogItem.title }}</h3>
                             </a>
                         </h5>
@@ -569,7 +570,7 @@
                         <span><i class="lni lni-comments-alt"></i> {{ blogItem.commentsCount || 0 }} Comment{{
                             blogItem.commentsCount === 1 ? '' : 's' }}</span>
                         <p class="text">{{ blogItem.summary || 'Blog-ul nu are sumar.' }}</p>
-                        <a class="more" href="/blog/blog-post/{{blogItem.id}}" target="_blank">Citește</a>
+                        <a class="more" href="/blog-post?id={{blogItem.id}}" target="_blank">Citește</a>
                     </div>
                 </div>
                 <!-- single blog -->

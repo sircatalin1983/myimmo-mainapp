@@ -7,16 +7,18 @@ import { catchError, finalize, map, switchMap } from 'rxjs/operators';
 import { Blog } from 'src/app/shared/services/blog/blog';
 import { BlogService } from 'src/app/shared/services/blog/blog.service';
 import { BlogItemCommentService } from 'src/app/shared/services/blog-item-comment/blog-item-comment.service';
+import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-blog',
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.scss']
+  selector: 'app-blog-list',
+  templateUrl: './blog-list.component.html',
+  styleUrls: ['./blog-list.component.scss']
 })
-export class BlogComponent implements OnInit {
+export class BlogListComponent implements OnInit {
   public blogItems: Blog[] = [];
 
   constructor(
+    private router: Router,
     public snackBar: MatSnackBar,
     private fb: FormBuilder,
     public blogService: BlogService,
@@ -27,7 +29,6 @@ export class BlogComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
     Helpers.getObservable([])
       .pipe(
         switchMap(() => this.blogService.getItems()),
@@ -50,12 +51,15 @@ export class BlogComponent implements OnInit {
       )
       .subscribe(
         results => {
-          console.log('results:', results)
           this.blogItems = results || [];
         },
         error => {
 
         }
       );
+  }
+
+  navigateToBlogPost(id: number): void {
+    this.router.navigate(['/blog-post', id]);
   }
 }

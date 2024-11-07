@@ -102,4 +102,8 @@ export class MainComponent implements OnInit {
         }
       );
   }
+
+  navigateToBlogPost(id: number): void {
+    this.router.navigate(['/blog-post', id]);
+  }
 }

@@ -1,0 +1,54 @@
+<div class="m-auto blog-post-content max-width-2 m-auto my-2" *ngIf="blog">
+    <h1 class="font1"> {{ blog.title }} </h1>
+    <div class="blogpost-meta">
+        <div class="author-info">
+            <div>
+                <b>
+                    Autor: {{ blog.User ? blog.User.firstName : "" }} {{ blog.User ? blog.User.lastName : "" }}
+                </b>
+            </div>
+            <div>
+                {{ blog.publishedDate | date: 'MMM d, y' }}
+            </div>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+
+    <p class="font1" [innerHTML]="blog.content"></p>
+
+</div>
+
+<div class="max-width-1 m-auto">
+    <hr>
+</div>
+
+<div class="home-articles max-width-1 m-auto font2">
+    <h2>Ultimele articole</h2>
+    <div class="row">
+
+        <div *ngFor="let blogItem of blogItems">
+            <div class="home-article">
+                <div class="home-article-img">
+                    <a href="/blog-post?id={{blogItem.id}}">
+                        <img [src]="blogItem.imageURL || '../assets/img/blog-img/3.png'" alt="article" />
+                    </a>
+                </div>
+
+                <div class="home-article-content font1">
+                    <a href="/blog-post?id={{blogItem.id}}">
+                        <h3>{{ blogItem.title }}</h3>
+                    </a>
+                    <p>
+                        {{ blogItem.summary || 'Blog-ul nu are sumar.' }}
+                    </p>
+                    <div>{{ blogItem.User ? blogItem.User.firstName : "" }} {{ blogItem.User ? blogItem.User.lastName :
+                        "" }}</div>
+                    <span><i class="lni lni-calendar"></i> {{ blogItem.publishedDate | date: 'MMM d, y'
+                        }} | <i class="lni lni-comments-alt"></i> {{ blogItem.commentsCount || 0 }} Comment{{
+                        blogItem.commentsCount === 1 ? '' : 's' }}</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
