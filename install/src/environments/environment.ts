@@ -2,21 +2,21 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-// export const environment = {
-//   production: false,
-//   backend: 'http://localhost:9000', // Put your backend here
-//   assistantApp: 'http://localhost:4500',
-//   backendImmoReport: 'http://localhost:3100', // Put your backend here
+export const environment = {
+  production: false,
+  backend: 'http://localhost:9000', // Put your backend here
+  assistantApp: 'http://localhost:4500',
+  backendImmoReport: 'http://localhost:9000', // Put your backend here
+  //backendImmoReport: 'http://localhost:3100', // Put your backend here
 
+  dateFormat: 'dd-MM-yyyy',
 
-//   dateFormat: 'dd-MM-yyyy',
-
-//   fakeLogin: false,
-//   debug: true,
-//   info: true,
-//   error: true,
-//   log: true,
-// };
+  fakeLogin: false,
+  debug: true,
+  info: true,
+  error: true,
+  log: true,
+};
 
 /*
  * For easier debugging in development mode, you can import the following file
@@ -30,18 +30,18 @@
 
 
 
-export const environment = {
-  production: true,
-  backendImmoReport: 'https://app.itwiththebest.com:1402',
-  backend: 'https://app.itwiththebest.com:1102', // Put your backend here
-  assistantApp: 'https://myimmo-frontend.itwiththebest.com',
+// export const environment = {
+//   production: true,
+//   backendImmoReport: 'https://app.itwiththebest.com:1402',
+//   backend: 'https://app.itwiththebest.com:1102', // Put your backend here
+//   assistantApp: 'https://myimmo-frontend.itwiththebest.com',
 
 
-  dateFormat: 'dd-MM-yyyy',
+//   dateFormat: 'dd-MM-yyyy',
 
-  fakeLogin: false,
-  debug: true,
-  info: true,
-  error: true,
-  log: true,
-};
+//   fakeLogin: false,
+//   debug: true,
+//   info: true,
+//   error: true,
+//   log: true,
+// };

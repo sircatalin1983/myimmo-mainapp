@@ -239,8 +239,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="mainTitle1" datatype="html">
-        <source>Ajutorul digital myImmoAssist</source>
-        <target>Digital help - myImmoAssist.</target>
+        <source>Ajutorul digital Propero</source>
+        <target>Digital help - Propero.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
           <context context-type="linenumber">15</context>
@@ -404,7 +404,7 @@
       </trans-unit>
       <trans-unit id="sectionPaymentText" datatype="html">
         <source>Încearcă asistentul pentru trei luni complet gratuit, nu este necesară introducerea datelor cardului!</source>
-        <target>Try myImmoAssist for three months completely free, there's no need to input card data.</target>
+        <target>Try Propero for three months completely free, there's no need to input card data.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
           <context context-type="linenumber">208,210</context>
@@ -654,7 +654,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="featureHelpText" datatype="html">
-        <source>Aveți nevoie de ajutor în navigarea și folosirea myImmoAssist? Avem resursele disponibile.</source>
+        <source>Aveți nevoie de ajutor în navigarea și folosirea Propero? Avem resursele disponibile.</source>
         <target>Do you need help to navigate and use myImmoAssist? We have available resources.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/main/main.component.html</context>
