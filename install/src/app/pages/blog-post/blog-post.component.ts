@@ -11,6 +11,7 @@ import { Blog } from 'src/app/shared/services/blog/blog';
 import { ActivatedRoute, Router } from '@angular/router';
 import { forkJoin } from 'rxjs';
 import { BlogItemComment } from 'src/app/shared/services/blog-item-comment/blog-item-comment';
+import { TrackerService } from 'src/app/shared/util/tracker.service';
 
 @Component({
   selector: 'app-blog-post',
@@ -41,13 +42,15 @@ export class BlogPostComponent implements OnInit {
     public translate: TranslateService,
     public blogService: BlogService,
     private blogItemCommentService: BlogItemCommentService,
-    private userService: UsersService
+    private userService: UsersService,
+    private trackerService: TrackerService
   ) {
 
   }
 
   ngOnInit(): void {
-    // Subscribe to params to handle route changes dynamically
+    this.trackerService.trackPageViews();
+
     this.route.queryParams.subscribe(queryParams => {
       this.idBlog = +queryParams['id'];
 

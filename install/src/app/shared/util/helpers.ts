@@ -124,6 +124,29 @@ export class Helpers {
     static getMethodName() {
         return new Error().stack.split('\n')[2].trim().split(' ')[1];
     }
+
+    static getPublicIpAddress(): Promise<string | null> {
+        return fetch('https://api.ipify.org?format=json')
+            .then((response) => response.json())
+            .then((data) => data.ip)
+            .catch((err) => {
+                console.error('Error fetching public IP:', err);
+                return null;
+            });
+    }
+
+    static getIpDetails(ip: string): Promise<any> {
+        const apiUrl = `http://ip-api.com/json/${ip}`;
+        return fetch(apiUrl)
+            .then((response) => response.json())
+            .then((data) => {
+                return data; // Contains location, ISP, etc.
+            })
+            .catch((err) => {
+                console.error('Error fetching IP details:', err);
+                return null;
+            });
+    }
 }
 
 @Component({

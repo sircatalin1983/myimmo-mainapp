@@ -1,8 +1,8 @@
 export const environment = {
   production: true,
-  backendImmoReport: 'https://app.itwiththebest.com:1402',
+  backendImmoReport: 'https://app.itwiththebest.com:1102',
   backend: 'https://app.itwiththebest.com:1102', // Put your backend here
-  assistantApp: 'https://myimmo-frontend.itwiththebest.com',
+  assistantApp: 'https://admin.propero.io',
 
 
   dateFormat: 'dd-MM-yyyy',

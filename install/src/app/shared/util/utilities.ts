@@ -126,6 +126,7 @@ export class Utilities {
 export enum BinaryTypeEnum {
   BinaryType_Image = "Image",
   BinaryType_Document = "Document",
+  BinaryType_InvoiceToProcess = "InvoiceToProcess",
 }
 
 interface AppIconInstance {

@@ -96,3 +96,45 @@
     place-content: flex-start center;
     align-items: flex-start;
 }
+
+.home-article {
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items at the top */
+    gap: 16px; /* Space between the image and content */
+    margin-bottom: 20px; /* Space between articles */
+}
+
+.home-article-img {
+    flex: 0 0 250px; /* Set a fixed width for the image container */
+    height: 250px; /* Fixed height for the image container */
+    display: flex; /* Center the image inside the container */
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4; /* Optional: Background for visualization */
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.home-article-img img {
+    width: 100%; /* Stretch the image to fill the container width */
+    height: 100%; /* Stretch the image to fill the container height */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+}
+
+.home-article-content {
+    flex: 1; /* Allow content to take the remaining space */
+}
+
+.home-article-content h3 {
+    margin: 0 0 8px; /* Space below the title */
+}
+
+.home-article-content p {
+    margin: 0 0 12px; /* Space below the summary */
+}
+
+.home-article-content span {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}

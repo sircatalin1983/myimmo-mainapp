@@ -10,6 +10,7 @@ import { catchError, finalize, map, switchMap } from 'rxjs/operators';
 import { BlogService } from 'src/app/shared/services/blog/blog.service';
 import { Blog } from 'src/app/shared/services/blog/blog';
 import { BlogItemCommentService } from 'src/app/shared/services/blog-item-comment/blog-item-comment.service';
+import { TrackerService } from 'src/app/shared/util/tracker.service';
 
 @Component({
   selector: 'app-main',
@@ -28,7 +29,8 @@ export class MainComponent implements OnInit {
     public blogService: BlogService,
     private router: Router,
     private blogItemCommentService: BlogItemCommentService,
-    public translate: TranslateService
+    public translate: TranslateService,
+    private trackerService: TrackerService
   ) {
 
   }
@@ -40,6 +42,8 @@ export class MainComponent implements OnInit {
     this.contactItem.telephone = '';
 
     this.assistantHref = environment.assistantApp;
+
+    this.trackerService.trackPageViews();
 
     Helpers.getObservable([])
       .pipe(

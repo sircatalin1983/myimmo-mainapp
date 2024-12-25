@@ -4,10 +4,13 @@
 
 export const environment = {
   production: false,
+  // backendImmoReport: 'https://app.itwiththebest.com:1102',
+  // backend: 'https://app.itwiththebest.com:1102', // Put your backend here
+  // assistantApp: 'https://admin.propero.io',
   backend: 'http://localhost:9000', // Put your backend here
   assistantApp: 'http://localhost:4500',
   backendImmoReport: 'http://localhost:9000', // Put your backend here
-  //backendImmoReport: 'http://localhost:3100', // Put your backend here
+//  backendImmoReport: 'http://localhost:3100', // Put your backend here
 
   dateFormat: 'dd-MM-yyyy',
 
@@ -32,9 +35,9 @@ export const environment = {
 
 // export const environment = {
 //   production: true,
-//   backendImmoReport: 'https://app.itwiththebest.com:1402',
+//   backendImmoReport: 'https://app.itwiththebest.com:1102',
 //   backend: 'https://app.itwiththebest.com:1102', // Put your backend here
-//   assistantApp: 'https://myimmo-frontend.itwiththebest.com',
+//   assistantApp: 'https://propero.io',
 
 
 //   dateFormat: 'dd-MM-yyyy',

@@ -8,6 +8,7 @@ import { Blog } from 'src/app/shared/services/blog/blog';
 import { BlogService } from 'src/app/shared/services/blog/blog.service';
 import { BlogItemCommentService } from 'src/app/shared/services/blog-item-comment/blog-item-comment.service';
 import { Router } from '@angular/router';
+import { TrackerService } from 'src/app/shared/util/tracker.service';
 
 @Component({
   selector: 'app-blog-list',
@@ -23,12 +24,15 @@ export class BlogListComponent implements OnInit {
     private fb: FormBuilder,
     public blogService: BlogService,
     private blogItemCommentService: BlogItemCommentService,
-    public translate: TranslateService
+    public translate: TranslateService,
+    private trackerService: TrackerService
   ) {
 
   }
 
   ngOnInit(): void {
+    this.trackerService.trackPageViews();
+    
     Helpers.getObservable([])
       .pipe(
         switchMap(() => this.blogService.getItems()),
