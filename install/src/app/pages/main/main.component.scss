@@ -22,9 +22,9 @@
     &:hover {
         transform: translateY(-5px);
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-    }
+}
 
-    .features-title-icon {
+.features-title-icon {
         margin: 0;
         width: 100%;
         background: #f8f9fa;
@@ -70,9 +70,9 @@
                 transition: all 0.3s ease;
             }
         }
-    }
+}
 
-    .features-content {
+.features-content {
         flex: 1;
         width: 100%;
         display: flex;
@@ -100,9 +100,9 @@
             justify-content: center;
             margin-top: auto;
             padding: 15px 0 10px;
-        }
+}
 
-        .features-btn {
+.features-btn {
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -342,14 +342,14 @@
                 font-weight: 400;
             }
         }
-    }
+}
 
-    .pricing-list {
+.pricing-list {
         flex: 1;
         padding: 0;
         margin: 0 0 25px;
         list-style: none;
-        text-align: left;
+    text-align: left;
 
         li {
             font-size: 15px;
@@ -719,7 +719,7 @@
 }
 
 .slider-image {
-    width: 100%;
+        width: 100%;
     height: 300px;
     border-radius: 12px;
     overflow: hidden;
@@ -796,10 +796,10 @@
                     padding-right: 40px;
                 }
             }
-        }
     }
+}
 
-    .slider-content {
+.slider-content {
         .title {
             font-size: 28px;
             min-height: 68px;
@@ -809,9 +809,9 @@
             font-size: 14px;
             min-height: 78px;
         }
-    }
+}
 
-    .slider-image {
+.slider-image {
         height: 280px;
     }
 }
@@ -1034,7 +1034,7 @@ a {
             }
 
             .card-title a {
-                font-size: 16px;
+    font-size: 16px;
             }
         }
 
@@ -1309,7 +1309,7 @@ h4 {
     }
 
     .blog-image {
-        position: relative;
+    position: relative;
         overflow: hidden;
 
         button {
@@ -1322,7 +1322,7 @@ h4 {
         }
 
         img {
-            width: 100%;
+    width: 100%;
             height: 240px;
             object-fit: cover;
             transition: transform 0.3s ease;
@@ -1446,7 +1446,7 @@ h4 {
 
 .single-features {
     min-height: 320px;
-    padding: 20px;
+        padding: 20px;
     margin-bottom: 20px;
 
     .features-title-icon {
@@ -1500,7 +1500,7 @@ h4 {
         
         .sub-title {
             font-size: 20px;
-            margin-bottom: 10px;
+    margin-bottom: 10px;
         }
     }
     
@@ -1623,7 +1623,7 @@ h4 {
             
             a {
                 font-size: 20px;
-                font-weight: 600;
+    font-weight: 600;
                 color: #1a2a6c;
                 text-decoration: none;
                 transition: all 0.3s ease;
@@ -1967,7 +1967,7 @@ h4 {
                             padding: 15px 25px;
 
                             .text {
-                                font-size: 14px;
+    font-size: 14px;
                             }
                         }
                     }
@@ -2099,7 +2099,7 @@ h4 {
 
         .contact-title {
             font-size: 24px;
-            font-weight: 600;
+    font-weight: 600;
             color: #1a2a6c;
             margin-bottom: 30px;
             display: flex;
