@@ -21,17 +21,17 @@
                                 <p class="text white">{{ 'HOME.MAIN_SUBTITLE1' | translate }}</p>
                                 <ul class="slider-btn rounded-buttons">
                                     <li>
-                                        <a class="main-btn rounded-one"
-                                            routerLink="https://admin.propero.io/"
-                                            target="_blank">Propero assistant</a>
+                                        <a class="features-btn" href="https://admin.propero.io/" target="_blank">
+                                            Propero assistant
+                                        </a>
                                         <br />
-                                        <span class="small-text">{{ 'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate
-                                            }}</span>
+                                        <span class="small-text">{{ 'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate }}</span>
                                         <br />
                                     </li>
                                     <li>
-                                        <a class="main-btn rounded-one" routerLink="/solution-personalised">{{
-                                            'HOME.MAIN_PERSONALIZED_OFFER' | translate }}</a>
+                                        <a class="slave-btn" routerLink="/solution-personalised">
+                                            {{ 'HOME.MAIN_PERSONALIZED_OFFER' | translate }}
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -53,8 +53,8 @@
                                 <h1 class="title">{{ 'HOME.MAIN_TITLE2' | translate }}</h1>
                                 <p class="text">{{ 'HOME.MAIN_SUBTITLE2' | translate }}</p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one"
-                                            href="https://admin.propero.io/" target="_blank">Propero assistant</a>
+                                    <li><a class="features-btn rounded-one" href="https://admin.propero.io/"
+                                            target="_blank">Propero assistant</a>
                                         <br />
                                         <span i18n="@@mainSubtitleAdditionalText" class="small-text">{{
                                             'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate }}
@@ -87,7 +87,7 @@
                                 <h1 class="title">{{ 'HOME.MAIN_TITLE3' | translate }}</h1>
                                 <p class="text">{{ 'HOME.MAIN_SUBTITLE3' | translate }}</p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one" href="{{ assistantHref }}"
+                                    <li><a class="features-btn rounded-one" href="{{ assistantHref }}"
                                             target="_blank">Propero assistant</a>
                                         <br />
                                         <span class="small-text">{{
@@ -119,7 +119,7 @@
                                 <h1 class="title">{{ 'HOME.MAIN_TITLE4' | translate }}</h1>
                                 <p class="text">{{ 'HOME.MAIN_SUBTITLE4' | translate }}</p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one" href="{{ assistantHref }}"
+                                    <li><a class="features-btn rounded-one" href="{{ assistantHref }}"
                                             target="_blank">Propero assistant</a>
                                         <br />
                                         <span class="small-text">{{
@@ -151,7 +151,7 @@
                                 <h1 class="title">{{ 'HOME.MAIN_TITLE5' | translate }}</h1>
                                 <p class="text">{{ 'HOME.MAIN_SUBTITLE5' | translate }}</p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one" href="{{ assistantHref }}"
+                                    <li><a class="features-btn rounded-one" href="{{ assistantHref }}"
                                             target="_blank">Propero assistant</a>
                                         <br />
                                         <span class="small-text">{{
@@ -200,13 +200,13 @@
             <div class="col-lg-4 col-md-7 col-sm-9 mt-40">
                 <div class="single-features">
                     <div class="features-title-icon d-flex justify-content-between">
-                        <h4 class="features-title"><a routerLink="/solution1">
-                                {{ 'HOME.FEATURE_AUTOMATE_OPERATIONS_TITLE' | translate }}
-                            </a></h4>
                         <div class="features-icon">
                             <i class="lni lni-island"></i>
-                            <img class="shape" src="assets/images/Shape-1.svg" alt="Shape">
                         </div>
+                        <h4 class="features-title"><a routerLink="/solution1">
+                                {{ 'HOME.FEATURE_AUTOMATE_OPERATIONS_TITLE' | translate }}
+                            </a>
+                        </h4>
                     </div>
                     <div class="features-content">
                         <p class="text tooltip-text-content">
@@ -220,14 +220,15 @@
             <div class="col-lg-4 col-md-7 col-sm-9 mt-40">
                 <div class="single-features">
                     <div class="features-title-icon d-flex justify-content-between">
+                        <div class="features-icon">
+                            <i class="lni lni-layout"></i>
+                        </div>
                         <h4 i18n="@@featureCollectPaymentsOnlineTitle" class="features-title"><a
                                 routerLink="/solution2">
                                 {{ 'HOME.FEATURE_COLLECT_PAYMENTS_ONLINE_TITLE' | translate }}
-                            </a></h4>
-                        <div class="features-icon">
-                            <i class="lni lni-layout"></i>
-                            <img class="shape" src="assets/images/Shape-1.svg" alt="Shape">
-                        </div>
+                            </a>
+                        </h4>
+
                     </div>
                     <div class="features-content">
                         <p i18n="@@featureCollectPaymentsOnlineText" class="text tooltip-text-content"> {{
@@ -240,19 +241,79 @@
             <div class="col-lg-4 col-md-7 col-sm-9 mt-40">
                 <div class="single-features">
                     <div class="features-title-icon d-flex justify-content-between">
+                        <div class="features-icon">
+                            <i class="lni lni-write"></i>
+                        </div>
                         <h4 i18n="@@featureProfessionalReportTitle" class="features-title">
                             <a routerLink="/solution3"> {{
                                 'HOME.FEATURE_PROFESSIONAL_REPORT_TITLE' | translate }}</a>
                         </h4>
-                        <div class="features-icon">
-                            <i class="lni lni-write"></i>
-                            <img class="shape" src="assets/images/Shape-1.svg" alt="Shape">
-                        </div>
+
                     </div>
                     <div class="features-content">
                         <p i18n="@@featureProfessionalReportText" class="text tooltip-text-content"> {{
                             'HOME.FEATURE_PROFESSIONAL_REPORT_TEXT' | translate }}</p>
                         <a i18n="@@featureWantDetails" class="features-btn" routerLink="/solution3"> {{
+                            'HOME.FEATURE_WANT_DETAILS' | translate }}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-7 col-sm-9 mt-40">
+                <div class="single-features">
+                    <div class="features-title-icon d-flex justify-content-between">
+                        <div class="features-icon">
+                            <i class="lni lni-shield"></i>
+                        </div>
+                        <h4 class="features-title">
+                            <a routerLink="/solution4">
+                                Protecție și scoring
+                            </a></h4>
+
+                    </div>
+                    <div class="features-content">
+                        <p class="text tooltip-text-content">
+                            Evaluează rapid riscurile și potențialul fiecărei proprietăți sau al fiecărui chiriaș cu ajutorul unui sistem de scoring automatizat. Analizăm factori-cheie precum istoricul plăților, starea proprietății, rentabilitatea investiției și comportamentul anterior al chiriașilor pentru a te ajuta să iei decizii informate, rapide și sigure.
+                        </p>
+                        <a class="features-btn" routerLink="/solution4">{{
+                            'HOME.FEATURE_WANT_DETAILS' | translate }}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-7 col-sm-9 mt-40">
+                <div class="single-features">
+                    <div class="features-title-icon d-flex justify-content-between">
+                        <div class="features-icon">
+                            <i class="lni lni-files"></i>
+                        </div>
+                        <h4 class="features-title"><a routerLink="/solution5">
+                                Inventar digital
+                            </a></h4>
+
+                    </div>
+                    <div class="features-content">
+                        <p class="text tooltip-text-content">
+                            Gestionează eficient inventarul complet al fiecărei proprietăți: adaugă fotografii ale echipamentelor, atașează documente de garanție și note relevante. Primești notificări automate înainte de expirarea garanțiilor, termene de reînnoire sau înlocuire, astfel încât să nu ratezi nimic important. Totul este centralizat, organizat și accesibil rapid — pentru o administrare modernă, fără bătăi de cap.
+                        </p>
+                        <a class="features-btn" routerLink="/solution5">{{
+                            'HOME.FEATURE_WANT_DETAILS' | translate }}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-7 col-sm-9 mt-40">
+                <div class="single-features">
+                    <div class="features-title-icon d-flex justify-content-between">
+                        <div class="features-icon">
+                            <i class="lni lni-bolt"></i>
+                        </div>
+                        <h4 class="features-title"><a routerLink="/solution6">
+                                Utilități și facturi
+                            </a></h4>
+                    </div>
+                    <div class="features-content">
+                        <p class="text tooltip-text-content">
+                            Administrează toate utilitățile proprietăților tale într-un singur loc — de la contoare și citiri periodice, la revizii tehnice și gestiunea facturilor. Monitorizează consumul în timp real, încarcă sau primește automat facturile, primește alerte pentru citiri programate și expirarea reviziilor. Ai control total asupra costurilor și vizibilitate completă asupra statusului fiecărei utilități.
+                        </p>
+                        <a class="features-btn" routerLink="/solution6">{{
                             'HOME.FEATURE_WANT_DETAILS' | translate }}</a>
                     </div>
                 </div>
@@ -305,7 +366,7 @@
                     </div>
                     <div class="mb-5">&nbsp;</div>
                     <div class="pricing-btn rounded-buttons text-center">
-                        <a i18n="@@startText" class="main-btn rounded-one" routerLink="/pricing"> {{
+                        <a i18n="@@startText" class="features-btn" routerLink="/pricing"> {{
                             'HOME.START' | translate }}</a>
                     </div>
                 </div> <!-- pricing style one -->
@@ -345,7 +406,7 @@
                     </div>
                     <div class="mb-5">&nbsp;</div>
                     <div class="pricing-btn rounded-buttons text-center">
-                        <a i18n="@@startText" class="main-btn rounded-one" routerLink="/pricing"> {{
+                        <a i18n="@@startText" class="features-btn rounded-one" routerLink="/pricing"> {{
                             'HOME.SMART' | translate }}</a>
                     </div>
                 </div>
@@ -388,7 +449,7 @@
                     </div>
                     <div class="mb-5">&nbsp;</div>
                     <div class="pricing-btn rounded-buttons text-center">
-                        <a i18n="@@startText" class="main-btn rounded-one" routerLink="/pricing"> {{ 'HOME.SCALE' |
+                        <a i18n="@@startText" class="features-btn rounded-one" routerLink="/pricing"> {{ 'HOME.SCALE' |
                             translate
                             }}</a>
                     </div>
@@ -411,121 +472,127 @@
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-7 col-sm-9">
-                <div class="single-card card-style-one mt-30">
-                    <div class="card-image">
-                        <img src="assets/images/card/card-1.jpg" alt="Image">
+            <div class="col-lg-6">
+                <div class="single-portfolio">
+                    <div class="portfolio-title-icon">
+                        <div class="portfolio-title">
+                            <a href="/fiscal-guide">Ghid Fiscal</a>
+                        </div>
+                        <div class="portfolio-icon">
+                            <i class="lni lni-calculator"></i>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <h4 i18n="@@featureHelpTitle" class="card-title"><a routerLink="#"> {{ 'HOME.FEATURE_HELP_TITLE'
-                                |
-                                translate }}</a></h4>
-                        <p i18n="@@featureHelpText" class="text tooltip-text-content"> {{ 'HOME.FEATURE_HELP_TEXT' |
-                            translate }}</p>
-                        <div class="card-btn rounded-buttons">
-                            <a i18n="@@hereText" class="main-btn rounded-three" routerLink="/help"> {{ 'HOME.HERE' |
-                                translate
-                                }}</a>
+                    <div class="portfolio-content">
+                        <p class="text">Înțelege implicațiile fiscale ale închirierii.
+                            Folosește checklist-urile noastre interactive pentru a nu uita nimic important: pregătirea
+                            locuinței pentru închiriere, procesul de predare-primire, verificări periodice ale
+                            proprietății. Economisești timp și eviți greșelile cu liste predefinite, adaptabile la
+                            nevoile tale.
+                        </p>
+                        <div class="portfolio-btn-wrapper">
+                            <a href="/fiscal-guide" class="portfolio-btn">Află mai multe</a>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="single-card card-style-three mt-30">
-                    <div class="card-image">
-                        <img src="assets/images/card/card-3.jpg" alt="Image">
+
+                <div class="single-portfolio">
+                    <div class="portfolio-title-icon">
+                        <div class="portfolio-title">
+                            <a href="/help">Centru Ajutor</a>
+                        </div>
+                        <div class="portfolio-icon">
+                            <i class="lni lni-support"></i>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <h4 class="card-title"><a href="#">Item title is here</a></h4>
-                        <p class="text">Short description for the ones who look for something new</p>
+                    <div class="portfolio-content">
+                        <p class="text">Găsește rapid răspunsuri la întrebările tale despre gestionarea proprietăților.
+                            Accesează ghiduri pas cu pas, tutoriale video și articole informative care te ajută să
+                            devii un proprietar mai eficient.
+                        </p>
+                        <div class="portfolio-btn-wrapper">
+                            <a href="/help" class="portfolio-btn">Accesează</a>
+                        </div>
                     </div>
-                </div>  <div class="single-card card-style-five mt-30">
-                    <div class="card-image">
-                        <img src="assets/images/card/card-4.jpg" alt="Image">
+                </div>
+
+                <div class="single-portfolio">
+                    <div class="portfolio-title-icon">
+                        <div class="portfolio-title">
+                            <a href="/management-tool">Instrumente Management Imobiliar</a>
+                        </div>
+                        <div class="portfolio-icon">
+                            <i class="lni lni-dashboard"></i>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <h4 class="card-title"><a href="#">Item title is here</a></h4>
-                        <p class="text">Short description for the ones who look for something new</p>
-                        <a class="card-icon" href="#"><i class="lni lni-cloud-download"></i></a>
+                    <div class="portfolio-content">
+                        <p class="text">Dashboard performanță.
+                            Accesează un panou centralizat cu indicatori esențiali: gradul de ocupare,
+                            veniturile lunare/anuale, ROI per proprietate, istoricul plăților și datoriilor.
+                            Vizualizări intuitive îți permit să iei decizii rapide, bazate pe date reale.
+                        </p>
+                        <div class="portfolio-btn-wrapper">
+                            <a href="/management-tool" class="portfolio-btn">Accesează Dashboard</a>
+                        </div>
                     </div>
-                </div> -->
+                </div>
             </div>
-            <div class="col-lg-8">
-                <!-- <div class="single-card card-style-two mt-30">
-                    <div class="row no-gutters align-items-center">
-                        <div class="col-sm-6">
-                            <div class="card-image">
-                                <img src="assets/images/card/card-2.jpg" alt="Image">
-                            </div>
+            <div class="col-lg-6">
+                <div class="single-portfolio">
+                    <div class="portfolio-title-icon">
+                        <div class="portfolio-title">
+                            <a href="/documents">Documente și șabloane</a>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="card-content">
-                                <h4 class="card-title"><a href="#">Item title is here</a></h4>
-                                <p class="text">Short description for the ones who look for something new</p>
-                                <div class="card-btn rounded-buttons">
-                                    <a class="main-btn rounded-three" href="#">GET STARTED</a>
-                                </div>
-                            </div>
+                        <div class="portfolio-icon">
+                            <i class="lni lni-files"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <p class="text">Accesează și gestionează toate documentele importante într-un singur loc.
+                            Contracte, facturi, chitanțe și alte documente esențiale, organizate și ușor de găsit
+                            când ai nevoie de ele.
+                        </p>
+                        <div class="portfolio-btn-wrapper">
+                            <a href="/documents" class="portfolio-btn">Organizează</a>
                         </div>
                     </div>
                 </div>
-                <div class="single-card card-style-four mt-30">
-                    <div class="row no-gutters align-items-center">
-                        <div class="col-sm-6 order-md-last">
-                            <div class="card-image">
-                                <img src="assets/images/card/card-4.jpg" alt="Image">
-                            </div>
+
+                <div class="single-portfolio">
+                    <div class="portfolio-title-icon">
+                        <div class="portfolio-title">
+                            <a href="/calculators">Calculatoare</a>
                         </div>
-                        <div class="col-sm-6 order-md-first">
-                            <div class="card-content">
-                                <h4 class="card-title"><a href="#">Item title is here</a></h4>
-                                <p class="text">Short description for the ones who look for something new</p>
-                                <div class="card-btn rounded-buttons">
-                                    <a class="main-btn rounded-one" href="#">GET STARTED</a>
-                                </div>
-                            </div>
+                        <div class="portfolio-icon">
+                            <i class="lni lni-calculator"></i>
                         </div>
                     </div>
-                </div>  -->
-                <div class="single-card card-style-six mt-30">
-                    <div class="row no-gutters align-items-center">
-                        <div class="col-sm-6">
-                            <div class="card-image">
-                                <img src="assets/images/card/card-5.jpg" alt="Image">
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="card-content">
-                                <h4 i18n="@@featureDocumentsTitle" class="card-title"><a routerLink="#"> {{
-                                        'HOME.FEATURE_DOCUMENTS_TITLE' | translate }}</a></h4>
-                                <p i18n="@@featureDocumentsText" class="text tooltip-text-content"> {{
-                                    'HOME.FEATURE_DOCUMENTS_TEXT' | translate }}
-                                </p>
-                                <div class="card-btn rounded-buttons">
-                                    <a i18n="@@hereText" class="main-btn rounded-three" routerLink="/documents"> {{
-                                        'HOME.HERE' | translate }}</a>
-                                </div>
-                            </div>
+                    <div class="portfolio-content">
+                        <p class="text">Instrumente de calcul esențiale pentru gestionarea proprietăților.
+                            Calculează rapid rate, amortizări, ROI, taxe și impozite.
+                            Ia decizii informate bazate pe calcule precise și actualizate.
+                        </p>
+                        <div class="portfolio-btn-wrapper">
+                            <a href="/calculators" class="portfolio-btn">Calculează</a>
                         </div>
                     </div>
                 </div>
-                <div class="single-card card-style-saven mt-30">
-                    <div class="row no-gutters align-items-center">
-                        <div class="col-sm-6 order-md-last">
-                            <div class="card-image">
-                                <img src="assets/images/card/card-3.jpg" alt="Image">
-                            </div>
+
+                <div class="single-portfolio">
+                    <div class="portfolio-title-icon">
+                        <div class="portfolio-title">
+                            <a href="/todo">ToDo's</a>
                         </div>
-                        <div class="col-sm-6 order-md-first">
-                            <div class="card-content">
-                                <h4 class="card-title"><a routerLink="#"> {{ 'HOME.FEATURE_CALCULATORS_TITLE' |
-                                        translate
-                                        }}</a></h4>
-                                <p class="text tooltip-text-content"> {{ 'HOME.FEATURE_CALCULATORS_TEXT' | translate }}
-                                </p>
-                                <div class="card-btn rounded-buttons">
-                                    <a i18n="@@hereText" class="main-btn rounded-one" routerLink="/calculators"> {{
-                                        'HOME.HERE' | translate }}</a>
-                                </div>
-                            </div>
+                        <div class="portfolio-icon">
+                            <i class="lni lni-checkbox"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <p class="text">Organizează-ți activitățile cu liste de sarcini personalizabile.
+                            Urmărește progresul, setează priorități și colaborează cu echipa ta pentru
+                            o gestionare eficientă a proprietăților.
+                        </p>
+                        <div class="portfolio-btn-wrapper">
+                            <a href="/todo" class="portfolio-btn">Creează Liste</a>
                         </div>
                     </div>
                 </div>
@@ -534,7 +601,7 @@
     </div>
 </section>
 
-<section id="blog" class="blog-area blog-five pb-100 grey-area">
+<section id="blog" class="blog-area blog-five pb-100 gray-area">
     <div class="container">
 
         <div class="row justify-content-center">
@@ -551,25 +618,23 @@
             <div class="col-lg-4 col-md-8 col-sm-10" *ngFor="let blogItem of latestBlogItems">
                 <div class="single-blog blog-style-one">
                     <div class="blog-image">
-                        <button href="/blog-post?id={{blogItem.id}}" target="_blank">
+                        <button routerLink="/blog-post" [queryParams]="{id: blogItem.id}">
                             <img [src]="blogItem.imageURL || '../assets/images/blog/1.jpg'" alt="Blog" />
                         </button>
-                        <a href="/blog-post?id={{blogItem.id}}" class="category" target="_blank">{{ blogItem.BlogCategory.name ||
-                            'Fără categorie'
+                        <a routerLink="/blog-post" [queryParams]="{id: blogItem.id}" class="category">{{
+                            blogItem.BlogCategory.name || 'Fără categorie'
                             }}</a>
                     </div>
                     <div class="blog-content">
-                        <h5 class="blog-title">
-                            <a href="/blog-post?id={{blogItem.id}}" target="_blank">
+                        <div class="blog-title">
+                            <a routerLink="/blog-post" [queryParams]="{id: blogItem.id}">
                                 <h3>{{ blogItem.title }}</h3>
                             </a>
-                        </h5>
-                        <span><i class="lni lni-calendar"></i> {{ blogItem.publishedDate | date: 'MMM d, y'
-                            }}</span>
-                        <span><i class="lni lni-comments-alt"></i> {{ blogItem.commentsCount || 0 }} Comment{{
-                            blogItem.commentsCount === 1 ? '' : 's' }}</span>
+                        </div>
+                        <span><i class="lni lni-calendar"></i> {{ blogItem.publishedDate | date: 'dd MMM yyyy' }}</span>
+                        <span><i class="lni lni-comments-alt"></i> {{ blogItem.commentsCount || 0 }} comentarii</span>
                         <p class="text">{{ blogItem.summary || 'Blog-ul nu are sumar.' }}</p>
-                        <a class="more" href="/blog-post?id={{blogItem.id}}" target="_blank">Citește</a>
+                        <a class="more" routerLink="/blog-post" [queryParams]="{id: blogItem.id}">Citește articolul</a>
                     </div>
                 </div>
                 <!-- single blog -->
@@ -653,88 +718,71 @@
 
 <section id="about" class="about-area white-area">
     <div class="container">
-        <div class="row">
-            <div class="faq-content mt-45">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-10">
                 <div class="about-title">
-                    <h6 i18n="@@sectionFaqTitle" class="sub-title"> {{ 'HOME.SECTION_FAQ_TITLE' |
-                        translate }}</h6>
-                    <h4 i18n="@@sectionFaqSubtitle" class="title"> {{ 'HOME.SECTION_FAQ_TEXT' |
-                        translate }} </h4>
+                    <h6 class="sub-title">{{ 'HOME.SECTION_FAQ_TITLE' | translate }}</h6>
+                    <h4 class="title">{{ 'HOME.SECTION_FAQ_TEXT' | translate }}</h4>
                 </div>
                 <div class="about-accordion">
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">
-                                <a i18n="@@featureQuestion1Title" routerLink="#" data-toggle="collapse"
-                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> {{
-                                    'HOME.FEATURE_QUESTION1_TITLE' | translate }}</a>
+                                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    {{ 'HOME.FEATURE_QUESTION1_TITLE' | translate }}
+                                </a>
                             </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                data-parent="#accordionExample">
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p i18n="@@featureQuestion1Text" class="text"> {{ 'HOME.FEATURE_QUESTION1_TEXT' |
-                                        translate }}</p>
+                                    <p class="text">{{ 'HOME.FEATURE_QUESTION1_TEXT' | translate }}</p>
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo">
-                                <a i18n="@@featureQuestion2Title" routerLink="#" class="collapsed"
-                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo"> {{
-                                    'HOME.FEATURE_QUESTION2_TITLE' | translate }}</a>
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    {{ 'HOME.FEATURE_QUESTION2_TITLE' | translate }}
+                                </a>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordionExample">
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p i18n="@@featureQuestion2Text" class="text"> {{
-                                        'HOME.FEATURE_QUESTION2_TEXT' | translate }}</p>
+                                    <p class="text">{{ 'HOME.FEATURE_QUESTION2_TEXT' | translate }}</p>
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingThree">
-                                <a i18n="@@featureQuestion3Title" routerLink="#" class="collapsed"
-                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree"> {{
-                                    'HOME.FEATURE_QUESTION3_TITLE' | translate }}</a>
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    {{ 'HOME.FEATURE_QUESTION3_TITLE' | translate }}
+                                </a>
                             </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordionExample">
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p i18n="@@featureQuestion3Text" class="text"> {{
-                                        'HOME.FEATURE_QUESTION3_TEXT' | translate }}</p>
+                                    <p class="text">{{ 'HOME.FEATURE_QUESTION3_TEXT' | translate }}</p>
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header" id="headingFore">
-                                <a i18n="@@featureQuestion4Title" routerLink="#" class="collapsed"
-                                    data-toggle="collapse" data-target="#collapseFore" aria-expanded="false"
-                                    aria-controls="collapseFore"> {{
-                                    'HOME.FEATURE_QUESTION4_TITLE' | translate }}</a>
+                            <div class="card-header" id="headingFour">
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    {{ 'HOME.FEATURE_QUESTION4_TITLE' | translate }}
+                                </a>
                             </div>
-                            <div id="collapseFore" class="collapse" aria-labelledby="headingFore"
-                                data-parent="#accordionExample">
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p i18n="@@featureQuestion4Text" class="text"> {{
-                                        'HOME.FEATURE_QUESTION4_TEXT' | translate }}
-                                    </p>
+                                    <p class="text">{{ 'HOME.FEATURE_QUESTION4_TEXT' | translate }}</p>
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFive">
-                                <a i18n="@@featureQuestion5Title" routerLink="#" class="collapsed"
-                                    data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
-                                    aria-controls="collapseFive"> {{
-                                    'HOME.FEATURE_QUESTION5_TITLE' | translate }}</a>
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    {{ 'HOME.FEATURE_QUESTION5_TITLE' | translate }}
+                                </a>
                             </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                data-parent="#accordionExample">
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p i18n="@@featureQuestion5Text" class="text"> {{
-                                        'HOME.FEATURE_QUESTION5_TEXT' | translate }}</p>
+                                    <p class="text">{{ 'HOME.FEATURE_QUESTION5_TEXT' | translate }}</p>
                                 </div>
                             </div>
                         </div>
@@ -750,107 +798,115 @@
         <div class="row justify-content-center">
             <div class="col-lg-10 col-md-10">
                 <div class="section-title text-center pb-30">
-                    <h3 i18n="@@sectionContactUsTitle" class="title"> {{ 'HOME.SECTION_CONTACTUS_TITLE' |
-                        translate }}</h3>
-                    <p i18n="@@sectionContactUsText" class="text"> {{ 'HOME.SECTION_CONTACTUS_TEXT' |
-                        translate }}</p>
+                    <h3 class="title">{{ 'HOME.SECTION_CONTACTUS_TITLE' | translate }}</h3>
+                    <p class="text">{{ 'HOME.SECTION_CONTACTUS_TEXT' | translate }}</p>
                 </div>
             </div>
         </div>
-        <div class="row">
+
+        <!-- <div class="row">
             <div class="col-lg-12">
-                <div class="contact-map mt-30">
-                    <iframe id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=brasov&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                        scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <div class="contact-map">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=brasov&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                        allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>
-        <div class="contact-info pt-30">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-contact-info contact-color-1 mt-30 d-flex ">
-                        <div class="contact-info-icon">
-                            <i class="lni lni-map-marker"></i>
-                        </div>
-                        <div class="contact-info-content media-body">
-                            <p class="text">Str. Calea Bucurest nr. 20 Sc B Ap 4. Brașov, Romania.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-contact-info contact-color-2 mt-30 d-flex">
-                        <div class="contact-info-icon">
-                            <i class="lni lni-envelope"></i>
-                        </div>
-                        <div class="contact-info-content media-body">
-                            <p class="text">contact@propero.com</p>
-                            <!-- <p class="text">support@myimmo.com</p> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-contact-info contact-color-3 mt-30 d-flex ">
-                        <div class="contact-info-icon">
-                            <i class="lni lni-phone"></i>
-                        </div>
-                        <div class="contact-info-content media-body">
-                            <p class="text">(+4) 0743 366 266</p>
-                            <!-- <p class="text">+4 743 366 266</p> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <div class="row">
-            <div class="col-lg-12">
-                <div class="contact-wrapper form-style-two pt-115">
-                    <h4 class="contact-title pb-10">
-                        <i i18n="@@textMessage" class="lni lni-envelope"></i> {{
-                        'HOME.TEXT_MESSAGE' | translate }}
+            <div class="col-lg-4 col-md-6">
+                <div class="single-contact-info contact-color-1">
+                    <div class="contact-info-icon">
+                        <i class="lni lni-map-marker"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <p class="text">Str. Calea București nr. 20<br>Sc B Ap 4<br>Brașov, Romania</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-contact-info contact-color-2">
+                    <div class="contact-info-icon">
+                        <i class="lni lni-envelope"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <p class="text">contact@propero.io</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-contact-info contact-color-3">
+                    <div class="contact-info-icon">
+                        <i class="lni lni-phone"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <p class="text">(+4) 0743 366 266</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="contact-wrapper">
+                    <h4 class="contact-title">
+                        <i class="lni lni-envelope"></i> 
+                        {{ 'HOME.TEXT_MESSAGE' | translate }}
                     </h4>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-input mt-25">
-                                <label i18n="@@formContactUsName"> {{ 'HOME.NAME' |
-                                    translate }}</label>
-                                <div class="input-items default">
-                                    <input matInput required name="name" type="text" placeholder="Nume"
-                                        [(ngModel)]="contactItem.subject" ngDefaultControl>
-                                    <i class="lni lni-user"></i>
+                    <form #contactForm="ngForm">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-input">
+                                    <label>{{ 'HOME.NAME' | translate }}</label>
+                                    <div class="input-items">
+                                        <input 
+                                            type="text" 
+                                            name="name" 
+                                            placeholder="{{ 'HOME.NAME' | translate }}"
+                                            [(ngModel)]="contactItem.subject" 
+                                            required>
+                                        <i class="lni lni-user"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-input">
+                                    <label>{{ 'HOME.EMAIL' | translate }}</label>
+                                    <div class="input-items">
+                                        <input 
+                                            type="email" 
+                                            name="email" 
+                                            placeholder="{{ 'HOME.EMAIL' | translate }}"
+                                            [(ngModel)]="contactItem.email" 
+                                            required>
+                                        <i class="lni lni-envelope"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-input">
+                                    <label>{{ 'HOME.MESSAGE' | translate }}</label>
+                                    <div class="input-items textarea">
+                                        <textarea 
+                                            name="message" 
+                                            placeholder="{{ 'HOME.MESSAGE' | translate }}"
+                                            [(ngModel)]="contactItem.content" 
+                                            required></textarea>
+                                        <i class="lni lni-pencil-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    <button type="submit" class="features-btn" (click)="send()">
+                                        {{ 'HOME.SEND' | translate }}
+                                    </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-input mt-25">
-                                <label i18n="@@formContactUsEmail"> {{ 'HOME.EMAIL' |
-                                    translate }}</label>
-                                <div class="input-items default">
-                                    <input matInput type="email" name="email" placeholder="Email"
-                                        [(ngModel)]="contactItem.email" ngDefaultControl>
-                                    <i class="lni lni-envelope"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-input mt-25">
-                                <label i18n="@@formContactUsMessage"> {{ 'HOME.MESSAGE' |
-                                    translate }}</label>
-                                <div class="input-items default">
-                                    <textarea matInput required name="massage" placeholder="Mesaj"
-                                        [(ngModel)]="contactItem.content" ngDefaultControl></textarea>
-                                    <i class="lni lni-pencil-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="form-message"></p>
-                        <div class="col-md-12">
-                            <div class="form-input light-rounded-buttons mt-30">
-                                <button class="main-btn light-rounded-two" (click)="send()"><span
-                                        i18n="@@formContactUsSend"> {{ 'HOME.SEND' | translate }}</span></button>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>

@@ -316,3 +316,12 @@ export enum UserRole {
   Admin = "admin",
   User = "user",
 }
+
+export enum PrintTypeEnum {
+  PrintType_Contract = 1,
+  PrintType_Inventory = 2,
+  PrintType_DeclaratieInchidereAnticipataContract = 3,
+  PrintType_DeclaratieBeneficiarRealContract = 4,
+  PrintType_AcordSubInchiriere = 5,
+  PrintType_DeclaratieGDPR = 99,
+}

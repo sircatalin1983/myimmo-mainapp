@@ -1,0 +1,95 @@
+<section id="home" class="slider_area">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="slider-content">&nbsp;</div>
+        </div>
+    </div>
+</section>
+
+<div class="privacy-section">
+    <div class="container">
+        <div class="legal-content">
+            <h1>{{ 'COOKIES.TITLE' | translate }}</h1>
+            <div class="last-updated">
+                {{ 'COOKIES.LAST_UPDATED' | translate }}: {{ '2024-03-20' | date:'longDate' }}
+            </div>
+
+            <section>
+                <h2>{{ 'COOKIES.OVERVIEW.TITLE' | translate }}</h2>
+                <p>{{ 'COOKIES.OVERVIEW.CONTENT' | translate }}</p>
+            </section>
+
+            <section class="cookie-settings">
+                <h2>{{ 'COOKIES.PREFERENCES.TITLE' | translate }}</h2>
+                <p>{{ 'COOKIES.PREFERENCES.DESCRIPTION' | translate }}</p>
+
+                <div class="cookie-group">
+                    <div class="cookie-option">
+                        <div class="option-header">
+                            <h3>{{ 'COOKIES.NECESSARY.TITLE' | translate }}</h3>
+                            <div class="switch disabled">
+                                <input type="checkbox" checked disabled>
+                                <span class="slider round"></span>
+                            </div>
+                        </div>
+                        <p>{{ 'COOKIES.NECESSARY.DESCRIPTION' | translate }}</p>
+                    </div>
+
+                    <div class="cookie-option">
+                        <div class="option-header">
+                            <h3>{{ 'COOKIES.ANALYTICS.TITLE' | translate }}</h3>
+                            <div class="switch">
+                                <input type="checkbox" id="analytics">
+                                <span class="slider round"></span>
+                            </div>
+                        </div>
+                        <p>{{ 'COOKIES.ANALYTICS.DESCRIPTION' | translate }}</p>
+                    </div>
+
+                    <div class="cookie-option">
+                        <div class="option-header">
+                            <h3>{{ 'COOKIES.MARKETING.TITLE' | translate }}</h3>
+                            <div class="switch">
+                                <input type="checkbox" id="marketing">
+                                <span class="slider round"></span>
+                            </div>
+                        </div>
+                        <p>{{ 'COOKIES.MARKETING.DESCRIPTION' | translate }}</p>
+                    </div>
+
+                    <div class="cookie-option">
+                        <div class="option-header">
+                            <h3>{{ 'COOKIES.PREFERENCES.TITLE' | translate }}</h3>
+                            <div class="switch">
+                                <input type="checkbox" id="preferences">
+                                <span class="slider round"></span>
+                            </div>
+                        </div>
+                        <p>{{ 'COOKIES.PREFERENCES.DESCRIPTION' | translate }}</p>
+                    </div>
+                </div>
+
+                <div class="cookie-actions">
+                    <button class="btn btn-secondary">{{ 'COOKIES.REJECT_ALL' | translate }}</button>
+                    <button class="btn btn-primary">{{ 'COOKIES.ACCEPT_ALL' | translate }}</button>
+                    <button class="btn btn-outline-primary">{{ 'COOKIES.SAVE_PREFERENCES' | translate }}</button>
+                </div>
+            </section>
+
+            <section>
+                <h2>{{ 'COOKIES.MORE_INFO.TITLE' | translate }}</h2>
+                <p>{{ 'COOKIES.MORE_INFO.CONTENT' | translate }}</p>
+                <div class="contact-info">
+                    <p><strong>{{ 'COOKIES.CONTACT.EMAIL' | translate }}:</strong>
+                        contact@propero.io</p>
+                    <!-- <p><strong>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.ADDRESS.LABEL' | translate }}:</strong> {{ 'DATA_COLLECTION.PRIVACY.CONTACT.ADDRESS_VALUE'
+                        | translate }}</p> -->
+                    <p><strong>{{ 'COOKIES.CONTACT.PHONE.LABEL' | translate }}:</strong>
+                        +40 743
+                        366 266</p>
+                </div>
+            </section>
+            
+        </div>
+    </div>
+</div> 

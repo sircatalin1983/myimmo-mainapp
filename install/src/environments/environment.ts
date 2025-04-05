@@ -19,6 +19,12 @@ export const environment = {
   info: true,
   error: true,
   log: true,
+
+  company : {
+    name: "SC LogicLand SRL", //{{PARAM_COMPANY_NAME}}
+    j: "", //{{PARAM_COMPANY_J}}
+    cui: ""
+  }
 };
 
 /*

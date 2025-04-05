@@ -14,6 +14,12 @@ import { Calculator1Module } from './pages/calculator1/calculator1.module';
 import { Calculator2Module } from './pages/calculator2/calculator2.module';
 import { Calculator3Module } from './pages/calculator3/calculator3.module';
 import { BlogLayoutComponent } from './blog-layout/blog-layout.component';
+import { Solution4Module } from './pages/solution4/solution4.module';
+import { Solution5Module } from './pages/solution5/solution5.module';
+import { Solution6Module } from './pages/solution6/solution6.module';
+import { FiscalGuideModule } from './pages/fiscal-guide/fiscal-guide.module';
+import { ManagementToolModule } from './pages/management-tool/management-tool.module';
+import { TodoModule } from './pages/todo/todo.module';
 
 const routes: Routes = [
   {
@@ -42,6 +48,21 @@ const routes: Routes = [
     loadChildren: () => Solution3Module
   },
   {
+    path: 'solution4',
+    component: LayoutComponent,
+    loadChildren: () => Solution4Module
+  },
+  {
+    path: 'solution5',
+    component: LayoutComponent,
+    loadChildren: () => Solution5Module
+  },
+  {
+    path: 'solution6',
+    component: LayoutComponent,
+    loadChildren: () => Solution6Module
+  },
+  {
     path: 'pricing',
     component: LayoutComponent,
     loadChildren: () => PricingModule
@@ -60,7 +81,7 @@ const routes: Routes = [
     path: 'blog-post',
     component: BlogLayoutComponent,
     loadChildren: () => import('./../app/pages/blog-post/blog-post.module').then(m => m.BlogPostModule)
-  },  
+  },
   {
     path: 'blog-contact',
     component: BlogLayoutComponent,
@@ -79,7 +100,7 @@ const routes: Routes = [
   //   path: 'blog-search',
   //   component: BlogSearchComponent,
   // },
-  
+
   // {
   //   path: 'resource',
   //   component: LayoutComponent,
@@ -115,6 +136,81 @@ const routes: Routes = [
     component: LayoutComponent,
     loadChildren: () => MyImmoHelpModule
   },
+  {
+    path: 'fiscal-guide',
+    component: LayoutComponent,
+    loadChildren: () => FiscalGuideModule
+  },
+  {
+    path: 'management-tool',
+    component: LayoutComponent,
+    loadChildren: () => ManagementToolModule
+  },
+  {
+    path: 'todo',
+    component: LayoutComponent,
+    loadChildren: () => TodoModule
+  },
+  {
+    path: 'about-us',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/footer-about-us/footer-about-us.module').then(m => m.FooterAboutUsModule)
+  },
+  {
+    path: 'careers',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/footer-careers/footer-careers.module').then(m => m.FooterCareersModule)
+  },
+  {
+    path: 'blog',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/footer-blog/footer-blog.module').then(m => m.FooterBlogModule)
+  },
+  {
+    path: 'press',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/footer-press/footer-press.module').then(m => m.FooterPressModule)
+  },
+  {
+    path: 'collaboration',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/footer-collaboration/footer-collaboration.module').then(m => m.FooterCollaborationModule)
+  },
+  {
+    path: 'contact',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/contact/contact.module').then(m => m.ContactModule)
+  },
+  {
+    path: 'legal/privacy',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/legal/privacy/privacy.module').then(m => m.PrivacyModule)
+  },
+  {
+    path: 'legal/privacy-policy',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/legal/privacy-policy/privacy-policy.module').then(m => m.PrivacyPolicyModule)
+  },
+  {
+    path: 'legal/cookie-preferences',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/legal/cookie-preferences/cookie-preferences.module').then(m => m.CookiePreferencesModule)
+  },
+  {
+    path: 'legal/terms',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/legal/terms/terms.module').then(m => m.TermsModule)
+  },
+  {
+    path: 'legal/gdpr',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/legal/gdpr/gdpr.module').then(m => m.GdprModule)
+  },
+  {
+    path: 'sitemap',
+    component: LayoutComponent,
+    loadChildren: () => import('./pages/footer-sitemap/footer-sitemap.module').then(m => m.FooterSitemapModule)
+  }
 ];
 
 @NgModule({

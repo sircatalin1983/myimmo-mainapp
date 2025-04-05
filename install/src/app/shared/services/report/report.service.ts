@@ -18,12 +18,13 @@ export class ReportService {
     private http: HttpClient) { }
 
   getPDFFile(reportType, JSONRequest): Observable<Object> {
-    if (reportType == ReportTypeEnum.ReportType_Inventory) return this.http.post<Object>(this.url + '/inventory', JSONRequest, httpOptions);
-    if (reportType == ReportTypeEnum.ReportType_RentingContract) return this.http.post<Object>(this.url + '/rental-contract', JSONRequest, httpOptions);
-    if (reportType == ReportTypeEnum.ReportType_SubRentingContract) return this.http.post<Object>(this.url + '/subrental-contract', JSONRequest, httpOptions);
-    if (reportType == ReportTypeEnum.ReportType_End_RentingContract) return this.http.post<Object>(this.url + '/end-rental-contract', JSONRequest, httpOptions);
-    if (reportType == 4) return this.http.post<Object>(this.url + '/end-contract', JSONRequest, httpOptions);
-    //if (reportType == 4) return this.http.post<Object>(this.url + '', JSONRequest, httpOptions);
+    if (reportType == ReportTypeEnum.ReportType_Inventory) return this.http.post<Object>(this.url + '/empty-inventory', JSONRequest, httpOptions);
+    if (reportType == ReportTypeEnum.ReportType_RentingContract) return this.http.post<Object>(this.url + '/empty-rental-contract', JSONRequest, httpOptions);
+    if (reportType == ReportTypeEnum.ReportType_SubRentingContract) return this.http.post<Object>(this.url + '/empty-subrental-contract', JSONRequest, httpOptions);
+    if (reportType == ReportTypeEnum.ReportType_End_RentingContract) return this.http.post<Object>(this.url + '/empty-end-rental-contract', JSONRequest, httpOptions);
+    if (reportType == ReportTypeEnum.ReportType_BeneficiarRealContract) return this.http.post<Object>(this.url + '/empty-beneficiar-real-contract', JSONRequest, httpOptions);
+    if (reportType == ReportTypeEnum.ReportType_AcordGDPR) return this.http.post<Object>(this.url + '/empty-acord-gdpr', JSONRequest, httpOptions);
+    if (reportType == 4) return this.http.post<Object>(this.url + '/empty-end-contract', JSONRequest, httpOptions);
     return null;
   }
 }

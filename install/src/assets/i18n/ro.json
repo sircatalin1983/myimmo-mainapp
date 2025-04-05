@@ -85,22 +85,22 @@
 		"FEATURE_CALCULATORS_TEXT": "Descoperă selecția noastră de calculatoare gratuite, concepute special pentru nevoile proprietarilor și viitorilor proprietari. De la estimarea chiriei și calculul rentabilității investițiilor, până la prognoze financiare și calculatoare pentru costurile de întreținere – toate instrumentele necesare pentru o gestionare informată și eficientă a proprietăților, într-un singur loc.",
 		"FEATURE_CALCULATORS_TITLE": "Calculatoare",
 		"FEATURE_COLLECT_PAYMENTS_ONLINE_TITLE": "Colectare centralizată",
-		"FEATURE_COLLECT_PAYMENTS_ONLINE_TEXT": "Centralizează toate plățile de chirie și facturi fără efort – totul într-un singur loc! (Disponibil în curând)",
+		"FEATURE_COLLECT_PAYMENTS_ONLINE_TEXT": "Centralizează toate plățile de chirie și facturi fără efort – totul într-un singur loc! Sistemul îți permite să colectezi automat sau manual plățile, să urmărești situația la zi pentru fiecare chiriaș, să generezi rapoarte detaliate și să trimiți notificări automate pentru plăți restante, scadențe sau confirmări. Ai control deplin și transparență financiară, fără muncă în plus.",
 		"FEATURE_DOCUMENTS_TITLE": "Documente",
 		"FEATURE_DOCUMENTS_TEXT": "Accesează o colecție de documente esențiale pentru un proces de închiriere fără complicații! De la șabloane pentru contracte de închiriere și formulare de inventar, la fișe de predare-primire și notificări standard pentru chiriași, toate documentele sunt pregătite pentru a simplifica fiecare etapă. Aceste resurse sunt concepute să asigure o închiriere sigură și transparentă, reducând efortul administrativ și asigurând conformitatea legală.",
 		"FEATURE_HELP_TITLE": "Centru ajutor",
 		"FEATURE_HELP_TEXT": "Ai întrebări despre cum să folosești Propero la maxim? Explorează Centrul de Ajutor pentru a găsi ghiduri pas cu pas, articole explicative și răspunsuri la cele mai frecvente întrebări. Indiferent dacă ești la început sau dorești să descoperi funcționalități avansate, avem resursele necesare pentru o experiență simplificată și fără probleme.",
 		"FEATURE_PROFESSIONAL_REPORT_TITLE": "Rapoarte profesionale",
 		"FEATURE_PROFESSIONAL_REPORT_TEXT": "Rapoarte clare și detaliate, create pentru nevoile tale – inventar, contracte, prognoze financiare și multe altele.",
-		"FEATURE_QUESTION1_TEXT": "Configurarea unei noi proprietăți în sistem este simplă și intuitivă: poți adăuga o proprietate fie direct prin widgetul „Proprietate nouă” de pe pagina principală, fie accesând meniul „Proprietăți” pentru mai multe opțiuni. După configurarea inițială, fiecare proprietate poate fi personalizată prin adăugarea detaliilor specifice – de la contractele de utilități asociate și inventarul detaliat al bunurilor, până la lista completă de contracte de închiriere. Această funcționalitate oferă o imagine de ansamblu completă, asigurând o gestionare eficientă și bine organizată a fiecărei proprietăți.",
+		"FEATURE_QUESTION1_TEXT": "Configurarea unei noi proprietăți în sistem este simplă și intuitivă: poți adăuga o proprietate fie direct prin widgetul \"Proprietate nouă\" de pe pagina principală, fie accesând meniul \"Proprietăți\" pentru mai multe opțiuni. După configurarea inițială, fiecare proprietate poate fi personalizată prin adăugarea detaliilor specifice – de la contractele de utilități asociate și inventarul detaliat al bunurilor, până la lista completă de contracte de închiriere. Această funcționalitate oferă o imagine de ansamblu completă, asigurând o gestionare eficientă și bine organizată a fiecărei proprietăți.",
 		"FEATURE_QUESTION1_TITLE": "Am o proprietate, cum o configurez în sistem?",
-		"FEATURE_QUESTION2_TEXT": "Accesează rapid toate contractele de închiriere active fie prin widgetul „Contract” de pe pagina principală, fie navigând prin meniul „Proprietăți” > „Contracte”. Pentru fiecare contract în parte, ai acces la două secțiuni esențiale: detaliile contractului propriu-zis, cu toate clauzele și informațiile specifice, și o listă completă a plăților efectuate sau scadente. Acest sistem centralizat îți oferă control complet asupra contractelor și istoricului plăților, facilitând o administrare clară și organizată a închirierilor.",
+		"FEATURE_QUESTION2_TEXT": "Accesează rapid toate contractele de închiriere active fie prin widgetul \"Contract\" de pe pagina principală, fie navigând prin meniul \"Proprietăți\" > \"Contracte\". Pentru fiecare contract în parte, ai acces la două secțiuni esențiale: detaliile contractului propriu-zis, cu toate clauzele și informațiile specifice, și o listă completă a plăților efectuate sau scadente. Acest sistem centralizat îți oferă control complet asupra contractelor și istoricului plăților, facilitând o administrare clară și organizată a închirierilor.",
 		"FEATURE_QUESTION2_TITLE": "Cum pot să văd detalii despre contracte?",
-		"FEATURE_QUESTION3_TEXT": "Inventarul proprietății este esențial pentru generarea procesului verbal de predare-primire, document care se atașează contractului de închiriere pentru o evidență clară și completă. Fiecare piesă de inventar poate fi adăugată simplu din meniul dedicat al proprietății, în secțiunea „Inventar”. Această funcționalitate asigură o administrare transparentă și detaliată a bunurilor, oferind atât proprietarului, cât și chiriașului o documentație completă și actualizată a stării proprietății.",
+		"FEATURE_QUESTION3_TEXT": "Inventarul proprietății este esențial pentru generarea procesului verbal de predare-primire, document care se atașează contractului de închiriere pentru o evidență clară și completă. Fiecare piesă de inventar poate fi adăugată simplu din meniul dedicat al proprietății, în secțiunea \"Inventar\". Această funcționalitate asigură o administrare transparentă și detaliată a bunurilor, oferind atât proprietarului, cât și chiriașului o documentație completă și actualizată a stării proprietății.",
 		"FEATURE_QUESTION3_TITLE": "Cum adaug piese de inventar și ce este inventarul unei proprietăți?",
-		"FEATURE_QUESTION4_TEXT": "Pentru a adăuga facturi asociate unei proprietăți, este necesar să atașezi mai întâi contractele de utilități relevante. Acestea pot fi adăugate simplu din pagina proprietății, în meniul „Utilități”. Dacă organizația utilizează roboți de agregare a facturilor, la configurarea unei noi utilități poți specifica și datele de conectare la contul de client al furnizorului de utilități. Acest proces automatizat simplifică gestionarea facturilor, asigurând o actualizare constantă și fără efort a cheltuielilor pentru fiecare proprietate.",
+		"FEATURE_QUESTION4_TEXT": "Pentru a adăuga facturi asociate unei proprietăți, este necesar să atașezi mai întâi contractele de utilități relevante. Acestea pot fi adăugate simplu din pagina proprietății, în meniul \"Utilități\". Dacă organizația utilizează roboți de agregare a facturilor, la configurarea unei noi utilități poți specifica și datele de conectare la contul de client al furnizorului de utilități. Acest proces automatizat simplifică gestionarea facturilor, asigurând o actualizare constantă și fără efort a cheltuielilor pentru fiecare proprietate.",
 		"FEATURE_QUESTION4_TITLE": "Cum adaug contracte de utilități?",
-		"FEATURE_QUESTION5_TEXT": "Pentru a adăuga manual o factură de utilități, ai la dispoziție două opțiuni: fie accesezi widgetul „Factură Nouă” din meniul principal, fie navighezi la secțiunea „Facturi” din meniul proprietății. În mod automat, facturile pot fi adăugate doar dacă robotul de agregare a facturilor este configurat pentru acea utilitate, asigurând astfel o actualizare rapidă și fără intervenție manuală. Această funcționalitate îți oferă flexibilitate și eficiență în gestionarea costurilor pentru fiecare proprietate.",
+		"FEATURE_QUESTION5_TEXT": "Pentru a adăuga manual o factură de utilități, ai la dispoziție două opțiuni: fie accesezi widgetul \"Factură Nouă\" din meniul principal, fie navighezi la secțiunea \"Facturi\" din meniul proprietății. În mod automat, facturile pot fi adăugate doar dacă robotul de agregare a facturilor este configurat pentru acea utilitate, asigurând astfel o actualizare rapidă și fără intervenție manuală. Această funcționalitate îți oferă flexibilitate și eficiență în gestionarea costurilor pentru fiecare proprietate.",
 		"FEATURE_QUESTION5_TITLE": "Cum adaug o factură de utilități?",
 		"FEATURE_WANT_DETAILS": "Vreau detalii ...",
 		"HERE": "aici",
@@ -265,73 +265,738 @@
 		"TEXT": "Detalierea planului tarifar pe opțiuni și pe plan-urile posibile.",
 		"TITLE": "Detaliere plan tarifar"
 	},
-	"SOLUTION1": {
-		"TITLE": "Automatizare operațiuni",
-		"TITLE_DESCRIPTION": "Interfață intuitivă, concepută pentru a simplifica totul! Automatizări inteligente care facilitează gestionarea completă a proprietăților și contractelor de închiriere – rapid, eficient și fără efort.",		
-		"TEXT": "Rămâi organizat și câștigă timp! Automatizează notificările și calculele și lasă asistentul nostru să preia sarcinile repetitive, astfel încât tu să te concentrezi pe ceea ce contează cu adevărat.",		
-		"BEGIN": "Începe aici",
-		"CREATE_ACCOUNT": "Creare cont",
-		"ITEM1_TITLE": "Notificări automate",
-		"ITEM1_TEXT": "Automatizează comunicarea și notificările! Primește alerte automate la emiterea unei noi facturi sau la schimbarea statusului, plus mesaje de informare și calculul automat al sumei de plată pentru o comunicare eficientă între proprietar și chiriaș.",
-		"ITEM2_TITLE": "Procesare calcule financiare",
-		"ITEM2_TEXT": "Calculatoare inteligente care îți calculează automat profitabilitatea pe proprietate, sumele lunare de plată și multe altele – pentru decizii informate și rapiditate.",
-		"ITEM3_TITLE": "Procesator robotic",
-		"ITEM3_TEXT": "Procesator robotic de facturi (RPA) care îți simplifică viața! Descărcare automată a facturilor de pe site-uri precum myElectrica, GDF-Suez, Digi și încărcare directă în Propero, cu sincronizare automată a statusului de plată.",
-		"ITEM4_TITLE": "Contabilitate automată",
-		"ITEM4_TEXT": "Propero îți permite să scapi de sarcinile repetitive și să automatizezi complet activitățile contabile:",
-		"ITEM5_TITLE": "Optimizează-ți timpul și elimină penalități la plata întârziată",
-		"ITEM5_TEXT": "Facturare automată sau semi-automată pentru o transparență totală! Simplifică procesul de facturare și pregătește-te pentru colectarea online a plăților – în curând disponibil.",
-		"ITEM6_TITLE": "Descarcă datele atașate contului la orice oră",
-		"ITEM6_TEXT": "Descărcați automat toate datele în format Excel, PDF sau Word! Generați rapoarte profesionale instant, accesibile pe orice dispozitiv și partajabile cu ușurință către alte persoane."
-	},
-	"SOLUTION2": {
-		"BEGIN": "Începe aici",
-		"CREATE_ACCOUNT": "Creare cont",
-		"EXTRA_DETAILS_SUBTITLE": "Folosind utilitarele de notificări plată, reconciliere cheltuieli și auto-pay, tot procesul de colectare de cheltuieli și auditul acestora poate fi complet automat.",
-		"EXTRA_DETAILS_TEXT": "Inregistrări exacte\n                Folosind aceste utilitare de automatizare nu mai este nevoie de validări manuale, navigări între contul\n                bancar și contul Propero, verificare facturi sau alte documente. Tot procesul este acoperit de\n                către aplicația Propero și este complet transparent între proprietar și chiriaș.\n                (În curând)",
-		"EXTRA_DETAILS_TITLE": "Automatizarea colectei cheltuielilor lunare",
-		"FEATURE1_TEXT": "Funcționalitatea de colectare online a plăților din Propero permite gestionarea rapidă și automatizată a încasărilor pentru chirii și alte taxe asociate proprietăților. Odată activată, toate plățile înregistrate în sistem pot fi colectate online, eliminând necesitatea colectării manuale și oferind un mod eficient și sigur de gestionare a încasărilor direct prin platformă.",
-		"FEATURE1_TITLE": " Activare colectare online",
-		"FEATURE2_TEXT": "Funcționalitatea de confirmare a identității asigură verificarea rapidă și sigură a utilizatorilor, folosind măsuri de securitate avansate. Acest proces de verificare este integrat pentru a proteja accesul la informații sensibile și pentru a valida identitatea utilizatorilor, oferind un mediu de utilizare sigur și de încredere în Propero.",
-		"FEATURE2_TITLE": "Validează identitate",
-		"FEATURE3_TEXT": "Funcționalitatea de conectare a contului bancar permite legătura directă între contul proprietarului și sistemul Propero. Astfel, chiriașii își pot efectua plățile lunare direct în contul configurat, simplificând procesul de încasare și monitorizare a plăților. Toate tranzacțiile sunt înregistrate automat, oferind un mod sigur și eficient de gestionare a încasărilor lunare.",
-		"FEATURE3_TITLE": "Conectarea contului bancar",
-		"QA_TEXT": "Detalii adiționale legate de plăți",
-		"QA_TITLE": "Întrebări adiționale legate de plăți",
-		"QUESTION_1": "Cât de sigur este transferul?",
-		"QUESTION_1_ANSWER": "Modalitatea de plată online foloseste aplicația smart2pay.",
-		"QUESTION_2": "Mă costă ceva în plus?",
-		"QUESTION_2_ANSWER": " Plata online este inclusă în fiecare plan cu 2 per tranzacție. Pentru mai multe detalii vă rugăm navigați la pagina de plăți.",
-		"QUESTION_3": "Cât timp durează ca fondurile să-mi ajungă în contul meu?",
-		"QUESTION_3_ANSWER": "Media de timp a transferului este undeva între 1 și 5 zile lucrătoare. Suntem în continuă analiză de căutări de soluții de plăți în mod instant.",
-		"QUESTION_4": "Cum plătesc chiriașii?",
-		"QUESTION_4_ANSWER": "Chiriașul primește un email/sms sau mesaj what's up cu un link de plată sau direct din aplicația Propero folosind secțiunea de centralizatoare.",
-		"SECTION_TEXT": "Colectarea chiriei în persoană devine dificilă și consumatoare de timp, mai ales în cazul unui portofoliu mare de proprietăți. Cu Propero, procesul de colectare se automatizează complet, transformând colectarea tradițională într-un proces rapid și simplu. Astfel, colectarea chiriei în persoană devine de domeniul trecutului!",
-		"SECTION_TITLE": "Colectarea chiriei online fără niciun efort",
-		"TEXT": "Colectări online de plăți fără niciun efort (În curând). Colectarea chiriei în persoană este un proces încet și nerealist când este vorba de un portofoliu mare. Folosind Propero procesul de colectare poate să fie automatizat. Este un mod rapid, usor și face colectarea chirieri în persoană istorie.",
-		"TITLE": "Colectare plăți online"
-	},
-	"SOLUTION3": {
-		"BEGIN": "Începe aici",
-		"CREATE_ACCOUNT": "Creare cont",
-		"EXTRA_DETAILS_SUBTITLE": "Eliminare erori generate de interacțiunea umana si crestere a rapidității in procesul de contabilitate folosind Propero.",
-		"EXTRA_DETAILS_TEXT": "Adaugăm si îmbunătățim in mod constant funcționalitatea rapoartelor. Dacă aveți întrebări sau orice părere pe baza căreia funcționalitatea poate sa fie îmbunătățita, va rugam, nu ezitați sa ne contactați.",
-		"EXTRA_DETAILS_TITLE": "Raportare profesionale",
-		"FEATURE1_TEXT": "Orice raport poate sa fie customizat in funcție de data start final, proprietate, administrator, proprietari, plați sau categorii de cheltuieli.",
-		"FEATURE1_TITLE": "Customizări",
-		"FEATURE2_TEXT": " Se pot alege șabloane profesionale pe baza cărora se pot genera rapoarte instant pe orice dispozitiv (PC, Mobile).",
-		"FEATURE2_TITLE": "Șabloane profesionale",
-		"FEATURE3_TEXT": "Rapoartele se pot partaja cu alți membri ai aplicației (parteneri, angajați sau contabil) direct din aplicație via portal web sau mobil.",
-		"FEATURE3_TITLE": "Partajare",
-		"REPORT_FEATURE1_TITLE": "Profitabilitate vs pierderi",
-		"REPORT_FEATURE2_TITLE": "Raport întârzieri la plata chiriei",
-		"REPORT_FEATURE3_TITLE": "Raport notificări",
-		"REPORT_FEATURE4_TITLE": "Raport întârzieri la plata cheltuielilor utilități",
-		"REPORT_FEATURE5_TITLE": "Raport plați efectuate",
-		"REPORT_FEATURE6_TITLE": "Raport plați lunare efectuate/neefectuate",
-		"REPORT_FEATURE_ADDITIONAL_ITEMS": "și multe altele ...",
-		"SUBTITLE": "Rapoarte profesionale în doar câteva click-uri.",
+	"REPORTS": {
 		"TEXT": "Obțineți informații detaliate despre performanta portofoliului și înțelegeți mai mai bine ce acțiuni trebuie intreprinse pentru a îmbunătăți rentabilitatea. Calcularea impozitelor anuale (locale, ANAF) mult mai ușor, centralizat pe tot portofoliul de imobile.",
-		"TITLE": "Rapoarte profesionale "
+		"TITLE": "Rapoarte profesionale"
+	},
+	"SITEMAP": {
+		"TITLE": "Hartă Site",
+		"MAIN": {
+			"TITLE": "Pagini Principale",
+			"HOME": "Acasă",
+			"ABOUT": "Despre Noi",
+			"SERVICES": "Servicii",
+			"CONTACT": "Contact"
+		},
+		"PROPERTY": {
+			"TITLE": "Management Proprietăți",
+			"OVERVIEW": "Prezentare Generală",
+			"LISTINGS": "Listări Proprietăți",
+			"TENANTS": "Chiriași",
+			"MAINTENANCE": "Mentenanță"
+		},
+		"TASKS": {
+			"TITLE": "Management Sarcini",
+			"OVERVIEW": "Prezentare Generală",
+			"CALENDAR": "Calendar",
+			"PROJECTS": "Proiecte",
+			"REPORTS": "Rapoarte"
+		},
+		"DOCUMENTS": {
+			"TITLE": "Management Documente",
+			"OVERVIEW": "Prezentare Generală",
+			"CONTRACTS": "Contracte",
+			"TEMPLATES": "Șabloane",
+			"ARCHIVE": "Arhivă"
+		},
+		"TOOLS": {
+			"TITLE": "Instrumente & Calculatoare",
+			"CALCULATORS": "Calculatoare",
+			"MORTGAGE": "Calculator Ipotecă",
+			"ROI": "Calculator ROI",
+			"RENTAL_YIELD": "Calculator Randament Închiriere"
+		},
+		"RESOURCES": {
+			"TITLE": "Resurse",
+			"BLOG": "Blog",
+			"PRESS": "Presă",
+			"CAREERS": "Cariere",
+			"HELP": "Centru de Ajutor"
+		},
+		"LEGAL": {
+			"TITLE": "Legal",
+			"TERMS": "Termeni și Condiții",
+			"PRIVACY": "Politica de Confidențialitate",
+			"GDPR": "GDPR",
+			"COOKIES": "Politica de Cookies"
+		},
+		"SUPPORT": {
+			"TITLE": "Suport",
+			"OVERVIEW": "Prezentare Generală",
+			"FAQ": "Întrebări Frecvente",
+			"CONTACT": "Contact",
+			"DOCUMENTATION": "Documentație"
+		}
+	},
+	"CONTACT": {
+		"TITLE": "Contact",
+		"SUBTITLE": "Suntem aici să vă ajutăm",
+		"DESCRIPTION": "Aveți întrebări sau sugestii? Nu ezitați să ne contactați. Echipa noastră vă stă la dispoziție pentru orice informații.",
+		"NAME": "Nume",
+		"EMAIL": "Email",
+		"PHONE": "+40 123 456 789",
+		"ADDRESS": "Str. Exemplu, Nr. 123, București, România",
+		"HOURS": "Program: Luni - Vineri, 09:00 - 18:00",
+		"SUBJECT": "Subiect",
+		"MESSAGE": "Mesaj",
+		"SEND": "Trimite mesaj",
+		"FORM": {
+			"NAME": "Nume",
+			"EMAIL": "Email",
+			"SUBJECT": "Subiect",
+			"MESSAGE": "Mesaj",
+			"SEND": "Trimite mesaj",
+			"SUCCESS": "Mesajul a fost trimis cu succes!",
+			"ERROR": "A apărut o eroare. Vă rugăm să încercați din nou.",
+			"REQUIRED": "Acest câmp este obligatoriu",
+			"INVALID_EMAIL": "Adresa de email nu este validă",
+			"MIN_LENGTH": "Mesajul trebuie să conțină cel puțin 10 caractere",
+			"MAX_LENGTH": "Mesajul nu poate depăși 1000 de caractere"
+		},
+		"SOCIAL": {
+			"TITLE": "Social Media",
+			"FOLLOW_US": "Urmăriți-ne pe",
+			"FACEBOOK": "Facebook",
+			"LINKEDIN": "LinkedIn",
+			"INSTAGRAM": "Instagram",
+			"TWITTER": "Twitter"
+		},
+		"MAP": {
+			"TITLE": "Locație",
+			"VIEW_LARGER": "Vezi hartă mai mare"
+		},
+		"SUPPORT": {
+			"TITLE": "Suport Tehnic",
+			"DESCRIPTION": "Pentru asistență tehnică, vă rugăm să ne contactați la:",
+			"EMAIL": "support@propero.ro",
+			"PHONE": "+40 123 456 790",
+			"HOURS": "Program suport: Luni - Vineri, 09:00 - 17:00"
+		},
+		"SALES": {
+			"TITLE": "Vânzări",
+			"DESCRIPTION": "Pentru informații despre servicii și prețuri:",
+			"EMAIL": "sales@propero.ro",
+			"PHONE": "+40 123 456 791"
+		},
+		"EMERGENCY": {
+			"TITLE": "Contact Urgență",
+			"DESCRIPTION": "Pentru situații urgente în afara programului:",
+			"PHONE": "+40 123 456 799",
+			"NOTE": "Doar pentru situații urgente!"
+		}
+	},
+	"COOKIES": {
+		"TITLE": "Politica de Cookies",
+		"LAST_UPDATED": "Ultima actualizare",
+		"REJECT_ALL": "Respinge toate cookie-urile",
+		"ACCEPT_ALL": "Acceptă toate cookie-urile",
+		"SAVE_PREFERENCES": "Personalizează cookie-urile",
+		"OVERVIEW": {
+			"TITLE": "Prezentare Generală Cookie-uri",
+			"CONTENT": "Cookie-urile sunt fișiere text mici stocate pe dispozitivul dumneavoastră când vizitați site-ul nostru. Acestea ne ajută să vă oferim o experiență mai bună și personalizată."
+		},
+		"PREFERENCES": {
+			"TITLE": "Preferințe Cookie-uri",
+			"DESCRIPTION": "Aceste cookie-uri ne permit să salvăm preferințele dumneavoastră de navigare și să personalizăm experiența pe site."
+		},
+		"NECESSARY": {
+			"TITLE": "Cookie-uri Necesare",
+			"DESCRIPTION": "Aceste cookie-uri sunt esențiale pentru funcționarea site-ului și nu pot fi dezactivate. Ele asigură funcționalități de bază precum navigarea și accesul în zonele securizate."
+		},
+		"ANALYTICS": {
+			"TITLE": "Cookie-uri Analitice",
+			"DESCRIPTION": "Aceste cookie-uri ne ajută să înțelegem cum utilizați site-ul nostru, ce pagini sunt cele mai populare și cum vă deplasați pe site. Toate informațiile sunt anonime."
+		},
+		"MARKETING": {
+			"TITLE": "Cookie-uri Marketing",
+			"DESCRIPTION": "Aceste cookie-uri sunt utilizate pentru a vă arăta reclame relevante pe site-ul nostru și pe alte site-uri. Ele nu stochează informații personale directe, ci se bazează pe identificarea unică a browserului și dispozitivului dumneavoastră."
+		},
+		"MORE_INFO": {
+			"TITLE": "Informații Suplimentare",
+			"CONTENT": "Pentru mai multe detalii despre modul în care utilizăm cookie-urile și cum vă puteți gestiona preferințele, vă rugăm să consultați Politica noastră completă de Cookie-uri."
+		},
+		"BANNER": {
+			"TITLE": "Acest website folosește cookies",
+			"MESSAGE": "Folosim cookie-uri pentru a vă oferi cea mai bună experiență pe site-ul nostru.",
+			"ACCEPT_ALL": "Accept toate",
+			"REJECT_ALL": "Refuz toate",
+			"SETTINGS": "Personalizează",
+			"SAVE": "Salvează preferințele",
+			"MORE_INFO": "Mai multe informații"
+		},
+		"CONTACT": {
+			"TITLE": "Contact",
+			"DESCRIPTION": "Pentru orice întrebări legate de cookie-uri:",
+			"EMAIL": "Email",
+			"PHONE": "Telefon"
+		}
+	},
+	"GDPR": {
+		"TITLE": "Conformitate GDPR",
+		"LAST_UPDATED": "Ultima actualizare",
+		"INTRODUCTION": {
+			"TITLE": "Introducere",
+			"CONTENT": "Ne angajăm să protejăm și să respectăm confidențialitatea datelor dumneavoastră în conformitate cu Regulamentul General privind Protecția Datelor (GDPR).",
+			"SCOPE": "Această politică se aplică tuturor utilizatorilor platformei noastre.",
+			"CONTROLLER": "Suntem operatorul de date pentru informațiile pe care ni le furnizați."
+		},
+		"RIGHTS": {
+			"TITLE": "Drepturile dumneavoastră",
+			"DESCRIPTION": "Conform GDPR, aveți următoarele drepturi:",
+			"ACCESS": {
+				"TITLE": "Dreptul de acces la date",
+				"DESCRIPTION": "Puteți solicita o copie a datelor personale pe care le deținem despre dumneavoastră."
+			},
+			"RECTIFICATION": {
+				"TITLE": "Dreptul la rectificare",
+				"DESCRIPTION": "Puteți cere corectarea datelor inexacte sau completarea celor incomplete."
+			},
+			"ERASURE": {
+				"TITLE": "Dreptul la ștergere",
+				"DESCRIPTION": "Cunoscut și ca 'dreptul de a fi uitat', puteți cere ștergerea datelor în anumite circumstanțe."
+			},
+			"RESTRICT": {
+				"TITLE": "Dreptul la restricționarea prelucrării",
+				"DESCRIPTION": "Puteți cere limitarea prelucrării datelor dumneavoastră."
+			},
+			"PORTABILITY": {
+				"TITLE": "Dreptul la portabilitatea datelor",
+				"DESCRIPTION": "Puteți primi datele într-un format structurat și să le transmiteți altui operator."
+			},
+			"OBJECT": {
+				"TITLE": "Dreptul la opoziție",
+				"DESCRIPTION": "Puteți obiecta la prelucrarea datelor în anumite situații."
+			},
+			"AUTOMATED": {
+				"TITLE": "Drepturi legate de decizia automată",
+				"DESCRIPTION": "Dreptul de a nu face obiectul unei decizii bazate exclusiv pe prelucrarea automată."
+			},
+			"RESTRICTION": {
+				"TITLE": "Dreptul la restricție",
+				"DESCRIPTION": "Puteți cere restricția prelucrării datelor dumneavoastră în anumite circumstanțe."
+			}
+		},
+		"DATA_COLLECTION": {
+			"TITLE": "Colectarea datelor",
+			"DESCRIPTION": "Colectăm și procesăm datele dumneavoastră personale doar în scopuri specifice și cu un temei legal clar.",
+			"PERSONAL_INFO": "Date personale de identificare",
+			"CONTACT_INFO": "Informații de contact",
+			"TECHNICAL_INFO": "Date tehnice și de utilizare",
+			"FINANCIAL_INFO": "Informații financiare",
+			"USAGE_DATA": "Date de utilizare",
+			"COOKIES": "Cookie-uri",
+			"CATEGORIES": {
+				"TITLE": "Categorii de date colectate",
+				"PERSONAL": "Date personale de identificare",
+				"CONTACT": "Informații de contact",
+				"TECHNICAL": "Date tehnice și de utilizare",
+				"FINANCIAL": "Informații financiare"
+			},
+			"PURPOSES": {
+				"TITLE": "Scopurile prelucrării",
+				"SERVICE": "Furnizarea serviciilor noastre",
+				"IMPROVEMENT": "Îmbunătățirea platformei",
+				"COMMUNICATION": "Comunicare cu utilizatorii",
+				"LEGAL": "Conformitate legală"
+			}
+		},
+		"DATA_PROCESSING": {
+			"TITLE": "Procesarea datelor",
+			"DESCRIPTION": "Procesăm datele dumneavoastră în scopuri specifice și cu un temei legal clar.",
+			"PURPOSE": "Scopul prelucrării",
+			"LEGAL_BASIS": "Temei legal",
+			"RETENTION": "Perioada de păstrare a datelor",
+			"TRANSFER": "Transferul datelor",
+			"SECURITY": "Măsuri de securitate",
+			"PROCESSING_METHODS": "Metode de prelucrare"
+		},
+		"DATA_PROTECTION": {
+			"TITLE": "Protecția datelor",
+			"DESCRIPTION": "Implementăm măsuri tehnice și organizatorice adecvate pentru a proteja datele dumneavoastră.",
+			"SECURITY_MEASURES": "Măsuri de securitate",
+			"THIRD_PARTIES": "Parteneri terți",
+			"INTERNATIONAL_TRANSFERS": "Transferuri internaționale",
+			"DATA_RETENTION": "Păstrarea datelor",
+			"PROCESSING_METHODS": "Metode de prelucrare",
+			"MEASURES": {
+				"ENCRYPTION": "Criptare date",
+				"ACCESS_CONTROL": "Control acces",
+				"BACKUP": "Backup regulat"
+			}
+		},
+		"CONSENT": {
+			"TITLE": "Consimțământ",
+			"CONTENT": "Vă vom cere întotdeauna consimțământul explicit pentru prelucrarea datelor personale în scopuri specifice.",
+			"AGREE": "Sunt de acord",
+			"DISAGREE": "Nu sunt de acord",
+			"WITHDRAW": {
+				"TITLE": "Retragerea consimțământului",
+				"DESCRIPTION": "Puteți să vă retrageți consimțământul în orice moment.",
+				"BUTTON": "Retrage consimțământul"
+			}
+		},
+		"SECURITY": {
+			"TITLE": "Securitatea datelor",
+			"CONTENT": "Implementăm măsuri tehnice și organizatorice adecvate pentru a proteja datele dumneavoastră.",
+			"MEASURES": {
+				"ENCRYPTION": "Criptare date",
+				"ACCESS_CONTROL": "Control acces",
+				"BACKUP": "Backup regulat",
+				"MONITORING": "Monitorizare continuă"
+			}
+		},
+		"CONTACT": {
+			"TITLE": "Responsabil cu protecția datelor",
+			"DESCRIPTION": "Pentru orice întrebări legate de procesarea datelor personale:",
+			"EMAIL": "dpo@propero.ro",
+			"PHONE": "+40 123 456 789",
+			"ADDRESS": "Strada Propero, Nr. 1, București, România"
+		}
+	},
+	"TERMS": {
+		"TITLE": "Termeni și Condiții",
+		"LAST_UPDATED": "Ultima actualizare",
+		"INTRODUCTION": {
+			"TITLE": "Introducere",
+			"CONTENT": "Vă rugăm să citiți cu atenție acești termeni și condiții înainte de a utiliza serviciile noastre.",
+			"ACCEPTANCE": "Prin utilizarea serviciului nostru, acceptați să respectați acești termeni și condiții.",
+			"CHANGES": "Ne rezervăm dreptul de a modifica acești termeni în orice moment, cu notificare prealabilă.",
+			"EFFECTIVE": "Modificările intră în vigoare imediat după publicarea lor pe site."
+		},
+		"DEFINITIONS": {
+			"TITLE": "Definiții",
+			"SERVICE": "\"Serviciu\" se referă la platforma Propero și toate funcționalitățile sale",
+			"USER": "\"Utilizator\" înseamnă orice persoană care accesează sau utilizează Serviciul",
+			"CONTENT": "\"Conținut\" se referă la toate informațiile și materialele disponibile prin Serviciu",
+			"ACCOUNT": "\"Cont\" reprezintă înregistrarea dumneavoastră unică în cadrul Serviciului",
+			"SUBSCRIPTION": "\"Abonament\" reprezintă planul tarifar ales pentru utilizarea Serviciului",
+			"PLATFORM": "\"Platformă\" se referă la website-ul și aplicația Propero",
+			"DATA": "\"Date\" înseamnă orice informație introdusă sau generată în timpul utilizării Serviciului"
+		},
+		"ACCOUNT": {
+			"TITLE": "Contul dumneavoastră",
+			"CONTENT": "Pentru a utiliza anumite funcționalități ale Serviciului, trebuie să vă creați un cont.",
+			"RESPONSIBILITY": "Sunteți responsabil pentru menținerea confidențialității contului și parolei",
+			"SECURITY": "Trebuie să ne notificați imediat despre orice breșă de securitate",
+			"ACCURACY": "Informațiile furnizate în cont trebuie să fie exacte și actualizate",
+			"AGE_REQUIREMENT": "Trebuie să aveți cel puțin 18 ani pentru a crea un cont",
+			"ACCOUNT_SHARING": "Este interzisă partajarea contului cu alte persoane",
+			"TERMINATION": "Ne rezervăm dreptul de a suspenda sau închide contul în caz de încălcare a termenilor"
+		},
+		"INTELLECTUAL_PROPERTY": {
+			"TITLE": "Proprietate Intelectuală",
+			"CONTENT": "Toate drepturile de proprietate intelectuală asupra Serviciului aparțin companiei noastre",
+			"OWNERSHIP": "Conținutul și marca sunt proprietatea noastră exclusivă",
+			"LICENSE": "Vă acordăm o licență limitată de utilizare a Serviciului",
+			"RESTRICTIONS": "Nu aveți dreptul să copiați sau să modificați materialele fără permisiune",
+			"TRADEMARKS": "Toate mărcile comerciale, logo-urile și numele de marcă sunt proprietatea noastră",
+			"USER_CONTENT": "Păstrați drepturile asupra conținutului pe care îl încărcați, dar ne acordați o licență de utilizare",
+			"FEEDBACK": "Orice feedback sau sugestii devin proprietatea noastră"
+		},
+		"USER_OBLIGATIONS": {
+			"TITLE": "Obligațiile Utilizatorului",
+			"CONTENT": "Ca utilizator al Serviciului, sunteți de acord să:",
+			"COMPLIANCE": "Respectați toți termenii și condițiile",
+			"PROHIBITED": "Nu vă angajați în activități interzise",
+			"SECURITY": "Mențineți securitatea contului dumneavoastră",
+			"LEGAL_USE": "Utilizați Serviciul doar în scopuri legale",
+			"DATA_ACCURACY": "Furnizați informații corecte și actualizate",
+			"NOTIFICATION": "Ne informați despre orice utilizare neautorizată",
+			"SYSTEM_INTEGRITY": "Nu interferați cu funcționarea sistemului"
+		},
+		"LIABILITY": {
+			"TITLE": "Limitarea Răspunderii",
+			"CONTENT": "Nu suntem răspunzători pentru daune indirecte sau consecvente",
+			"LIMITATION": "Răspunderea noastră este limitată la suma plătită pentru servicii",
+			"DISCLAIMER": "Serviciul este furnizat \"ca atare\" fără garanții",
+			"FORCE_MAJEURE": "Nu suntem răspunzători pentru întreruperi cauzate de evenimente în afara controlului nostru",
+			"DATA_LOSS": "Nu garantăm recuperarea datelor în caz de pierdere",
+			"THIRD_PARTY": "Nu suntem răspunzători pentru serviciile sau conținutul terților",
+			"INDEMNIFICATION": "Sunteți de acord să vă indemnizați pentru orice daune cauzate de utilizarea Serviciului"
+		},
+		"PAYMENT": {
+			"TITLE": "Plăți și Abonamente",
+			"BILLING": "Facturarea se face conform planului ales",
+			"AUTORENEWAL": "Abonamentele se reînnoiesc automat",
+			"CANCELLATION": "Puteți anula abonamentul oricând",
+			"REFUNDS": "Nu oferim rambursări pentru perioadele neutilizate",
+			"CHANGES": "Prețurile pot fi modificate cu notificare prealabilă",
+			"TAXES": "Prețurile nu includ taxele aplicabile"
+		},
+		"TERMINATION": {
+			"TITLE": "Încetarea Serviciului",
+			"USER_TERMINATION": "Puteți înceta utilizarea serviciului oricând",
+			"PROVIDER_TERMINATION": "Putem înceta sau suspenda accesul cu notificare prealabilă",
+			"EFFECTS": "La încetare, toate drepturile și licențele încetează",
+			"DATA_RETENTION": "Putem păstra datele conform legii",
+			"SURVIVAL": "Anumite prevederi rămân în vigoare după încetare",
+			"CONDITIONS": "Condițiile de încetare pot fi negociate înainte de încetare",
+			"CONTENT": "Toate drepturile și licențele încetează"
+		},
+		"DISPUTES": {
+			"TITLE": "Soluționarea Disputelor",
+			"GOVERNING_LAW": "Acești termeni sunt guvernați de legile României",
+			"JURISDICTION": "Disputele vor fi soluționate în instanțele din România",
+			"MEDIATION": "Încurajăm rezolvarea amiabilă a disputelor",
+			"TIME_LIMIT": "Acțiunile trebuie inițiate în termen de un an",
+			"CLASS_ACTION": "Renunțați la dreptul de a participa la acțiuni colective"
+		},
+		"CHANGES": {
+			"TITLE": "Modificări ale Termenilor",
+			"NOTIFICATION": "Vom notifica utilizatorii despre modificări importante",
+			"CONTINUED_USE": "Utilizarea continuă implică acceptarea noilor termeni",
+			"PREVIOUS_VERSIONS": "Versiunile anterioare sunt disponibile la cerere"
+		},
+		"CONTACT": {
+			"TITLE": "Contact",
+			"CONTENT": "Pentru orice întrebări legate de termeni și condiții:",
+			"DESCRIPTION": "Pentru orice întrebări legate de termeni și condiții:",
+			"EMAIL": "contact@propero.ro",
+			"PHONE": "+40 123 456 789"
+		}
+	},
+	"PRIVACY": {
+		"TITLE": "Politica de Confidențialitate",
+		"LAST_UPDATED": "Ultima actualizare",
+		"INTRODUCTION": {
+			"TITLE": "Introducere",
+			"CONTENT": "Protejarea confidențialității dumneavoastră este o prioritate pentru noi.",
+			"SCOPE": "Această politică descrie modul în care colectăm, utilizăm și protejăm datele dumneavoastră.",
+			"APPLICABILITY": "Se aplică tuturor utilizatorilor platformei noastre."
+		},
+		"INFORMATION": {
+			"TITLE": "Informații despre Confidențialitate",
+			"DESCRIPTION": "Această secțiune detaliază modul în care gestionăm datele dumneavoastră personale.",
+			"COLLECTED": {
+				"TITLE": "Informații Colectate",
+				"DESCRIPTION": "Colectăm doar informațiile necesare pentru a vă oferi serviciile noastre și a îmbunătăți experiența dumneavoastră.",
+				"CATEGORIES": {
+					"PERSONAL": "Date personale (nume, email, telefon)",
+					"USAGE": "Date de utilizare (interacțiuni cu platforma)",
+					"TECHNICAL": "Date tehnice (IP, browser, dispozitiv)",
+					"PREFERENCES": "Preferințe și setări personale"
+				}
+			},
+			"USAGE": {
+				"TITLE": "Utilizarea Informațiilor",
+				"DESCRIPTION": "Utilizăm informațiile colectate în următoarele scopuri:",
+				"PURPOSES": {
+					"SERVICE": "Furnizarea și îmbunătățirea serviciilor",
+					"COMMUNICATION": "Comunicare despre servicii și actualizări",
+					"SUPPORT": "Asistență și suport tehnic",
+					"LEGAL": "Conformitate cu obligațiile legale",
+					"SECURITY": "Protejarea securității contului dumneavoastră"
+				}
+			},
+			"SHARING": {
+				"TITLE": "Partajarea Informațiilor",
+				"DESCRIPTION": "Protejăm confidențialitatea datelor dumneavoastră și le partajăm doar în circumstanțe specifice:",
+				"WITH": {
+					"TITLE": "Cu cine partajăm",
+					"SERVICE_PROVIDERS": "Furnizori de servicii esențiale",
+					"LEGAL": "Autorități legale când este necesar",
+					"BUSINESS": "Parteneri de afaceri cu acordul dumneavoastră"
+				}
+			}
+		},
+		"COOKIES": {
+			"TITLE": "Politica de Cookies",
+			"DESCRIPTION": "Utilizăm cookie-uri pentru a îmbunătăți experiența dumneavoastră pe site:",
+			"NECESSARY": "Cookie-uri necesare pentru funcționarea site-ului",
+			"ANALYTICS": "Cookie-uri pentru analiza traficului și comportamentului utilizatorilor",
+			"MARKETING": "Cookie-uri pentru marketing și publicitate personalizată",
+			"PREFERENCES": "Cookie-uri pentru salvarea preferințelor utilizatorilor",
+			"REJECT_ALL": "Respinge toate cookie-urile",
+			"ACCEPT_ALL": "Acceptă toate cookie-urile",
+			"SAVE_PREFERENCES": "Personalizează cookie-urile"
+		},
+		"SECURITY": {
+			"TITLE": "Securitatea Datelor",
+			"DESCRIPTION": "Implementăm măsuri stricte de securitate pentru protejarea datelor dumneavoastră:",
+			"MEASURES": "Utilizăm criptare și protocoale de securitate avansate",
+			"PROTECTION": "Sisteme de protecție împotriva accesului neautorizat",
+			"BREACH": "Proceduri de notificare în caz de breșă de securitate"
+		},
+		"THIRD_PARTY": {
+			"TITLE": "Terțe Părți",
+			"DESCRIPTION": "Informații despre relația noastră cu terțe părți:",
+			"SERVICES": "Servicii furnizate de terți pentru funcționarea platformei",
+			"LINKS": "Link-uri către site-uri externe",
+			"ANALYTICS": "Servicii de analiză și monitorizare"
+		},
+		"CONTACT": {
+			"TITLE": "Contact pentru Confidențialitate",
+			"DESCRIPTION": "Pentru orice întrebări legate de confidențialitate:",
+			"EMAIL": "Email",
+			"ADDRESS": "Adresă",
+			"ADDRESS_VALUE": "Str. Exemplu, Nr. 123, București, România",
+			"PHONE": "Telefon"
+		},
+		"UPDATES": {
+			"TITLE": "Actualizări ale Politicii",
+			"DESCRIPTION": "Cum gestionăm modificările politicii de confidențialitate:",
+			"NOTIFICATION": "Vă vom notifica despre modificările importante",
+			"REVIEW": "Vă recomandăm să revedeți periodic această politică",
+			"EFFECTIVE": "Modificările intră în vigoare la data publicării"
+		},
+		"RIGHTS": {
+			"TITLE": "Drepturile Dumneavoastră",
+			"DESCRIPTION": "Conform GDPR, aveți următoarele drepturi:",
+			"ACCESS": "Dreptul de acces la datele personale",
+			"RECTIFICATION": "Dreptul de a corecta datele inexacte",
+			"ERASURE": "Dreptul la ștergerea datelor ('dreptul de a fi uitat')",
+			"PORTABILITY": "Dreptul la portabilitatea datelor",
+			"OBJECT": "Dreptul de a obiecta la prelucrarea datelor"
+		}
+	},
+	"FOOTER": {
+		"CAREERS_TITLE": "Cariere",
+		"CAREERS_TEXT": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_WHY_JOIN_TITLE": "De ce să te alături?",
+		"CAREERS_WHY_JOIN_1": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_WHY_JOIN_2": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_WHY_JOIN_3": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_WHY_JOIN_4": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_WHY_JOIN_DESCRIPTION": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_WHY_JOIN_BENEFITS": {
+			"TITLE": "Beneficii",
+			"DESCRIPTION": "Beneficiile de a lucra cu noi"
+		},
+		"CAREERS_OPEN_POSITIONS_TITLE": "Poziții deschise",
+		"CAREERS_OPEN_POSITIONS_DESCRIPTION": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_POSITION_1_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_POSITION_1_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_POSITION_2_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_POSITION_2_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_POSITION_3_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_POSITION_3_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_POSITION_4_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_POSITION_4_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_APPLY_NOW": "Înscrie-te acum",
+		"CAREERS_BENEFITS_TITLE": "Beneficii",
+		"CAREERS_BENEFIT_1_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_BENEFIT_1_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_BENEFIT_2_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_BENEFIT_2_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_BENEFIT_3_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_BENEFIT_3_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_BENEFIT_4_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_BENEFIT_4_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_BENEFIT_5_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"CAREERS_BENEFIT_5_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"BLOG_TITLE": "Blog",
+		"BLOG_TEXT": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"BLOG_POST_TITLE_1": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"BLOG_POST_EXCERPT_1": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"BLOG_POST_TITLE_2": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"BLOG_POST_EXCERPT_2": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"BLOG_POST_TITLE_3": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"BLOG_POST_EXCERPT_3": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"BLOG_POST_TITLE_4": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"BLOG_POST_EXCERPT_4": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"BLOG_POST_TITLE_5": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"BLOG_ALL": "Toate postările",
+		"BLOG_CATEGORY_1": "Category 1.",
+		"BLOG_CATEGORY_2": "Category 2.",
+		"BLOG_CATEGORY_3": "Category 3.",
+		"BLOG_CATEGORY_4": "Category 4.",
+		"BLOG_CATEGORY_5": "Category 5.",
+		"BLOG_CATEGORY_6": "Category 6.",
+		"BLOG_READ_MORE": "Citește mai mult",
+		"BLOG_READ_LESS": "Citește mai puțin",
+		"BLOG_READ_MORE_TITLE": "Citește mai mult",
+		"BLOG_READ_LESS_TITLE": "Citește mai puțin",
+		"BLOG_READ_MORE_DESCRIPTION": "Citește mai mult",
+		"BLOG_READ_LESS_DESCRIPTION": "Citește mai puțin",
+		"PRESS_TITLE": "Presă",
+		"PRESS_TEXT": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_CONTACT_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_CONTACT_TEXT": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_CONTACT_BUTTON": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_RELEASES_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_RELEASE_1_DATE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_RELEASE_1_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_RELEASE_1_EXCERPT": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_RELEASE_2_DATE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_RELEASE_2_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_RELEASE_2_EXCERPT": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_RELEASE_3_DATE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_RELEASE_3_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_RELEASE_3_EXCERPT": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_READ_MORE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_KIT_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_KIT_LOGOS_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_KIT_PHOTOS": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_DOWNLOAD": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"PRESS_KIT_FACT_SHEET": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_TITLE": "Colaborare",
+		"COLLABORATION_TEXT": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_BENEFITS_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_BENEFIT_1_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_BENEFIT_1_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_BENEFIT_2_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_BENEFIT_2_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_BENEFIT_3_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_BENEFIT_3_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_BENEFIT_4_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_BENEFIT_4_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_PARTNERS_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_PARTNER_1_NAME": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_PARTNER_1_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_PARTNER_2_NAME": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_PARTNER_2_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_PARTNER_3_NAME": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_PARTNER_3_DESC": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_CONTACT_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_CONTACT_TEXT": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_CONTACT_BUTTON": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_CONTACT_FORM_NAME": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_CONTACT_FORM_EMAIL": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_CONTACT_FORM_MESSAGE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_LEARN_MORE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_LEARN_MORE_TITLE": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_LEARN_MORE_DESCRIPTION": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		"COLLABORATION_LEARN_MORE_BUTTON": "Propero este o companie care își propune să îmbunătățească experiența clienților prin tehnologie și inovație.",
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		"COMPANY": {
+			"TITLE": "Companie",
+			"ABOUT": "Despre Noi",
+			"CAREERS": "Cariere",
+			"PRESS": "Presă",
+			"BLOG": "Blog",
+			"CONTACT": "Contact"
+		},
+		"PRODUCT": {
+			"TITLE": "Produs",
+			"FEATURES": "Funcționalități",
+			"PRICING": "Prețuri",
+			"SECURITY": "Securitate",
+			"ENTERPRISE": "Enterprise",
+			"API": "API"
+		},
+		"RESOURCES": {
+			"TITLE": "Resurse",
+			"DOCUMENTATION": "Documentație",
+			"GUIDES": "Ghiduri",
+			"WEBINARS": "Webinare",
+			"CASE_STUDIES": "Studii de Caz",
+			"HELP_CENTER": "Centru de Ajutor"
+		},
+		"LEGAL": {
+			"TITLE": "Legal",
+			"TERMS": "Termeni și Condiții",
+			"PRIVACY": "Politica de Confidențialitate",
+			"GDPR": "GDPR",
+			"COOKIES": "Politica de Cookies",
+			"SECURITY_POLICY": "Politica de Securitate"
+		},
+		"SOCIAL": {
+			"TITLE": "Social Media",
+			"FOLLOW_US": "Urmăriți-ne pe",
+			"FACEBOOK": "Facebook",
+			"LINKEDIN": "LinkedIn",
+			"INSTAGRAM": "Instagram",
+			"TWITTER": "Twitter"
+		},
+		"NEWSLETTER": {
+			"TITLE": "Newsletter",
+			"DESCRIPTION": "Abonați-vă pentru noutăți și actualizări",
+			"EMAIL_PLACEHOLDER": "Introduceți adresa de email",
+			"SUBSCRIBE": "Abonare",
+			"SUCCESS": "V-ați abonat cu succes!",
+			"ERROR": "A apărut o eroare. Încercați din nou."
+		},
+		"COPYRIGHT": "© 2024 Propero. Toate drepturile rezervate.",
+		"SITEMAP": {
+			"TITLE": "Hartă Site",
+			"SUBTITLE": "Explorați toate secțiunile site-ului nostru",
+			"MAIN": {
+				"TITLE": "Pagini Principale",
+				"HOME": "Acasă",
+				"ABOUT": "Despre Noi",
+				"SERVICES": "Servicii",
+				"CONTACT": "Contact"
+			},
+			"PROPERTY": {
+				"TITLE": "Management Proprietăți",
+				"OVERVIEW": "Prezentare Generală",
+				"LISTINGS": "Listări",
+				"TENANTS": "Chiriași",
+				"MAINTENANCE": "Întreținere"
+			},
+			"TASKS": {
+				"TITLE": "Management Sarcini",
+				"OVERVIEW": "Prezentare Generală",
+				"CALENDAR": "Calendar",
+				"PROJECTS": "Proiecte",
+				"REPORTS": "Rapoarte"
+			},
+			"DOCUMENTS": {
+				"TITLE": "Management Documente",
+				"OVERVIEW": "Prezentare Generală",
+				"CONTRACTS": "Contracte",
+				"TEMPLATES": "Șabloane",
+				"ARCHIVE": "Arhivă"
+			},
+			"TOOLS": {
+				"TITLE": "Instrumente & Calculatoare",
+				"CALCULATORS": "Calculatoare",
+				"MORTGAGE": "Calculator Ipotecă",
+				"ROI": "Calculator ROI",
+				"RENTAL_YIELD": "Calculator Randament"
+			},
+			"RESOURCES": {
+				"TITLE": "Resurse",
+				"BLOG": "Blog",
+				"PRESS": "Presă",
+				"CAREERS": "Cariere",
+				"HELP": "Ajutor"
+			},
+			"LEGAL": {
+				"TITLE": "Legal",
+				"TERMS": "Termeni și Condiții",
+				"PRIVACY": "Politica de Confidențialitate",
+				"GDPR": "GDPR",
+				"COOKIES": "Politica de Cookie-uri"
+			},
+			"SUPPORT": {
+				"TITLE": "Suport",
+				"OVERVIEW": "Prezentare Generală",
+				"FAQ": "Întrebări Frecvente",
+				"CONTACT": "Contact",
+				"DOCUMENTATION": "Documentație"
+			}
+		},
+		"ABOUT_US_TITLE": "Despre Noi",
+		"ABOUT_US_TEXT": "Propero este platforma digitală care transformă modul în care gestionați proprietățile imobiliare, oferind soluții inovatoare și eficiente pentru proprietari și administratori.",
+		"ABOUT_US_MISSION_TITLE": "Misiunea Noastră",
+		"ABOUT_US_MISSION_TEXT": "Ne dedicăm să simplificăm și să automatizăm procesele de administrare imobiliară, oferind instrumente moderne și intuitive care economisesc timp și resurse.",
+		"ABOUT_US_VALUES_TITLE": "Valorile Noastre",
+		"ABOUT_US_VALUE_1": "Inovație și Excelență Tehnologică",
+		"ABOUT_US_VALUE_2": "Transparență și Încredere",
+		"ABOUT_US_VALUE_3": "Focus pe Nevoile Clienților",
+		"ABOUT_US_VALUE_4": "Îmbunătățire Continuă",
+		"ABOUT_US_TEAM_TITLE": "Echipa Noastră",
+		"ABOUT_US_TEAM_TEXT": "Suntem o echipă dedicată de profesioniști cu experiență în tehnologie și real estate, uniți de pasiunea pentru inovație și excelență în servicii.",
+		"ABOUT_US_CONTACT_TITLE": "Contactează-ne",
+		"ABOUT_US_CONTACT_TEXT": "Suntem aici să te ajutăm! Pentru orice întrebare sau sugestie, nu ezita să ne contactezi.",
+		"ABOUT_US_CONTACT_BUTTON": "Trimite Email"
 	}
 }

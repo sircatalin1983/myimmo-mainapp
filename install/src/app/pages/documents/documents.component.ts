@@ -21,23 +21,23 @@ export class DocumentsComponent implements OnInit {
   }
 
   generateReportInventory() {
-    this.generateReport(ReportTypeEnum.ReportType_Inventory, Reports.getDataInventory(null, null, null));
+    this.generateReport(ReportTypeEnum.ReportType_Inventory, Reports.getDataInventory(null, null, null, null, null, null, null));
   }
 
   generateReportRentingContract() {
-    this.generateReport(ReportTypeEnum.ReportType_RentingContract, Reports.getDataRentingContract(null, null, null, null));
+    this.generateReport(ReportTypeEnum.ReportType_RentingContract, Reports.getDataRentingContract(null, null, null, null, null, null));
   }
 
   generateReportSubRentingContract() {
-    this.generateReport(ReportTypeEnum.ReportType_SubRentingContract, Reports.getDataSubrentingContract(null, null, null));
+    this.generateReport(ReportTypeEnum.ReportType_SubRentingContract, Reports.getDataSubrentingContract(null, null, null, null, null, null, null));
   }
 
   generateRequestEndContractBeforeEndOfTerm() {
-    this.generateReport(ReportTypeEnum.ReportType_End_RentingContract, Reports.getDataEndRentingContract(null, null));
+    this.generateReport(ReportTypeEnum.ReportType_End_RentingContract, Reports.getDataEndRentingContract(null, null, null, null, null, null, null));
   }
 
   generateDataBeneficiarRealContract() {
-    this.generateReport(ReportTypeEnum.ReportType_End_RentingContract, Reports.getDataBeneficiarRealContract(null, null, null, null, null, null));
+    this.generateReport(ReportTypeEnum.ReportType_End_RentingContract, Reports.getDataBeneficiarRealContract(null, null, null, null, null, null, null));
   }
 
   generateAcordGDPR() {
@@ -67,7 +67,7 @@ export class DocumentsComponent implements OnInit {
 
     const link = document.createElement('a');
     link.href = dataURL;
-    link.download = 'export file.odt';
+    link.download = 'export file.pdf';
     link.click();
 
     setTimeout(() => {

@@ -9,6 +9,8 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./layout.component.scss']
 })
 export class LayoutComponent implements OnInit, OnDestroy {
+  currentYear = new Date().getFullYear();
+
   constructor(
     public translate: TranslateService
   ) {

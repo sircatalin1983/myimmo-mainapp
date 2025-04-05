@@ -112,92 +112,13 @@ export class TrackerService {
     }
 
     trackPageViews(): void {
-        let previousTimestamp: number | null = null;
+        // Implement your page view tracking logic here
+        console.log('Page view tracked');
+    }
 
-        this.startTime = new Date().getTime();
-        this.isLoading = true;
-
-        let isFirstLoad = true; // Flag to track if this is the first load
-        this.router.events
-            .pipe(
-                filter((event: Event) => event instanceof NavigationEnd),
-                startWith(new NavigationEnd(0, this.router.url, this.router.url)) // Simulate the initial page load event
-            )
-            .subscribe((event: NavigationEnd) => {
-                if (isFirstLoad) {
-                    isFirstLoad = false; // Reset the flag after handling the first load
-                } 
-            });
-
-        if (isFirstLoad) {
-            this.endSession();    
-            this.startSession();
-        }
-
-        this.router.events
-            .pipe(
-                filter((event: Event) => event instanceof NavigationEnd),
-                startWith(new NavigationEnd(0, this.router.url, this.router.url)) // Manually add the initial page load event
-            )
-            .subscribe((event: NavigationEnd) => {
-
-                console.log('trackPageViews:')
-
-                const sessionIp = localStorage.getItem('session_ip');
-                const sessionId = Number.parseInt(localStorage.getItem('session_id'), 10);
-                const referrer = document.referrer; // Referrer URL
-                const timestamp = new Date(); // Current timestamp
-                const title = document.title; // Page title
-                let duration: number | undefined = undefined;
-
-                // Calculate duration on the previous page
-                if (previousTimestamp) {
-                    const now = timestamp.getTime();
-                    duration = (now - previousTimestamp) / 1000; // Duration in seconds
-                }
-
-                // Update the previous timestamp for the next navigation event
-                previousTimestamp = timestamp.getTime();
-
-                const pageView: TrackerPageView = {
-                    id: 0,
-                    idTrackerSession: sessionId,
-                    pageUrl: event.urlAfterRedirects,
-                    referrer: event.url,
-                    referrerUrl: event.urlAfterRedirects,
-                    userAgent: navigator.userAgent,
-                    ipAddress: sessionIp,
-                    timestamp: timestamp,
-                    title: title,
-                    duration: duration
-                };
-
-                console.log('pageView:', pageView)
-
-                this.startTime = new Date().getTime();
-                this.isLoading = true;
-
-                Helpers.getObservable([])
-                    .pipe(
-                        switchMap(() => this.trackerPageViewService.addItem(pageView)),
-                        catchError(
-                            error => {
-                                throw error;
-                            }
-                        ),
-                        finalize(() => {
-                            this.isLoading = false;
-                        }),
-                    )
-                    .subscribe(
-                        results => {
-                            Helpers.consoleInfo(this.startTime, this.constructor.name, Helpers.getMethodName(), results)
-                        },
-                        error => {
-                            Helpers.consoleError(this.startTime, this.constructor.name, Helpers.getMethodName(), error)
-                        }
-                    );
-            });
+    trackPageView(pageName: string): void {
+        // Implement your specific page tracking logic here
+        console.log(`Page view tracked for: ${pageName}`);
     }
 
     endSession(): void {

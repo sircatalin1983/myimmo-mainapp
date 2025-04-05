@@ -1,0 +1,438 @@
+<section id="home" class="slider_area">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="slider-content">&nbsp;</div>
+        </div>
+    </div>
+</section>
+
+<div class="privacy-section">
+    <div class="container">
+        <div class="legal-content">
+            <h1>{{ 'PRIVACY_POLICY.TITLE' | translate }}</h1>
+            <div class="last-updated">
+                {{ 'PRIVACY_POLICY.LAST_UPDATED' | translate }}: {{ '2024-03-20' | date:'longDate' }}
+            </div>
+
+            <section>
+                <h2>{{ 'PRIVACY_POLICY.INTRODUCTION.TITLE' | translate }}</h2>
+                <p>{{ 'PRIVACY_POLICY.INTRODUCTION.CONTENT' | translate }}</p>
+                <p>{{ 'PRIVACY_POLICY.INTRODUCTION.APPLICABILITY' | translate }}</p>
+            </section>
+
+            <section>
+                <h2>{{ 'PRIVACY_POLICY.TERMS.TITLE' | translate }}</h2>
+                <p>{{ 'PRIVACY_POLICY.TERMS.CONTENT' | translate }}</p>
+                <ul>
+                    <li><strong>„Imobil”</strong>: {{ 'PRIVACY_POLICY.TERMS.DEFINITIONS.IMOBIL' | translate }}</li>
+                    <li><strong>„Proprietar”</strong>: {{ 'PRIVACY_POLICY.TERMS.DEFINITIONS.PROPRIETAR' | translate }}
+                    </li>
+                    <li><strong>„Servicii anexe”</strong>: {{ 'PRIVACY_POLICY.TERMS.DEFINITIONS.SERVICII_ANEXE' |
+                        translate }}
+                    </li>
+                    <li><strong>„Utilizator”</strong>: {{ 'PRIVACY_POLICY.TERMS.DEFINITIONS.UTILIZATOR' | translate }}
+                    </li>
+                    <li><strong>„RGPD”</strong>: {{ 'PRIVACY_POLICY.TERMS.DEFINITIONS.RGPD' | translate }}</li>
+                    <li><strong>„Date cu caracter personal”</strong>: {{
+                        'PRIVACY_POLICY.TERMS.DEFINITIONS.DATE_PERSONALE' |
+                        translate }}</li>
+                    <li><strong>„Platforma Propero”</strong>: {{ 'PRIVACY_POLICY.TERMS.DEFINITIONS.PLATFORMA_PROPERO' |
+                        translate }}</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>{{ 'PRIVACY_POLICY.DATA_CONTROLLER.TITLE' | translate }}</h2>
+                <p>{{ 'PRIVACY_POLICY.DATA_CONTROLLER.CONTENT' | translate }}</p>
+
+                <!-- Sub-secțiunea: Operatorul de Date -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_CONTROLLER.OPERATOR.TITLE' | translate }}</h3>
+                <p>{{ 'PRIVACY_POLICY.DATA_CONTROLLER.OPERATOR.CONTENT' | translate }}</p>
+                <ul>
+                    <li>{{ 'PRIVACY_POLICY.DATA_CONTROLLER.OPERATOR.DETAILS.COMPANY' | translate }}</li>
+                    <!-- <li>{{ 'PRIVACY_POLICY.DATA_CONTROLLER.OPERATOR.DETAILS.ADDRESS' | translate }}</li> -->
+                    <li>{{ 'PRIVACY_POLICY.DATA_CONTROLLER.OPERATOR.DETAILS.EMAIL' | translate }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_CONTROLLER.OPERATOR.DETAILS.PHONE' | translate }}</li>
+                </ul>
+                <p class="text-muted">{{ 'PRIVACY_POLICY.DATA_CONTROLLER.OPERATOR.NOTE' | translate }}</p>
+
+                <!-- Sub-secțiunea: Furnizori Terți -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_CONTROLLER.THIRD_PARTY.TITLE' | translate }}</h3>
+                <p>{{ 'PRIVACY_POLICY.DATA_CONTROLLER.THIRD_PARTY.CONTENT' | translate }}</p>
+                <p class="text-muted">{{ 'PRIVACY_POLICY.DATA_CONTROLLER.THIRD_PARTY.NOTE' | translate }}</p>
+                <h4>{{ 'PRIVACY_POLICY.DATA_CONTROLLER.THIRD_PARTY.EXAMPLES_TITLE' | translate }}</h4>
+                <ul>
+                    <li *ngFor="let i of [0,1,2,3,4]">
+                        {{ ('PRIVACY_POLICY.DATA_CONTROLLER.THIRD_PARTY.EXAMPLES.' + i) | translate }}
+                    </li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h2>{{ 'PRIVACY_POLICY.DATA_COLLECTION.TITLE' | translate }}</h2>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.CONTENT' | translate }}</p>
+                <ul>
+                    <li *ngFor="let i of [0,1,2,3]">
+                        {{ ('PRIVACY_POLICY.DATA_COLLECTION.ITEMS.' + i) | translate }}
+                    </li>
+                </ul>
+                <!-- Sub-secțiunea: Colectarea automată a datelor -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTO_COLLECTION.TITLE' | translate }}
+                </h3>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTO_COLLECTION.CONTENT' | translate }}
+                </p>
+                <ul>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTO_COLLECTION.DETAILS.URL' |
+                        translate }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTO_COLLECTION.DETAILS.LATENCY' |
+                        translate }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTO_COLLECTION.DETAILS.DATETIME' |
+                        translate }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTO_COLLECTION.DETAILS.DEVICE' |
+                        translate }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTO_COLLECTION.DETAILS.CLICKS' |
+                        translate }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTO_COLLECTION.DETAILS.IP' |
+                        translate }}</li>
+                </ul>
+                <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTO_COLLECTION.NOTE' | translate }}
+                </p>
+
+                <!-- Sub-secțiunea: Înregistrarea -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ACCOUNT_DATA.TITLE' | translate }}</h3>
+
+                <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ACCOUNT_DATA.REGISTRATION.TITLE' |
+                    translate }}</h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ACCOUNT_DATA.REGISTRATION.CONTENT' |
+                    translate }}</p>
+                <ul>
+                    <li>{{
+                        'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ACCOUNT_DATA.REGISTRATION.DETAILS.NAME'
+                        | translate }}</li>
+                    <li>{{
+                        'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ACCOUNT_DATA.REGISTRATION.DETAILS.EMAIL'
+                        | translate }}</li>
+                    <li>{{
+                        'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ACCOUNT_DATA.REGISTRATION.DETAILS.PASSWORD'
+                        | translate }}</li>
+                </ul>
+
+                <p>{{
+                    'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ACCOUNT_DATA.REGISTRATION.ALTERNATIVE_LOGIN.TEXT'
+                    | translate }}</p>
+                <ul>
+                    <li>{{
+                        'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ACCOUNT_DATA.REGISTRATION.ALTERNATIVE_LOGIN.DETAILS.NAME'
+                        | translate }}</li>
+                    <li>{{
+                        'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ACCOUNT_DATA.REGISTRATION.ALTERNATIVE_LOGIN.DETAILS.EMAIL'
+                        | translate }}</li>
+                    <li>{{
+                        'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ACCOUNT_DATA.REGISTRATION.ALTERNATIVE_LOGIN.DETAILS.TOKEN'
+                        | translate }}</li>
+                </ul>
+
+                <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ACCOUNT_DATA.REGISTRATION.NOTE' |
+                    translate }}
+                </p>
+
+                <!-- Sub-secțiunea: Asistență pentru clienți -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ASSISTANCE.TITLE' | translate }}</h3>
+
+                <!-- Procesarea cererilor -->
+                <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ASSISTANCE.REQUEST_HANDLING.TITLE' |
+                    translate }}
+                </h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ASSISTANCE.REQUEST_HANDLING.CONTENT' |
+                    translate }}
+                </p>
+                <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ASSISTANCE.REQUEST_HANDLING.NOTE_1' |
+                    translate }}
+                </p>
+
+                <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ASSISTANCE.REQUEST_HANDLING.NOTE_3' |
+                    translate }}
+                </p>
+
+                <!-- Îmbunătățirea serviciului de relații cu clienții -->
+                <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ASSISTANCE.SERVICE_IMPROVEMENT.TITLE' |
+                    translate
+                    }}</h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ASSISTANCE.SERVICE_IMPROVEMENT.CONTENT' |
+                    translate
+                    }}</p>
+                <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ASSISTANCE.SERVICE_IMPROVEMENT.NOTE_1' |
+                    translate
+                    }}
+                </p>
+
+
+                <!-- Stocarea și evaluarea apelurilor telefonice -->
+                <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ASSISTANCE.CALL_RECORDING.TITLE' |
+                    translate }}
+                </h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ASSISTANCE.CALL_RECORDING.CONTENT' |
+                    translate }}
+                </p>
+                <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.ASSISTANCE.CALL_RECORDING.NOTE' | translate
+                    }}
+                </p>
+
+                <!-- Sub-secțiunea: Furnizori de servicii tehnice -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TECHNICAL_PROVIDERS.TITLE' | translate }}
+                </h3>
+
+                <!-- Găzduirea site-ului web -->
+                <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TECHNICAL_PROVIDERS.HOSTING.TITLE' |
+                    translate }}
+                </h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TECHNICAL_PROVIDERS.HOSTING.CONTENT' |
+                    translate }}
+                </p>
+
+                <!-- Sistem de e-mail -->
+                <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TECHNICAL_PROVIDERS.EMAIL_SYSTEM.TITLE' |
+                    translate }}</h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TECHNICAL_PROVIDERS.EMAIL_SYSTEM.CONTENT' |
+                    translate }}</p>
+
+                <!-- Protecție împotriva roboților -->
+                <!-- <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TECHNICAL_PROVIDERS.BOT_PROTECTION.TITLE' |
+                    translate }}</h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TECHNICAL_PROVIDERS.BOT_PROTECTION.CONTENT' |
+                    translate }}</p>
+                <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TECHNICAL_PROVIDERS.BOT_PROTECTION.NOTE' |
+                    translate }}
+                </p> -->
+
+                <!-- Sub-secțiunea: Plăți -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PAYMENTS.TITLE' | translate }}</h3>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PAYMENTS.CONTENT' | translate }}</p>
+
+                <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PAYMENTS.CREDIT_CARD.TITLE' | translate }}
+                </h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PAYMENTS.CREDIT_CARD.CONTENT' | translate }}
+                </p>
+
+                <!-- <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PAYMENTS.PRIMER.TITLE' | translate }}</h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PAYMENTS.PRIMER.CONTENT' | translate }}</p> -->
+
+                <!-- Sub-secțiunea: Prevenirea fraudei -->
+                <!-- <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.FRAUD_PREVENTION.TITLE' | translate }}</h3>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.FRAUD_PREVENTION.CONTENT' | translate }}</p>
+                <p class="text-muted">{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.FRAUD_PREVENTION.NOTE_1' |
+                    translate }}</p>
+                <p class="text-muted">{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.FRAUD_PREVENTION.NOTE_2' |
+                    translate }}</p> -->
+
+                <!-- Sub-secțiunea: Module cookie și tehnologii de urmărire -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.TITLE' | translate }}</h3>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.CONTENT' | translate }}</p>
+
+                <h4>Tipuri de tehnologii</h4>
+                <ul>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.TYPES.TEMPORARY' |
+                        translate }}
+                    </li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.TYPES.PERMANENT' |
+                        translate }}
+                    </li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.TYPES.BEACONS' |
+                        translate }}
+                    </li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.TYPES.SCRIPTS' |
+                        translate }}
+                    </li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.TYPES.URLS' | translate
+                        }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.TYPES.SDK' | translate }}
+                    </li>
+                </ul>
+
+                <h4>Categorii de utilizare</h4>
+                <ul>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.CATEGORIES.NECESSARY' |
+                        translate }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.CATEGORIES.ANALYTICS' |
+                        translate }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.CATEGORIES.MARKETING' |
+                        translate }}</li>
+                </ul>
+
+                <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.TRACKING_TECH.NOTE' | translate }}
+                </p>
+
+                <!-- Sub-secțiunea: Rețele sociale -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.SOCIAL_MEDIA.TITLE' | translate }}</h3>
+
+                <!-- Facebook -->
+                <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.SOCIAL_MEDIA.FACEBOOK.TITLE' | translate }}
+                </h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.SOCIAL_MEDIA.FACEBOOK.CONTENT' | translate
+                    }}</p>
+
+                <!-- LinkedIn -->
+                <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.SOCIAL_MEDIA.LINKEDIN.TITLE' | translate }}
+                </h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.SOCIAL_MEDIA.LINKEDIN.CONTENT' | translate
+                    }}</p>
+
+                <!-- Sub-secțiunea: Sistemul CRM -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.CRM_SYSTEM.TITLE' | translate }}</h3>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.CRM_SYSTEM.CONTENT' | translate }}</p>
+                <!-- <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.CRM_SYSTEM.NOTE' | translate }}
+                </p> -->
+
+                <!-- Sub-secțiunea: Personalizarea conținutului site-ului web -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.WEBSITE_PERSONALIZATION.TITLE' | translate
+                    }}</h3>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.WEBSITE_PERSONALIZATION.CONTENT' | translate
+                    }}</p>
+
+                <!-- Sub-secțiunea: Continuarea schimbului de date -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_SHARING_CONTINUED.TITLE' | translate
+                    }}</h3>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_SHARING_CONTINUED.CONTENT' | translate
+                    }}</p>
+
+                <!-- Sub-secțiunea: Cazuri în care are loc partajarea datelor -->
+                <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_SHARING_CASES.TITLE' | translate }}
+                </h4>
+                <ul>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_SHARING_CASES.CASES.CASE_1' |
+                        translate
+                        }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_SHARING_CASES.CASES.CASE_2' |
+                        translate
+                        }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_SHARING_CASES.CASES.CASE_3' |
+                        translate
+                        }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_SHARING_CASES.CASES.CASE_4' |
+                        translate
+                        }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_SHARING_CASES.CASES.CASE_5' |
+                        translate
+                        }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_SHARING_CASES.CASES.CASE_6' |
+                        translate
+                        }}</li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_SHARING_CASES.CASES.CASE_7' |
+                        translate
+                        }}</li>
+                </ul>
+
+                <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_SHARING_CASES.NOTE' | translate }}
+                </p>
+
+                <!-- Sub-secțiunea: Decizii automatizate și profilare -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTOMATED_DECISIONS.TITLE' | translate }}
+                </h3>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTOMATED_DECISIONS.CONTENT' | translate }}
+                </p>
+                <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.AUTOMATED_DECISIONS.RIGHTS' | translate }}
+                </p>
+
+                <!-- Sub-secțiunea: Ștergerea datelor tale -->
+                <h3>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_DELETION.TITLE' | translate }}</h3>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_DELETION.CONTENT' | translate }}</p>
+                <p class="text-muted">
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.DATA_DELETION.NOTE' | translate }}
+                </p>
+
+                <h4>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.TITLE' | translate }}</h4>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.CONTENT' | translate }}</p>
+                <ul>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.ACCESS.TITLE' |
+                        translate }} –
+                        {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.ACCESS.CONTENT' |
+                        translate }}
+                    </li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.RECTIFICATION.TITLE' |
+                        translate }} –
+                        {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.RECTIFICATION.CONTENT'
+                        |
+                        translate }}
+                    </li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.DELETION.TITLE' |
+                        translate }}
+                        –
+                        {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.DELETION.CONTENT' |
+                        translate
+                        }}
+                    </li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.RESTRICTION.TITLE' |
+                        translate
+                        }} –
+                        {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.RESTRICTION.CONTENT' |
+                        translate }}
+                    </li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.PORTABILITY.TITLE' |
+                        translate
+                        }} –
+                        {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.PORTABILITY.CONTENT' |
+                        translate }}
+                    </li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.OBJECTION.TITLE' |
+                        translate
+                        }} –
+                        {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.OBJECTION.CONTENT' |
+                        translate
+                        }}
+                    </li>
+                    <li>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.COMPLAINT.TITLE' |
+                        translate
+                        }} –
+                        {{ 'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.COMPLAINT.CONTENT' |
+                        translate
+                        }}
+                    </li>
+                    <li>{{
+                        'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.CONSENT_WITHDRAWAL.TITLE'
+                        |
+                        translate }} –
+                        {{
+                        'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.CONSENT_WITHDRAWAL.CONTENT'
+                        |
+                        translate }}
+                    </li>
+                    <li>{{
+                        'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.EXECUTION_PROCESSING.TITLE'
+                        |
+                        translate }} –
+                        {{
+                        'PRIVACY_POLICY.DATA_COLLECTION.PROCESSING_ACTIVITIES.PERSONAL_RIGHTS.EXECUTION_PROCESSING.CONTENT'
+                        | translate }}
+                    </li>
+                </ul>
+
+            </section>
+
+            <section>
+                <h2>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.TITLE' | translate }}</h2>
+                <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.DESCRIPTION' | translate }}</p>
+                <div class="contact-info">
+                    <p><strong>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.EMAIL' | translate }}:</strong>
+                        privacy@propero.io</p>
+                    <!-- <p><strong>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.ADDRESS.LABEL' | translate }}:</strong> {{ 'DATA_COLLECTION.PRIVACY.CONTACT.ADDRESS_VALUE'
+                        | translate }}</p> -->
+                    <p><strong>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.PHONE.LABEL' | translate }}:</strong>
+                        +40 743
+                        366 266</p>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
