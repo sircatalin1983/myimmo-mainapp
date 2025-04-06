@@ -6,7 +6,7 @@
     </div>
 </section>
 
-<section class="white-area">
+<section class="compare-area white-area">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 col-md-10">
@@ -15,76 +15,64 @@
                     <p class="text">{{ 'FOOTER.BLOG_TEXT' | translate }}</p>
                 </div>
                 <div class="blog-content">
+                    <!-- Blog Categories -->
                     <div class="blog-filters">
-                        <button class="filter-btn active">{{ 'FOOTER.BLOG_ALL' | translate }}</button>
-                        <button class="filter-btn">{{ 'FOOTER.BLOG_CATEGORY_1' | translate }}</button>
-                        <button class="filter-btn">{{ 'FOOTER.BLOG_CATEGORY_2' | translate }}</button>
-                        <button class="filter-btn">{{ 'FOOTER.BLOG_CATEGORY_3' | translate }}</button>
+                        <button class="filter-btn" [class.active]="!selectedCategory" (click)="filterItems(null)">
+                            {{ 'FOOTER.BLOG_ALL' | translate }}
+                        </button>
+                        <button *ngFor="let category of categories" class="filter-btn"
+                            [class.active]="selectedCategory === category.name" (click)="filterItems(category.name)">
+                            {{ category.displayName || category.name }}
+                        </button>
                     </div>
+
+                    <!-- Blog Items Grid -->
                     <div class="blog-grid">
-                        <article class="blog-card" *ngFor="let blogItem of blogItems">
+                        <article class="blog-card" *ngFor="let blogItem of getCurrentPageItems()">
                             <div class="blog-card-image">
-                                <a href="/blog-post?id={{blogItem.id}}">
+                                <a (click)="navigateToBlogPost(blogItem.id)">
                                     <img [src]="blogItem.imageURL || '../assets/img/blog-img/3.png'" alt="article" />
                                 </a>
-                                <div class="category">{{
-                                    blogItem.BlogCategory.name || 'Fără categorie'
-                                    }}</div>
+                                <div class="category">{{ blogItem.blogCategory?.name || 'Fără categorie' }}</div>
                             </div>
                             <div class="blog-card-content">
                                 <div class="meta">
-                                    <span class="date">{{ blogItem.publishedDate | date: 'MMM d, y'
-                                    }} | <i class="lni lni-comments-alt"></i> {{ blogItem.commentsCount || 0 }} Comment{{
-                                        blogItem.commentsCount === 1 ? '' : 's' }}
-                                </span>
-                                    <span class="author">{{ blogItem.User.firstName }} {{ blogItem.User.lastName }}</span>
+                                    <span class="date">{{ blogItem.publishedDate | date: 'MMM d, y' }} |
+                                        <i class="lni lni-comments-alt"></i> {{ blogItem.commentsCount || 0 }}
+                                        Comment{{ blogItem.commentsCount === 1 ? '' : 's' }}
+                                    </span>
+                                    <span class="author">{{ blogItem.user?.firstName }} {{ blogItem.user?.lastName
+                                        }}</span>
                                 </div>
                                 <h4>{{ blogItem.title }}</h4>
-                                <p>{{ 'FOOTER.BLOG_POST_EXCERPT_1' | translate }}</p>
-                                <a href="/blog-post?id={{blogItem.id}}" class="read-more">{{ 'FOOTER.BLOG_READ_MORE' | translate }}</a>
+                                <p>{{ blogItem.summary }}</p>
+                                <a (click)="navigateToBlogPost(blogItem.id)" class="read-more">
+                                    {{ 'FOOTER.BLOG_READ_MORE' | translate }}
+                                </a>
                             </div>
                         </article>
-                        <!-- <article class="blog-card">
-                            <div class="blog-card-image">
-                                <img src="assets/images/blog/blog-2.jpg" alt="Blog Post 2">
-                                <div class="category">{{ 'FOOTER.BLOG_CATEGORY_2' | translate }}</div>
-                            </div>
-                            <div class="blog-card-content">
-                                <div class="meta">
-                                    <span class="date">{{ 'FOOTER.BLOG_DATE_2' | translate }}</span>
-                                    <span class="author">{{ 'FOOTER.BLOG_AUTHOR_2' | translate }}</span>
-                                </div>
-                                <h4>{{ 'FOOTER.BLOG_POST_TITLE_2' | translate }}</h4>
-                                <p>{{ 'FOOTER.BLOG_POST_EXCERPT_2' | translate }}</p>
-                                <a href="#" class="read-more">{{ 'FOOTER.BLOG_READ_MORE' | translate }}</a>
-                            </div>
-                        </article>
-                        <article class="blog-card">
-                            <div class="blog-card-image">
-                                <img src="assets/images/blog/blog-3.jpg" alt="Blog Post 3">
-                                <div class="category">{{ 'FOOTER.BLOG_CATEGORY_3' | translate }}</div>
-                            </div>
-                            <div class="blog-card-content">
-                                <div class="meta">
-                                    <span class="date">{{ 'FOOTER.BLOG_DATE_3' | translate }}</span>
-                                    <span class="author">{{ 'FOOTER.BLOG_AUTHOR_3' | translate }}</span>
-                                </div>
-                                <h4>{{ 'FOOTER.BLOG_POST_TITLE_3' | translate }}</h4>
-                                <p>{{ 'FOOTER.BLOG_POST_EXCERPT_3' | translate }}</p>
-                                <a href="#" class="read-more">{{ 'FOOTER.BLOG_READ_MORE' | translate }}</a>
-                            </div>
-                        </article> -->
                     </div>
+
+                    <!-- Pagination -->
                     <div class="blog-pagination">
-                        <button class="pagination-btn active">1</button>
-                        <button class="pagination-btn">2</button>
-                        <button class="pagination-btn">3</button>
-                        <button class="pagination-btn">
+                        <button class="pagination-btn" *ngFor="let page of getPageNumbers()"
+                            [class.active]="currentPage === page" (click)="goToPage(page)">
+                            {{ page }}
+                        </button>
+                        <button class="pagination-btn" *ngIf="currentPage < totalPages" (click)="nextPage()">
                             <i class="lni lni-chevron-right"></i>
                         </button>
+                    </div>
+                    <div class="debug-info" style="margin-top: 20px; text-align: center; color: #666;">
+                        <small>
+                            Total items: {{ blogItems.length }} |
+                            Items per page: {{ itemsPerPage }} |
+                            Current page: {{ currentPage }} |
+                            Total pages: {{ totalPages }}
+                        </small>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section> 
+</section>
