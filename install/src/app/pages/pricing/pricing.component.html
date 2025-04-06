@@ -307,20 +307,6 @@
                             translate }}</div>
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        <div i18n="@@item16Title" class="compare-table-row-name">&nbsp;</div>
-                    </td>
-                    <td>
-                        <div i18n="@@item16StartText" class="compare-table-row-item bold">&nbsp;</div>
-                    </td>
-                    <td>
-                        <div i18n="@@item16SmartText" class="compare-table-row-item bold">&nbsp;</div>
-                    </td>
-                    <td>
-                        <div i18n="@@item16ScaleText" class="compare-table-row-item bold">&nbsp;</div>
-                    </td>
-                </tr>
             </table>
         </div>
     </div>
@@ -328,24 +314,22 @@
 
 <section class="about-area">
     <div class="container">
-        <div class="row">
-            <div class="faq-content">
+        <div class="row justify-content-center">
+
+            <div class="col-lg-10 col-md-10">
                 <div class="about-title">
-                    <h6 i18n="@@sectionAdditionalDetailsTitle" class="sub-title">{{'PRICING.ADDITIONAL_DETAILS' |
-                        translate }}</h6>
-                    <h4 i18n="@@sectionAdditionalDetailsText" class="title">{{'PRICING.FAQ' | translate }}
-                    </h4>
+                    <h6 class="sub-title">{{ 'PRICING.ADDITIONAL_DETAILS' | translate }}</h6>
+                    <h4 class="title">{{ 'PRICING.FAQ' | translate }}</h4>
                 </div>
                 <div class="about-accordion">
                     <div class="accordion" id="accordionExample">
                         <div class="card">
-                            <div class="card-header" id="headingTwo">
+                            <div class="card-header" id="headingOne">
                                 <a i18n="@@question1Text" href="#" class="collapsed" data-toggle="collapse"
-                                    data-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo">{{'PRICING.QUESTION1' | translate }}
-                                </a>
+                                    data-target="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne">{{'PRICING.QUESTION1' | translate }}</a>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p i18n="@@question1Answer" class="text">{{'PRICING.Q_ANSWER1' | translate }}
@@ -357,13 +341,13 @@
                             <div class="card-header" id="headingThree">
                                 <a i18n="@@question2Text" href="#" class="collapsed" data-toggle="collapse"
                                     data-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">{{'PRICING.QUESTION2' | translate }}
-                                </a>
+                                    aria-controls="collapseThree">{{'PRICING.QUESTION2' | translate }}</a>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p i18n="@@question2Answer" class="text">{{'PRICING.Q_ANSWER2' | translate }}</p>
+                                    <p i18n="@@question2Answer" class="text">{{'PRICING.Q_ANSWER2' | translate }}
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -374,8 +358,7 @@
     </div>
 </section>
 
-
-<section id="contact" class="contact-area grey-area">
+<section id="contact" class="contact-area white-area">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10 col-md-10">
@@ -390,7 +373,7 @@
             <div class="col-lg-10">
                 <div class="contact-wrapper">
                     <h4 class="contact-title">
-                        <i class="lni lni-envelope"></i> 
+                        <i class="lni lni-envelope"></i>
                         {{ 'HOME.TEXT_MESSAGE' | translate }}
                     </h4>
                     <form #contactForm="ngForm">
@@ -399,12 +382,8 @@
                                 <div class="form-input">
                                     <label>{{ 'HOME.NAME' | translate }}</label>
                                     <div class="input-items">
-                                        <input 
-                                            type="text" 
-                                            name="name" 
-                                            placeholder="{{ 'HOME.NAME' | translate }}"
-                                            [(ngModel)]="contactItem.subject" 
-                                            required>
+                                        <input type="text" name="name" placeholder="{{ 'HOME.NAME' | translate }}"
+                                            [(ngModel)]="contactItem.subject" required>
                                         <i class="lni lni-user"></i>
                                     </div>
                                 </div>
@@ -413,12 +392,8 @@
                                 <div class="form-input">
                                     <label>{{ 'HOME.EMAIL' | translate }}</label>
                                     <div class="input-items">
-                                        <input 
-                                            type="email" 
-                                            name="email" 
-                                            placeholder="{{ 'HOME.EMAIL' | translate }}"
-                                            [(ngModel)]="contactItem.email" 
-                                            required>
+                                        <input type="email" name="email" placeholder="{{ 'HOME.EMAIL' | translate }}"
+                                            [(ngModel)]="contactItem.email" required>
                                         <i class="lni lni-envelope"></i>
                                     </div>
                                 </div>
@@ -427,18 +402,15 @@
                                 <div class="form-input">
                                     <label>{{ 'HOME.MESSAGE' | translate }}</label>
                                     <div class="input-items textarea">
-                                        <textarea 
-                                            name="message" 
-                                            placeholder="{{ 'HOME.MESSAGE' | translate }}"
-                                            [(ngModel)]="contactItem.content" 
-                                            required></textarea>
+                                        <textarea name="message" placeholder="{{ 'HOME.MESSAGE' | translate }}"
+                                            [(ngModel)]="contactItem.content" required></textarea>
                                         <i class="lni lni-pencil-alt"></i>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="text-center">
-                                    <button type="submit" class="features-btn" (click)="send()">
+                                    <button type="submit" class="main-btn" (click)="send()">
                                         {{ 'HOME.SEND' | translate }}
                                     </button>
                                 </div>

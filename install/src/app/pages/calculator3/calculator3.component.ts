@@ -2,6 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { FormBuilder, FormGroup, FormArray, FormControl } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
+import { ContactUs } from 'src/app/shared/services/contact-us/contact-us';
+import { ContactUsService } from 'src/app/shared/services/contact-us/contact-us.service';
+import { catchError, finalize, switchMap } from 'rxjs/operators';
+import { ErrorComponent, Helpers, InformationComponent } from 'src/app/shared/util/helpers';
 
 @Component({
   selector: 'app-pricing',
@@ -9,6 +13,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./calculator3.component.scss']
 })
 export class Calculator3Component implements OnInit {
+  public contactItem: ContactUs = new ContactUs();
   public formGroup: FormGroup;
 
   public monthlyRate: number;
@@ -21,6 +26,7 @@ export class Calculator3Component implements OnInit {
   constructor(
     public snackBar: MatSnackBar,
     private fb: FormBuilder,
+    public contactUsService: ContactUsService,
     public translate: TranslateService
   ) {
     this.monthlyRate = 0;
@@ -52,5 +58,36 @@ export class Calculator3Component implements OnInit {
 
   daysInMonth(month, year) {
     return new Date(year, month, 0).getDate();
+  }
+
+  send(): void {
+    this.contactItem.date = new Date();
+
+    Helpers.getObservable([])
+      .pipe(
+        switchMap(() => this.contactUsService.addItem(this.contactItem)),
+        catchError(
+          error => {
+            throw error;
+          }
+        ),
+        finalize(() => {
+        }),
+      )
+      .subscribe(
+        results => {
+          this.contactItem.subject = '';
+          this.contactItem.content = '';
+
+          this.snackBar.openFromComponent(InformationComponent, {
+            duration: 2000,
+          });
+        },
+        error => {
+          this.snackBar.openFromComponent(ErrorComponent, {
+            duration: 2000,
+          });
+        }
+      );
   }
 }

@@ -21,7 +21,8 @@
                                             Propero assistant
                                         </a>
                                         <br />
-                                        <span class="small-text">{{ 'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate }}</span>
+                                        <span class="small-text">{{ 'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate
+                                            }}</span>
                                         <br />
                                     </li>
                                     <li>
@@ -129,7 +130,7 @@
                 </div>
             </div>
         </div>
-        <br/>
+        <br />
         <div class="section-footer center mt-40">
             <ul class="slider-btn rounded-buttons">
                 <li>
@@ -201,7 +202,7 @@
             <div class="col-lg-10">
                 <div class="contact-wrapper">
                     <h4 class="contact-title">
-                        <i class="lni lni-envelope"></i> 
+                        <i class="lni lni-envelope"></i>
                         {{ 'HOME.TEXT_MESSAGE' | translate }}
                     </h4>
                     <form #contactForm="ngForm">
@@ -210,12 +211,8 @@
                                 <div class="form-input">
                                     <label>{{ 'HOME.NAME' | translate }}</label>
                                     <div class="input-items">
-                                        <input 
-                                            type="text" 
-                                            name="name" 
-                                            placeholder="{{ 'HOME.NAME' | translate }}"
-                                            [(ngModel)]="contactItem.subject" 
-                                            required>
+                                        <input type="text" name="name" placeholder="{{ 'HOME.NAME' | translate }}"
+                                            [(ngModel)]="contactItem.subject" required>
                                         <i class="lni lni-user"></i>
                                     </div>
                                 </div>
@@ -224,12 +221,8 @@
                                 <div class="form-input">
                                     <label>{{ 'HOME.EMAIL' | translate }}</label>
                                     <div class="input-items">
-                                        <input 
-                                            type="email" 
-                                            name="email" 
-                                            placeholder="{{ 'HOME.EMAIL' | translate }}"
-                                            [(ngModel)]="contactItem.email" 
-                                            required>
+                                        <input type="email" name="email" placeholder="{{ 'HOME.EMAIL' | translate }}"
+                                            [(ngModel)]="contactItem.email" required>
                                         <i class="lni lni-envelope"></i>
                                     </div>
                                 </div>
@@ -238,11 +231,8 @@
                                 <div class="form-input">
                                     <label>{{ 'HOME.MESSAGE' | translate }}</label>
                                     <div class="input-items textarea">
-                                        <textarea 
-                                            name="message" 
-                                            placeholder="{{ 'HOME.MESSAGE' | translate }}"
-                                            [(ngModel)]="contactItem.content" 
-                                            required></textarea>
+                                        <textarea name="message" placeholder="{{ 'HOME.MESSAGE' | translate }}"
+                                            [(ngModel)]="contactItem.content" required></textarea>
                                         <i class="lni lni-pencil-alt"></i>
                                     </div>
                                 </div>

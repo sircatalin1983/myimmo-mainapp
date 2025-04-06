@@ -22,22 +22,29 @@
                         <button class="filter-btn">{{ 'FOOTER.BLOG_CATEGORY_3' | translate }}</button>
                     </div>
                     <div class="blog-grid">
-                        <article class="blog-card">
+                        <article class="blog-card" *ngFor="let blogItem of blogItems">
                             <div class="blog-card-image">
-                                <img src="assets/images/blog/blog-1.jpg" alt="Blog Post 1">
-                                <div class="category">{{ 'FOOTER.BLOG_CATEGORY_1' | translate }}</div>
+                                <a href="/blog-post?id={{blogItem.id}}">
+                                    <img [src]="blogItem.imageURL || '../assets/img/blog-img/3.png'" alt="article" />
+                                </a>
+                                <div class="category">{{
+                                    blogItem.BlogCategory.name || 'Fără categorie'
+                                    }}</div>
                             </div>
                             <div class="blog-card-content">
                                 <div class="meta">
-                                    <span class="date">{{ 'FOOTER.BLOG_DATE_1' | translate }}</span>
-                                    <span class="author">{{ 'FOOTER.BLOG_AUTHOR_1' | translate }}</span>
+                                    <span class="date">{{ blogItem.publishedDate | date: 'MMM d, y'
+                                    }} | <i class="lni lni-comments-alt"></i> {{ blogItem.commentsCount || 0 }} Comment{{
+                                        blogItem.commentsCount === 1 ? '' : 's' }}
+                                </span>
+                                    <span class="author">{{ blogItem.User.firstName }} {{ blogItem.User.lastName }}</span>
                                 </div>
-                                <h4>{{ 'FOOTER.BLOG_POST_TITLE_1' | translate }}</h4>
+                                <h4>{{ blogItem.title }}</h4>
                                 <p>{{ 'FOOTER.BLOG_POST_EXCERPT_1' | translate }}</p>
-                                <a href="#" class="read-more">{{ 'FOOTER.BLOG_READ_MORE' | translate }}</a>
+                                <a href="/blog-post?id={{blogItem.id}}" class="read-more">{{ 'FOOTER.BLOG_READ_MORE' | translate }}</a>
                             </div>
                         </article>
-                        <article class="blog-card">
+                        <!-- <article class="blog-card">
                             <div class="blog-card-image">
                                 <img src="assets/images/blog/blog-2.jpg" alt="Blog Post 2">
                                 <div class="category">{{ 'FOOTER.BLOG_CATEGORY_2' | translate }}</div>
@@ -66,7 +73,7 @@
                                 <p>{{ 'FOOTER.BLOG_POST_EXCERPT_3' | translate }}</p>
                                 <a href="#" class="read-more">{{ 'FOOTER.BLOG_READ_MORE' | translate }}</a>
                             </div>
-                        </article>
+                        </article> -->
                     </div>
                     <div class="blog-pagination">
                         <button class="pagination-btn active">1</button>

@@ -4,6 +4,11 @@ import { ReportService } from 'src/app/shared/services/report/report.service';
 import { Reports, ReportTypeEnum } from 'src/app/shared/util/reports';
 import { Utilities } from 'src/app/shared/util/utilities';
 import { TranslateService } from '@ngx-translate/core';
+import { ContactUs } from 'src/app/shared/services/contact-us/contact-us';
+import { TrackerService } from 'src/app/services/tracker.service';
+import { ErrorComponent, Helpers, InformationComponent } from 'src/app/shared/util/helpers';
+import { catchError, finalize, switchMap } from 'rxjs/operators';
+import { ContactUsService } from 'src/app/shared/services/contact-us/contact-us.service';
 
 @Component({
   selector: 'app-pricing',
@@ -11,9 +16,13 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./documents.component.scss']
 })
 export class DocumentsComponent implements OnInit {
+  public contactItem: ContactUs = new ContactUs();
+
   constructor(
     public snackBar: MatSnackBar,
+    private trackerService: TrackerService,
     private reportService: ReportService,
+    public contactUsService: ContactUsService,
     public translate: TranslateService
   ) { }
 
@@ -74,5 +83,37 @@ export class DocumentsComponent implements OnInit {
       // For Firefox it is necessary to delay revoking the ObjectURL
       window.URL.revokeObjectURL(dataURL);
     }, 100);
+  }
+
+
+  send(): void {
+    this.contactItem.date = new Date();
+
+    Helpers.getObservable([])
+      .pipe(
+        switchMap(() => this.contactUsService.addItem(this.contactItem)),
+        catchError(
+          error => {
+            throw error;
+          }
+        ),
+        finalize(() => {
+        }),
+      )
+      .subscribe(
+        results => {
+          this.contactItem.subject = '';
+          this.contactItem.content = '';
+
+          this.snackBar.openFromComponent(InformationComponent, {
+            duration: 2000,
+          });
+        },
+        error => {
+          this.snackBar.openFromComponent(ErrorComponent, {
+            duration: 2000,
+          });
+        }
+      );
   }
 }

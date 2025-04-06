@@ -2,6 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { FormBuilder, FormGroup, FormArray, FormControl } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
+import { ContactUs } from 'src/app/shared/services/contact-us/contact-us';
+import { ContactUsService } from 'src/app/shared/services/contact-us/contact-us.service';
+import { ErrorComponent, Helpers, InformationComponent } from 'src/app/shared/util/helpers';
+import { catchError, finalize, switchMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-pricing',
@@ -9,6 +13,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./calculator2.component.scss']
 })
 export class Calculator2Component implements OnInit {
+  public contactItem: ContactUs = new ContactUs();
   public formGroup: FormGroup;
 
   public loanAmount: number;
@@ -25,6 +30,7 @@ export class Calculator2Component implements OnInit {
   constructor(
     public snackBar: MatSnackBar,
     private fb: FormBuilder,
+    public contactUsService: ContactUsService,
     public translate: TranslateService
   ) {
     this.loanAmount = 0;
@@ -71,5 +77,36 @@ export class Calculator2Component implements OnInit {
     this.insurance = this.annualInsurance / 12;
     this.amountPaid = this.pmt(this.interestRate / 100 / 12, this.loanPeriod * 12, this.loanAmount, 0);
     this.totalPayment = (this.amountPaid + this.taxes + this.insurance) * this.loanPeriod * 12;
+  }
+
+  send(): void {
+    this.contactItem.date = new Date();
+
+    Helpers.getObservable([])
+      .pipe(
+        switchMap(() => this.contactUsService.addItem(this.contactItem)),
+        catchError(
+          error => {
+            throw error;
+          }
+        ),
+        finalize(() => {
+        }),
+      )
+      .subscribe(
+        results => {
+          this.contactItem.subject = '';
+          this.contactItem.content = '';
+
+          this.snackBar.openFromComponent(InformationComponent, {
+            duration: 2000,
+          });
+        },
+        error => {
+          this.snackBar.openFromComponent(ErrorComponent, {
+            duration: 2000,
+          });
+        }
+      );
   }
 }
