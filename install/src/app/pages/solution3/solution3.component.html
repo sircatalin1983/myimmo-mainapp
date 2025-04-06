@@ -18,8 +18,9 @@
                                 <h1 class="title">{{ 'SOLUTION3.TITLE' | translate }}</h1>
                                 <p class="text">{{ 'SOLUTION3.TEXT' | translate }}</p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one"
-                                            href="https://admin.propero.io/" target="_blank">Propero
+                                    <li>
+                                        <a class="main-btn rounded-one" href="https://admin.propero.io/"
+                                            target="_blank">Propero
                                             Assistant</a>
                                         <br />
                                         <span i18n="@@mainSubtitleAdditionalText" class="small-text">{{
@@ -36,6 +37,7 @@
                                 </ul>
                             </div>
                         </div>
+
                         <div class="col-5">
                             <div class="slider-image">
                                 <img src="assets/images/slider/2.png" alt="Hero">
@@ -126,11 +128,14 @@
                 </div>
             </div>
         </div>
+
+        <br />
+
         <div class="section-footer center mt-40">
             <ul class="slider-btn rounded-buttons">
                 <li><a i18n="@@buttonCreateAccountText" class="main-btn rounded-one"
-                        href="https://admin.propero.io/register"
-                        target="_blank">{{'SOLUTION3.CREATE_ACCOUNT' | translate }}</a></li>
+                        href="https://admin.propero.io/register" target="_blank">{{'SOLUTION3.CREATE_ACCOUNT' |
+                        translate }}</a></li>
             </ul>
         </div>
     </div>
@@ -201,9 +206,74 @@
         <div class="section-footer mt-40">
             <ul class="slider-btn rounded-buttons center">
                 <li><a i18n="@@featureCreateAccountButtonText" class="main-btn rounded-one"
-                        href="https://admin.propero.io/register"
-                        target="_blank">{{'SOLUTION3.CREATE_ACCOUNT' | translate }}</a></li>
+                        href="https://admin.propero.io/register" target="_blank">{{'SOLUTION3.CREATE_ACCOUNT' |
+                        translate }}</a></li>
             </ul>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-area grey-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-10">
+                <div class="section-title text-center pb-30">
+                    <h3 class="title">{{ 'HOME.SECTION_CONTACTUS_TITLE' | translate }}</h3>
+                    <p class="text">{{ 'HOME.SECTION_CONTACTUS_TEXT' | translate }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="contact-wrapper">
+                    <h4 class="contact-title">
+                        <i class="lni lni-envelope"></i>
+                        {{ 'HOME.TEXT_MESSAGE' | translate }}
+                    </h4>
+                    <form #contactForm="ngForm">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-input">
+                                    <label>{{ 'HOME.NAME' | translate }}</label>
+                                    <div class="input-items">
+                                        <input type="text" name="name" placeholder="{{ 'HOME.NAME' | translate }}"
+                                            [(ngModel)]="contactItem.subject" required>
+                                        <i class="lni lni-user"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-input">
+                                    <label>{{ 'HOME.EMAIL' | translate }}</label>
+                                    <div class="input-items">
+                                        <input type="email" name="email" placeholder="{{ 'HOME.EMAIL' | translate }}"
+                                            [(ngModel)]="contactItem.email" required>
+                                        <i class="lni lni-envelope"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-input">
+                                    <label>{{ 'HOME.MESSAGE' | translate }}</label>
+                                    <div class="input-items textarea">
+                                        <textarea name="message" placeholder="{{ 'HOME.MESSAGE' | translate }}"
+                                            [(ngModel)]="contactItem.content" required></textarea>
+                                        <i class="lni lni-pencil-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    <button type="submit" class="features-btn" (click)="send()">
+                                        {{ 'HOME.SEND' | translate }}
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </section>

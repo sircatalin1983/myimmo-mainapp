@@ -1,40 +1,33 @@
 <!--====== SLIDER PART START ======-->
 <!-- https://ayroui.com/ -->
+<!-- https://old.ayroui.com/ -->
 
 <section id="home" class="slider_area">
     <div id="carouselThree" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
-
-
         </ol>
         <div class="carousel-inner">
-
             <div class="carousel-item active">
                 <div class="container">
-                    <div class="row flex-container">
+                    <div class="row align-items-center flex-container">
                         <div class="col-lg-7">
                             <div class="slider-content">
-                                <h1 i18n="@@sectionPersSolutionTitle" class="title">{{'PERSONALIZED_SOLUTION.TITLE' |
-                                    translate }}</h1>
-                                <p i18n="@@sectionPersSolutionText" class="text white">{{'PERSONALIZED_SOLUTION.TEXT' |
-                                    translate }}
-                                </p>
+                                <h1 class="title">{{'PERSONALIZED_SOLUTION.TITLE' | translate }}</h1>
+                                <p class="text white">{{'PERSONALIZED_SOLUTION.TEXT' | translate }}</p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one"
-                                            href="https://admin.propero.io/" target="_blank">Propero
-                                            Assistant</a>
+                                    <li>
+                                        <a class="features-btn" href="https://admin.propero.io/" target="_blank">
+                                            Propero assistant
+                                        </a>
                                         <br />
-                                        <span i18n="@@mainSubtitleAdditionalText" class="small-text">{{
-                                            'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate }}
-                                        </span>
+                                        <span class="small-text">{{ 'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate }}</span>
                                         <br />
                                     </li>
                                     <li>
-                                        <a i18n="@@mainPersonalizedOffer" class="slave-btn rounded-one"
-                                            routerLink="/solution-personalised">{{
-                                            'HOME.MAIN_PERSONALIZED_OFFER' | translate
-                                            }}</a>
+                                        <a class="slave-btn" routerLink="/solution-personalised">
+                                            {{ 'HOME.MAIN_PERSONALIZED_OFFER' | translate }}
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -47,9 +40,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
         <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
             <i class="lni lni-arrow-left"></i>
         </a>
@@ -61,151 +52,210 @@
 
 <section class="features-area white-area">
     <div class="container">
-        <div class="row compare-area-table justify-content-center">
-            <div class="row justify-content-center">
-
-                <div class="col-lg-5 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
-                        <div class="justify-content-between">
-                            <div class="icon center">
-                                <img src="assets/images/marketing/S-Personalized-Cloud.svg" alt="Shape">
-                            </div>
-                            <h4 i18n="@@featurePublicCloudTitle" class="features-title center mt-4">
-                               {{'PERSONALIZED_SOLUTION.SOLUTION1_TITLE' | translate }}</h4>
-                        </div>
-                        <div class="features-content">
-                            <p class="tooltip-text-content">
-                                <span> {{'PERSONALIZED_SOLUTION.SOLUTION1_SUBTITLE' | translate }}</span>
-                            </p>
-                        </div>
-                    </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-2">
+                <div class="section-title text-center">
+                    <h3 class="title">{{'PERSONALIZED_SOLUTION.FEATURES_TITLE' | translate }}</h3>
+                    <p class="text">{{'PERSONALIZED_SOLUTION.FEATURES_TEXT' | translate }}</p>
                 </div>
-
-                <div class="col-lg-5 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
-                        <div class="justify-content-between">
-                            <div class="icon center">
-                                <img src="assets/images/marketing/S-Personalized-WhiteLabel-Logo.svg" alt="Shape">
-                            </div>
-                            <h4 i18n="@@featureWhitelabelTitle" class="features-title center mt-4">
-                                {{'PERSONALIZED_SOLUTION.SOLUTION2_TITLE' | translate }}</h4>
-                        </div>
-                        <div class="features-content">
-                            <p class="tooltip-text-content">
-                                {{'PERSONALIZED_SOLUTION.SOLUTION2_SUBTITLE' | translate }}
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-5 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
-                        <div class="justify-content-between">
-                            <div class="icon center">
-                                <img src="assets/images/marketing/S-Personalized-Db-Cloud.svg" alt="Shape">
-                            </div>
-                            <h4 i18n="@@featurePrivateCloudTitle" class="features-title center mt-4">
-                                {{'PERSONALIZED_SOLUTION.SOLUTION3_TITLE' | translate }}</h4>
-                        </div>
-                        <div class="features-content">
-                            <p class="tooltip-text-content">
-                                {{'PERSONALIZED_SOLUTION.SOLUTION3_SUBTITLE' | translate }}
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-5 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">
-                        <div class="justify-content-between">
-                            <div class="icon center">
-                                <img src="assets/images/marketing/S-Personalized-Db.svg" alt="Shape">
-                            </div>
-                            <h4 i18n="@@featureDatacenterTitle" class="features-title center mt-4">
-                                {{'PERSONALIZED_SOLUTION.SOLUTION4_TITLE' | translate }}</h4>
-                        </div>
-                        <div class="features-content">
-                            <p class="tooltip-text-content">
-                                {{'PERSONALIZED_SOLUTION.SOLUTION4_SUBTITLE' | translate }}
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
+        <div class="row compare-area-table justify-content-center">
+            <div class="col-lg-5 col-md-7 col-sm-9">
+                <div class="single-features mt-40">
+                    <div class="justify-content-between">
+                        <div class="icon center">
+                            <img src="assets/images/marketing/S-Personalized-Cloud.svg" alt="Shape">
+                        </div>
+                        <h4 class="features-title center mt-4">
+                            {{'PERSONALIZED_SOLUTION.SOLUTION1_TITLE' | translate }}</h4>
+                    </div>
+                    <div class="features-content">
+                        <p class="tooltip-text-content">
+                            <span> {{'PERSONALIZED_SOLUTION.SOLUTION1_SUBTITLE' | translate }}</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-7 col-sm-9">
+                <div class="single-features mt-40">
+                    <div class="justify-content-between">
+                        <div class="icon center">
+                            <img src="assets/images/marketing/S-Personalized-WhiteLabel-Logo.svg" alt="Shape">
+                        </div>
+                        <h4 class="features-title center mt-4">
+                            {{'PERSONALIZED_SOLUTION.SOLUTION2_TITLE' | translate }}</h4>
+                    </div>
+                    <div class="features-content">
+                        <p class="tooltip-text-content">
+                            {{'PERSONALIZED_SOLUTION.SOLUTION2_SUBTITLE' | translate }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-7 col-sm-9">
+                <div class="single-features mt-40">
+                    <div class="justify-content-between">
+                        <div class="icon center">
+                            <img src="assets/images/marketing/S-Personalized-Db-Cloud.svg" alt="Shape">
+                        </div>
+                        <h4 class="features-title center mt-4">
+                            {{'PERSONALIZED_SOLUTION.SOLUTION3_TITLE' | translate }}</h4>
+                    </div>
+                    <div class="features-content">
+                        <p class="tooltip-text-content">
+                            {{'PERSONALIZED_SOLUTION.SOLUTION3_SUBTITLE' | translate }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-7 col-sm-9">
+                <div class="single-features mt-40">
+                    <div class="justify-content-between">
+                        <div class="icon center">
+                            <img src="assets/images/marketing/S-Personalized-Db.svg" alt="Shape">
+                        </div>
+                        <h4 class="features-title center mt-4">
+                            {{'PERSONALIZED_SOLUTION.SOLUTION4_TITLE' | translate }}</h4>
+                    </div>
+                    <div class="features-content">
+                        <p class="tooltip-text-content">
+                            {{'PERSONALIZED_SOLUTION.SOLUTION4_SUBTITLE' | translate }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
         <div class="section-footer center mt-40">
             <ul class="slider-btn rounded-buttons">
-                <li><a i18n="@@featureButtonDetailsText" class="main-btn rounded-one"
-                        href="/solution-personalised/#contact"> {{'PERSONALIZED_SOLUTION.WANT_DETAILS' | translate
-                        }}</a></li>
+                <li>
+                    <a class="features-btn" href="/solution-personalised/#contact">
+                        {{'PERSONALIZED_SOLUTION.WANT_DETAILS' | translate }}
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
 </section>
 
-<section id="contact" class="gray-area">
+<section id="contact" class="contact-area grey-area">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10 col-md-10">
-                <div class="section-title text-center">
-                    <h3 i18n="@@sectionContactTitle" class="title">{{'PERSONALIZED_SOLUTION.CONTACT' | translate
-                        }}</h3>
-                    <p i18n="@@sectionContactText" class="text">{{'PERSONALIZED_SOLUTION.CONTACT_TEXT' | translate }}
-                    </p>
+                <div class="section-title text-center pb-30">
+                    <h3 class="title">{{ 'HOME.SECTION_CONTACTUS_TITLE' | translate }}</h3>
+                    <p class="text">{{ 'HOME.SECTION_CONTACTUS_TEXT' | translate }}</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-lg-12">
+                <div class="contact-map">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=brasov&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                        allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-12">
-                <div class="contact-wrapper form-style-two pt-115">
-                    <h4 class="contact-title pb-10">
-                        <i class="lni lni-envelope"></i><span
-                            i18n="@@sectionContactText">{{'PERSONALIZED_SOLUTION.CONTACT2' | translate }}</span>
-                    </h4>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-input mt-25">
-                                <label i18n="@@sectionContactInputName">{{'PERSONALIZED_SOLUTION.NAME' | translate
-                                    }}</label>
-                                <div class="input-items default">
-                                    <input matInput required name="name" type="text" placeholder="Nume"
-                                        [(ngModel)]="contactItem.subject" ngDefaultControl>
-                                    <i class="lni lni-user"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-input mt-25">
-                                <label i18n="@@sectionContactInputEmail">{{'PERSONALIZED_SOLUTION.EMAIL' | translate
-                                    }}</label>
-                                <div class="input-items default">
-                                    <input matInput type="email" name="email" placeholder="Email"
-                                        [(ngModel)]="contactItem.email" ngDefaultControl>
-                                    <i class="lni lni-envelope"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-input mt-25">
-                                <label i18n="@@sectionContactInputMessage">{{'PERSONALIZED_SOLUTION.MESSAGE' | translate
-                                    }}</label>
-                                <div class="input-items default">
-                                    <textarea matInput required name="massage" placeholder="Mesaj"
-                                        [(ngModel)]="contactItem.content" ngDefaultControl></textarea>
-                                    <i class="lni lni-pencil-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="form-message"></p>
-                        <div class="col-md-12 right">
-                            <div class="form-input light-rounded-buttons mt-30">
-                                <button i18n="@@featureButtonRequestOfferText" class="main-btn light-rounded-two"
-                                    (click)="send()">{{'PERSONALIZED_SOLUTION.ASK_OFFER' | translate }}</button>
-                            </div>
-                        </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-contact-info contact-color-1">
+                    <div class="contact-info-icon">
+                        <i class="lni lni-map-marker"></i>
                     </div>
+                    <div class="contact-info-content">
+                        <p class="text">Str. Calea București nr. 20<br>Sc B Ap 4<br>Brașov, Romania</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-contact-info contact-color-2">
+                    <div class="contact-info-icon">
+                        <i class="lni lni-envelope"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <p class="text">contact@propero.io</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-contact-info contact-color-3">
+                    <div class="contact-info-icon">
+                        <i class="lni lni-phone"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <p class="text">(+4) 0743 366 266</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="contact-wrapper">
+                    <h4 class="contact-title">
+                        <i class="lni lni-envelope"></i> 
+                        {{ 'HOME.TEXT_MESSAGE' | translate }}
+                    </h4>
+                    <form #contactForm="ngForm">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-input">
+                                    <label>{{ 'HOME.NAME' | translate }}</label>
+                                    <div class="input-items">
+                                        <input 
+                                            type="text" 
+                                            name="name" 
+                                            placeholder="{{ 'HOME.NAME' | translate }}"
+                                            [(ngModel)]="contactItem.subject" 
+                                            required>
+                                        <i class="lni lni-user"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-input">
+                                    <label>{{ 'HOME.EMAIL' | translate }}</label>
+                                    <div class="input-items">
+                                        <input 
+                                            type="email" 
+                                            name="email" 
+                                            placeholder="{{ 'HOME.EMAIL' | translate }}"
+                                            [(ngModel)]="contactItem.email" 
+                                            required>
+                                        <i class="lni lni-envelope"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-input">
+                                    <label>{{ 'HOME.MESSAGE' | translate }}</label>
+                                    <div class="input-items textarea">
+                                        <textarea 
+                                            name="message" 
+                                            placeholder="{{ 'HOME.MESSAGE' | translate }}"
+                                            [(ngModel)]="contactItem.content" 
+                                            required></textarea>
+                                        <i class="lni lni-pencil-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    <button type="submit" class="features-btn" (click)="send()">
+                                        {{ 'HOME.SEND' | translate }}
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
