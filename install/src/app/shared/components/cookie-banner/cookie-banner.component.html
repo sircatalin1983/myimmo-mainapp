@@ -1,0 +1,25 @@
+<div class="cookie-banner" *ngIf="showBanner">
+    <button class="close-button" (click)="rejectAll()" aria-label="Close">
+        <span class="close-icon">&times;</span>
+    </button>
+    <div class="cookie-banner-content">
+        <div class="cookie-text">
+            <h5>{{ 'COOKIES.BANNER.TITLE' | translate }}</h5>
+            <p>{{ 'COOKIES.BANNER.MESSAGE_LINE_1' | translate }}</p>
+            <p>{{ 'COOKIES.BANNER.MESSAGE_LINE_2' | translate }}</p>
+            <p>{{ 'COOKIES.BANNER.MESSAGE_LINE_3' | translate }}</p>
+            <p>{{ 'COOKIES.BANNER.MESSAGE_LINE_4' | translate }}</p>
+        </div>
+        <div class="cookie-actions">
+            <button class="btn btn-secondary" (click)="rejectAll()">
+                {{ 'COOKIES.BANNER.REJECT_ALL' | translate }}
+            </button>
+            <button class="btn btn-primary" (click)="acceptAll()">
+                {{ 'COOKIES.BANNER.ACCEPT_ALL' | translate }}
+            </button>
+            <button class="btn btn-outline-primary" (click)="customize()">
+                {{ 'COOKIES.BANNER.MORE_INFO' | translate }}
+            </button>
+        </div>
+    </div>
+</div>

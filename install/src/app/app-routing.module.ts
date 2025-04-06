@@ -209,7 +209,7 @@ const routes: Routes = [
   {
     path: 'sitemap',
     component: LayoutComponent,
-    loadChildren: () => import('./pages/sitemap/sitemap.module').then(m => m.SitemapModule)
+    loadChildren: () => import('./pages/footer-sitemap/footer-sitemap.module').then(m => m.FooterSitemapModule)
   }
 ];
 

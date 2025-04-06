@@ -2,6 +2,25 @@
     padding: 0px 0px 100px 0px;
 }
 
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #444;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        color: #666;
+        line-height: 1.6;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
 .center {
     text-align: center;
 }
@@ -20,14 +39,12 @@
 
 .white-area {
     background-color: #fff;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding: 80px 0;
 }
 
 .gray-area {
     background-color: #f4f6f7;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding: 80px 0;
 }
 
 .single-features {
@@ -57,9 +74,9 @@
         margin-bottom: 60px;
 
         h4 {
-            color: #2d3436;
-            font-size: 24px;
-            font-weight: 600;
+            color: #444;
+            font-size: 1.25rem;
+            font-weight: 500;
             margin-bottom: 25px;
             position: relative;
             padding-left: 15px;
@@ -71,7 +88,7 @@
                 top: 0;
                 height: 100%;
                 width: 4px;
-                background: #007bff;
+                background: #3498db;
                 border-radius: 2px;
             }
         }
@@ -83,12 +100,13 @@
             li {
                 position: relative;
                 padding: 10px 0;
-                color: #636e72;
-                font-size: 16px;
+                color: #666;
+                font-size: 1rem;
+                line-height: 1.6;
 
                 &:before {
                     content: '•';
-                    color: #007bff;
+                    color: #3498db;
                     font-weight: bold;
                     position: absolute;
                     left: -15px;
@@ -109,6 +127,8 @@
             padding: 25px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            padding-bottom: 65px;
 
             &:hover {
                 transform: translateY(-5px);
@@ -116,27 +136,30 @@
             }
 
             h5 {
-                color: #2d3436;
-                font-size: 18px;
-                font-weight: 600;
+                color: #444;
+                font-size: 1.25rem;
+                font-weight: 500;
                 margin-bottom: 15px;
             }
 
             p {
-                color: #636e72;
-                font-size: 14px;
-                margin-bottom: 20px;
+                color: #666;
+                font-size: 1rem;
                 line-height: 1.6;
+                margin-bottom: 20px;
             }
 
             .btn {
-                width: 100%;
+                width: calc(100% - 20px);
                 padding: 10px;
-                font-size: 14px;
+                font-size: 1rem;
                 font-weight: 500;
                 text-transform: uppercase;
                 letter-spacing: 0.5px;
                 transition: all 0.3s ease;
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
 
                 &:hover {
                     transform: translateY(-2px);
@@ -166,20 +189,20 @@
 
             i {
                 font-size: 40px;
-                color: #007bff;
+                color: #3498db;
                 margin-bottom: 20px;
             }
 
             h5 {
-                color: #2d3436;
-                font-size: 18px;
-                font-weight: 600;
+                color: #444;
+                font-size: 1.25rem;
+                font-weight: 500;
                 margin-bottom: 15px;
             }
 
             p {
-                color: #636e72;
-                font-size: 14px;
+                color: #666;
+                font-size: 1rem;
                 line-height: 1.6;
             }
         }
@@ -195,10 +218,16 @@
         padding: 70px 0;
     }
 
+    .section-title {
+        h3 {
+            font-size: 1.25rem;
+        }
+    }
+
     .careers-content {
         .careers-section {
             h4 {
-                font-size: 22px;
+                font-size: 1.25rem;
             }
         }
 
@@ -228,11 +257,11 @@
             margin-bottom: 40px;
 
             h4 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
 
             ul li {
-                font-size: 14px;
+                font-size: 1rem;
             }
         }
 
@@ -253,11 +282,11 @@
                 }
 
                 h5 {
-                    font-size: 16px;
+                    font-size: 1.25rem;
                 }
 
                 p {
-                    font-size: 13px;
+                    font-size: 1rem;
                 }
             }
         }

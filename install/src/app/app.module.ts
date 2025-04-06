@@ -19,6 +19,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { BlogLayoutModule } from './blog-layout/blog-layout.module';
 import { CommentComponentsModule } from './components/components.module';
+import { CookieBannerComponent } from './shared/components/cookie-banner/cookie-banner.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -54,6 +55,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   declarations: [
     AppComponent,
+    CookieBannerComponent
     //LayoutModule,
   ],
 

@@ -63,80 +63,176 @@
         padding: 40px;
         border-radius: 10px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        font-family: 'Poppins', sans-serif;
 
         h1 {
-            font-size: 32px;
+            font-size: 2rem;
             color: #333;
-            margin-bottom: 20px;
-            padding-bottom: 15px;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
             border-bottom: 2px solid #eee;
+            font-weight: 600;
+            text-align: center;
         }
 
         .last-updated {
             color: #666;
-            font-size: 14px;
-            margin-bottom: 30px;
+            font-size: 0.875rem;
+            margin-bottom: 2rem;
+            text-align: center;
         }
 
         section {
-            margin-bottom: 40px;
+            margin-bottom: 2.5rem;
 
             h2 {
-                font-size: 24px;
+                font-size: 1.5rem;
                 color: #444;
-                margin-bottom: 20px;
+                margin-bottom: 1.25rem;
+                font-weight: 600;
+                text-align: left;
+            }
+
+            h3 {
+                font-size: 1.25rem;
+                color: #444;
+                margin-bottom: 1rem;
+                font-weight: 500;
+                text-align: left;
             }
 
             p {
                 color: #666;
                 line-height: 1.6;
-                margin-bottom: 15px;
+                margin-bottom: 1rem;
+                font-size: 1rem;
+                text-align: left;
+            }
+
+            .contact-info {
+                background: #f8f9fa;
+                padding: 1.5rem;
+                border-radius: 10px;
+                margin-top: 1.5rem;
+                border: 1px solid #e9ecef;
+
+                p {
+                    margin-bottom: 1rem;
+                    font-size: 1rem;
+                    line-height: 1.6;
+                    
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    strong {
+                        color: #333;
+                        font-weight: 600;
+                        margin-right: 0.5rem;
+                    }
+                }
             }
         }
 
         .cookie-settings {
             .cookie-group {
-                margin: 30px 0;
+                margin: 2rem 0;
 
                 .cookie-option {
                     background: #f8f9fa;
-                    padding: 20px;
-                    border-radius: 8px;
-                    margin-bottom: 15px;
+                    padding: 1.5rem;
+                    border-radius: 10px;
+                    margin-bottom: 1rem;
+                    transition: all 0.3s ease;
+                    border: 1px solid #e9ecef;
+
+                    &:hover {
+                        transform: translateY(-2px);
+                        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                    }
 
                     .option-header {
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        margin-bottom: 10px;
+                        margin-bottom: 1rem;
 
                         h3 {
-                            font-size: 18px;
-                            color: #333;
                             margin: 0;
+                            font-size: 1.25rem;
+                            color: #333;
                         }
                     }
 
                     p {
                         margin: 0;
-                        font-size: 14px;
+                        font-size: 1rem;
+                        color: #666;
                     }
                 }
             }
 
             .cookie-actions {
                 display: flex;
-                gap: 15px;
-                margin-top: 30px;
+                gap: 1rem;
+                margin-top: 2rem;
+                justify-content: center;
+                flex-wrap: nowrap;
 
                 button {
-                    padding: 10px 20px;
-                    font-size: 16px;
-                    border-radius: 5px;
+                    flex: 1;
+                    max-width: 250px;
+                    padding: 1rem 1.5rem;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    border-radius: 8px;
                     transition: all 0.3s ease;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 0.5rem;
+                    white-space: nowrap;
+
+                    i {
+                        font-size: 1.2rem;
+                    }
 
                     &:hover {
                         transform: translateY(-2px);
+                        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                    }
+
+                    &.btn-primary {
+                        background: #007bff;
+                        border-color: #007bff;
+                        color: white;
+
+                        &:hover {
+                            background: #0056b3;
+                            border-color: #0056b3;
+                        }
+                    }
+
+                    &.btn-secondary {
+                        background: #6c757d;
+                        border-color: #6c757d;
+                        color: white;
+
+                        &:hover {
+                            background: #5a6268;
+                            border-color: #545b62;
+                        }
+                    }
+
+                    &.btn-outline-primary {
+                        color: #007bff;
+                        border-color: #007bff;
+                        background: transparent;
+
+                        &:hover {
+                            color: white;
+                            background: #007bff;
+                        }
                     }
                 }
             }
@@ -165,6 +261,10 @@
                 &:checked + .slider:before {
                     transform: translateX(26px);
                 }
+
+                &:focus + .slider {
+                    box-shadow: 0 0 1px #007bff;
+                }
             }
 
             .slider {
@@ -176,6 +276,7 @@
                 bottom: 0;
                 background-color: #ccc;
                 transition: .4s;
+                border-radius: 34px;
 
                 &:before {
                     position: absolute;
@@ -186,37 +287,153 @@
                     bottom: 4px;
                     background-color: white;
                     transition: .4s;
+                    border-radius: 50%;
                 }
 
-                &.round {
-                    border-radius: 34px;
+                &:hover {
+                    background-color: #b3b3b3;
+                }
+            }
+        }
+    }
+}
 
-                    &:before {
-                        border-radius: 50%;
+// Success snackbar styling
+::ng-deep .success-snackbar {
+    background: #28a745;
+    color: white;
+
+    .mat-simple-snackbar-action {
+        color: white;
+    }
+}
+
+// Modal styling
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    &.show {
+        display: block;
+    }
+
+    .modal-dialog {
+        margin: 1.75rem auto;
+    }
+
+    .modal-content {
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+        .modal-header {
+            border-bottom: 1px solid #dee2e6;
+            padding: 1.5rem;
+
+            .modal-title {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: #333;
+                margin: 0;
+            }
+
+            .btn-close {
+                background: none;
+                border: none;
+                padding: 0.5rem;
+                width: 2.5rem;
+                height: 2.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                transition: all 0.2s ease;
+                margin: -0.5rem -0.5rem -0.5rem auto;
+                cursor: pointer;
+                
+                mat-icon {
+                    font-size: 24px;
+                    height: 24px;
+                    width: 24px;
+                    line-height: 24px;
+                    color: #666;
+                }
+
+                &:hover {
+                    background-color: #f8f9fa;
+                    mat-icon {
+                        color: #333;
                     }
                 }
             }
         }
 
-        .contact-info {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 5px;
-            margin-top: 20px;
+        .modal-body {
+            padding: 1.5rem;
 
-            p {
-                margin-bottom: 10px;
-                
-                &:last-child {
-                    margin-bottom: 0;
+            .modal-description {
+                color: #666;
+                margin-bottom: 1.5rem;
+            }
+
+            .cookie-options {
+                .cookie-option {
+                    background: #f8f9fa;
+                    padding: 1.25rem;
+                    border-radius: 8px;
+                    margin-bottom: 1rem;
+                    border: 1px solid #e9ecef;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    .option-header {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 0.75rem;
+
+                        h3 {
+                            margin: 0;
+                            font-size: 1.1rem;
+                            font-weight: 600;
+                            color: #333;
+                        }
+                    }
+
+                    p {
+                        margin: 0;
+                        font-size: 0.95rem;
+                        color: #666;
+                        line-height: 1.5;
+                    }
                 }
+            }
+        }
 
-                strong {
-                    color: #333;
+        .modal-footer {
+            padding: 1.5rem;
+            border-top: 1px solid #dee2e6;
+
+            button {
+                min-width: 120px;
+                padding: 0.75rem 1.5rem;
+                font-size: 1rem;
+                font-weight: 500;
+                border-radius: 6px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    transform: translateY(-1px);
+                    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
                 }
             }
         }
     }
+}
+
+.modal-backdrop {
+    opacity: 0.5;
 }
 
 @media (max-width: 991px) {
@@ -230,21 +447,9 @@
                 font-size: 28px;
             }
 
-            section h2 {
-                font-size: 22px;
-            }
-
-            .cookie-settings {
-                .cookie-option .option-header h3 {
-                    font-size: 16px;
-                }
-
-                .cookie-actions {
-                    flex-wrap: wrap;
-
-                    button {
-                        width: 100%;
-                    }
+            section {
+                h2 {
+                    font-size: 22px;
                 }
             }
         }
@@ -262,9 +467,31 @@
                 font-size: 24px;
             }
 
-            section h2 {
-                font-size: 20px;
+            section {
+                h2 {
+                    font-size: 20px;
+                }
             }
+        }
+
+        .cookie-actions {
+            flex-direction: column;
+            align-items: stretch;
+
+            button {
+                max-width: none !important;
+                margin-bottom: 0.5rem;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .modal {
+        .modal-dialog {
+            margin: 0.5rem;
         }
     }
 } 

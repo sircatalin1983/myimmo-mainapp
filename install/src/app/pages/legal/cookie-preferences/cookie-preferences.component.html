@@ -39,7 +39,7 @@
                         <div class="option-header">
                             <h3>{{ 'COOKIES.ANALYTICS.TITLE' | translate }}</h3>
                             <div class="switch">
-                                <input type="checkbox" id="analytics">
+                                <input type="checkbox" id="analytics" [(ngModel)]="cookiePreferences.analytics">
                                 <span class="slider round"></span>
                             </div>
                         </div>
@@ -50,7 +50,7 @@
                         <div class="option-header">
                             <h3>{{ 'COOKIES.MARKETING.TITLE' | translate }}</h3>
                             <div class="switch">
-                                <input type="checkbox" id="marketing">
+                                <input type="checkbox" id="marketing" [(ngModel)]="cookiePreferences.marketing">
                                 <span class="slider round"></span>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                         <div class="option-header">
                             <h3>{{ 'COOKIES.PREFERENCES.TITLE' | translate }}</h3>
                             <div class="switch">
-                                <input type="checkbox" id="preferences">
+                                <input type="checkbox" id="preferences" [(ngModel)]="cookiePreferences.preferences">
                                 <span class="slider round"></span>
                             </div>
                         </div>
@@ -70,9 +70,18 @@
                 </div>
 
                 <div class="cookie-actions">
-                    <button class="btn btn-secondary">{{ 'COOKIES.REJECT_ALL' | translate }}</button>
-                    <button class="btn btn-primary">{{ 'COOKIES.ACCEPT_ALL' | translate }}</button>
-                    <button class="btn btn-outline-primary">{{ 'COOKIES.SAVE_PREFERENCES' | translate }}</button>
+                    <button class="btn btn-secondary btn-lg" (click)="rejectAll()">
+                        <i class="fas fa-times-circle"></i>
+                        {{ 'COOKIES.REJECT_ALL' | translate }}
+                    </button>
+                    <button class="btn btn-primary btn-lg" (click)="acceptAll()">
+                        <i class="fas fa-check-circle"></i>
+                        {{ 'COOKIES.ACCEPT_ALL' | translate }}
+                    </button>
+                    <button class="btn btn-outline-primary btn-lg" (click)="openCustomizeModal()">
+                        <i class="fas fa-cog"></i>
+                        {{ 'COOKIES.CUSTOMIZE' | translate }}
+                    </button>
                 </div>
             </section>
 
@@ -92,4 +101,76 @@
             
         </div>
     </div>
-</div> 
+</div>
+
+<!-- Cookie Preferences Modal -->
+<div class="modal" [class.show]="isModalOpen" tabindex="-1" role="dialog" [style.display]="isModalOpen ? 'block' : 'none'">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">{{ 'COOKIES.MODAL.TITLE' | translate }}</h5>
+                <button type="button" class="btn-close" aria-label="Close" (click)="closeModal()">
+                    <mat-icon>close</mat-icon>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-description">{{ 'COOKIES.MODAL.DESCRIPTION' | translate }}</p>
+                
+                <div class="cookie-options">
+                    <div class="cookie-option">
+                        <div class="option-header">
+                            <h3>{{ 'COOKIES.NECESSARY.TITLE' | translate }}</h3>
+                            <div class="switch disabled">
+                                <input type="checkbox" checked disabled>
+                                <span class="slider round"></span>
+                            </div>
+                        </div>
+                        <p>{{ 'COOKIES.NECESSARY.DESCRIPTION' | translate }}</p>
+                    </div>
+
+                    <div class="cookie-option">
+                        <div class="option-header">
+                            <h3>{{ 'COOKIES.ANALYTICS.TITLE' | translate }}</h3>
+                            <div class="switch">
+                                <input type="checkbox" id="analytics-modal" [(ngModel)]="cookiePreferences.analytics">
+                                <span class="slider round"></span>
+                            </div>
+                        </div>
+                        <p>{{ 'COOKIES.ANALYTICS.DESCRIPTION' | translate }}</p>
+                    </div>
+
+                    <div class="cookie-option">
+                        <div class="option-header">
+                            <h3>{{ 'COOKIES.MARKETING.TITLE' | translate }}</h3>
+                            <div class="switch">
+                                <input type="checkbox" id="marketing-modal" [(ngModel)]="cookiePreferences.marketing">
+                                <span class="slider round"></span>
+                            </div>
+                        </div>
+                        <p>{{ 'COOKIES.MARKETING.DESCRIPTION' | translate }}</p>
+                    </div>
+
+                    <div class="cookie-option">
+                        <div class="option-header">
+                            <h3>{{ 'COOKIES.PREFERENCES.TITLE' | translate }}</h3>
+                            <div class="switch">
+                                <input type="checkbox" id="preferences-modal" [(ngModel)]="cookiePreferences.preferences">
+                                <span class="slider round"></span>
+                            </div>
+                        </div>
+                        <p>{{ 'COOKIES.PREFERENCES.DESCRIPTION' | translate }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" (click)="closeModal()">
+                    {{ 'COOKIES.MODAL.CANCEL' | translate }}
+                </button>
+                <button type="button" class="btn btn-primary" (click)="saveAndCloseModal()">
+                    {{ 'COOKIES.MODAL.SAVE' | translate }}
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-backdrop fade show" *ngIf="isModalOpen"></div> 

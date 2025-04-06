@@ -114,7 +114,7 @@
 		"MAIN_TITLE4": "Inteligență artificială integrată",
 		"MAIN_SUBTITLE4": "Accelerează succesul! Folosește tehnologia de ultimă oră și inteligența artificială pentru un management imobiliar rapid și eficient – procesele de închiriere devin mai inteligente, mai simple și mai rapide!",
 		"MAIN_TITLE5": "Scoring și evaluare chiriași",
-		"MAIN_SUBTITLE5": "Beneficiază de un sistem de evaluare a potențialilor chiriași, fie că sunt persoane fizice sau juridice, care analizează criterii esențiale precum istoricul plăților, stabilitatea financiară și gradul de încredere. Obține rapid scoruri și recomandări detaliate, optimizând selecția chiriașilor și minimizând riscurile.",		
+		"MAIN_SUBTITLE5": "Beneficiază de un sistem de evaluare a potențialilor chiriași, fie că sunt persoane fizice sau juridice, care analizează criterii esențiale precum istoricul plăților, stabilitatea financiară și gradul de încredere. Obține rapid scoruri și recomandări detaliate, optimizând selecția chiriașilor și minimizând riscurile.",
 		"MAIN_SUBTITLE_ADDITIONAL_TEXT": "*Testezi imediat asistentul. Nu sunt necesare datele unui card bancar.",
 		"MESSAGE": "Mesaj",
 		"NAME": "Nume",
@@ -176,13 +176,13 @@
 		"CONTACT_TEXT": "Contactați-ne pentru a cere o ofertă personalizată.",
 		"EMAIL": "Email",
 		"MESSAGE": "Mesaj",
-		"NAME": "Nume",					
+		"NAME": "Nume",
 		"TITLE": "Soluție personalizată",
 		"SUBTITLE": "Soluții personalizate adaptate nevoilor tale.",
 		"TEXT": "Propero oferă patru opțiuni de implementare pentru a se potrivi perfect cerințelor fiecărui utilizator: Cloud Public, Whitelabel, Cloud Privat/Hibrid sau direct instalat pe server propriu (în datacenter propriu).",
 		"WANT_DETAILS": "Vreau detalii",
 		"SOLUTION1_TITLE": "Cloud public",
-		"SOLUTION1_SUBTITLE": "Acces rapid și ușor la Propero, fără a necesita infrastructură proprie. Toate datele sunt stocate în cloud, beneficiind de securitate și întreținere gestionate de echipa noastră.",		
+		"SOLUTION1_SUBTITLE": "Acces rapid și ușor la Propero, fără a necesita infrastructură proprie. Toate datele sunt stocate în cloud, beneficiind de securitate și întreținere gestionate de echipa noastră.",
 		"SOLUTION2_TITLE": "Whitelabel",
 		"SOLUTION2_SUBTITLE": "O soluție personalizabilă cu branding propriu, ideală pentru companii care doresc să ofere Propero sub propriul nume. Este o opțiune flexibilă pentru a integra Propero în oferta de servicii proprii, păstrând identitatea vizuală unică.",
 		"SOLUTION3_TITLE": "Cloud privat/hibrid",
@@ -388,9 +388,11 @@
 	"COOKIES": {
 		"TITLE": "Politica de Cookies",
 		"LAST_UPDATED": "Ultima actualizare",
-		"REJECT_ALL": "Respinge toate cookie-urile",
+		"REJECT_ALL": "Respinge toate cookie-urile (ne-esențiale)",
 		"ACCEPT_ALL": "Acceptă toate cookie-urile",
 		"SAVE_PREFERENCES": "Personalizează cookie-urile",
+		"PREFERENCES_SAVED": "Preferințele de utilizare a Cookies au fost salvate!",
+		"CUSTOMIZE": "Personalizează cookie-urile",
 		"OVERVIEW": {
 			"TITLE": "Prezentare Generală Cookie-uri",
 			"CONTENT": "Cookie-urile sunt fișiere text mici stocate pe dispozitivul dumneavoastră când vizitați site-ul nostru. Acestea ne ajută să vă oferim o experiență mai bună și personalizată."
@@ -417,9 +419,12 @@
 		},
 		"BANNER": {
 			"TITLE": "Acest website folosește cookies",
-			"MESSAGE": "Folosim cookie-uri pentru a vă oferi cea mai bună experiență pe site-ul nostru.",
+			"MESSAGE_LINE_1": "Noi, Propero (propero.io), împreună cu terți selectați, folosim cookie-uri sau tehnologii similare în scopuri tehnice esențiale, care sunt necesare pentru funcționarea corectă a site-ului și nu pot fi dezactivate. Cu acordul tău, folosim și cookie-uri pentru funcționalitate, îmbunătățirea experienței, analiză, măsurare și marketing (inclusiv publicitate personalizată), conform politicii noastre de confidențialitate.",
+			"MESSAGE_LINE_2": "În ceea ce privește publicitatea, noi și partenerii noștri putem folosi date de localizare precisă și identificatori ai dispozitivului prin scanare pentru a stoca și/sau accesa informații de pe dispozitivul tău și pentru a procesa date cu caracter personal, cum ar fi datele de utilizare, în următoarele scopuri: publicitate și conținut personalizat, măsurarea performanței reclamelor și conținutului, cercetare de audiență și dezvoltare de servicii.",
+			"MESSAGE_LINE_3": "Îți poți exprima liber consimțământul, îl poți refuza sau retrage în orice moment prin accesarea panoului de preferințe. Dacă îți dai consimțământul, acesta va fi valabil doar pentru acest domeniu (propero.io). Refuzul consimțământului poate afecta anumite funcționalități.",
+			"MESSAGE_LINE_4": "Apasă butonul „Accept toate” pentru a-ți exprima acordul. Apasă „Respinge toate” sau închide acest mesaj pentru a continua fără a accepta.",
 			"ACCEPT_ALL": "Accept toate",
-			"REJECT_ALL": "Refuz toate",
+			"REJECT_ALL": "Refuz toate (ne-esențiale)",
 			"SETTINGS": "Personalizează",
 			"SAVE": "Salvează preferințele",
 			"MORE_INFO": "Mai multe informații"
@@ -436,6 +441,12 @@
 				"LABEL": "Telefon",
 				"VALUE": "+40 743 366 266"
 			}
+		},
+		"MODAL": {
+			"TITLE": "Acest website folosește cookies",
+			"DESCRIPTION": "",
+			"SAVE": "Salvează preferințele",
+			"CANCEL": "Refuz toate (ne-esențiale)"
 		},
 		"END": ""
 	},
