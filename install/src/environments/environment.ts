@@ -10,7 +10,7 @@ export const environment = {
   backend: 'http://localhost:9000', // Put your backend here
   assistantApp: 'http://localhost:4500',
   backendImmoReport: 'http://localhost:9000', // Put your backend here
-//  backendImmoReport: 'http://localhost:3100', // Put your backend here
+  //  backendImmoReport: 'http://localhost:3100', // Put your backend here
 
   dateFormat: 'dd-MM-yyyy',
 
@@ -20,10 +20,33 @@ export const environment = {
   error: true,
   log: true,
 
-  company : {
+  company: {
     name: "SC LogicLand SRL", //{{PARAM_COMPANY_NAME}}
-    j: "", //{{PARAM_COMPANY_J}}
-    cui: ""
+    j: "",                    //{{PARAM_COMPANY_J}}
+    cui: "",
+    management: "s",
+    registerLocation: "s2",
+    website: "propero.io",
+    address: {
+      no: "",
+      street: "",
+      building: "",
+      floor: "",
+      apartament: "",
+      city: "",
+      county: "",
+      country: ""
+    },
+    contactInfo: {
+      person: "",
+      telephone: "",
+      email: "",
+      contactTelephone: "+40 743 366 261",
+      contactEmail: "contact@propero.io",
+      privacyEmail: "privacy@propero.io",
+      salesEmail: "sales@propero.io",
+      dpoEmail: "dpo@propero.io",
+    }
   }
 };
 

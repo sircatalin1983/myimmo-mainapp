@@ -452,6 +452,26 @@
 			"DESCRIPTION": "Pentru situații urgente în afara programului:",
 			"PHONE": "+40 123 456 799",
 			"NOTE": "Doar pentru situații urgente!"
+		},
+		"DATA": {
+			"TITLE": "Contact",
+			"DESCRIPTION": "",
+			"ADDRESS": {
+				"LABEL": "Adresă",
+				"VALUE": "{{PARAM_COMPANY_ADDRESS}}"
+			},
+			"PHONE": {
+				"LABEL": "Telefon",
+				"VALUE": "{{PARAM_COMPANY_TELEPHONE}}"
+			},
+			"EMAIL_CONTACT": {
+				"LABEL": "Email",
+				"VALUE": "{{PARAM_COMPANY_EMAIL}}"
+			},
+			"EMAIL_DPO": {
+				"LABEL": "Email",
+				"VALUE": "{{PARAM_COMPANY_EMAIL_DPO}}"
+			}
 		}
 	},
 	"COOKIES": {
@@ -746,7 +766,7 @@
 			"PARAGRAPH_4": "Toate ofertele speciale și promoțiile disponibile în platformă vor fi marcate ca atare și vor include detalii despre condițiile de aplicare și valabilitate."
 		},
 		"DATA_PROTECTION": {
-			"TITLE": "11. Protecția datelor",
+			"TITLE": "Protecția datelor",
 			"PARAGRAPH_1": "Toate datele tale cu caracter personal colectate prin intermediul platformei propero.io sunt prelucrate de Propero în calitate de operator de date, în conformitate cu legislația aplicabilă privind protecția datelor (inclusiv GDPR), și în scopurile descrise în Politica de confidențialitate.",
 			"PARAGRAPH_2": "Propero poate partaja aceste date cu furnizori terți (ex: procesatori de plăți, furnizori de notificări, parteneri contractuali) numai în măsura în care acest lucru este necesar pentru furnizarea serviciilor platformei, pentru respectarea obligațiilor legale sau în alte condiții permise de lege.",
 			"PARAGRAPH_3": "Acești parteneri acționează ca operatori de date independenți și sunt singurii responsabili pentru prelucrarea datelor conform propriilor politici și obligații legale.",
@@ -1955,21 +1975,37 @@
 			"CTA": "Contactați-ne"
 		},
 		"STORY": {
-			"TITLE": "Povestea Noastră",
-			"INTRO": "Propero a fost fondată cu o viziune clară: să simplifice și să modernizeze industria imobiliară din România.",
-			"CONTENT": "Din 2020, am dezvoltat o platformă inovativă care ajută proprietarii și administratorii de proprietăți să își gestioneze mai eficient afacerile.",
+			"TITLE": "Călătoria Noastră",
+			"INTRO": "Propero a apărut din dorința de a face lucrurile mai simple într-un domeniu complicat. De la prima linie de cod până la o platformă stabilă și scalabilă, am evoluat cu pași calculați, alături de utilizatori vizionari.",
+			"CONTENT": "Am pus accent pe stabilitate, securitate și funcționalități esențiale. Astăzi suntem pregătiți să ducem platforma la următorul nivel: automatizare, scalare, extindere. Propero nu e doar un produs, e o fundație pentru viitorul imobiliarelor.",
 			"TIMELINE": {
 				"2020": {
-					"TITLE": "Începutul",
-					"DESCRIPTION": "Lansarea platformei Propero și primii clienți"
+					"TITLE": "Fundamentul",
+					"DESCRIPTION": "Am început dezvoltarea platformei cu accent pe simplitate, performanță și claritate în funcționalități."
 				},
 				"2021": {
-					"TITLE": "Expansiune",
-					"DESCRIPTION": "Extinderea serviciilor și creșterea echipei"
+					"TITLE": "Validare",
+					"DESCRIPTION": "Am testat piața, am ascultat utilizatorii timpurii și am ajustat constant arhitectura platformei."
 				},
 				"2022": {
-					"TITLE": "Inovație",
-					"DESCRIPTION": "Lansarea de noi funcționalități și îmbunătățirea experienței utilizatorilor"
+					"TITLE": "Rafinare",
+					"DESCRIPTION": "Am optimizat procese, am introdus module critice și am îmbunătățit interfața pe baza feedbackului real."
+				},
+				"2023": {
+					"TITLE": "Stabilitate",
+					"DESCRIPTION": "Am consolidat securitatea, suportul multi-rol și infrastructura cloud pentru scalabilitate."
+				},
+				"2024": {
+					"TITLE": "Pregătire pentru Scalare",
+					"DESCRIPTION": "White-label, analitice avansate, suport multi-client – toate componentele sunt în poziție."
+				},
+				"2025": {
+					"TITLE": "Lansare pe Scenă",
+					"DESCRIPTION": "Startul oficial al strategiei de scalare și extindere activă pe piața imobiliară națională."
+				},
+				"2026": {
+					"TITLE": "Expansiune & Automatizare",
+					"DESCRIPTION": "Automatizări fiscale, integrare AI, onboarding parteneri externi – Propero devine un ecosistem."
 				}
 			}
 		},

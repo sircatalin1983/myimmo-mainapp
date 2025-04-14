@@ -25,7 +25,7 @@ export class Solution1Component implements OnInit {
     public contactUsService: ContactUsService,
     private titleService: Title
   ) {
-    this.titleService.setTitle('Solution 1 - MyImmo');
+    this.titleService.setTitle('Propero - Solutions');
   }
 
   ngOnInit(): void {

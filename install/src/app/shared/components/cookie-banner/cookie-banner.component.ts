@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CookieConsentService } from '../../services/cookie-consent.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-cookie-banner',
@@ -11,6 +12,7 @@ export class CookieBannerComponent implements OnInit {
     showBanner = false;
 
     constructor(
+        public translate: TranslateService,
         private cookieConsentService: CookieConsentService,
         private router: Router
     ) {}

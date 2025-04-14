@@ -3,147 +3,147 @@
 		"COMPUTE": "Calculate",
 		"FLOW_INCOME": "Income Flow",
 		"INVESTMENT": "(from investment)",
-		"MONTHLY_RENT": "Monthly rent (€):",
-		"OCCUPATION_RATE": "Occupation rate (%):",
-		"PAYBACK_PERIOD": "Payback period",
-		"PROPERTY_PRICE": "Property price (€):",
-		"TEXT": "Evaluate the profitability of an investment over a defined period by analyzing income and expenses flow. Enter the property price, monthly rent, annual expenses, and occupation rate for an accurate profit estimate.",
+		"MONTHLY_RENT": "Monthly Rent (€):",
+		"OCCUPATION_RATE": "Occupancy Rate (%):",
+		"PAYBACK_PERIOD": "Payback Period",
+		"PROPERTY_PRICE": "Property Price (€):",
+		"TEXT": "Evaluate the profitability of your investment over a defined period by analyzing income and expense flows. Enter the property price, monthly rent, annual expenses, and occupancy rate for an accurate profit estimate.",
 		"TITLE": "Real Estate Investment Profitability Calculator",
 		"YEARLY": "(per year)",
-		"YEARLY_EXPENSES": "Annual expenses (€):",
-		"YIELD_GROSS": "Gross yield",
-		"YIELD_NET": "Net yield"
+		"YEARLY_EXPENSES": "Annual Expenses (€):",
+		"YIELD_GROSS": "Gross Yield",
+		"YIELD_NET": "Net Yield"
 	},
 	"CALCULATOR2": {
-		"AMOUNT_PAID": "Amount paid",
-		"ANNUAL_INSURANCE": "Annual insurance (€):",
-		"ANNUAL_TAXES": "Annual taxes (€):",
+		"AMOUNT_PAID": "Amount Paid",
+		"ANNUAL_INSURANCE": "Annual Insurance (€):",
+		"ANNUAL_TAXES": "Annual Taxes (€):",
 		"COMPUTE": "Calculate",
 		"INSURANCE": "Insurance",
-		"INTEREST_RATE": "Annual interest rate (%):",
-		"LOAN_AMOUNT": "Loan amount (€):",
-		"LOAN_PERIOD": "Loan period (years):",
+		"INTEREST_RATE": "Annual Interest Rate (%):",
+		"LOAN_AMOUNT": "Loan Amount (€):",
+		"LOAN_PERIOD": "Loan Period (years):",
 		"MONTHLY": "(monthly)",
 		"PERIOD": "(interest + principal)",
 		"TAXES": "Taxes",
-		"TEXT": "Find the ideal property for investments by analyzing available bank rates. Our calculator helps you determine which option fits your budget best.",
-		"TITLE": "Bank Loan Rate Calculator",
-		"TOTAL_PAYMENT": "Total payment"
+		"TEXT": "Find the ideal property for investment by analyzing available bank rates. Our calculator helps you determine which option best fits your budget.",
+		"TITLE": "Bank Rate Calculator",
+		"TOTAL_PAYMENT": "Total Payment"
 	},
 	"CALCULATOR3": {
 		"COMPUTE": "Calculate",
 		"DAILY": "(daily)",
 		"DAILY_MESSAGE": "(Days remaining in the month)",
-		"DAILY_RENT": "Daily rent",
+		"DAILY_RENT": "Daily Rent",
 		"DAYS": "days",
-		"MONTHLY_RENT": "Monthly rate (€):",
-		"MOVE_IN_DATE": "Move-in date:",
-		"PARTIAL_RENT": "Partial rent",
-		"TEXT": "For situations where the tenant moves in after the contract is signed, this calculator estimates the rent required for the remaining days in the month.",
+		"MONTHLY_RENT": "Monthly Rate (€):",
+		"MOVE_IN_DATE": "Move-in Date:",
+		"PARTIAL_RENT": "Partial Rent",
+		"TEXT": "For situations where the tenant moves in after the contract signing date, this calculator estimates the required rent for the remaining period of the month.",
 		"TITLE": "Partial Rent Calculator",
 		"TOTAL": "(Total)"
 	},
 	"CALCULATORS": {
 		"COMPUTE": "Calculate",
 		"FEATURE1_TITLE": "Profitability Calculator",
-		"FEATURE1_TEXT": "Evaluate the profitability of an investment over a defined period by analyzing income and expenses flow. Enter the property price, monthly rent, annual expenses, and occupation rate for an accurate profit estimate.",
-		"FEATURE2_TITLE": "Bank Loan Rate Calculator",
-		"FEATURE2_TEXT": "Find the ideal property for investments by analyzing available bank rates. Our calculator helps you determine which option fits your budget best.",
+		"FEATURE1_TEXT": "Evaluate the profitability of your investment over a defined period by analyzing income and expense flows. Enter the property price, monthly rent, annual expenses, and occupancy rate for an accurate profit estimate.",
+		"FEATURE2_TITLE": "Bank Rate Calculator",
+		"FEATURE2_TEXT": "Find the ideal property for investment by analyzing available bank rates. Our calculator helps you determine which option best fits your budget.",
 		"FEATURE3_TITLE": "Rent Calculator",
-		"FEATURE3_TEXT": "For situations where the tenant moves in after the contract is signed, this calculator estimates the rent required for the remaining days in the month.",
-		"TEXT": "Useful calculators for property owners and future owners.",
-		"TITLE": "Free Tools for Smart Owners",
-		"TITLE_DESCRIPTION": "Discover our selection of free calculators designed specifically for the needs of property owners and future owners. From estimating rent and calculating investment profitability to financial forecasts and maintenance cost calculators – all the tools you need for informed and efficient property management, in one place."
+		"FEATURE3_TEXT": "For situations where the tenant moves in after the contract signing date, this calculator estimates the required rent for the remaining period of the month.",
+		"TEXT": "Useful calculators for current and prospective property owners.",
+		"TITLE": "Free Tools for Smart Property Owners",
+		"TITLE_DESCRIPTION": "Discover our selection of free calculators designed specifically for the needs of property owners and prospective buyers. From rent estimation and investment profitability calculations to financial forecasts and maintenance cost calculators – all the tools you need for informed and efficient property management, all in one place."
 	},
 	"DOCUMENTS": {
-		"DOWNLOAD": "Download document",
-		"FEATURE1_TEXT": "Rental agreement – created to facilitate a clear and complete agreement between the owner and tenant.",
+		"DOWNLOAD": "Download Document",
+		"FEATURE1_TEXT": "The rental agreement – designed to facilitate a clear and comprehensive agreement between landlord and tenant.",
 		"FEATURE1_TITLE": "Contract - Rental",
-		"FEATURE2_TEXT": "Annex to contract – the handover protocol, signed at the time of the contract signing for a clear record of the property's condition.",
+		"FEATURE2_TEXT": "Contract annex – the handover protocol, signed at the time of contract conclusion for a clear record of the property's condition.",
 		"FEATURE2_TITLE": "Property - Inventory Annex",
-		"FEATURE3_TEXT": "Sublease agreement – for agreements between the owner and tenant to facilitate subleasing of the property.",
+		"FEATURE3_TEXT": "The sublease agreement – intended for agreements between landlord and tenant to facilitate the subleasing of the property.",
 		"FEATURE3_TITLE": "Contract - Sublease",
-		"FEATURE4_TEXT": "Template for early contract termination – designed to formalize early termination of the rental contract, detailing the conditions and obligations of both parties.",
+		"FEATURE4_TEXT": "Template for early contract termination – designed to formalize the early termination of the rental agreement, detailing the conditions and obligations of both parties.",
 		"FEATURE4_TITLE": "Contract - Early Termination",
-		"FEATURE5_TITLE": "Contract - Real Beneficiary Statement",
-		"FEATURE5_TEXT": "Template used to specify the beneficiary in contracts concluded with individuals, ensuring clear and correct identification of the parties involved. This document is essential to establish the responsibilities and rights of the individual beneficiary of the contract.",
+		"FEATURE5_TITLE": "Contract - Real Beneficiary Declaration",
+		"FEATURE5_TEXT": "Template intended to specify the beneficiary in contracts concluded with individuals, ensuring clear and correct identification of the parties involved. This document is essential to establish the responsibilities and rights of the individual beneficiary of the contract.",
 		"FEATURE6_TITLE": "Contract - GDPR Agreement",
-		"FEATURE6_TEXT": "GDPR agreement that allows the collection and processing of personal data in a secure manner in compliance with European data protection regulations. By this document, users give consent for Propero to manage personal data transparently and securely.",
-		"TEXT": "Simplify the rental process with professional templates for every step: from customizable contracts and detailed inventory sheets to handover protocols. These documents help ensure a secure and efficient rental process, eliminating the effort of creating documents from scratch and keeping everything organized and legally compliant.",
-		"TITLE": "Download documents and templates",
-		"TITLE_DESCRIPTION": "Access a collection of essential documents for a hassle-free rental process! From templates for rental contracts and inventory forms to handover protocols and standard notices for tenants, all documents are ready to simplify each stage. These resources are designed to ensure a safe and transparent rental process, reducing administrative effort and ensuring legal compliance."
+		"FEATURE6_TEXT": "GDPR agreement that allows the collection and processing of personal data in a secure and compliant manner with European data protection regulations. Through this document, users express their consent for the Propero application to manage personal data transparently and securely.",
+		"TEXT": "Simplify the rental process with professional templates for every stage: from customizable contracts and detailed inventory sheets to handover protocols. These documents help ensure a safe and efficient rental, eliminating the effort of creating documents from scratch and keeping everything organized and legally compliant.",
+		"TITLE": "Download Documents and Templates",
+		"TITLE_DESCRIPTION": "Access a collection of essential documents for a hassle-free rental process! From rental contract templates and inventory forms to handover sheets and standard tenant notifications, all documents are prepared to simplify each stage. These resources are designed to ensure a safe and transparent rental, reducing administrative effort and ensuring legal compliance."
 	},
 	"HELP_CENTER": {
 		"HELP": "Help.",
-		"SOON": "Coming soon",
-		"TITLE_DESCRIPTION": "Have questions about how to use Propero to the fullest? Explore the Help Center for step-by-step guides, explanatory articles, and answers to frequently asked questions. Whether you are just starting or want to discover advanced features, we have the resources you need for a simplified, hassle-free experience."
+		"SOON": "Coming Soon",
+		"TITLE_DESCRIPTION": "Have questions about how to make the most of Propero? Explore the Help Center to find step-by-step guides, explanatory articles, and answers to the most frequently asked questions. Whether you're just starting out or looking to discover advanced features, we have the resources you need for a simplified and hassle-free experience."
 	},
 	"HOME": {
 		"EMAIL": "Email",
-		"FEATURE_AUTOMATE_OPERATIONS_TITLE": "Intuitive Interface",
-		"FEATURE_AUTOMATE_OPERATIONS_TEXT": "An intuitive interface designed to simplify everything! Smart automations that make property and rental contract management easy – fast, efficient, and effortless.",
-		"FEATURE_CALCULATORS_TEXT": "Discover our selection of free calculators designed specifically for the needs of property owners and future owners. From estimating rent and calculating investment profitability to financial forecasts and maintenance cost calculators – all the tools you need for informed and efficient property management, in one place.",
+		"FEATURE_AUTOMATE_OPERATIONS_TITLE": "Operational Control",
+		"FEATURE_AUTOMATE_OPERATIONS_TEXT": "Intuitive interface designed to simplify everything! Smart automations that enable full management of properties and rental contracts – fast, efficient, and effortless.",
+		"FEATURE_CALCULATORS_TEXT": "Discover our selection of free calculators designed specifically for the needs of current and future property owners. From rent estimation and investment profitability calculations to financial forecasts and maintenance cost tools – all the instruments you need for smart and efficient property management, in one place.",
 		"FEATURE_CALCULATORS_TITLE": "Calculators",
 		"FEATURE_COLLECT_PAYMENTS_ONLINE_TITLE": "Centralized Collection",
-		"FEATURE_COLLECT_PAYMENTS_ONLINE_TEXT": "Centralize all rent payments and invoices effortlessly – all in one place! (Coming soon)",
+		"FEATURE_COLLECT_PAYMENTS_ONLINE_TEXT": "Easily centralize all rent and bill payments – all in one place! The system allows for automatic or manual payment collection, real-time tracking for each tenant, detailed report generation, and automated notifications for overdue payments, due dates, or confirmations. Full control and financial transparency with no extra effort.",
 		"FEATURE_DOCUMENTS_TITLE": "Documents",
-		"FEATURE_DOCUMENTS_TEXT": "Access a collection of essential documents for a hassle-free rental process! From templates for rental contracts and inventory forms to handover protocols and standard notices for tenants, all documents are ready to simplify each stage. These resources are designed to ensure a safe and transparent rental process, reducing administrative effort and ensuring legal compliance.",
+		"FEATURE_DOCUMENTS_TEXT": "Access a collection of essential documents for a hassle-free rental process! From customizable rental agreements and inventory forms to handover reports and standard tenant notifications, all documents are ready to simplify every step. These resources ensure safe and transparent rentals, reducing administrative effort and ensuring legal compliance.",
 		"FEATURE_HELP_TITLE": "Help Center",
-		"FEATURE_HELP_TEXT": "Have questions about how to use Propero to the fullest? Explore the Help Center for step-by-step guides, explanatory articles, and answers to frequently asked questions. Whether you are just starting or want to discover advanced features, we have the resources you need for a simplified, hassle-free experience.",
+		"FEATURE_HELP_TEXT": "Have questions about using Propero to its fullest? Explore the Help Center to find step-by-step guides, explanatory articles, and answers to frequently asked questions. Whether you're just starting or exploring advanced features, we’ve got the resources to make your experience smooth and easy.",
 		"FEATURE_PROFESSIONAL_REPORT_TITLE": "Professional Reports",
-		"FEATURE_PROFESSIONAL_REPORT_TEXT": "Clear and detailed reports created for your needs – inventory, contracts, financial forecasts, and more.",
-		"FEATURE_QUESTION1_TEXT": "Setting up a new property in the system is simple and intuitive: you can add a property either directly through the 'New Property' widget on the main page or by accessing the 'Properties' menu for more options. After the initial setup, each property can be customized by adding specific details – from associated utility contracts and detailed inventory lists to a complete rental contract list. This functionality provides a complete overview, ensuring efficient and organized management of each property.",
+		"FEATURE_PROFESSIONAL_REPORT_TEXT": "Clear and detailed reports created to fit your needs – inventory, contracts, financial forecasts, and more.",
+		"FEATURE_QUESTION1_TEXT": "Setting up a new property in the system is simple and intuitive: you can add a property directly via the 'New Property' widget on the homepage or through the 'Properties' menu for more options. After the initial setup, each property can be customized with specific details – from associated utility contracts and detailed inventory to the full list of rental contracts. This functionality gives you a complete overview and ensures organized and efficient property management.",
 		"FEATURE_QUESTION1_TITLE": "I have a property, how do I set it up in the system?",
-		"FEATURE_QUESTION2_TEXT": "Quickly access all active rental contracts either through the 'Contract' widget on the main page or by navigating through the 'Properties' > 'Contracts' menu. For each contract, you have access to two essential sections: the contract details with all clauses and specific information, and a complete list of payments made or due. This centralized system gives you full control over contracts and payment history, facilitating clear and organized rental management.",
+		"FEATURE_QUESTION2_TEXT": "Quickly access all active rental contracts through the 'Contract' widget on the homepage or by navigating through 'Properties' > 'Contracts'. For each contract, you'll find two key sections: detailed contract terms and a complete list of past and upcoming payments. This centralized system gives you full control over your contracts and payment history, making rental management clear and well-organized.",
 		"FEATURE_QUESTION2_TITLE": "How can I view contract details?",
-		"FEATURE_QUESTION3_TEXT": "The property inventory is essential for generating the handover protocol, a document attached to the rental contract for a clear and complete record of the property's condition. Each inventory item can be easily added from the property's dedicated menu in the 'Inventory' section. This functionality ensures transparent and detailed management of goods, providing both the owner and the tenant with a complete and updated documentation of the property's condition.",
+		"FEATURE_QUESTION3_TEXT": "The property inventory is essential for generating the handover report, which is attached to the rental agreement to clearly and fully document the property's condition. Each inventory item can be easily added from the dedicated menu under the property, in the 'Inventory' section. This feature ensures transparent and detailed asset management, providing both the landlord and tenant with a complete and up-to-date record of the property's contents.",
 		"FEATURE_QUESTION3_TITLE": "How do I add inventory items and what is a property inventory?",
-		"FEATURE_QUESTION4_TEXT": "To add utility contracts associated with a property, you must first attach the relevant utility contracts. These can be added easily from the property's page in the 'Utilities' menu. If your organization uses bill aggregation robots, you can specify login details for the utility provider's customer account when configuring a new utility. This automated process simplifies bill management, ensuring constant and effortless updates of expenses for each property.",
+		"FEATURE_QUESTION4_TEXT": "To add utility bills to a property, you first need to attach the relevant utility contracts. These can be added easily from the property's page in the 'Utilities' menu. If your organization uses invoice aggregation bots, you can also input your utility provider login credentials during setup. This automated process simplifies invoice management, ensuring constant and effortless updates to property expenses.",
 		"FEATURE_QUESTION4_TITLE": "How do I add utility contracts?",
-		"FEATURE_QUESTION5_TEXT": "To manually add a utility bill, you have two options: either use the 'New Bill' widget from the main menu or navigate to the 'Bills' section from the property's menu. Automatically, bills can only be added if the bill aggregation robot is configured for that utility, ensuring fast updates without manual intervention. This functionality offers flexibility and efficiency in managing costs for each property.",
+		"FEATURE_QUESTION5_TEXT": "To manually add a utility bill, you have two options: either use the 'New Invoice' widget from the main menu or navigate to the 'Invoices' section under the specific property. Automatically, invoices can only be added if the invoice aggregation bot is set up for that utility, ensuring fast and manual-free updates. This function gives you flexibility and efficiency in managing each property's costs.",
 		"FEATURE_QUESTION5_TITLE": "How do I add a utility bill?",
 		"FEATURE_WANT_DETAILS": "I want details ...",
 		"HERE": "here",
 		"MAIN_PERSONALIZED_OFFER": "Personalized Offer",
-		"MAIN_TITLE1": "Propero Digital Assistant",
+		"MAIN_TITLE1": "Your Digital Propero Assistant",
 		"MAIN_SUBTITLE1": "Simplify your property management with Propero – the digital assistant that automates invoice, tenant, inventory, payment, and contract management. Say goodbye to Excel files and hard-to-track lists – everything becomes easy and efficient!",
-		"MAIN_TITLE2": "Operation Automation",
-		"MAIN_SUBTITLE2": "Turn your time into value! Propero takes over repetitive and boring tasks – notifications, calculations, and more – so you can focus on what really matters.",
+		"MAIN_TITLE2": "Operations Automation",
+		"MAIN_SUBTITLE2": "Turn your time into value! Propero takes care of repetitive and tedious tasks – notifications, calculations, and more – so you can focus on what really matters.",
 		"MAIN_TITLE3": "Complete Transparency",
-		"MAIN_SUBTITLE3": "Transparency at every step! With Propero, all costs are visible and automatically calculated – bills, local taxes, and ANAF, with no surprises and no effort, both for tenants and owners.",
+		"MAIN_SUBTITLE3": "Transparency at every step! With Propero, all costs are visible and automatically calculated – invoices, local taxes, and tax authority payments – with no surprises and no effort for either tenants or landlords.",
 		"MAIN_TITLE4": "Integrated Artificial Intelligence",
-		"MAIN_SUBTITLE4": "Accelerate success! Use cutting-edge technology and artificial intelligence for fast and efficient property management – rental processes become smarter, simpler, and faster!",
+		"MAIN_SUBTITLE4": "Accelerate success! Use cutting-edge technology and AI to make property management faster and smarter – rental processes become easier, smarter, and more efficient!",
 		"MAIN_TITLE5": "Tenant Scoring and Evaluation",
-		"MAIN_SUBTITLE5": "Benefit from a system for evaluating potential tenants, whether individuals or companies, analyzing essential criteria such as payment history, financial stability, and trust level. Get quick scores and detailed recommendations, optimizing tenant selection and minimizing risks.",
-		"MAIN_SUBTITLE_ADDITIONAL_TEXT": "*Test the assistant immediately. No credit card details required.",
+		"MAIN_SUBTITLE5": "Benefit from a tenant scoring system – whether individuals or companies – that analyzes key criteria such as payment history, financial stability, and trust score. Quickly get scores and detailed recommendations to optimize tenant selection and minimize risk.",
+		"MAIN_SUBTITLE_ADDITIONAL_TEXT": "*Try the assistant right away. No credit card required.",
 		"MESSAGE": "Message",
 		"NAME": "Name",
 		"OFFERED_SOLUTIONS": "We simplify the entire rental and property management process",
-		"OFFERED_SOLUTIONS_DETAILS": "Propero offers a full range of tools for managing properties and rental contracts. We optimize users' time by automating repetitive tasks so they can focus on what truly matters.",
+		"OFFERED_SOLUTIONS_DETAILS": "Propero offers a full suite of tools for managing properties and rental contracts. We save users time by automating repetitive tasks so they can focus on what really matters.",
 		"SCALE": "Scale",
 		"SCALE_ITEM1_TEXT": "Includes 1 unit",
-		"SCALE_ITEM2_TEXT": "Various centralizers",
-		"SCALE_ITEM3_TEXT": "Reporting module (scale mode)",
+		"SCALE_ITEM2_TEXT": "Various dashboards",
+		"SCALE_ITEM3_TEXT": "Reporting module (Scale mode)",
 		"SCALE_ITEM4_TEXT": "Unlimited document storage *",
 		"SCALE_ITEM5_TEXT": "Multi-user access (5 users)",
 		"SCALE_ITEM6_TEXT": "Email/SMS notifications",
 		"SCALE_ITEM7_TEXT": "Financial dashboard",
-		"SCALE_ITEM8_TEXT": "Access to bill processing robots*",
+		"SCALE_ITEM8_TEXT": "Invoice processing bots access *",
 		"SCALE_PRICE": "---",
-		"SECTION_CONTACTUS_TEXT": "Transform how you manage properties by fully digitalizing rental and contract operations! With Propero, you automate repetitive tasks, save time, and ensure a simple and transparent experience for both you and your tenants. We are here to answer any questions or discuss suggestions for improving the platform – contact us for dedicated support and customized solutions.",
+		"SECTION_CONTACTUS_TEXT": "Transform how you manage your properties with complete digitalization of rental and contract operations! With Propero, you automate repetitive tasks, save time, and provide a simple and transparent experience for both yourself and your tenants. We're here to answer any questions or discuss suggestions for improving the platform – contact us for dedicated support and custom solutions.",
 		"SECTION_CONTACTUS_TITLE": "Contact",
-		"SECTION_FAQ_TEXT": "Frequently asked questions about the application",
+		"SECTION_FAQ_TEXT": "Frequently asked questions about the app",
 		"SECTION_FAQ_TITLE": "More details about Propero",
 		"SECTION_PAYMENT_TITLE": "Pricing Plan",
-		"SECTION_PAYMENT_TEXT": "Benefit from three free months to test the Propero assistant and discover all its features without costs! No credit card details required – just complete access to simplified and efficient property management.",
+		"SECTION_PAYMENT_TEXT": "Enjoy three free months to test the Propero assistant and discover all its features at no cost! No credit card required – just full access to a simplified and efficient property management system.",
 		"SECTION_RESOURCES_TITLE": "Resources",
-		"SECTION_RESOURCES_TEXT": "Access a variety of essential resources for property owners: document templates prepared for rentals, cost calculators, practical tips, and more. Everything you need for simplified and efficient property management, in one place!",
+		"SECTION_RESOURCES_TEXT": "Access a variety of essential resources for landlords: rental-ready document templates, cost calculators, practical tips, and more. Everything you need for simplified and efficient property management, all in one place!",
 		"SECTION_BLOG_TITLE": "Blog",
-		"SECTION_BLOG_TEXT": "Explore a variety of useful articles and resources for property owners: tips for property management, step-by-step guides, real estate news, and more. Get inspired and find everything you need for efficient property management, in one place!",
+		"SECTION_BLOG_TEXT": "Explore a variety of articles and useful resources for landlords: property management tips, step-by-step guides, real estate news, and more. Get inspired and find everything you need for effective property management – all in one place!",
 		"SEND": "Send",
 		"SMART": "Smart",
 		"SMART_ITEM1_TEXT": "Includes 1 unit",
-		"SMART_ITEM2_TEXT": "Various centralizers",
+		"SMART_ITEM2_TEXT": "Various dashboards",
 		"SMART_ITEM3_TEXT": "Reporting module (smart)",
 		"SMART_ITEM4_TEXT": "Unlimited document storage",
 		"SMART_ITEM5_TEXT": "Multi-user access (2 users)",
@@ -152,10 +152,10 @@
 		"SMART_PRICE": "---",
 		"START": "Start",
 		"START_ITEM1_TEXT": "Includes 1 unit",
-		"START_ITEM2_TEXT": "Various centralizers",
+		"START_ITEM2_TEXT": "Various dashboards",
 		"START_ITEM3_TEXT": "Reporting module (start)",
 		"START_ITEM4_TEXT": "Document storage *",
-		"START_ITEM5_TEXT": "Customizable email notifications",
+		"START_ITEM5_TEXT": "Custom email notifications",
 		"START_ITEM6_TEXT": "Financial dashboard",
 		"START_PRICE": "---",
 		"TEXT_MESSAGE": "Leave us a message."
@@ -166,33 +166,35 @@
 		"MENU_FINANCIAL_PLAN": "Pricing Plan",
 		"MENU_HOME": "Home",
 		"MENU_RESOURCES": "Resources",
-		"MENU_BLOG": "BLOG",
+		"MENU_BLOG": "Blog",
 		"MENU_SOLUTIONS": "Solutions"
 	},
 	"PERSONALIZED_SOLUTION": {
-		"ASK_OFFER": "Request an offer",
+		"ASK_OFFER": "Request an Offer",
 		"CONTACT": "Contact",
 		"CONTACT2": "Leave us a message.",
 		"CONTACT_TEXT": "Contact us to request a personalized offer.",
 		"EMAIL": "Email",
 		"MESSAGE": "Message",
 		"NAME": "Name",
-		"TITLE": "Personalized Solution",
-		"SUBTITLE": "Custom solutions tailored to your needs.",
-		"TEXT": "Propero offers four implementation options to perfectly suit the needs of each user: Public Cloud, Whitelabel, Private/Hybrid Cloud, or directly installed on a private server (in your own data center).",
+		"TITLE": "Solution tailored to each client",
+		"SUBTITLE": "Customized solutions tailored to your needs.",
+		"TEXT": "Propero offers four implementation options to perfectly match each user's requirements: Public Cloud, Whitelabel, Private/Hybrid Cloud, or direct installation on your own server (in your own datacenter).",
+		"FEATURES_TITLE": "Customized Solution",
+		"FEATURES_TEXT": "Propero offers you complete flexibility in the way the platform is implemented, perfectly adapting to your business model. You can choose from Public Cloud hosting (fast and accessible), Whitelabel version (customized to your brand), Private or Hybrid Cloud (for more control and security), or direct installation on your own infrastructure in your own datacenter. You choose what fits you best.",
 		"WANT_DETAILS": "I want details",
 		"SOLUTION1_TITLE": "Public Cloud",
-		"SOLUTION1_SUBTITLE": "Quick and easy access to Propero without the need for your own infrastructure. All data is stored in the cloud, benefiting from security and maintenance managed by our team.",
+		"SOLUTION1_SUBTITLE": "Fast and easy access to Propero without the need for your own infrastructure. All data is stored in the cloud, benefiting from security and maintenance managed by our team.",
 		"SOLUTION2_TITLE": "Whitelabel",
-		"SOLUTION2_SUBTITLE": "A customizable solution with your own branding, ideal for companies that want to offer Propero under their own name. A flexible option to integrate Propero into your service offerings while maintaining a unique visual identity.",
+		"SOLUTION2_SUBTITLE": "A customizable solution with your own branding, ideal for companies wanting to offer Propero under their own name. A flexible option to integrate Propero into your service offering while maintaining your unique visual identity.",
 		"SOLUTION3_TITLE": "Private/Hybrid Cloud",
-		"SOLUTION3_SUBTITLE": "Perfect for organizations that need stricter control over data. This model allows hosting in a private cloud or a combination of private and public clouds, ensuring a balance between security and accessibility.",
+		"SOLUTION3_SUBTITLE": "Perfect for organizations that require stricter control over their data. This model allows hosting in a private cloud or a combination between private and public cloud, ensuring a balance between security and accessibility.",
 		"SOLUTION4_TITLE": "Dedicated Server",
-		"SOLUTION4_SUBTITLE": "The optimal solution for companies with their own infrastructure that wish to fully control their data and resources. The application is installed on internal servers, offering total isolation and the ability to customize the working environment."
+		"SOLUTION4_SUBTITLE": "The optimal solution for companies with their own infrastructure that want full control over data and resources. The app is installed on internal servers, offering complete isolation and the ability to fully customize the working environment."
 	},
 	"PRICING": {
 		"ADDITIONAL_DETAILS": "Additional details",
-		"FAQ": "Frequently asked questions about the pricing plan",
+		"FAQ": "Frequently asked questions about pricing",
 		"FUNCTIONALITIES": "Functionalities",
 		"ITEM10_SCALE_TEXT": "",
 		"ITEM10_SMART_TEXT": "",
@@ -225,7 +227,7 @@
 		"ITEM2_SCALE_TEXT": "EUR 1 per unit/month",
 		"ITEM2_SMART_TEXT": "EUR 1 per unit/month",
 		"ITEM2_START_TEXT": "EUR 1 per unit/month",
-		"ITEM2_TITLE": "Additional unit",
+		"ITEM2_TITLE": "Extra unit",
 		"ITEM3_SCALE_TEXT": "Top",
 		"ITEM3_SMART_TEXT": "Priority",
 		"ITEM3_START_TEXT": "Basic",
@@ -241,7 +243,7 @@
 		"ITEM6_SCALE_TEXT": "",
 		"ITEM6_SMART_TEXT": "",
 		"ITEM6_START_TEXT": "",
-		"ITEM6_TITLE": "ANAF declarations",
+		"ITEM6_TITLE": "Tax declarations (ANAF)",
 		"ITEM7_SCALE_TEXT": "",
 		"ITEM7_SMART_TEXT": "",
 		"ITEM7_START_TEXT": "",
@@ -255,83 +257,1661 @@
 		"ITEM9_START_TEXT": "",
 		"ITEM9_TITLE": "Expenses",
 		"ITEM_INCLUDED_PROPERTIES": "Included units",
-		"QUESTION1": "Does it cost extra to collect invoices and/or rent payments?",
-		"QUESTION2": "What does multiple ownership mean?",
-		"Q_ANSWER1": "No, payment is made directly to the owner's account specified in the notification message.",
-		"Q_ANSWER2": "Multiple ownership means that two users can access a certain list of properties in 'owner mode.' For example, an administrator and the current owner.",
+		"QUESTION1": "Are there extra charges for collecting invoices or monthly rent?",
+		"QUESTION2": "What does multiple owners mean?",
+		"Q_ANSWER1": "No, these payments are made directly into the owner’s account as specified in the notification message.",
+		"Q_ANSWER2": "Multiple owners means that two users can access a certain property list as 'owners'. For example, an administrator and the current owner.",
 		"SCALE_PLAN": "Scale Plan",
 		"SMART_PLAN": "Smart Plan",
 		"START_PLAN": "Start Plan",
-		"TEXT": "Pricing plan details for available options and plans.",
-		"TITLE": "Pricing Plan Details"
+		"TEXT": "Total transparency and maximum flexibility – pricing plans tailored to your needs. Whether you manage a single property or an extensive portfolio, our system offers multiple pricing options so you pay only for the features you truly need.",
+		"TITLE": "Pricing plan details"
 	},
 	"SOLUTION1": {
-		"TITLE": "Operation Automation",
-		"TITLE_DESCRIPTION": "An intuitive interface designed to simplify everything! Intelligent automations that facilitate the complete management of properties and rental contracts – fast, efficient, and effortless.",
-		"TEXT": "Stay organized and save time! Automate notifications and calculations and let our assistant take over repetitive tasks, so you can focus on what really matters.",
+		"TITLE": "Smart Operational Control",
+		"TITLE_DESCRIPTION": "An intuitive interface designed to simplify everything! Smart automations that enable full management of properties and rental contracts – fast, efficient, and effortless.",
+		"TEXT": "Stay organized and save time! Propero automates notifications and calculations, and our intelligent assistant handles repetitive tasks so you can focus on what really matters.",
 		"BEGIN": "Start here",
 		"CREATE_ACCOUNT": "Create account",
 		"ITEM1_TITLE": "Automatic notifications",
-		"ITEM1_TEXT": "Automate communication and notifications! Receive automatic alerts when a new invoice is issued or when the status changes, along with informational messages and automatic calculation of the payment amount for effective communication between owner and tenant.",
-		"ITEM2_TITLE": "Financial calculation processing",
-		"ITEM2_TEXT": "Intelligent calculators that automatically calculate property profitability, monthly payment amounts, and more – for informed decisions and speed.",
-		"ITEM3_TITLE": "Robotic processor",
-		"ITEM3_TEXT": "Robotic process automation (RPA) that simplifies your life! Automatically download invoices from websites like myElectrica, GDF-Suez, Digi, and upload them directly into Propero with automatic synchronization of payment status.",
+		"ITEM1_TEXT": "Automate communication and notifications! You’ll receive automatic alerts when a new invoice is issued or its status changes, along with informative messages and automatic payment calculations – ensuring efficient communication between landlord and tenant.",
+		"ITEM2_TITLE": "Financial calculations processing",
+		"ITEM2_TEXT": "Smart calculators that automatically determine property profitability, monthly payments, and other essential indicators – for fast, informed decisions.",
+		"ITEM3_TITLE": "Robotic processing",
+		"ITEM3_TEXT": "RPA (Robotic Process Automation) that simplifies your life! Propero can automatically download invoices from providers like myElectrica, GDF-Suez, Digi, and upload them directly into the platform with automatic status synchronization.",
 		"ITEM4_TITLE": "Automatic accounting",
-		"ITEM4_TEXT": "Propero allows you to eliminate repetitive tasks and fully automate accounting activities:",
-		"ITEM5_TITLE": "Optimize your time and eliminate late payment penalties",
-		"ITEM5_TEXT": "Automatic or semi-automatic invoicing for complete transparency! Simplify the invoicing process and prepare for online payment collection – coming soon.",
-		"ITEM6_TITLE": "Download account-attached data anytime",
-		"ITEM6_TEXT": "Automatically download all data in Excel, PDF, or Word format! Generate professional reports instantly, accessible on any device and easily shareable with others."
+		"ITEM4_TEXT": "Eliminate repetitive tasks and fully automate your accounting activities with Propero:",
+		"ITEM5_TITLE": "Save time and avoid penalties",
+		"ITEM5_TEXT": "Automatic or semi-automatic invoicing for full transparency! Simplify your billing process and prepare for online payments – functionality launching soon.",
+		"ITEM6_TITLE": "Export data at any time",
+		"ITEM6_TEXT": "Automatically download all data in Excel, PDF, or Word format! Instantly generate professional reports, accessible from any device and easy to share."
 	},
 	"SOLUTION2": {
-		"BEGIN": "Start here",
-		"CREATE_ACCOUNT": "Create account",
-		"EXTRA_DETAILS_SUBTITLE": "Using payment notifications, expense reconciliation, and auto-pay utilities, the entire expense collection and auditing process can be fully automated.",
-		"EXTRA_DETAILS_TEXT": "Accurate records\n                By using these automation tools, there is no need for manual validation, navigating between the bank account and the Propero account, verifying invoices, or other documents. The entire process is covered by the Propero app and is fully transparent between the owner and tenant.\n                (Coming soon)",
-		"EXTRA_DETAILS_TITLE": "Automating Monthly Expense Collection",
-		"FEATURE1_TEXT": "Propero’s online payment collection functionality allows for rapid and automated management of rent and other associated fees for properties. Once activated, all payments recorded in the system can be collected online, eliminating the need for manual collection and providing an efficient and secure way to manage payments directly through the platform.",
+		"TITLE": "Online Payment Collection",
+		"TEXT": "Collecting rent in person becomes complicated and time-consuming, especially when managing a large portfolio of properties. With Propero, the process becomes fully automated and efficient – fast, simple, and secure.",
+		"SECTION_TITLE": "Rent collection made easy",
+		"SECTION_TEXT": "Collecting rent in person is a slow and inefficient process, especially for large portfolios. With Propero, everything is automated, eliminating unnecessary visits and interactions.",
+		"EXTRA_DETAILS_TITLE": "Automated collection of monthly expenses",
+		"EXTRA_DETAILS_SUBTITLE": "With payment notifications, automatic reconciliation, and auto-payment for utilities, the entire process becomes fully automated.",
+		"EXTRA_DETAILS_TEXT": "Accurate and transparent records\nWith these features, there’s no longer any need for manual validations between the bank account and the Propero app – the entire process is digitized and visible to all involved parties. (Coming soon)",
 		"FEATURE1_TITLE": "Enable online payment collection",
-		"FEATURE2_TEXT": "The identity verification feature ensures rapid and secure verification of users, using advanced security measures. This verification process is integrated to protect access to sensitive information and to validate the users' identity, offering a secure and trustworthy user environment in Propero.",
-		"FEATURE2_TITLE": "Verify identity",
-		"FEATURE3_TEXT": "The bank account connection feature allows direct linkage between the owner’s account and the Propero system. This allows tenants to make their monthly payments directly to the configured account, simplifying the payment collection and monitoring process. All transactions are automatically recorded, providing a secure and efficient way to manage monthly collections.",
-		"FEATURE3_TITLE": "Link bank account",
-		"QA_TEXT": "Additional details about payments",
-		"QA_TITLE": "Additional questions about payments",
-		"QUESTION_1": "How secure is the transfer?",
-		"QUESTION_1_ANSWER": "The online payment method uses the smart2pay application.",
-		"QUESTION_2": "Does it cost anything extra?",
-		"QUESTION_2_ANSWER": "Online payment is included in each plan with 2 per transaction. For more details, please visit the payments page.",
-		"QUESTION_3": "How long does it take for the funds to reach my account?",
-		"QUESTION_3_ANSWER": "The average transfer time is between 1 and 5 business days. We are continuously exploring solutions for instant payments.",
-		"QUESTION_4": "How do tenants pay?",
-		"QUESTION_4_ANSWER": "The tenant receives an email/SMS or WhatsApp message with a payment link or directly from the Propero app using the centralizer section.",
-		"SECTION_TEXT": "Collecting rent in person becomes difficult and time-consuming, especially when managing a large property portfolio. With Propero, the collection process is fully automated, turning traditional collection into a fast and simple process. Thus, collecting rent in person becomes a thing of the past!",
-		"SECTION_TITLE": "Online Rent Collection with Ease",
-		"TEXT": "Effortless online payment collections (Coming soon). Collecting rent in person is a slow and unrealistic process when dealing with a large portfolio. With Propero, the collection process can be automated. It’s fast, easy, and makes in-person rent collection a thing of the past.",
-		"TITLE": "Online Payment Collection"
+		"FEATURE1_TEXT": "The online payment feature allows automatic management of rent and associated fees. Payments can be collected directly through the app, eliminating the need for manual collection.",
+		"FEATURE2_TITLE": "Identity verification",
+		"FEATURE2_TEXT": "The identity verification system is secure and fast, protecting sensitive information and ensuring a trustworthy environment within the app.",
+		"FEATURE3_TITLE": "Bank account connection",
+		"FEATURE3_TEXT": "Link your bank account directly to Propero! Monthly collections can be done automatically, and all transactions are recorded in the system.",
+		"QA_TITLE": "Frequently asked questions about payments",
+		"QA_TEXT": "Additional details about the payment process",
+		"QUESTION_1": "How secure is the payment?",
+		"QUESTION_1_ANSWER": "Payments are processed through the smart2pay app in a secure manner.",
+		"QUESTION_2": "Are there any additional fees?",
+		"QUESTION_2_ANSWER": "The service is included in all plans, with a 2% commission per transaction.",
+		"QUESTION_3": "How long does the money transfer take?",
+		"QUESTION_3_ANSWER": "Transfers take between 1 to 5 business days. Instant payment solutions are being developed.",
+		"QUESTION_4": "How does the tenant pay?",
+		"QUESTION_4_ANSWER": "The tenant receives a payment link via email/SMS/WhatsApp or can pay directly from the Propero app."
 	},
 	"SOLUTION3": {
+		"TITLE": "Detailed Professional Reports",
+		"SUBTITLE": "Detailed reports in just a few clicks.",
+		"TEXT": "Get essential insights into your portfolio’s performance and make better decisions for profitability. Annual tax calculations become simple and centralized within the platform, with clear, automated, and easy-to-share reports.",
 		"BEGIN": "Start here",
 		"CREATE_ACCOUNT": "Create account",
-		"EXTRA_DETAILS_SUBTITLE": "Eliminate errors caused by human interaction and increase speed in the accounting process using Propero.",
-		"EXTRA_DETAILS_TEXT": "We are constantly adding and improving reporting functionality. If you have any questions or feedback that can help improve the functionality, feel free to contact us.",
-		"EXTRA_DETAILS_TITLE": "Professional Reporting",
-		"FEATURE1_TEXT": "Any report can be customized based on start and end date, property, administrator, owners, payments, or expense categories.",
-		"FEATURE1_TITLE": "Customizations",
-		"FEATURE2_TEXT": "You can choose professional templates based on which you can generate instant reports on any device (PC, Mobile).",
+		"EXTRA_DETAILS_TITLE": "Professional Reports",
+		"EXTRA_DETAILS_SUBTITLE": "Eliminate human errors and speed up reporting with Propero.",
+		"EXTRA_DETAILS_TEXT": "We constantly improve our reporting functionalities. If you have suggestions or questions, feel free to contact us.",
+		"FEATURE1_TITLE": "Advanced customizations",
+		"FEATURE1_TEXT": "Any report can be customized by date, property, manager, owner, payments, or expense categories.",
 		"FEATURE2_TITLE": "Professional templates",
-		"FEATURE3_TEXT": "Reports can be shared with other members of the app (partners, employees, or accountants) directly from the app via the web or mobile portal.",
-		"FEATURE3_TITLE": "Sharing",
+		"FEATURE2_TEXT": "Choose modern templates and generate reports instantly, on desktop or mobile.",
+		"FEATURE3_TITLE": "Easy sharing",
+		"FEATURE3_TEXT": "Share reports with partners, employees, or accountants directly from the app.",
 		"REPORT_FEATURE1_TITLE": "Profitability vs Losses",
-		"REPORT_FEATURE2_TITLE": "Rent Payment Delays Report",
+		"REPORT_FEATURE2_TITLE": "Late Payment Report",
 		"REPORT_FEATURE3_TITLE": "Notification Report",
-		"REPORT_FEATURE4_TITLE": "Utility Payment Delays Report",
-		"REPORT_FEATURE5_TITLE": "Payments Made Report",
-		"REPORT_FEATURE6_TITLE": "Monthly Payments Made/Unpaid Report",
-		"REPORT_FEATURE_ADDITIONAL_ITEMS": "and many more...",
-		"SUBTITLE": "Professional Reports in just a few clicks.",
-		"TEXT": "Get detailed information about portfolio performance and better understand what actions need to be taken to improve profitability. Annual tax calculation (local, ANAF) much easier, centralized across the entire property portfolio.",
+		"REPORT_FEATURE4_TITLE": "Utility Delays",
+		"REPORT_FEATURE5_TITLE": "Payments Made",
+		"REPORT_FEATURE6_TITLE": "Monthly Payments Made/Missed",
+		"REPORT_FEATURE_ADDITIONAL_ITEMS": "and many more..."
+	},
+	"REPORTS": {
+		"TEXT": "Get detailed insights into portfolio performance and better understand what actions to take to improve profitability. Annual tax calculations (local, ANAF) become much easier, centralized across your entire property portfolio.",
 		"TITLE": "Professional Reports"
+	},
+	"SITEMAP": {
+		"TITLE": "Sitemap",
+		"MAIN": {
+			"TITLE": "Main Pages",
+			"HOME": "Home",
+			"ABOUT": "About Us",
+			"SERVICES": "Services",
+			"CONTACT": "Contact"
+		},
+		"PROPERTY": {
+			"TITLE": "Property Management",
+			"OVERVIEW": "Overview",
+			"LISTINGS": "Property Listings",
+			"TENANTS": "Tenants",
+			"MAINTENANCE": "Maintenance"
+		},
+		"TASKS": {
+			"TITLE": "Task Management",
+			"OVERVIEW": "Overview",
+			"CALENDAR": "Calendar",
+			"PROJECTS": "Projects",
+			"REPORTS": "Reports"
+		},
+		"DOCUMENTS": {
+			"TITLE": "Document Management",
+			"OVERVIEW": "Overview",
+			"CONTRACTS": "Contracts",
+			"TEMPLATES": "Templates",
+			"ARCHIVE": "Archive"
+		},
+		"TOOLS": {
+			"TITLE": "Tools & Calculators",
+			"CALCULATORS": "Calculators",
+			"MORTGAGE": "Mortgage Calculator",
+			"ROI": "ROI Calculator",
+			"RENTAL_YIELD": "Rental Yield Calculator"
+		},
+		"RESOURCES": {
+			"TITLE": "Resources",
+			"BLOG": "Blog",
+			"PRESS": "Press",
+			"CAREERS": "Careers",
+			"HELP": "Help Center"
+		},
+		"LEGAL": {
+			"TITLE": "Legal",
+			"TERMS": "Terms and Conditions",
+			"PRIVACY": "Privacy Policy",
+			"GDPR": "GDPR",
+			"COOKIES": "Cookie Policy"
+		},
+		"SUPPORT": {
+			"TITLE": "Support",
+			"OVERVIEW": "Overview",
+			"FAQ": "FAQ",
+			"CONTACT": "Contact",
+			"DOCUMENTATION": "Documentation"
+		}
+	},
+	"CONTACT": {
+		"TITLE": "Contact",
+		"SUBTITLE": "We are here to help you",
+		"DESCRIPTION": "Do you have questions or suggestions? Feel free to contact us. Our team is here to provide any information you may need.",
+		"NAME": "Name",
+		"EMAIL": "Email",
+		"PHONE": "Phone",
+		"ADDRESS": "Address",
+		"HOURS": "Hours: Monday - Friday, 09:00 AM - 06:00 PM",
+		"SUBJECT": "Subject",
+		"MESSAGE": "Message",
+		"SEND": "Send Message",
+		"FORM": {
+			"NAME": "Name",
+			"EMAIL": "Email",
+			"SUBJECT": "Subject",
+			"MESSAGE": "Message",
+			"SEND": "Send Message",
+			"SUCCESS": "Your message has been sent successfully!",
+			"ERROR": "An error occurred. Please try again.",
+			"REQUIRED": "This field is required",
+			"INVALID_EMAIL": "Invalid email address",
+			"MIN_LENGTH": "The message must be at least 10 characters long",
+			"MAX_LENGTH": "The message cannot exceed 1000 characters"
+		},
+		"SOCIAL": {
+			"TITLE": "Social Media",
+			"FOLLOW_US": "Follow us on",
+			"FACEBOOK": "Facebook",
+			"LINKEDIN": "LinkedIn",
+			"INSTAGRAM": "Instagram",
+			"TWITTER": "Twitter"
+		},
+		"MAP": {
+			"TITLE": "Location",
+			"VIEW_LARGER": "View larger map"
+		},
+		"SUPPORT": {
+			"TITLE": "Technical Support",
+			"DESCRIPTION": "For technical support, please contact us at:",
+			"EMAIL": "support@propero.ro",
+			"PHONE": "+40 123 456 790",
+			"HOURS": "Support hours: Monday - Friday, 09:00 AM - 05:00 PM"
+		},
+		"SALES": {
+			"TITLE": "Sales",
+			"DESCRIPTION": "For information about services and pricing:",
+			"EMAIL": "sales@propero.ro",
+			"PHONE": "+40 123 456 791"
+		},
+		"EMERGENCY": {
+			"TITLE": "Emergency Contact",
+			"DESCRIPTION": "For urgent matters outside business hours:",
+			"PHONE": "+40 123 456 799",
+			"NOTE": "For emergencies only!"
+		},
+		"DATA": {
+			"TITLE": "Contact",
+			"DESCRIPTION": "",
+			"ADDRESS": {
+				"LABEL": "Address",
+				"VALUE": "{{PARAM_COMPANY_ADDRESS}}"
+			},
+			"PHONE": {
+				"LABEL": "Phone",
+				"VALUE": "{{PARAM_COMPANY_TELEPHONE}}"
+			},
+			"EMAIL_CONTACT": {
+				"LABEL": "Email",
+				"VALUE": "{{PARAM_COMPANY_EMAIL}}"
+			},
+			"EMAIL_DPO": {
+				"LABEL": "Email",
+				"VALUE": "{{PARAM_COMPANY_EMAIL_DPO}}"
+			}
+		}
+	},
+	"GDPR": {
+		"TITLE": "GDPR Compliance",
+		"LAST_UPDATED": "Last updated",
+		"INTRODUCTION": {
+			"TITLE": "Introduction",
+			"CONTENT": "We are committed to protecting and respecting your data privacy in accordance with the General Data Protection Regulation (GDPR).",
+			"SCOPE": "This policy applies to all users of our platform.",
+			"CONTROLLER": "We are the data controller for the information you provide to us."
+		},
+		"RIGHTS": {
+			"TITLE": "Your Rights",
+			"DESCRIPTION": "Under GDPR, you have the following rights:",
+			"ACCESS": {
+				"TITLE": "Right of Access",
+				"DESCRIPTION": "You may request a copy of the personal data we hold about you."
+			},
+			"RECTIFICATION": {
+				"TITLE": "Right to Rectification",
+				"DESCRIPTION": "You may request correction of inaccurate data or completion of incomplete data."
+			},
+			"ERASURE": {
+				"TITLE": "Right to Erasure",
+				"DESCRIPTION": "Also known as the 'right to be forgotten', you may request deletion of your data under certain circumstances."
+			},
+			"RESTRICT": {
+				"TITLE": "Right to Restriction of Processing",
+				"DESCRIPTION": "You may request that we limit the processing of your data."
+			},
+			"PORTABILITY": {
+				"TITLE": "Right to Data Portability",
+				"DESCRIPTION": "You may receive your data in a structured format and transmit it to another controller."
+			},
+			"OBJECT": {
+				"TITLE": "Right to Object",
+				"DESCRIPTION": "You may object to data processing in certain situations."
+			},
+			"AUTOMATED": {
+				"TITLE": "Rights Regarding Automated Decision-Making",
+				"DESCRIPTION": "Right not to be subject to decisions based solely on automated processing."
+			},
+			"RESTRICTION": {
+				"TITLE": "Right to Restriction",
+				"DESCRIPTION": "You may request the restriction of your data processing under certain circumstances."
+			}
+		},
+		"DATA_COLLECTION": {
+			"TITLE": "Data Collection",
+			"DESCRIPTION": "We collect and process your personal data only for specific purposes and with a clear legal basis.",
+			"PERSONAL_INFO": "Identifying personal data",
+			"CONTACT_INFO": "Contact information",
+			"TECHNICAL_INFO": "Technical and usage data",
+			"FINANCIAL_INFO": "Financial information",
+			"USAGE_DATA": "Usage data",
+			"COOKIES": "Cookies",
+			"CATEGORIES": {
+				"TITLE": "Categories of Data Collected",
+				"PERSONAL": "Identifying personal data",
+				"CONTACT": "Contact information",
+				"TECHNICAL": "Technical and usage data",
+				"FINANCIAL": "Financial information"
+			},
+			"PURPOSES": {
+				"TITLE": "Purposes of Processing",
+				"SERVICE": "Providing our services",
+				"IMPROVEMENT": "Platform improvement",
+				"COMMUNICATION": "User communication",
+				"LEGAL": "Legal compliance"
+			}
+		},
+		"DATA_PROCESSING": {
+			"TITLE": "Data Processing",
+			"DESCRIPTION": "We process your data for specific purposes and with a clear legal basis.",
+			"PURPOSE": "Purpose of processing",
+			"LEGAL_BASIS": "Legal basis",
+			"RETENTION": "Data retention period",
+			"TRANSFER": "Data transfers",
+			"SECURITY": "Security measures",
+			"PROCESSING_METHODS": "Processing methods"
+		},
+		"DATA_PROTECTION": {
+			"TITLE": "Data Protection",
+			"DESCRIPTION": "We implement appropriate technical and organizational measures to protect your data.",
+			"SECURITY_MEASURES": "Security measures",
+			"THIRD_PARTIES": "Third-party partners",
+			"INTERNATIONAL_TRANSFERS": "International data transfers",
+			"DATA_RETENTION": "Data retention",
+			"PROCESSING_METHODS": "Processing methods",
+			"MEASURES": {
+				"ENCRYPTION": "Data encryption",
+				"ACCESS_CONTROL": "Access control",
+				"BACKUP": "Regular backups"
+			}
+		},
+		"CONSENT": {
+			"TITLE": "Consent",
+			"CONTENT": "We will always ask for your explicit consent for the processing of personal data for specific purposes.",
+			"AGREE": "I agree",
+			"DISAGREE": "I do not agree",
+			"WITHDRAW": {
+				"TITLE": "Withdrawal of Consent",
+				"DESCRIPTION": "You may withdraw your consent at any time.",
+				"BUTTON": "Withdraw Consent"
+			}
+		},
+		"SECURITY": {
+			"TITLE": "Data Security",
+			"CONTENT": "We implement appropriate technical and organizational measures to protect your data.",
+			"MEASURES": {
+				"ENCRYPTION": "Data encryption",
+				"ACCESS_CONTROL": "Access control",
+				"BACKUP": "Regular backups",
+				"MONITORING": "Continuous monitoring"
+			}
+		},
+		"CONTACT": {
+			"TITLE": "Data Protection Officer",
+			"DESCRIPTION": "For any questions regarding personal data processing:",
+			"EMAIL": "dpo@propero.ro",
+			"PHONE": "+40 123 456 789",
+			"ADDRESS": "Strada Propero, No. 1, Bucharest, Romania"
+		}
+	},
+	"PRIVACY": {
+		"TITLE": "Legal Notice - propero.io",
+		"LAST_UPDATED": "Last updated",
+		"WEBSITE_HOST": {
+			"TITLE": "Website host",
+			"CONTENT": "For any questions regarding terms and conditions:",
+			"END": ""
+		},
+		"MANAGEMENT": {
+			"TITLE": "Management",
+			"CONTENT": "",
+			"END": ""
+		},
+		"CONTACT_INFORMATION": {
+			"TITLE": "Contact Information",
+			"CONTENT": "For any questions regarding terms and conditions:",
+			"END": ""
+		},
+		"COMPANY_REGISTRATION": {
+			"TITLE": "Company registration",
+			"CONTENT": "For any questions regarding terms and conditions:",
+			"END": ""
+		},
+		"VAT_NUMBER": {
+			"TITLE": "VAT registration number",
+			"CONTENT": "",
+			"END": ""
+		},
+		"NOTES": {
+			"TITLE": "Disclaimer",
+			"CONTENT_1": "The European Commission provides a platform for online dispute resolution (ODR), which can be found at: http://ec.europa.eu/consumers/odr/",
+			"CONTENT_2": "propero.io is neither willing nor obligated to participate in dispute resolution proceedings before a consumer arbitration board."
+		},
+		"CONTACT": {
+			"TITLE": "Contact",
+			"DESCRIPTION": "For questions related to this notice, you can contact us using the information below.",
+			"EMAIL": "Email",
+			"ADDRESS": {
+				"LABEL": "Address",
+				"VALUE": "123 Example Street, Bucharest, Romania"
+			},
+			"PHONE": {
+				"LABEL": "Phone",
+				"VALUE": "+40 743 366 266"
+			}
+		},
+		"END": ""
+	},
+	"PRIVACY_POLICY": {
+		"TITLE": "Privacy Policy - propero.io",
+		"LAST_UPDATED": "Last updated",
+		"INTRODUCTION": {
+			"TITLE": "Introduction",
+			"CONTENT": "Protecting your personal data is a priority for us. Therefore, we only use your data in accordance with applicable legislation, particularly the EU General Data Protection Regulation (\"GDPR\"). This privacy policy describes how propero.io collects, uses, and protects your personal data during the use of our services, including the web platform, mobile applications, and electronic communications.",
+			"APPLICABILITY": "Applies to all users of our platform."
+		},
+		"TERMS": {
+			"TITLE": "Terms",
+			"CONTENT": "This privacy policy uses the following terms specific to the activity of propero.io:",
+			"DEFINITIONS": {
+				"IMOBIL": "refers to any residential or commercial property (apartment, house, office space, etc.) managed through the propero.io platform.",
+				"PROPRIETAR": "refers to the individual or legal entity who owns a property registered on the propero.io platform.",
+				"SERVICII_ANEXE": "refers to services such as maintenance, cleaning, technical interventions, automated payments, legal notifications, or other activities related to property management.",
+				"UTILIZATOR": "refers to any person using the propero.io platform as an owner, administrator, or beneficiary of the offered services.",
+				"RGPD": "refers to Regulation (EU) 2016/679 on the protection of individuals regarding the processing of personal data and the free movement of such data, also known as the GDPR (General Data Protection Regulation).",
+				"DATE_PERSONALE": "refers to any information relating to an identified or identifiable individual, such as name, address, national ID number, contact details, banking data, etc.",
+				"PLATFORMA_PROPERO": "refers to the web and mobile application operated by propero.io through which digital property management and related services are provided."
+			}
+		},
+		"DATA_CONTROLLER": {
+			"TITLE": "Data Controller and Contact Information",
+			"CONTENT": "This section describes who is responsible for processing personal data on the propero.io platform, as well as the involvement of third-party providers.",
+			"OPERATOR": {
+				"TITLE": "Data Controller",
+				"CONTENT": "The data controller responsible for processing personal data is propero.io, which operates the propero.io platform.",
+				"DETAILS": {
+					"COMPANY": "propero.io",
+					"ADDRESS": "",
+					"EMAIL": "dpo@propero.io",
+					"PHONE": "+40 743 366 266"
+				},
+				"NOTE": "Please note that any data processing performed by third-party service providers (e.g., maintenance providers, property managers, cleaning companies, etc.) for services booked through the platform is outside of propero.io’s control and is subject to the respective provider’s privacy policy. These providers act as independent data controllers."
+			},
+			"THIRD_PARTY": {
+				"TITLE": "Third-Party Providers",
+				"CONTENT": "propero.io collaborates with third-party providers to offer complementary services such as maintenance, cleaning, property management, or technical support.",
+				"NOTE": "These providers act as independent data controllers when processing personal data in the course of their services. propero.io is not responsible for their data protection practices.",
+				"EXAMPLES_TITLE": "Examples of third-party providers may include:",
+				"EXAMPLES": [
+					"Cleaning or property maintenance companies",
+					"External property managers",
+					"Security system providers",
+					"Payment service providers",
+					"Electronic notification or telecommunications providers"
+				]
+			}
+		},
+		"DATA_COLLECTION": {
+			"TITLE": "What information we collect",
+			"CONTENT": "This section details the categories of data collected by propero.io and the related processing activities.",
+			"ITEMS": [
+				"Full name, email address, phone number, postal address",
+				"Information about platform usage (interactions, preferences)",
+				"IP address, browser type, operating system, device identifiers",
+				"Information collected via cookies and similar technologies"
+			],
+			"PROCESSING_ACTIVITIES": {
+				"TITLE": "Data Processing Activities",
+				"AUTO_COLLECTION": {
+					"TITLE": "Automatic Data Collection",
+					"CONTENT": "When you visit the propero.io platform, we automatically collect the following information. These data are stored separately from any other data you may transmit to us:",
+					"DETAILS": {
+						"URL": "URL of the accessed page",
+						"LATENCY": "Network latency",
+						"DATETIME": "Date and time",
+						"DEVICE": "Information about your device",
+						"CLICKS": "Information about clicks",
+						"IP": "IP address"
+					},
+					"NOTE": "We collect these data to ensure proper functioning and security of our platform and to prevent fraudulent activities, based on our legitimate interest (Art. 6, para. 1, letter f of the GDPR). Your IP address is encrypted and deleted after 30 days."
+				},
+				"ACCOUNT_DATA": {
+					"TITLE": "Data Collected in Connection with Your Account",
+					"REGISTRATION": {
+						"TITLE": "Registration",
+						"CONTENT": "Registration is not required to use propero.io services. However, if you choose to create an account, you may provide the following data:",
+						"DETAILS": {
+							"NAME": "Full name",
+							"EMAIL": "Email address",
+							"PASSWORD": "Password"
+						},
+						"ALTERNATIVE_LOGIN": {
+							"TEXT": "Alternative Login",
+							"DETAILS": {
+								"NAME": "Name",
+								"EMAIL": "Email address",
+								"TOKEN": "Authentication token"
+							}
+						},
+						"NOTE": "propero.io processes these data to create and manage your account, in accordance with the Terms and Conditions, based on Art. 6, para. 1, letter b of the GDPR."
+					}
+				},
+				"ASSISTANCE": {
+					"TITLE": "Customer Support",
+					"REQUEST_HANDLING": {
+						"TITLE": "Request Handling",
+						"CONTENT": "If you contact our customer support team or reach out through other means (e.g., social media channels), your request may be handled by the propero.io team or contractual partners specialized in customer support. During this process, these partners may process your personal data, such as name, email address, booking number, or other information provided in your communication.",
+						"NOTE_1": "Support specialists may process data in countries outside the European Economic Area. In these cases, propero.io has signed standard contractual clauses approved by the European Commission in accordance with Art. 46, para. 2, letter c of the GDPR.",
+						"NOTE_3": "We also use AI-powered services to enhance customer interactions. These platforms may process your data to deliver automated and relevant responses on our behalf."
+					},
+					"SERVICE_IMPROVEMENT": {
+						"TITLE": "Improving Customer Support",
+						"CONTENT": "To continuously improve our customer support service, we may analyze inquiries using specific keywords or parameters. You may also be invited to participate in satisfaction surveys to help enhance service quality. This processing of personal data serves our legitimate interest as well as our customers', to continuously improve our support (Art. 6, para. 1, letter f of the GDPR)."
+					},
+					"CALL_RECORDING": {
+						"TITLE": "Call Recording and Evaluation",
+						"CONTENT": "Phone calls are recorded and analyzed only if you give your prior consent. We use this data solely to improve customer service. Recordings are deleted after three months. The legal basis is Art. 6, para. 1, letter a of the GDPR.",
+						"NOTE": "You may withdraw your consent at any time by contacting us using one of the communication channels listed in this privacy policy. This does not affect the legality of processing done before your withdrawal."
+					}
+				},
+				"TECHNICAL_PROVIDERS": {
+					"TITLE": "Technical Service Providers",
+					"HOSTING": {
+						"TITLE": "Website Hosting",
+						"CONTENT": "We use Amazon Web Services EMEA S.a.r.l. ('AWS') for website hosting. Therefore, when you interact with our website or submit personal data, this information is processed on AWS servers. We only use servers located in the European Union. For remote maintenance and similar scenarios, AWS may process personal data in countries outside the EEA, especially the U.S. AWS participates in the EU–U.S. Data Privacy Framework, ensuring appropriate data protection for transferred data."
+					},
+					"EMAIL_SYSTEM": {
+						"TITLE": "Email System",
+						"CONTENT": "We use the SimpleMail service provided by AWS to send emails."
+					},
+					"BOT_PROTECTION": {
+						"TITLE": "Bot Protection",
+						"CONTENT": "To protect against bots and similar technologies, we use the Cheq service provided by CHEQ AI Technologies Ltd. ('Cheq') and services from Datadog Inc. ('Datadog'). Cheq uses data transmitted automatically by your device to determine whether a request likely comes from a human. Data is not stored afterward. Processing is carried out to maintain processing security under Art. 32 of the GDPR and based on our legitimate interest (Art. 6, para. 1, letter f of the GDPR). Cheq may process personal data in Israel, a country recognized as offering adequate protection.",
+						"NOTE": "Datadog may process personal data in the U.S. and participates in the EU–U.S. Data Privacy Framework, ensuring adequate protection for transferred data."
+					}
+				},
+				"PAYMENTS": {
+					"TITLE": "Payments",
+					"CONTENT": "We offer multiple payment methods for activities booked via the propero.io application. Depending on your selected method, we process your personal data to complete the transaction. This processing is necessary to fulfill our contractual obligations (Art. 6, para. 1, letter b of the GDPR).",
+					"CREDIT_CARD": {
+						"TITLE": "Credit Card Payments",
+						"CONTENT": "For credit card transactions, we use third-party payment providers. These providers forward your payment details to banks or financial institutions to process the transaction. We only receive the payment confirmation and the first 6 and last 4 digits of your card. We do not have access to your full card number."
+					},
+					"PRIMER": {
+						"TITLE": "Payment Orchestration Services",
+						"CONTENT": "We use payment orchestration services provided by Primer API Ltd. ('Primer'). Primer automatically forwards the payment request to the appropriate payment service provider. Primer may process personal data in the United Kingdom, a country recognized as offering adequate data protection."
+					}
+				},
+				"FRAUD_PREVENTION": {
+					"TITLE": "Fraud Prevention",
+					"CONTENT": "To protect our services, providers, and users against fraud, we use tools from Sift Science, Inc. ('Sift Science'), Adyen N.V. ('Adyen'), and Ethoca Inc. ('Ethoca'). These tools help us analyze transaction and behavior data to detect fraud or abuse. We process this data based on our legitimate interest (Art. 6, para. 1, letter f of the GDPR).",
+					"NOTE_1": "Sift Science may process personal data in the U.S. under standard contractual clauses.",
+					"NOTE_2": "Ethoca may transfer data to Canada, a country recognized by the European Commission as providing adequate data protection."
+				},
+				"TRACKING_TECH": {
+					"TITLE": "Cookies and Tracking Technologies",
+					"CONTENT": "We use cookies and other tracking technologies to improve platform functionality, analyze usage, and support marketing strategies.",
+					"TYPES": {
+						"TEMPORARY": "Temporary cookies: store technical data during the session.",
+						"PERMANENT": "Persistent cookies: retain data even after the session ends.",
+						"BEACONS": "Web beacons (tags/pixels): collect device, IP address, and behavior data.",
+						"SCRIPTS": "Scripts: provide security, interactivity, analytics, and ad functions.",
+						"URLS": "Tracking URLs: contain unique identifiers for analysis.",
+						"SDK": "SDKs: store data in apps, unique identifiers, location, and activity data."
+					},
+					"CATEGORIES": {
+						"NECESSARY": "Strictly necessary technologies",
+						"ANALYTICS": "Analytical technologies",
+						"MARKETING": "Marketing technologies"
+					},
+					"NOTE": "You can manage your consent for each category in the 'Cookie and Marketing Preferences' section. Your preferences will apply across all devices and platforms."
+				},
+				"SOCIAL_MEDIA": {
+					"TITLE": "Social Media",
+					"FACEBOOK": {
+						"TITLE": "Facebook",
+						"CONTENT": "You can find our Facebook page here. The platform is operated by Meta. If you visit or like our page as a registered user, Meta will collect your data. Even without an account, Meta may collect pseudonymous data. We are jointly responsible with Meta for page insights and have concluded a joint controller agreement. Meta participates in the EU–U.S. Data Privacy Framework."
+					},
+					"LINKEDIN": {
+						"TITLE": "LinkedIn",
+						"CONTENT": "Similar to Facebook, LinkedIn collects your data when you interact with our company page. LinkedIn is operated by Microsoft and participates in the EU–U.S. Data Privacy Framework."
+					}
+				},
+				"CRM_SYSTEM": {
+					"TITLE": "CRM System",
+					"CONTENT": "To manage relationships with our clients, we store your personal data in our CRM system. This enables us to respond to inquiries in a targeted manner and send you contextual advertising within the legal framework. The processing is based on our legitimate interest in managing customer relations (Art. 6, para. 1, letter f of the GDPR).",
+					"NOTE": "We use services provided by Braze, Inc. ('Braze') for this purpose. Braze may process personal data in countries outside the European Economic Area, especially in the U.S. Braze participates in the EU–U.S. Data Privacy Framework, ensuring adequate protection for transferred data. If you consent (Art. 6, para. 1, letter a of the GDPR) through the 'Cookie and Marketing Preferences' section or in the 'Privacy Preferences' of the app, we may send newsletters, push notifications, or messages based on your interests and behavior on the platform."
+				},
+				"WEBSITE_PERSONALIZATION": {
+					"TITLE": "Website Content Personalization",
+					"CONTENT": "We process your data to display personalized content on our website. The legal basis for this is our legitimate interest in showing you tours and activities relevant to you (Art. 6, para. 1, letter f of the GDPR)."
+				},
+				"DATA_SHARING_CONTINUED": {
+					"TITLE": "Continued Data Sharing",
+					"CONTENT": "Your personal data will only be shared without your consent in the following cases:"
+				},
+				"DATA_SHARING_CASES": {
+					"TITLE": "Cases in Which Your Data May Be Shared",
+					"CASES": {
+						"CASE_1": "When necessary to clarify unlawful use.",
+						"CASE_2": "When required to enforce the terms of use.",
+						"CASE_3": "When we are legally required to provide information to certain public authorities.",
+						"CASE_4": "To auditors, lawyers, accountants, tax consultants, banks, etc., for operational or legal purposes.",
+						"CASE_5": "To our partners, to measure campaign effectiveness or reimbursements.",
+						"CASE_6": "To contracted third-party providers ('processors') under Art. 28, para. 1 of the GDPR.",
+						"CASE_7": "In the case of corporate restructuring, when customer information may be transferred as part of a transaction."
+					},
+					"NOTE": "Transfers to third countries are made only where an adequacy decision exists (Art. 45 GDPR) or where standard contractual clauses are in place (Art. 46 GDPR)."
+				},
+				"AUTOMATED_DECISIONS": {
+					"TITLE": "Automated Individual Decisions or Profiling",
+					"CONTENT": "We may use automated decision-making processes to enhance platform security and prevent fraud. For example, a high-risk transaction may be automatically blocked based on a fraud score.",
+					"RIGHTS": "You have the right to request human intervention, express your viewpoint, and contest the decision by contacting our data protection team."
+				},
+				"DATA_DELETION": {
+					"TITLE": "Deletion of Your Data",
+					"CONTENT": "We delete or anonymize your data as soon as it is no longer required. Backup copies are retained only where required by law or to defend legal rights.",
+					"NOTE": ""
+				},
+				"PERSONAL_RIGHTS": {
+					"TITLE": "Your Rights as a Data Subject / Data Protection Officer",
+					"CONTENT": "We delete or anonymize your personal data as soon as it is no longer necessary for the purposes for which we collected or used it, in accordance with the above sections. We may continue to retain your data if legally obligated or if required for a longer period to prosecute or enforce legal claims. However, we will only retain backup copies as long as necessary for legal reasons or to pursue or defend claims, based on our legitimate interests under Art. 6, para. 1, letter f of the GDPR. If legal retention is required, data processing will be restricted. In this case, the data will no longer be available for use.",
+					"ACCESS": {
+						"TITLE": "Right of Access (Art. 15 GDPR)",
+						"CONTENT": "You have the right to receive information about the personal data we process about you."
+					},
+					"RECTIFICATION": {
+						"TITLE": "Right to Rectification (Art. 16 GDPR)",
+						"CONTENT": "You can request the correction of inaccurate data concerning you."
+					},
+					"DELETION": {
+						"TITLE": "Right to Erasure (Art. 17 GDPR)",
+						"CONTENT": "You may request the deletion of personal data under certain conditions."
+					},
+					"RESTRICTION": {
+						"TITLE": "Right to Restrict Processing (Art. 18 GDPR)",
+						"CONTENT": "You have the right to request that processing be restricted in certain cases."
+					},
+					"PORTABILITY": {
+						"TITLE": "Right to Data Portability (Art. 20 GDPR)",
+						"CONTENT": "You may receive your data in a structured format and transmit it to another controller."
+					},
+					"OBJECTION": {
+						"TITLE": "Right to Object (Art. 21 GDPR)",
+						"CONTENT": "You can object to processing based on legitimate interests."
+					},
+					"COMPLAINT": {
+						"TITLE": "Right to Lodge a Complaint (Art. 77 GDPR)",
+						"CONTENT": "You have the right to contact a supervisory authority."
+					},
+					"CONSENT_WITHDRAWAL": {
+						"TITLE": "Right to Withdraw Consent (Art. 7, para. 3 GDPR)",
+						"CONTENT": "You may withdraw your previously granted consent at any time."
+					},
+					"EXECUTION_PROCESSING": {
+						"TITLE": "Processing During Rights Execution",
+						"CONTENT": "We process the data you send when exercising your rights to document and fulfill your requests, in accordance with Art. 6, para. 1, letter c of the GDPR."
+					}
+				},
+				"PRIVACY": {
+					"CONTACT": {
+						"TITLE": "Contact",
+						"DESCRIPTION": "For questions regarding data protection or to exercise your rights, you can contact us using the information below.",
+						"EMAIL": "Email",
+						"ADDRESS": {
+							"LABEL": "Address",
+							"VALUE": "Str. Exemplu 123, Bucharest, Romania"
+						},
+						"PHONE": {
+							"LABEL": "Phone",
+							"VALUE": "+40 743 366 266"
+						}
+					}
+				}
+			}
+		}
+	},
+	"FOOTER": {
+		"CAREERS_TITLE": "Careers",
+		"CAREERS_TEXT": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"CAREERS_WHY_JOIN_TITLE": "Why Join Us?",
+		"CAREERS_WHY_JOIN_1": "At Propero, we use technology to completely transform how the real estate sector is managed.",
+		"CAREERS_WHY_JOIN_2": "Join a team that believes in genuine innovation, smart automation, and making a direct impact on customer experience.",
+		"CAREERS_WHY_JOIN_3": "We build products that simplify, digitize, and optimize every step in property management.",
+		"CAREERS_WHY_JOIN_4": "At Propero, your ideas are valued, and you contribute to a proptech ecosystem that redefines real estate standards.",
+		"CAREERS_WHY_JOIN_DESCRIPTION": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"CAREERS_WHY_JOIN_BENEFITS": {
+			"TITLE": "Benefits",
+			"DESCRIPTION": "The benefits of working with us"
+		},
+		"CAREERS_OPEN_POSITIONS_TITLE": "Open Positions",
+		"CAREERS_OPEN_POSITIONS_DESCRIPTION": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"CAREERS_POSITION_1_TITLE": "Business Development Manager",
+		"CAREERS_POSITION_1_DESC": "Identify growth opportunities, build strategic partnerships, and develop new sales channels. If you have commercial flair and entrepreneurial thinking, Propero awaits you on the front line.",
+		"CAREERS_POSITION_2_TITLE": "Account Executive – B2B SaaS",
+		"CAREERS_POSITION_2_DESC": "Responsible for the entire sales cycle: from prospecting to contract signing. You'll work with real estate agencies, property managers, and developers to demonstrate Propero's value in daily operations.",
+		"CAREERS_POSITION_3_TITLE": "Inside Sales Representative",
+		"CAREERS_POSITION_3_DESC": "Turn warm leads into loyal customers through consultancy, demos, and smart follow-ups. Excellent communication skills and a desire to grow in a fast-paced tech environment? You've found the right place.",
+		"CAREERS_POSITION_4_TITLE": "Strategic Partnerships Lead",
+		"CAREERS_POSITION_4_DESC": "Build and maintain relationships with key industry partners: homeowners' associations, management companies, developers, and integrators. Create bridges between technology and the real estate ecosystem for sustainable growth.",
+		"CAREERS_APPLY_NOW": "Apply Now",
+		"CAREERS_BENEFITS_TITLE": "Benefits",
+		"CAREERS_BENEFIT_1_TITLE": "Meaningful Work, Not Just Tasks",
+		"CAREERS_BENEFIT_1_DESC": "Every new feature and client brings real impact in digitizing the real estate industry. Contribute to a platform used daily by professionals nationwide.",
+		"CAREERS_BENEFIT_2_TITLE": "Flexibility & Remote-Friendly",
+		"CAREERS_BENEFIT_2_DESC": "We work in a hybrid or remote manner, depending on the team and preferences. You have the freedom to organize your time, focusing on results, not presence.",
+		"CAREERS_BENEFIT_3_TITLE": "Customized Subscriptions and Benefits",
+		"CAREERS_BENEFIT_3_DESC": "Access to wellness subscriptions, digital libraries, conference participation, and resources for professional development – all tailored to your needs.",
+		"CAREERS_BENEFIT_4_TITLE": "Culture Based on Transparency and Trust",
+		"CAREERS_BENEFIT_4_DESC": "At Propero, good ideas come from anywhere. You have visibility into the company's direction and the opportunity to directly influence what we build.",
+		"CAREERS_BENEFIT_5_TITLE": "Collegiality and Team Spirit",
+		"CAREERS_BENEFIT_5_DESC": "We're a small but well-knit team. We support each other, celebrate successes together, and leave no one behind.",
+		"BLOG_TITLE": "Blog",
+		"BLOG_TEXT": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"BLOG_POST_TITLE_1": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"BLOG_POST_EXCERPT_1": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"BLOG_POST_TITLE_2": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"BLOG_POST_EXCERPT_2": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"BLOG_POST_TITLE_3": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"BLOG_POST_EXCERPT_3": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"BLOG_POST_TITLE_4": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"BLOG_POST_EXCERPT_4": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"BLOG_POST_TITLE_5": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"BLOG_ALL": "All Posts",
+		"BLOG_CATEGORY_1": "Category 1.",
+		"BLOG_CATEGORY_2": "Category 2.",
+		"BLOG_CATEGORY_3": "Category 3.",
+		"BLOG_CATEGORY_4": "Category 4.",
+		"BLOG_CATEGORY_5": "Category 5.",
+		"BLOG_CATEGORY_6": "Category 6.",
+		"BLOG_READ_MORE": "Read More",
+		"BLOG_READ_LESS": "Read Less",
+		"BLOG_READ_MORE_TITLE": "Read More",
+		"BLOG_READ_LESS_TITLE": "Read Less",
+		"BLOG_READ_MORE_DESCRIPTION": "Read More",
+		"BLOG_READ_LESS_DESCRIPTION": "Read Less",
+		"PRESS_TITLE": "Press",
+		"PRESS_TEXT": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_CONTACT_TITLE": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_CONTACT_TEXT": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_CONTACT_BUTTON": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_RELEASES_TITLE": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_RELEASE_1_DATE": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_RELEASE_1_TITLE": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_RELEASE_1_EXCERPT": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_RELEASE_2_DATE": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_RELEASE_2_TITLE": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_RELEASE_2_EXCERPT": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_RELEASE_3_DATE": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_RELEASE_3_TITLE": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_RELEASE_3_EXCERPT": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_READ_MORE": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_KIT_TITLE": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_KIT_LOGOS_DESC": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_KIT_PHOTOS": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_DOWNLOAD": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"PRESS_KIT_FACT_SHEET": "Propero is a company aiming to enhance customer experience through technology and innovation.",
+		"COLLABORATION_TITLE": "Collaboration",
+		"COLLABORATION_TEXT": "At Propero, we believe in the power of strategic partnerships that bring real value to users in the real estate domain. We collaborate with professionals, companies, and organizations to jointly build the digital future of property management.",
+		"COLLABORATION_BENEFITS_TITLE": "Why collaborate with Propero",
+		"COLLABORATION_BENEFIT_1_TITLE": "Access to a rapidly growing platform",
+		"COLLABORATION_BENEFIT_1_DESC": "As part of the Propero ecosystem, you get the opportunity to interact with an active community of managers, real estate agents, and developers.",
+		"COLLABORATION_BENEFIT_2_TITLE": "Visibility and professional positioning",
+		"COLLABORATION_BENEFIT_2_DESC": "We promote our partners through the platform, dedicated campaigns, and industry events. Every collaboration is also a branding opportunity.",
+		"COLLABORATION_BENEFIT_3_TITLE": "Simple technological integration",
+		"COLLABORATION_BENEFIT_3_DESC": "Modern APIs and a dedicated technical support team to make collaboration as smooth and efficient as possible from an operational point of view.",
+		"COLLABORATION_BENEFIT_4_TITLE": "Win-win partnerships",
+		"COLLABORATION_BENEFIT_4_DESC": "We focus on long-term, transparent collaborations oriented towards tangible results for both parties.",
+		"COLLABORATION_PARTNERS_TITLE": "Trusted Partners",
+		"COLLABORATION_PARTNER_1_NAME": "AdminSoft",
+		"COLLABORATION_PARTNER_1_DESC": "Integrated solutions for billing and financial management, fully compatible with Propero for complete management of buildings and properties.",
+		"COLLABORATION_PARTNER_2_NAME": "SmartSec",
+		"COLLABORATION_PARTNER_2_DESC": "Intelligent access and control systems for properties, integrated with Propero notifications and reports in real time.",
+		"COLLABORATION_PARTNER_3_NAME": "EcoClean Pro",
+		"COLLABORATION_PARTNER_3_DESC": "Professional cleaning services for buildings and residential complexes, with scheduling managed directly from the app.",
+		"COLLABORATION_CONTACT_TITLE": "Become a Propero Partner",
+		"COLLABORATION_CONTACT_TEXT": "If you represent a company, a service provider or have a collaboration idea, we are open to proposals. Write to us and let's build together!",
+		"COLLABORATION_CONTACT_BUTTON": "Send your proposal",
+		"COLLABORATION_CONTACT_FORM_NAME": "Your Name",
+		"COLLABORATION_CONTACT_FORM_EMAIL": "Your Email Address",
+		"COLLABORATION_CONTACT_FORM_MESSAGE": "Your Message or Collaboration Proposal",
+		"COLLABORATION_LEARN_MORE": "Learn More",
+		"COLLABORATION_LEARN_MORE_TITLE": "We're building a network of innovative partners",
+		"COLLABORATION_LEARN_MORE_DESCRIPTION": "Propero connects technology with people in real estate. We collaborate with those who share the same digital vision. If you have solutions, services, or know-how in the field, let's talk.",
+		"COLLABORATION_LEARN_MORE_BUTTON": "Contact Us",
+		"COMPANY": {
+			"TITLE": "Company",
+			"ABOUT": "About Us",
+			"CAREERS": "Careers",
+			"PRESS": "Press",
+			"BLOG": "Blog",
+			"CONTACT": "Contact"
+		},
+		"PRODUCT": {
+			"TITLE": "Product",
+			"FEATURES": "Features",
+			"PRICING": "Pricing",
+			"SECURITY": "Security",
+			"ENTERPRISE": "Enterprise",
+			"API": "API"
+		},
+		"RESOURCES": {
+			"TITLE": "Resources",
+			"DOCUMENTATION": "Documentation",
+			"GUIDES": "Guides",
+			"WEBINARS": "Webinars",
+			"CASE_STUDIES": "Case Studies",
+			"HELP_CENTER": "Help Center"
+		},
+		"LEGAL": {
+			"TITLE": "Legal",
+			"TERMS": "Terms & Conditions",
+			"PRIVACY": "Privacy Policy",
+			"GDPR": "GDPR",
+			"COOKIES": "Cookies Policy",
+			"SECURITY_POLICY": "Security Policy"
+		},
+		"SOCIAL": {
+			"TITLE": "Social Media",
+			"FOLLOW_US": "Follow us on",
+			"FACEBOOK": "Facebook",
+			"LINKEDIN": "LinkedIn",
+			"INSTAGRAM": "Instagram",
+			"TWITTER": "Twitter"
+		},
+		"NEWSLETTER": {
+			"TITLE": "Newsletter",
+			"DESCRIPTION": "Subscribe for news and updates",
+			"EMAIL_PLACEHOLDER": "Enter your email address",
+			"SUBSCRIBE": "Subscribe",
+			"SUCCESS": "You have successfully subscribed!",
+			"ERROR": "An error occurred. Please try again."
+		},
+		"COPYRIGHT": "© 2024 Propero. All rights reserved."
+	},
+	"ERROR": {
+		"404": {
+			"TITLE": "Page Not Found",
+			"DESCRIPTION": "Sorry, the page you are looking for does not exist.",
+			"BACK_HOME": "Back to Homepage"
+		},
+		"500": {
+			"TITLE": "Server Error",
+			"DESCRIPTION": "Sorry, an error occurred on the server.",
+			"TRY_AGAIN": "Try Again"
+		},
+		"403": {
+			"TITLE": "Access Denied",
+			"DESCRIPTION": "You do not have permission to access this page.",
+			"CONTACT_ADMIN": "Contact Administrator"
+		},
+		"GENERAL": {
+			"TITLE": "An Error Occurred",
+			"DESCRIPTION": "Sorry, something went wrong.",
+			"REFRESH": "Reload Page"
+		}
+	},
+	"AUTH": {
+		"LOGIN": {
+			"TITLE": "Login",
+			"SUBTITLE": "Welcome back! Please log in",
+			"EMAIL": "Email",
+			"PASSWORD": "Password",
+			"REMEMBER_ME": "Remember Me",
+			"FORGOT_PASSWORD": "Forgot your password?",
+			"SUBMIT": "Login",
+			"NO_ACCOUNT": "Don’t have an account?",
+			"REGISTER": "Register",
+			"ERROR": "Incorrect email or password",
+			"SUCCESS": "Login successful",
+			"SOCIAL": {
+				"TITLE": "Or login with",
+				"GOOGLE": "Google",
+				"FACEBOOK": "Facebook",
+				"APPLE": "Apple",
+				"MICROSOFT": "Microsoft"
+			},
+			"VALIDATION": {
+				"EMAIL_REQUIRED": "Email is required",
+				"EMAIL_INVALID": "Email is not valid",
+				"PASSWORD_REQUIRED": "Password is required",
+				"PASSWORD_MIN": "Password must be at least 8 characters"
+			}
+		},
+		"REGISTER": {
+			"TITLE": "Register",
+			"SUBTITLE": "Create a new account",
+			"NAME": "Full Name",
+			"EMAIL": "Email",
+			"PASSWORD": "Password",
+			"CONFIRM_PASSWORD": "Confirm Password",
+			"AGREE_TERMS": "I agree to the Terms and Conditions",
+			"SUBMIT": "Register",
+			"HAVE_ACCOUNT": "Already have an account?",
+			"LOGIN": "Login",
+			"SUCCESS": "Account created successfully!",
+			"ERROR": "An error occurred during registration"
+		},
+		"FORGOT_PASSWORD": {
+			"TITLE": "Reset Password",
+			"EMAIL": "Email",
+			"SUBMIT": "Send Reset Link",
+			"BACK_TO_LOGIN": "Back to Login",
+			"SUCCESS": "Password reset email has been sent!",
+			"ERROR": "Email not found"
+		},
+		"RESET_PASSWORD": {
+			"TITLE": "Set New Password",
+			"NEW_PASSWORD": "New Password",
+			"CONFIRM_PASSWORD": "Confirm New Password",
+			"SUBMIT": "Save Password",
+			"SUCCESS": "Password changed successfully!",
+			"ERROR": "The reset link is invalid or has expired"
+		},
+		"VALIDATION": {
+			"REQUIRED": "This field is required",
+			"EMAIL_INVALID": "Email address is not valid",
+			"PASSWORD_MIN": "Password must be at least 8 characters",
+			"PASSWORD_MATCH": "Passwords do not match",
+			"TERMS_REQUIRED": "You must accept the terms and conditions"
+		}
+	},
+	"PROFILE": {
+		"TITLE": "Profilul meu",
+		"SUBTITLE": "Gestionați informațiile contului dvs.",
+		"PERSONAL_INFO": {
+			"TITLE": "Informații personale",
+			"NAME": "Nume complet",
+			"EMAIL": "Adresă de email",
+			"PHONE": "Număr de telefon",
+			"ADDRESS": "Adresă",
+			"EDIT": "Editează informațiile"
+		},
+		"SECURITY": {
+			"TITLE": "Securitate",
+			"PASSWORD": "Parolă",
+			"CHANGE_PASSWORD": "Schimbă parola",
+			"TWO_FACTOR": "Autentificare cu doi factori",
+			"ENABLE_2FA": "Activează 2FA",
+			"DISABLE_2FA": "Dezactivează 2FA"
+		},
+		"PREFERENCES": {
+			"TITLE": "Preferințe",
+			"LANGUAGE": "Limbă",
+			"TIMEZONE": "Fus orar",
+			"NOTIFICATIONS": "Notificări",
+			"EMAIL_NOTIFICATIONS": "Notificări prin email",
+			"SMS_NOTIFICATIONS": "Notificări prin SMS",
+			"PUSH_NOTIFICATIONS": "Notificări push"
+		},
+		"ACTIONS": {
+			"SAVE": "Salvează modificările",
+			"CANCEL": "Anulează",
+			"DELETE_ACCOUNT": "Șterge contul",
+			"CONFIRM_DELETE": "Sigur doriți să ștergeți contul? Această acțiune este ireversibilă."
+		},
+		"MESSAGES": {
+			"UPDATE_SUCCESS": "Profil actualizat cu succes.",
+			"UPDATE_ERROR": "A apărut o eroare la actualizarea profilului.",
+			"PASSWORD_CHANGED": "Parola a fost schimbată cu succes.",
+			"PASSWORD_CHANGE_ERROR": "Eroare la schimbarea parolei.",
+			"ACCOUNT_DELETED": "Contul a fost șters cu succes.",
+			"ACCOUNT_DELETE_ERROR": "Eroare la ștergerea contului."
+		},
+		"VALIDATION": {
+			"NAME_REQUIRED": "Numele este obligatoriu.",
+			"EMAIL_REQUIRED": "Email-ul este obligatoriu.",
+			"EMAIL_INVALID": "Email-ul nu este valid.",
+			"PHONE_INVALID": "Numărul de telefon nu este valid.",
+			"PASSWORD_REQUIRED": "Parola este obligatorie.",
+			"PASSWORD_MIN": "Parola trebuie să aibă cel puțin 8 caractere.",
+			"PASSWORD_CONFIRM": "Parolele nu coincid."
+		}
+	},
+	"NOTIFICATIONS": {
+		"SUCCESS": {
+			"TITLE": "Success!",
+			"SAVED": "Changes have been saved",
+			"DELETED": "Item has been deleted",
+			"UPDATED": "Update successful"
+		},
+		"ERROR": {
+			"TITLE": "Error!",
+			"GENERAL": "An error occurred",
+			"SAVE_FAILED": "Saving failed",
+			"DELETE_FAILED": "Deletion failed",
+			"UPDATE_FAILED": "Update failed"
+		},
+		"WARNING": {
+			"TITLE": "Warning!",
+			"CONFIRM_DELETE": "Are you sure you want to delete?",
+			"UNSAVED_CHANGES": "You have unsaved changes"
+		},
+		"INFO": {
+			"TITLE": "Information",
+			"LOADING": "Loading...",
+			"NO_RESULTS": "No results found",
+			"SESSION_EXPIRED": "Session has expired"
+		},
+		"TITLE": "Notifications",
+		"MARK_ALL_READ": "Mark all as read",
+		"CLEAR_ALL": "Clear all",
+		"NO_NOTIFICATIONS": "You have no new notifications",
+		"SHOW_MORE": "Show more",
+		"LOADING": "Loading notifications...",
+		"TYPES": {
+			"ALL": "All notifications",
+			"UNREAD": "Unread",
+			"READ": "Read",
+			"SYSTEM": "System",
+			"PROPERTY": "Properties",
+			"TENANT": "Tenants",
+			"MAINTENANCE": "Maintenance",
+			"PAYMENT": "Payments",
+			"DOCUMENT": "Documents"
+		},
+		"FILTERS": {
+			"TITLE": "Filter notifications",
+			"TYPE": "Type",
+			"DATE": "Date",
+			"PRIORITY": "Priority",
+			"STATUS": "Status",
+			"APPLY": "Apply filters",
+			"CLEAR": "Clear filters"
+		},
+		"PRIORITY": {
+			"LOW": "Low priority",
+			"MEDIUM": "Medium priority",
+			"HIGH": "High priority",
+			"URGENT": "Urgent"
+		},
+		"STATUS": {
+			"NEW": "New",
+			"READ": "Read",
+			"ARCHIVED": "Archived",
+			"DELETED": "Deleted"
+		},
+		"ACTIONS": {
+			"MARK_READ": "Mark as read",
+			"MARK_UNREAD": "Mark as unread",
+			"ARCHIVE": "Archive",
+			"DELETE": "Delete",
+			"RESTORE": "Restore",
+			"VIEW": "View details"
+		},
+		"MESSAGES": {
+			"PROPERTY": {
+				"NEW": "New property added",
+				"UPDATED": "Property updated",
+				"DELETED": "Property deleted",
+				"MAINTENANCE": "New maintenance request",
+				"INSPECTION": "Inspection scheduled"
+			},
+			"TENANT": {
+				"NEW": "New tenant added",
+				"UPDATED": "Tenant information updated",
+				"DELETED": "Tenant deleted",
+				"PAYMENT_DUE": "Payment due",
+				"PAYMENT_RECEIVED": "Payment received",
+				"PAYMENT_LATE": "Late payment",
+				"CONTRACT_EXPIRING": "Contract expiring",
+				"CONTRACT_RENEWED": "Contract renewed"
+			},
+			"MAINTENANCE": {
+				"NEW_REQUEST": "New maintenance request",
+				"STATUS_UPDATED": "Maintenance status updated",
+				"COMPLETED": "Maintenance completed",
+				"SCHEDULED": "Maintenance scheduled",
+				"CANCELLED": "Maintenance cancelled"
+			},
+			"DOCUMENT": {
+				"NEW": "New document added",
+				"UPDATED": "Document updated",
+				"DELETED": "Document deleted",
+				"SHARED": "Document shared",
+				"EXPIRED": "Document expired"
+			},
+			"SYSTEM": {
+				"UPDATE": "System update available",
+				"MAINTENANCE": "Scheduled system maintenance",
+				"SECURITY": "Security alert",
+				"BACKUP": "Backup completed",
+				"ERROR": "System error"
+			}
+		},
+		"SETTINGS": {
+			"TITLE": "Notification settings",
+			"EMAIL": {
+				"TITLE": "Email notifications",
+				"ENABLED": "Enabled",
+				"DISABLED": "Disabled",
+				"FREQUENCY": {
+					"TITLE": "Frequency",
+					"INSTANT": "Instant",
+					"DAILY": "Daily",
+					"WEEKLY": "Weekly"
+				}
+			},
+			"PUSH": {
+				"TITLE": "Push notifications",
+				"ENABLED": "Enabled",
+				"DISABLED": "Disabled",
+				"BROWSER": "Browser",
+				"MOBILE": "Mobile"
+			},
+			"SMS": {
+				"TITLE": "SMS notifications",
+				"ENABLED": "Enabled",
+				"DISABLED": "Disabled",
+				"URGENT_ONLY": "Urgent only"
+			},
+			"CATEGORIES": {
+				"TITLE": "Categories",
+				"PROPERTY": "Properties",
+				"TENANT": "Tenants",
+				"MAINTENANCE": "Maintenance",
+				"PAYMENT": "Payments",
+				"DOCUMENT": "Documents",
+				"SYSTEM": "System"
+			}
+		}
+	},
+	"COMMON": {
+		"ACTIONS": {
+			"ADD": "Add",
+			"EDIT": "Edit",
+			"DELETE": "Delete",
+			"SAVE": "Save",
+			"CANCEL": "Cancel",
+			"CONFIRM": "Confirm",
+			"BACK": "Back",
+			"NEXT": "Next",
+			"PREVIOUS": "Previous",
+			"SEARCH": "Search",
+			"FILTER": "Filter",
+			"CLEAR": "Clear filters",
+			"REFRESH": "Refresh",
+			"DOWNLOAD": "Download",
+			"UPLOAD": "Upload",
+			"PRINT": "Print",
+			"CLOSE": "Close",
+			"VIEW": "View",
+			"COPY": "Copy",
+			"PASTE": "Paste",
+			"CUT": "Cut",
+			"UNDO": "Undo",
+			"REDO": "Redo",
+			"SELECT_ALL": "Select all",
+			"DESELECT_ALL": "Deselect all",
+			"EXPORT": "Export",
+			"IMPORT": "Import",
+			"SHARE": "Share",
+			"ARCHIVE": "Archive",
+			"RESTORE": "Restore",
+			"MOVE": "Move",
+			"SORT": "Sort",
+			"APPLY": "Apply",
+			"RESET": "Reset"
+		},
+		"STATUS": {
+			"ACTIVE": "Active",
+			"INACTIVE": "Inactive",
+			"PENDING": "Pending",
+			"COMPLETED": "Completed",
+			"FAILED": "Failed",
+			"EXPIRED": "Expired",
+			"DRAFT": "Draft",
+			"PUBLISHED": "Published",
+			"ARCHIVED": "Archived",
+			"DELETED": "Deleted",
+			"PROCESSING": "Processing",
+			"ON_HOLD": "On hold",
+			"CANCELLED": "Cancelled",
+			"APPROVED": "Approved",
+			"REJECTED": "Rejected"
+		},
+		"LABELS": {
+			"NAME": "Name",
+			"EMAIL": "Email",
+			"PHONE": "Phone",
+			"ADDRESS": "Address",
+			"DATE": "Date",
+			"TIME": "Time",
+			"DESCRIPTION": "Description",
+			"DETAILS": "Details",
+			"NOTES": "Notes",
+			"TYPE": "Type",
+			"CATEGORY": "Category",
+			"STATUS": "Status",
+			"PRIORITY": "Priority",
+			"TAGS": "Tags",
+			"COMMENTS": "Comments",
+			"ATTACHMENTS": "Attachments",
+			"CREATED_AT": "Created at",
+			"UPDATED_AT": "Updated at",
+			"CREATED_BY": "Created by",
+			"UPDATED_BY": "Updated by",
+			"VERSION": "Version",
+			"SIZE": "Size",
+			"FORMAT": "Format",
+			"LANGUAGE": "Language",
+			"CURRENCY": "Currency",
+			"AMOUNT": "Amount",
+			"QUANTITY": "Quantity",
+			"TOTAL": "Total",
+			"SUBTOTAL": "Subtotal",
+			"TAX": "VAT",
+			"DISCOUNT": "Discount",
+			"PRICE": "Price",
+			"DARK_MODE": "Dark mode",
+			"USER_MENU": "User menu"
+		},
+		"SIDEBAR": {
+			"DASHBOARD": "Dashboard",
+			"PROPERTIES": "Properties",
+			"TENANTS": "Tenants",
+			"DOCUMENTS": "Documents",
+			"MAINTENANCE": "Maintenance",
+			"REPORTS": "Reports",
+			"SETTINGS": "Settings",
+			"COLLAPSE": "Collapse menu",
+			"EXPAND": "Expand menu",
+			"QUICK_ACTIONS": "Quick actions",
+			"FAVORITES": "Favorites"
+		},
+		"NAVIGATION": {
+			"BREADCRUMBS": {
+				"HOME": "Home",
+				"BACK": "Back",
+				"CURRENT": "Current page"
+			},
+			"PAGINATION": {
+				"PREVIOUS": "Previous",
+				"NEXT": "Next",
+				"OF": "of",
+				"ITEMS_PER_PAGE": "Items per page",
+				"FIRST": "First page",
+				"LAST": "Last page",
+				"PAGE": "Page",
+				"TOTAL": "Total"
+			},
+			"TABS": {
+				"OVERVIEW": "Overview",
+				"DETAILS": "Details",
+				"HISTORY": "History",
+				"SETTINGS": "Settings"
+			}
+		},
+		"SEARCH": {
+			"PLACEHOLDER": "Search...",
+			"NO_RESULTS": "No results found",
+			"RESULTS": "results found",
+			"ADVANCED": "Advanced search",
+			"FILTERS": "Filters",
+			"CLEAR": "Clear filters",
+			"CATEGORIES": "Categories",
+			"SORT": "Sort",
+			"RECENT": "Recent searches"
+		},
+		"FORMS": {
+			"REQUIRED": "Required field",
+			"INVALID": "Invalid value",
+			"SUBMIT": "Submit",
+			"CANCEL": "Cancel",
+			"SAVE": "Save",
+			"EDIT": "Edit",
+			"DELETE": "Delete",
+			"CONFIRM": "Confirm",
+			"LOADING": "Loading...",
+			"ERROR": "An error occurred",
+			"SUCCESS": "Operation successful",
+			"VALIDATION": {
+				"REQUIRED": "This field is required",
+				"EMAIL": "Invalid email address",
+				"MIN_LENGTH": "Minimum {0} characters",
+				"MAX_LENGTH": "Maximum {0} characters",
+				"PATTERN": "Invalid format",
+				"MATCH": "Fields do not match"
+			}
+		},
+		"MODALS": {
+			"CLOSE": "Close",
+			"CONFIRM": {
+				"TITLE": "Confirmation",
+				"YES": "Yes",
+				"NO": "No",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"DELETE": {
+				"TITLE": "Delete confirmation",
+				"MESSAGE": "Are you sure you want to delete?",
+				"CONFIRM": "Yes, delete",
+				"CANCEL": "No, cancel"
+			}
+		},
+		"NOTIFICATIONS": {
+			"SUCCESS": {
+				"TITLE": "Success",
+				"SAVE": "Changes have been saved",
+				"DELETE": "Item has been deleted",
+				"UPDATE": "Update successful"
+			},
+			"ERROR": {
+				"TITLE": "Error",
+				"GENERAL": "An error occurred",
+				"SAVE": "Error saving",
+				"DELETE": "Error deleting",
+				"UPDATE": "Error updating"
+			},
+			"WARNING": {
+				"TITLE": "Warning",
+				"UNSAVED": "You have unsaved changes"
+			},
+			"INFO": {
+				"TITLE": "Information",
+				"SESSION_EXPIRED": "Session has expired"
+			}
+		},
+		"TOOLTIPS": {
+			"MORE_INFO": "More information",
+			"CLICK_TO_EDIT": "Click to edit",
+			"DRAG_TO_REORDER": "Drag to reorder",
+			"REQUIRED_FIELD": "Required field",
+			"COPY_TO_CLIPBOARD": "Copy to clipboard"
+		},
+		"PLACEHOLDERS": {
+			"SELECT": "Select...",
+			"SEARCH": "Search...",
+			"DATE": "Select date",
+			"TIME": "Select time",
+			"UPLOAD": "Upload file"
+		},
+		"DATA_DISPLAY": {
+			"TABLE": {
+				"NO_DATA": "No data available",
+				"LOADING": "Loading data...",
+				"SEARCH": "Search table",
+				"FILTER": "Filter",
+				"SORT": "Sort",
+				"ROWS_PER_PAGE": "Rows per page",
+				"SELECTED": "selected",
+				"ACTIONS": "Actions",
+				"EXPORT": "Export",
+				"COLUMNS": "Columns"
+			},
+			"CARDS": {
+				"NO_DATA": "No cards available",
+				"LOADING": "Loading...",
+				"VIEW_MORE": "View more",
+				"COLLAPSE": "Collapse",
+				"EXPAND": "Expand"
+			},
+			"LISTS": {
+				"NO_DATA": "The list is empty",
+				"LOADING": "Loading list...",
+				"LOAD_MORE": "Load more",
+				"END_OF_LIST": "End of list"
+			},
+			"CHARTS": {
+				"NO_DATA": "No chart data available",
+				"LOADING": "Generating chart...",
+				"ZOOM": "Zoom",
+				"RESET": "Reset",
+				"DOWNLOAD": "Download"
+			}
+		},
+		"INPUTS": {
+			"TEXT": {
+				"PLACEHOLDER": "Enter text",
+				"CLEAR": "Clear"
+			},
+			"SELECT": {
+				"PLACEHOLDER": "Select an option",
+				"NO_OPTIONS": "No options available",
+				"LOADING": "Loading options...",
+				"SEARCH": "Search options"
+			},
+			"DATE": {
+				"PLACEHOLDER": "Select date",
+				"FORMAT": "DD/MM/YYYY",
+				"CLEAR": "Clear date",
+				"TODAY": "Today",
+				"CALENDAR": "Calendar"
+			},
+			"FILE": {
+				"DRAG_DROP": "Drag files here or",
+				"BROWSE": "Browse",
+				"MAX_SIZE": "Maximum size: {0}MB",
+				"UPLOADING": "Uploading...",
+				"ERROR": "Upload error",
+				"SUCCESS": "Upload successful"
+			}
+		},
+		"ACTIONS": {
+			"BUTTONS": {
+				"SUBMIT": "Submit",
+				"CANCEL": "Cancel",
+				"SAVE": "Save",
+				"DELETE": "Delete",
+				"EDIT": "Edit",
+				"ADD": "Add",
+				"REMOVE": "Remove",
+				"CLOSE": "Close",
+				"BACK": "Back",
+				"NEXT": "Next",
+				"CONFIRM": "Confirm",
+				"APPLY": "Apply",
+				"RESET": "Reset",
+				"SEARCH": "Search",
+				"FILTER": "Filter",
+				"CLEAR": "Clear",
+				"REFRESH": "Refresh",
+				"EXPORT": "Export",
+				"IMPORT": "Import",
+				"DOWNLOAD": "Download",
+				"UPLOAD": "Upload",
+				"PRINT": "Print",
+				"SHARE": "Share"
+			},
+			"LINKS": {
+				"VIEW": "View",
+				"EDIT": "Edit",
+				"DELETE": "Delete",
+				"MORE": "More",
+				"DETAILS": "Details",
+				"HELP": "Help"
+			}
+		},
+		"FEEDBACK": {
+			"LOADING": {
+				"DEFAULT": "Loading...",
+				"SAVING": "Saving...",
+				"SUBMITTING": "Submitting...",
+				"PROCESSING": "Processing...",
+				"GENERATING": "Generating...",
+				"UPLOADING": "Uploading...",
+				"DOWNLOADING": "Downloading..."
+			},
+			"SUCCESS": {
+				"DEFAULT": "Operation successful",
+				"SAVED": "Successfully saved",
+				"UPDATED": "Successfully updated",
+				"DELETED": "Successfully deleted",
+				"UPLOADED": "Successfully uploaded",
+				"DOWNLOADED": "Successfully downloaded"
+			},
+			"ERROR": {
+				"DEFAULT": "An error occurred",
+				"NETWORK": "Connection error",
+				"VALIDATION": "Validation error",
+				"PERMISSION": "You do not have permission",
+				"NOT_FOUND": "Not found",
+				"SERVER": "Server error"
+			}
+		},
+		"TIME": {
+			"NOW": "Now",
+			"TODAY": "Today",
+			"YESTERDAY": "Yesterday",
+			"TOMORROW": "Tomorrow",
+			"THIS_WEEK": "This week",
+			"LAST_WEEK": "Last week",
+			"NEXT_WEEK": "Next week",
+			"THIS_MONTH": "This month",
+			"LAST_MONTH": "Last month",
+			"NEXT_MONTH": "Next month",
+			"THIS_YEAR": "This year",
+			"LAST_YEAR": "Last year",
+			"NEXT_YEAR": "Next year",
+			"MINUTES_AGO": "{0} minutes ago",
+			"HOURS_AGO": "{0} hours ago",
+			"DAYS_AGO": "{0} days ago",
+			"WEEKS_AGO": "{0} weeks ago",
+			"MONTHS_AGO": "{0} months ago",
+			"YEARS_AGO": "{0} years ago"
+		},
+		"UNITS": {
+			"CURRENCY": {
+				"EUR": "Euro",
+				"USD": "US Dollar",
+				"RON": "Romanian Leu",
+				"GBP": "British Pound"
+			},
+			"SIZE": {
+				"BYTE": "Byte",
+				"KB": "KB",
+				"MB": "MB",
+				"GB": "GB",
+				"TB": "TB"
+			},
+			"TIME": {
+				"SECOND": "Second",
+				"MINUTE": "Minute",
+				"HOUR": "Hour",
+				"DAY": "Day",
+				"WEEK": "Week",
+				"MONTH": "Month",
+				"YEAR": "Year"
+			},
+			"DISTANCE": {
+				"METER": "Meter",
+				"KILOMETER": "Kilometer",
+				"MILE": "Mile"
+			},
+			"AREA": {
+				"SQUARE_METER": "Square meter",
+				"HECTARE": "Hectare",
+				"ACRE": "Acre"
+			}
+		},
+		"MESSAGES": {
+			"LOADING": "Loading...",
+			"SAVING": "Saving...",
+			"PROCESSING": "Processing...",
+			"UPLOADING": "Uploading...",
+			"DOWNLOADING": "Downloading...",
+			"NO_DATA": "No data available",
+			"NO_RESULTS": "No results found",
+			"CONFIRM_DELETE": "Are you sure you want to delete?",
+			"CONFIRM_CANCEL": "Are you sure you want to cancel?",
+			"UNSAVED_CHANGES": "You have unsaved changes",
+			"VALIDATION_ERROR": "Please correct the validation errors",
+			"REQUIRED_FIELDS": "Please fill in all required fields",
+			"SUCCESS_SAVE": "Successfully saved",
+			"SUCCESS_DELETE": "Successfully deleted",
+			"SUCCESS_UPDATE": "Successfully updated",
+			"ERROR_GENERAL": "An error occurred",
+			"ERROR_SAVE": "Error saving",
+			"ERROR_DELETE": "Error deleting",
+			"ERROR_UPDATE": "Error updating",
+			"ERROR_NETWORK": "Connection error",
+			"ERROR_SERVER": "Server error",
+			"ERROR_VALIDATION": "Validation error",
+			"ERROR_PERMISSION": "You do not have the required permission"
+		}
+	},
+	"LEGAL": {
+		"PRIVACY_POLICY": {
+			"TITLE": "Privacy Policy",
+			"LAST_UPDATED": "March 20, 2024",
+			"OVERVIEW": {
+				"TITLE": "Overview",
+				"CONTENT": "This privacy policy describes how we collect, use, and protect your personal information when you use our services."
+			},
+			"INFORMATION": {
+				"TITLE": "Information We Collect",
+				"COLLECTED": {
+					"TITLE": "Collected Data",
+					"PERSONAL": "Personal information such as name, email address, phone number, and postal address",
+					"USAGE": "Information about how you use our services, including interactions with the platform",
+					"COOKIES": "Information collected through cookies and similar technologies",
+					"TECHNICAL": "Technical data such as IP address, browser type, device used, and system settings"
+				}
+			},
+			"USE": {
+				"TITLE": "How We Use Your Information",
+				"CONTENT": "We use the information collected to provide you with the best services and to constantly improve your experience",
+				"SERVICE": "To provide and maintain our services, including customer support",
+				"COMMUNICATION": "To communicate with you about services, updates, and important information",
+				"IMPROVEMENT": "To improve and personalize our services based on user preferences",
+				"LEGAL": "To comply with legal obligations and protect our legal rights"
+			},
+			"SHARING": {
+				"TITLE": "Information Sharing",
+				"CONTENT": "We protect the confidentiality of your data and only share it under specific circumstances and with appropriate safeguards",
+				"SERVICE_PROVIDERS": "With service providers who help us operate, deliver, and improve our services",
+				"BUSINESS_TRANSFER": "In the event of a merger, acquisition, or asset sale, with confidentiality obligations in place",
+				"LEGAL_REQUIREMENTS": "When legally required or to protect our rights and the safety of users"
+			},
+			"SECURITY": {
+				"TITLE": "Data Security",
+				"CONTENT": "We implement appropriate technical and organizational measures to protect your data from unauthorized access, alteration, disclosure, or destruction"
+			},
+			"RIGHTS": {
+				"TITLE": "Your Rights",
+				"ACCESS": "The right to access the personal data we hold about you",
+				"RECTIFICATION": "The right to request the correction of inaccurate or incomplete data",
+				"ERASURE": "The right to request the deletion of your personal data ('right to be forgotten')",
+				"RESTRICTION": "The right to restrict the processing of your personal data",
+				"PORTABILITY": "The right to receive your data in a structured format and transmit it to another controller",
+				"OBJECT": "The right to object to the processing of your personal data"
+			},
+			"CONTACT": {
+				"TITLE": "Privacy Contact",
+				"CONTENT": "For any questions or concerns regarding your data privacy, you can contact us:",
+				"DPO": "dpo@propero.io",
+				"PHONE": "+40 743 366 266",
+				"ADDRESS": "Bucharest, Romania"
+			}
+		}
+	},
+	"ABOUT_US": {
+		"HERO": {
+			"TITLE": "About Propero",
+			"SUBTITLE": "We are transforming how you manage real estate properties",
+			"CTA": "Contact us"
+		},
+		"STORY": {
+			"TITLE": "Our Journey",
+			"INTRO": "Propero was born from the desire to simplify a complicated field. From the first line of code to a stable and scalable platform, we’ve grown steadily, alongside visionary users.",
+			"CONTENT": "We focused on stability, security, and essential functionalities. Today, we’re ready to take the platform to the next level: automation, scaling, and expansion. Propero is not just a product—it’s a foundation for the future of real estate.",
+			"TIMELINE": {
+				"2020": {
+					"TITLE": "Foundation",
+					"DESCRIPTION": "We started developing the platform with a focus on simplicity, performance, and clear functionalities."
+				},
+				"2021": {
+					"TITLE": "Validation",
+					"DESCRIPTION": "We tested the market, listened to early users, and continuously refined the platform architecture."
+				},
+				"2022": {
+					"TITLE": "Refinement",
+					"DESCRIPTION": "We optimized processes, introduced critical modules, and improved the interface based on real feedback."
+				},
+				"2023": {
+					"TITLE": "Stability",
+					"DESCRIPTION": "We strengthened security, multi-role support, and cloud infrastructure for scalability."
+				},
+				"2024": {
+					"TITLE": "Ready for Scaling",
+					"DESCRIPTION": "White-labeling, advanced analytics, multi-client support—all components are in place."
+				},
+				"2025": {
+					"TITLE": "Launch on the Scene",
+					"DESCRIPTION": "The official start of the scaling strategy and active expansion in the national real estate market."
+				},
+				"2026": {
+					"TITLE": "Expansion & Automation",
+					"DESCRIPTION": "Tax automations, AI integration, onboarding external partners—Propero becomes an ecosystem."
+				}
+			}
+		},
+		"MISSION": {
+			"TITLE": "Our Mission",
+			"SUBTITLE": "To make property management simpler and more efficient",
+			"CONTENT": "We are committed to providing innovative solutions that transform the way properties are managed in Romania. Through technology and expertise, we help our clients grow their businesses.",
+			"VALUES": {
+				"TITLE": "Our Values",
+				"INNOVATION": "Continuous innovation in technology and services",
+				"QUALITY": "High quality in every aspect",
+				"INTEGRITY": "Integrity and transparency in all interactions",
+				"CUSTOMER_FOCUS": "Customer-centric approach focused on needs and satisfaction"
+			}
+		},
+		"TEAM": {
+			"TITLE": "Our Team",
+			"MEMBER1": {
+				"NAME": "Alexandru Popescu",
+				"POSITION": "CEO & Founder",
+				"DESCRIPTION": "With over 15 years of experience in the real estate industry"
+			},
+			"MEMBER2": {
+				"NAME": "Maria Ionescu",
+				"POSITION": "CTO",
+				"DESCRIPTION": "Expert in software development and technological innovation"
+			},
+			"MEMBER3": {
+				"NAME": "Cristian Dumitrescu",
+				"POSITION": "Operations Director",
+				"DESCRIPTION": "Specialist in process optimization and efficient management"
+			}
+		},
+		"CONTACT": {
+			"TITLE": "Contact Us",
+			"FORM": {
+				"NAME": "Full Name",
+				"EMAIL": "Email Address",
+				"MESSAGE": "Message",
+				"SUBMIT": "Send Message"
+			},
+			"INFO": {
+				"TITLE": "Contact Information",
+				"PHONE": "+40 743 366 266",
+				"EMAIL": "contact@propero.io"
+			}
+		}
 	}
 }

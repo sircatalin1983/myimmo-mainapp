@@ -420,17 +420,27 @@
 
             </section>
 
-            <section>
-                <h2>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.TITLE' | translate }}</h2>
+            <!-- <section>
+                <h2>
+                    {{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.TITLE' | translate }}
+                </h2>
                 <p>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.DESCRIPTION' | translate }}</p>
                 <div class="contact-info">
                     <p><strong>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.EMAIL' | translate }}:</strong>
                         privacy@propero.io</p>
-                    <!-- <p><strong>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.ADDRESS.LABEL' | translate }}:</strong> {{ 'DATA_COLLECTION.PRIVACY.CONTACT.ADDRESS_VALUE'
-                        | translate }}</p> -->
                     <p><strong>{{ 'PRIVACY_POLICY.DATA_COLLECTION.PRIVACY.CONTACT.PHONE.LABEL' | translate }}:</strong>
                         +40 743
                         366 266</p>
+                </div>
+            </section> -->
+
+            <section>
+                <h2>{{ 'TERMS.CONTACT.TITLE' | translate }}</h2>
+                <p>{{ 'TERMS.CONTACT.DESCRIPTION' | translate }}</p>
+                <div class="contact-info">
+                    <p><strong>{{ 'CONTACT.DATA.EMAIL_CONTACT.LABEL' | translate }}:</strong> {{ 'CONTACT.DATA.EMAIL_CONTACT.VALUE' | translate: translationParams }}</p>
+                    <p><strong>{{ 'CONTACT.DATA.PHONE.LABEL' | translate }}:</strong> {{ 'CONTACT.DATA.PHONE.VALUE' | translate: translationParams }}</p>
+                    <p><strong>{{ 'CONTACT.DATA.ADDRESS.LABEL' | translate }}:</strong> {{ 'CONTACT.DATA.ADDRESS.VALUE' | translate: translationParams }} </p>
                 </div>
             </section>
         </div>

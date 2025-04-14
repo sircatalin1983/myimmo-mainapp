@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { Title } from '@angular/platform-browser';
 import { TranslateService } from '@ngx-translate/core';
 import { catchError, finalize, switchMap } from 'rxjs/operators';
 import { ContactUs } from 'src/app/shared/services/contact-us/contact-us';
@@ -19,8 +20,11 @@ export class Solution6Component implements OnInit {
     public snackBar: MatSnackBar,
     public contactUsService: ContactUsService,
     public translate: TranslateService,
-    private trackerService: TrackerService
-  ) { }
+    private trackerService: TrackerService,
+    private titleService: Title
+  ) {
+    this.titleService.setTitle('Propero - Solutions');
+  }
 
   ngOnInit(): void {
     this.contactItem.subject = '';

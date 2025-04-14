@@ -24,7 +24,7 @@ export class PricingComponent implements OnInit {
     public contactUsService: ContactUsService,
     private titleService: Title
   ) {
-    this.titleService.setTitle('Solution 1 - MyImmo');
+    this.titleService.setTitle('Propero - Pricing');
   }
 
   ngOnInit(): void {
