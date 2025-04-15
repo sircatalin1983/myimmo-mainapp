@@ -344,9 +344,6 @@ export class Reports {
         let subrentingData; subrentingData = new Object();
 
         subrentingData['type'] = PrintTypeEnum.PrintType_DeclaratieGDPR;
-        
-        subrentingData['record'] = recordItem;
-        subrentingData['organisation'] = organisation;
         subrentingData['today'] = Helpers.formatDate(new Date());
 
         return subrentingData;

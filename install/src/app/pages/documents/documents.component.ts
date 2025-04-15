@@ -46,11 +46,11 @@ export class DocumentsComponent implements OnInit {
   }
 
   generateDataBeneficiarRealContract() {
-    this.generateReport(ReportTypeEnum.ReportType_End_RentingContract, Reports.getDataBeneficiarRealContract(null, null, null, null, null, null, null));
+    this.generateReport(ReportTypeEnum.ReportType_BeneficiarRealContract, Reports.getDataBeneficiarRealContract(null, null, null, null, null, null, null));
   }
 
   generateAcordGDPR() {
-    this.generateReport(ReportTypeEnum.ReportType_End_RentingContract, Reports.getDataAcordGDPR(null, null, null, null, null, null));
+    this.generateReport(ReportTypeEnum.ReportType_AcordGDPR, Reports.getDataAcordGDPR(null, null, null, null, null, null));
   }
 
 
