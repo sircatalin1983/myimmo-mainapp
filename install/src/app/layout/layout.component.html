@@ -125,15 +125,18 @@
                         <img src="assets/logo-white.png" alt="Logo" class="footer-logo">
                     </div>
                     <div class="footer-contact">
-                        <h4 class="footer-title">Contact Us</h4>
+                        <h4 class="footer-title"> {{
+                            'LAYOUT.CONTACT_US' | translate }}</h4>
                         <div class="contact-info">
                             <p class="d-flex align-items-center mb-3">
                                 <i class="lni lni-phone-set me-3 fs-5"></i>
-                                &nbsp;&nbsp;<span>+40 743 366 266</span>
+                                &nbsp;&nbsp;<span> {{
+                                    'COMPANY.CONTACT_MAIN_PHONE' | translate }}</span>
                             </p>
                             <p class="d-flex align-items-center mb-3">
                                 <i class="lni lni-envelope me-3 fs-5"></i>
-                                &nbsp;&nbsp;<span>contact@propero.io</span>
+                                &nbsp;&nbsp;<span> {{
+                                    'COMPANY.CONTACT_MAIN_EMAIL' | translate }}</span>
                             </p>
                         </div>
                     </div>
@@ -141,52 +144,64 @@
             </div>
 
             <div class="col-lg-3">
-                <h4 class="footer-title">Suport</h4>
+                <h4 class="footer-title"> {{
+                    'LAYOUT.SUPPORT' | translate }}</h4>
                 <ul class="footer-links list-unstyled">
-                    <li class="mb-3"><a [routerLink]="['/contact']"
-                            class="text-light text-decoration-none hover-link">Contact</a></li>
+                    <li class="mb-3"><a [routerLink]="['/contact']" class="text-light text-decoration-none hover-link">
+                            {{
+                            'LAYOUT.CONTACT_US' | translate }}</a></li>
                     <li class="mb-3"><a [routerLink]="['/legal/privacy']"
-                            class="text-light text-decoration-none hover-link">Aviz juridic</a></li>
+                            class="text-light text-decoration-none hover-link"> {{
+                            'LAYOUT.LEGAL_ADVISORY' | translate }}</a></li>
                     <li class="mb-3"><a [routerLink]="['/legal/privacy-policy']"
-                            class="text-light text-decoration-none hover-link">Politica de confidențialitate</a></li>
+                            class="text-light text-decoration-none hover-link"> {{
+                            'LAYOUT.LEGAL_PRIVACY_POLICY' | translate }}</a></li>
                     <li class="mb-3"><a [routerLink]="['/legal/cookie-preferences']"
-                            class="text-light text-decoration-none hover-link">Cookie-uri și preferințe de marketing</a>
+                            class="text-light text-decoration-none hover-link"> {{
+                            'LAYOUT.LEGAL_COOKIE_PREFERENCES' | translate }}</a>
                     </li>
                     <li class="mb-3"><a [routerLink]="['/legal/terms']"
-                            class="text-light text-decoration-none hover-link">Termeni și condiții generale</a></li>
+                            class="text-light text-decoration-none hover-link"> {{
+                            'LAYOUT.LEGAL_TERMS' | translate }}</a></li>
                     <!-- <li class="mb-3"><a [routerLink]="['/legal/gdpr']" class="text-light text-decoration-none hover-link">Informații în conformitate cu Legea privind serviciile digitale</a></li> -->
-                    <li class="mb-3"><a [routerLink]="['/sitemap']"
-                            class="text-light text-decoration-none hover-link">Harta site-ului</a></li>
+                    <li class="mb-3"><a [routerLink]="['/sitemap']" class="text-light text-decoration-none hover-link">
+                            {{
+                            'LAYOUT.MENU_SITEMAP' | translate }}</a></li>
                 </ul>
             </div>
 
             <div class="col-lg-3">
-                <h4 class="footer-title">Companie</h4>
+                <h4 class="footer-title"> {{
+                    'LAYOUT.MENU_COMPANY' | translate }}</h4>
                 <ul class="footer-links list-unstyled">
-                    <li class="mb-3"><a [routerLink]="['/about-us']"
-                            class="text-light text-decoration-none hover-link">Despre Noi</a></li>
-                    <li class="mb-3"><a [routerLink]="['/careers']"
-                            class="text-light text-decoration-none hover-link">Cariere</a></li>
-                        <li class="mb-3"><a [routerLink]="['/blog']"
-                                class="text-light text-decoration-none hover-link">Blog</a></li>
+                    <li class="mb-3"><a [routerLink]="['/about-us']" class="text-light text-decoration-none hover-link">
+                            {{
+                            'LAYOUT.MENU_ABOUT_US' | translate }}</a></li>
+                    <li class="mb-3"><a [routerLink]="['/careers']" class="text-light text-decoration-none hover-link">
+                            {{
+                            'LAYOUT.MENU_CAREERS' | translate }}</a></li>
+                    <li class="mb-3"><a [routerLink]="['/blog']" class="text-light text-decoration-none hover-link"> {{
+                            'LAYOUT.MENU_BLOG' | translate }}</a></li>
                     <!-- <li class="mb-3"><a [routerLink]="['/press']" class="text-light text-decoration-none hover-link">Presă</a></li> -->
                 </ul>
 
                 <h4 class="footer-title mt-5">Colaborează cu noi</h4>
                 <ul class="footer-links list-unstyled">
                     <li class="mb-3"><a [routerLink]="['/collaboration']" [fragment]="'services'"
-                            class="text-light text-decoration-none hover-link">În calitate de furnizor de mentenanță și
-                            servicii</a></li>
+                            class="text-light text-decoration-none hover-link"> {{
+                            'LAYOUT.MENU_COLLABORATION' | translate }}</a></li>
                     <li class="mb-3"><a [routerLink]="['/collaboration']" [fragment]="'agent'"
-                            class="text-light text-decoration-none hover-link">În calitate de
-                            proprietar/administrator/reprezentant</a></li>
+                            class="text-light text-decoration-none hover-link"> {{
+                            'LAYOUT.MENU_COLLABORATION_OWNER' | translate }}</a></li>
                     <li class="mb-3"><a [routerLink]="['/collaboration']" [fragment]="'affiliate'"
-                            class="text-light text-decoration-none hover-link">În calitate de partener afiliat</a></li>
+                            class="text-light text-decoration-none hover-link"> {{
+                            'LAYOUT.MENU_COLLABORATION_AFFILIATE' | translate }}</a></li>
                 </ul>
             </div>
 
             <div class="col-lg-3">
-                <h4 class="footer-title">Mobile</h4>
+                <h4 class="footer-title"> {{
+                    'LAYOUT.MENU_MOBILE' | translate }}</h4>
                 <div class="mobile-apps">
                     <div class="d-flex flex-column gap-3">
                         <a href="#" class="d-inline-block">
@@ -200,7 +215,8 @@
                     </div>
                 </div>
 
-                <h4 class="footer-title">Metode de plată</h4>
+                <h4 class="footer-title"> {{
+                    'LAYOUT.MENU_PAYMENT' | translate }}</h4>
                 <div class="payment-methods">
                     <div class="payment-grid">
                         <img src="assets/images/payment/google-pay.svg" alt="Google Pay" class="payment-icon">
@@ -215,7 +231,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="copyright">
-                        <p class="mb-0">© {{ currentYear }} Propero.io. Toate drepturile rezervate.</p>
+                        <p class="mb-0">© {{ currentYear }} Propero.io. {{
+                            'LAYOUT.MENU_ALL_RIGHTS_RESERVED' | translate }}</p>
                     </div>
                 </div>
                 <div class="col-md-6">

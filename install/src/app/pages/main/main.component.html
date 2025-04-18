@@ -25,7 +25,8 @@
                                             Propero assistant
                                         </a>
                                         <br />
-                                        <span class="small-text">{{ 'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate }}</span>
+                                        <span class="small-text">{{ 'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate
+                                            }}</span>
                                         <br />
                                     </li>
                                     <li>
@@ -151,8 +152,10 @@
                                 <h1 class="title">{{ 'HOME.MAIN_TITLE5' | translate }}</h1>
                                 <p class="text">{{ 'HOME.MAIN_SUBTITLE5' | translate }}</p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="features-btn rounded-one" href="{{ assistantHref }}"
-                                            target="_blank">Propero assistant</a>
+                                    <li>
+                                        <a class="features-btn rounded-one" href="{{ assistantHref }}"
+                                            target="_blank">Propero assistant
+                                        </a>
                                         <br />
                                         <span class="small-text">{{
                                             'HOME.MAIN_SUBTITLE_ADDITIONAL_TEXT' | translate }}</span>
@@ -161,7 +164,8 @@
                                     <li>
                                         <a class="slave-btn rounded-one" routerLink="/solution-personalised">{{
                                             'HOME.MAIN_PERSONALIZED_OFFER' | translate
-                                            }}</a>
+                                            }}
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -266,13 +270,15 @@
                         </div>
                         <h4 class="features-title">
                             <a routerLink="/solution4">
-                                Protecție contract și scoring
-                            </a></h4>
-
+                                {{
+                                'HOME.FEATURE_SCORING_TITLE' | translate }}
+                            </a>
+                        </h4>
                     </div>
                     <div class="features-content">
                         <p class="text tooltip-text-content">
-                            Evaluează rapid riscurile și potențialul fiecărei proprietăți sau al fiecărui chiriaș cu ajutorul unui sistem de scoring automatizat. Analizăm factori-cheie precum istoricul plăților, starea proprietății, rentabilitatea investiției și comportamentul anterior al chiriașilor pentru a te ajuta să iei decizii informate, rapide și sigure.
+                            {{
+                            'HOME.FEATURE_SCORING_TEXT' | translate }}
                         </p>
                         <a class="features-btn" routerLink="/solution4">{{
                             'HOME.FEATURE_WANT_DETAILS' | translate }}</a>
@@ -286,13 +292,15 @@
                             <i class="lni lni-files"></i>
                         </div>
                         <h4 class="features-title"><a routerLink="/solution5">
-                                Inventar digital
+                                {{
+                                'HOME.FEATURE_INVENTORY_TITLE' | translate }}
                             </a></h4>
 
                     </div>
                     <div class="features-content">
                         <p class="text tooltip-text-content">
-                            Gestionează eficient inventarul complet al fiecărei proprietăți: adaugă fotografii ale echipamentelor, atașează documente de garanție și note relevante. Primești notificări automate înainte de expirarea garanțiilor, termene de reînnoire sau înlocuire, astfel încât să nu ratezi nimic important. Totul este centralizat, organizat și accesibil rapid — pentru o administrare modernă, fără bătăi de cap.
+                            {{
+                            'HOME.FEATURE_INVENTORY_TEXT' | translate }}
                         </p>
                         <a class="features-btn" routerLink="/solution5">{{
                             'HOME.FEATURE_WANT_DETAILS' | translate }}</a>
@@ -306,12 +314,14 @@
                             <i class="lni lni-bolt"></i>
                         </div>
                         <h4 class="features-title"><a routerLink="/solution6">
-                                Utilități și facturi
+                                {{
+                                'HOME.FEATURE_UTILITIES_TITLE' | translate }}
                             </a></h4>
                     </div>
                     <div class="features-content">
                         <p class="text tooltip-text-content">
-                            Administrează toate utilitățile proprietăților tale într-un singur loc — de la contoare și citiri periodice, la revizii tehnice și gestiunea facturilor. Monitorizează consumul în timp real, încarcă sau primește automat facturile, primește alerte pentru citiri programate și expirarea reviziilor. Ai control total asupra costurilor și vizibilitate completă asupra statusului fiecărei utilități.
+                            {{
+                            'HOME.FEATURE_UTILITIES_TEXT' | translate }}
                         </p>
                         <a class="features-btn" routerLink="/solution6">{{
                             'HOME.FEATURE_WANT_DETAILS' | translate }}</a>
@@ -476,21 +486,20 @@
                 <div class="single-portfolio">
                     <div class="portfolio-title-icon">
                         <div class="portfolio-title">
-                            <a href="/fiscal-guide">Ghid Fiscal</a>
+                            <a href="/fiscal-guide"> {{
+                                'HOME.FISCAL_GUIDE_TITLE' | translate }}</a>
                         </div>
                         <div class="portfolio-icon">
                             <i class="lni lni-calculator"></i>
                         </div>
                     </div>
                     <div class="portfolio-content">
-                        <p class="text">Înțelege implicațiile fiscale ale închirierii.
-                            Folosește checklist-urile noastre interactive pentru a nu uita nimic important: pregătirea
-                            locuinței pentru închiriere, procesul de predare-primire, verificări periodice ale
-                            proprietății. Economisești timp și eviți greșelile cu liste predefinite, adaptabile la
-                            nevoile tale.
+                        <p class="text"> {{
+                            'HOME.FISCAL_GUIDE_TEXT' | translate }}
                         </p>
                         <div class="portfolio-btn-wrapper">
-                            <a href="/fiscal-guide" class="portfolio-btn">Află mai multe</a>
+                            <a href="/fiscal-guide" class="portfolio-btn"> {{
+                                'HOME.LEARN_MORE' | translate }}</a>
                         </div>
                     </div>
                 </div>
@@ -498,19 +507,20 @@
                 <div class="single-portfolio">
                     <div class="portfolio-title-icon">
                         <div class="portfolio-title">
-                            <a href="/help">Centru Ajutor</a>
+                            <a href="/help"> {{
+                                'HOME.HELP_CENTER_TITLE' | translate }}</a>
                         </div>
                         <div class="portfolio-icon">
                             <i class="lni lni-support"></i>
                         </div>
                     </div>
                     <div class="portfolio-content">
-                        <p class="text">Găsește rapid răspunsuri la întrebările tale despre gestionarea proprietăților.
-                            Accesează ghiduri pas cu pas, tutoriale video și articole informative care te ajută să
-                            devii un proprietar mai eficient.
+                        <p class="text"> {{
+                            'HOME.HELP_CENTER_TEXT' | translate }}
                         </p>
                         <div class="portfolio-btn-wrapper">
-                            <a href="/help" class="portfolio-btn">Accesează</a>
+                            <a href="/help" class="portfolio-btn"> {{
+                                'HOME.ACCESS' | translate }}</a>
                         </div>
                     </div>
                 </div>
@@ -518,20 +528,20 @@
                 <div class="single-portfolio">
                     <div class="portfolio-title-icon">
                         <div class="portfolio-title">
-                            <a href="/management-tool">Instrumente Management Imobiliar</a>
+                            <a href="/management-tool"> {{
+                                'HOME.MANAGEMENT_TOOL_TITLE' | translate }}</a>
                         </div>
                         <div class="portfolio-icon">
                             <i class="lni lni-dashboard"></i>
                         </div>
                     </div>
                     <div class="portfolio-content">
-                        <p class="text">Dashboard performanță.
-                            Accesează un panou centralizat cu indicatori esențiali: gradul de ocupare,
-                            veniturile lunare/anuale, ROI per proprietate, istoricul plăților și datoriilor.
-                            Vizualizări intuitive îți permit să iei decizii rapide, bazate pe date reale.
+                        <p class="text"> {{
+                            'HOME.PERFORMANCE_DASHBOARD_TEXT' | translate }}
                         </p>
                         <div class="portfolio-btn-wrapper">
-                            <a href="/management-tool" class="portfolio-btn">Accesează Dashboard</a>
+                            <a href="/management-tool" class="portfolio-btn"> {{
+                                'HOME.ACCESS_DASHBOARD' | translate }}</a>
                         </div>
                     </div>
                 </div>
@@ -540,19 +550,20 @@
                 <div class="single-portfolio">
                     <div class="portfolio-title-icon">
                         <div class="portfolio-title">
-                            <a href="/documents">Documente și șabloane</a>
+                            <a href="/documents"> {{
+                                'HOME.DOCUMENTS_AND_TEMPLATES_TITLE' | translate }}</a>
                         </div>
                         <div class="portfolio-icon">
                             <i class="lni lni-files"></i>
                         </div>
                     </div>
                     <div class="portfolio-content">
-                        <p class="text">Accesează și gestionează toate documentele importante într-un singur loc.
-                            Contracte, facturi, chitanțe și alte documente esențiale, organizate și ușor de găsit
-                            când ai nevoie de ele.
+                        <p class="text"> {{
+                            'HOME.DOCUMENTS_AND_TEMPLATES_TEXT' | translate }}
                         </p>
                         <div class="portfolio-btn-wrapper">
-                            <a href="/documents" class="portfolio-btn">Organizează</a>
+                            <a href="/documents" class="portfolio-btn"> {{
+                                'HOME.ORGANIZE' | translate }}</a>
                         </div>
                     </div>
                 </div>
@@ -560,19 +571,20 @@
                 <div class="single-portfolio">
                     <div class="portfolio-title-icon">
                         <div class="portfolio-title">
-                            <a href="/calculators">Calculatoare</a>
+                            <a href="/calculators"> {{
+                                'HOME.CALCULATORS_TITLE' | translate }}</a>
                         </div>
                         <div class="portfolio-icon">
                             <i class="lni lni-calculator"></i>
                         </div>
                     </div>
                     <div class="portfolio-content">
-                        <p class="text">Instrumente de calcul esențiale pentru gestionarea proprietăților.
-                            Calculează rapid rate, amortizări, ROI, taxe și impozite.
-                            Ia decizii informate bazate pe calcule precise și actualizate.
+                        <p class="text"> {{
+                            'HOME.CALCULATORS_TEXT' | translate }}
                         </p>
                         <div class="portfolio-btn-wrapper">
-                            <a href="/calculators" class="portfolio-btn">Calculează</a>
+                            <a href="/calculators" class="portfolio-btn"> {{
+                                'HOME.CALCULATE' | translate }}</a>
                         </div>
                     </div>
                 </div>
@@ -580,19 +592,20 @@
                 <div class="single-portfolio">
                     <div class="portfolio-title-icon">
                         <div class="portfolio-title">
-                            <a href="/todo">ToDo's</a>
+                            <a href="/todo"> {{
+                                'HOME.TODO_LISTS_TITLE' | translate }}</a>
                         </div>
                         <div class="portfolio-icon">
                             <i class="lni lni-checkbox"></i>
                         </div>
                     </div>
                     <div class="portfolio-content">
-                        <p class="text">Organizează-ți activitățile cu liste de sarcini personalizabile.
-                            Urmărește progresul, setează priorități și colaborează cu echipa ta pentru
-                            o gestionare eficientă a proprietăților.
+                        <p class="text"> {{
+                            'HOME.TODO_LISTS_TEXT' | translate }}
                         </p>
                         <div class="portfolio-btn-wrapper">
-                            <a href="/todo" class="portfolio-btn">Creează Liste</a>
+                            <a href="/todo" class="portfolio-btn"> {{
+                                'HOME.CREATE_LISTS' | translate }}</a>
                         </div>
                     </div>
                 </div>
@@ -622,7 +635,7 @@
                             <img [src]="blogItem.imageURL || '../assets/images/blog/1.jpg'" alt="Blog" />
                         </button>
                         <a routerLink="/blog-post" [queryParams]="{id: blogItem.id}" class="category">{{
-                            blogItem.BlogCategory.name || 'Fără categorie'
+                            blogItem.BlogCategory.name || 'HOME.NO_CATEGORY' | translate
                             }}</a>
                     </div>
                     <div class="blog-content">
@@ -632,9 +645,11 @@
                             </a>
                         </div>
                         <span><i class="lni lni-calendar"></i> {{ blogItem.publishedDate | date: 'dd MMM yyyy' }}</span>
-                        <span><i class="lni lni-comments-alt"></i> {{ blogItem.commentsCount || 0 }} comentarii</span>
-                        <p class="text">{{ blogItem.summary || 'Blog-ul nu are sumar.' }}</p>
-                        <a class="more" routerLink="/blog-post" [queryParams]="{id: blogItem.id}">Citește articolul</a>
+                        <span><i class="lni lni-comments-alt"></i> {{ blogItem.commentsCount || 0 }} {{
+                            'HOME.COMMENTS' | translate }}</span>
+                        <p class="text">{{ blogItem.summary || 'HOME.BLOG_NO_SUMMARY' | translate }}</p>
+                        <a class="more" routerLink="/blog-post" [queryParams]="{id: blogItem.id}"> {{
+                            'HOME.READ_MORE' | translate }}</a>
                     </div>
                 </div>
                 <!-- single blog -->
@@ -728,11 +743,13 @@
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">
-                                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
                                     {{ 'HOME.FEATURE_QUESTION1_TITLE' | translate }}
                                 </a>
                             </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p class="text">{{ 'HOME.FEATURE_QUESTION1_TEXT' | translate }}</p>
                                 </div>
@@ -740,11 +757,13 @@
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo">
-                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
                                     {{ 'HOME.FEATURE_QUESTION2_TITLE' | translate }}
                                 </a>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p class="text">{{ 'HOME.FEATURE_QUESTION2_TEXT' | translate }}</p>
                                 </div>
@@ -752,11 +771,13 @@
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingThree">
-                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
                                     {{ 'HOME.FEATURE_QUESTION3_TITLE' | translate }}
                                 </a>
                             </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p class="text">{{ 'HOME.FEATURE_QUESTION3_TEXT' | translate }}</p>
                                 </div>
@@ -764,11 +785,13 @@
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFour">
-                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseFour">
                                     {{ 'HOME.FEATURE_QUESTION4_TITLE' | translate }}
                                 </a>
                             </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p class="text">{{ 'HOME.FEATURE_QUESTION4_TEXT' | translate }}</p>
                                 </div>
@@ -776,11 +799,13 @@
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFive">
-                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFive"
+                                    aria-expanded="false" aria-controls="collapseFive">
                                     {{ 'HOME.FEATURE_QUESTION5_TITLE' | translate }}
                                 </a>
                             </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p class="text">{{ 'HOME.FEATURE_QUESTION5_TEXT' | translate }}</p>
                                 </div>
@@ -852,7 +877,7 @@
             <div class="col-lg-10">
                 <div class="contact-wrapper">
                     <h4 class="contact-title">
-                        <i class="lni lni-envelope"></i> 
+                        <i class="lni lni-envelope"></i>
                         {{ 'HOME.TEXT_MESSAGE' | translate }}
                     </h4>
                     <form #contactForm="ngForm">
@@ -861,12 +886,8 @@
                                 <div class="form-input">
                                     <label>{{ 'HOME.NAME' | translate }}</label>
                                     <div class="input-items">
-                                        <input 
-                                            type="text" 
-                                            name="name" 
-                                            placeholder="{{ 'HOME.NAME' | translate }}"
-                                            [(ngModel)]="contactItem.subject" 
-                                            required>
+                                        <input type="text" name="name" placeholder="{{ 'HOME.NAME' | translate }}"
+                                            [(ngModel)]="contactItem.subject" required>
                                         <i class="lni lni-user"></i>
                                     </div>
                                 </div>
@@ -875,12 +896,8 @@
                                 <div class="form-input">
                                     <label>{{ 'HOME.EMAIL' | translate }}</label>
                                     <div class="input-items">
-                                        <input 
-                                            type="email" 
-                                            name="email" 
-                                            placeholder="{{ 'HOME.EMAIL' | translate }}"
-                                            [(ngModel)]="contactItem.email" 
-                                            required>
+                                        <input type="email" name="email" placeholder="{{ 'HOME.EMAIL' | translate }}"
+                                            [(ngModel)]="contactItem.email" required>
                                         <i class="lni lni-envelope"></i>
                                     </div>
                                 </div>
@@ -889,11 +906,8 @@
                                 <div class="form-input">
                                     <label>{{ 'HOME.MESSAGE' | translate }}</label>
                                     <div class="input-items textarea">
-                                        <textarea 
-                                            name="message" 
-                                            placeholder="{{ 'HOME.MESSAGE' | translate }}"
-                                            [(ngModel)]="contactItem.content" 
-                                            required></textarea>
+                                        <textarea name="message" placeholder="{{ 'HOME.MESSAGE' | translate }}"
+                                            [(ngModel)]="contactItem.content" required></textarea>
                                         <i class="lni lni-pencil-alt"></i>
                                     </div>
                                 </div>

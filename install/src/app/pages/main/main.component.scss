@@ -688,9 +688,13 @@
     }
 
     .slider-btn {
+        text-align: left;
+        list-style: none;
         padding: 0;
         margin: 0;
-        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
 
         li {
             display: inline-block;
@@ -750,6 +754,14 @@
                     transform: translateY(-2px);
                 }
             }
+        }
+
+        a {
+            text-align: left !important;
+        }
+
+        span {
+            text-align: left !important;
         }
     }
 }

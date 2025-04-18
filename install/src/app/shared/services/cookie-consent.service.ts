@@ -44,11 +44,13 @@ export class CookieConsentService {
             newValue: JSON.stringify(preferences),
             storageArea: localStorage
         });
+
         window.dispatchEvent(event);
     }
 
     hasConsent(): boolean {
-        return localStorage.getItem(this.COOKIE_CONSENT_SHOWN_KEY) === 'true';
+        return false;
+        localStorage.getItem(this.COOKIE_CONSENT_SHOWN_KEY) === 'true';
     }
 
     acceptAll(): void {
